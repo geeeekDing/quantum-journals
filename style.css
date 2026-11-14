@@ -20,6 +20,9 @@ button, summary { cursor: pointer; }
 .top { background: var(--white); border-bottom: 1px solid var(--border); }
 .top-inner, .filter-heading, .feed-head, footer { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .top-inner { min-height: 68px; }
+.nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px 18px; }
+.nav a { color: var(--muted); text-decoration: none; font-size: .86rem; font-weight: 650; }
+.nav a[aria-current], .nav a:hover { color: var(--forest); text-decoration: underline; text-underline-offset: 5px; }
 .brand { display: inline-flex; align-items: center; gap: 11px; font-weight: 720; text-decoration: none; }
 .mark { display: grid; place-items: center; width: 35px; height: 35px; border-radius: 10px; color: white; background: var(--forest); font-family: Georgia, serif; font-size: 22px; }
 .quiet { background: transparent; border: 0; color: var(--forest); font-size: .9rem; font-weight: 650; text-decoration: none; }
@@ -37,10 +40,15 @@ button, summary { cursor: pointer; }
 .filter-heading h2 { font-size: 1.1rem; }
 .feed-head h2 { font-size: 1.56rem; }
 .feed-head p { margin: 6px 0 0; color: var(--muted); font-size: .85rem; }
-.field, .dates { display: grid; gap: 8px; margin-top: 18px; }
-.field label, .dates legend { font-weight: 650; font-size: .88rem; }
-.dates { margin-inline: 0; padding: 0; border: 0; }
-.dates label { color: var(--muted); font-size: .78rem; }
+.dates, .topic-fields { display: grid; gap: 8px; }
+.journal-field legend, .dates legend, .topic-fields legend { font-weight: 650; font-size: .88rem; }
+.journal-field, .dates, .topic-fields { margin: 18px 0 0; min-width: 0; padding: 0; border: 0; }
+.journal-filters { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.journal-filter { min-height: 32px; max-width: 100%; padding: 5px 9px; border: 1px solid var(--border); border-radius: 8px; background: #eef2f0; color: var(--forest); font-size: .78rem; font-weight: 650; text-align: left; overflow-wrap: anywhere; }
+.journal-filter:hover { border-color: var(--forest); }
+.journal-filter[aria-pressed=true] { border-color: var(--forest); background: var(--forest); color: white; }
+.dates label, .topic-fields label { color: var(--muted); font-size: .78rem; }
+.topic-fields select:disabled { opacity: .68; }
 select, input:not([type=checkbox]) { color: var(--ink); background: var(--white); border: 1px solid var(--border); border-radius: 9px; padding: 10px; min-width: 0; width: 100%; }
 input[type=checkbox] { accent-color: var(--forest); }
 .checkbox { display: flex; gap: 6px; align-items: center; font-size: .84rem; margin-top: 18px; }
@@ -71,6 +79,16 @@ input[type=checkbox] { accent-color: var(--forest); }
 .links { margin-top: 12px; }
 #more { display: block; margin: 16px auto 0; }
 .message { color: var(--muted); padding: 15px; margin: 0; border: 1px solid var(--border); border-radius: 10px; }
+.statistics { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 290px), 1fr)); align-items: start; gap: 14px; }
+.stat-note { grid-column: 1 / -1; margin: 0; color: var(--muted); font-size: .85rem; }
+.stat-group { padding: 15px 16px; border: 1px solid var(--border); border-radius: 13px; background: var(--white); }
+.stat-heading, .stat-children li { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.stat-heading h3 { margin: 0; font-size: .98rem; }
+.stat-children { list-style: none; margin: 11px 0 0; padding: 0; }
+.stat-children li { padding: 6px 0; border-top: 1px solid var(--border); font-size: .84rem; }
+.stat-count { white-space: nowrap; font-size: .82rem; font-variant-numeric: tabular-nums; color: var(--muted); }
+a.stat-count { border-radius: 6px; padding: 4px 8px; color: var(--forest); background: var(--mint); font-weight: 700; text-decoration: none; }
+a.stat-count:hover { text-decoration: underline; }
 .sources { line-height: 1.6; margin: 28px 0 0; font-size: .86rem; }
 .sources summary { font-weight: 700; }
 .sources li { margin-top: 6px; }
@@ -87,4 +105,5 @@ footer { color: var(--muted); padding-block: 24px; font-size: .82rem; }
   .feed-head { flex-direction: column; align-items: stretch; gap: 8px; }
   .search { width: 100%; }
   .hero, .card { padding: 18px; }
+  .nav { gap: 5px 10px; }
 }

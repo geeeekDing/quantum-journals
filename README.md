@@ -2,6 +2,8 @@
 
 独立的期刊浏览站，按发表状态、期刊、研究主题和日期筛选。站内显示可转载的论文摘要，可选择启用中文翻译。标题与来源链接可打开出版社页面。
 
+「论文动态」按固定的一级和二级主题筛选，可与「已接收」「已发表」、期刊和时间范围组合使用。「主题统计」展示同一组主题，点击篇数可回到相应列表。每篇论文在同一个一级或二级主题内只计一次。分类使用已有标签、标题和可用的摘要匹配主题，部分仅有元数据的论文只能归入一级，或暂时未分类。主题规则维护在 `topics.js`。
+
 ## 本地浏览
 
 在本目录运行 `python3 -m http.server 8000`，打开 `http://localhost:8000`。包内自带一份实采数据快照，含三篇初始中文译文。运行 `python3 update.py` 可刷新，脚本只依赖 Python 3.10 或更新版本的标准库。
@@ -10,8 +12,22 @@
 
 1. 新建 GitHub 仓库，将本目录的内容和隐藏的 `.github/` 一并放到其默认分支根目录。
 2. 在 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
-3. 在 **Actions** 手动运行 **Update journal digest**。它也会每天北京时间 19:20 尝试刷新。首次成功后，可从 Pages 或工作流的部署环境打开网站。
+3. 在 **Actions** 手动运行 **Update journal digest**。选择 `publish` 用当前归档直接发布，或选择 `refresh` 更新数据后发布。它也会每天北京时间 19:20 尝试刷新。首次成功后，可从 Pages 或工作流的部署环境打开网站。
 4. 可选在 **Settings → Secrets and variables → Actions** 的 Variables 设置 `CROSSREF_EMAIL`。启用中文摘要时在 Secrets 设置 `OPENAI_API_KEY`，如使用兼容 API，再设置 `OPENAI_BASE_URL` 和 Variables 中的 `MODEL_NAME`。默认使用 OpenAI 的 `gpt-4o-mini`，每次最多翻译 10 篇，保留原文和同版本译文。
+
+## 用 DeepSeek 补齐已有摘要的中文译文
+
+在新仓库的 **Settings → Secrets and variables → Actions** 设置：
+
+| 位置 | 名称 | 值 |
+| --- | --- | --- |
+| Secrets | `OPENAI_API_KEY` | 你的 DeepSeek API Key |
+| Secrets | `OPENAI_BASE_URL` | `https://api.deepseek.com` |
+| Variables | `MODEL_NAME` | `deepseek-flash` |
+
+先在 **Actions → Update journal digest → Run workflow** 选择 `refresh`，采集当前可获取的期刊条目并翻译最多 10 篇。等运行结束后，在同一菜单选择 `backfill`，补齐当前归档里所有可展示的摘要。它直接读取归档，跳过原文未变的已有译文。运行摘要会显示新增和剩余篇数。如果因限流或时间上限留下未译条目，处理完原因后再次运行 `backfill`。成功生成的译文会保存在归档中并随网站发布。
+
+本地已有归档时，也可以设置相同的环境变量后运行 `python3 update.py --backfill`。此模式保留原有数据日期。
 
 ## 数据边界
 

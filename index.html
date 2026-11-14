@@ -5,14 +5,19 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="在一个页面追踪量子研究的期刊接收和发表动态，按期刊、主题和状态筛选。">
   <title>量子期刊速览</title>
-  <link rel="stylesheet" href="style.css">
-  <script defer src="app.js"></script>
+  <link rel="stylesheet" href="style.css?v=journal-tags-1">
+  <script defer src="topics.js?v=topics-1"></script>
+  <script defer src="app.js?v=journal-tags-1"></script>
 </head>
 <body>
 <header class="top">
   <div class="shell top-inner">
     <a href="./" class="brand"><span class="mark" aria-hidden="true">Q</span>量子期刊速览</a>
-    <a href="#sources" class="quiet">数据来源 ↓</a>
+    <nav class="nav" aria-label="主导航">
+      <a id="feedLink" href="./" aria-current="page">论文动态</a>
+      <a id="topicStatsLink" href="?view=topics">主题统计</a>
+      <a href="#sources">数据来源</a>
+    </nav>
   </div>
 </header>
 <main class="shell">
@@ -29,8 +34,17 @@
   <div class="layout">
     <aside class="filters" aria-label="论文筛选">
       <div class="filter-heading"><h2>筛选</h2><button id="reset" class="quiet" type="button">重置</button></div>
-      <div class="field"><label for="journal">期刊</label><select id="journal"><option value="">全部期刊</option></select></div>
-      <div class="field"><label for="topic">研究主题</label><select id="topic"><option value="">全部主题</option></select></div>
+      <fieldset class="journal-field">
+        <legend>期刊</legend>
+        <div class="journal-filters" id="journalFilters"></div>
+      </fieldset>
+      <fieldset id="topicFilters" class="topic-fields">
+        <legend>研究主题</legend>
+        <label for="topicGroup">一级主题</label>
+        <select id="topicGroup"><option value="">全部一级主题</option></select>
+        <label for="topic">二级主题</label>
+        <select id="topic" disabled><option value="">先选择一级主题</option></select>
+      </fieldset>
       <fieldset class="dates"><legend>日期范围</legend>
         <label for="from">开始日期</label><input id="from" type="date">
         <label for="to">结束日期</label><input id="to" type="date">
@@ -50,6 +64,7 @@
       <p id="message" class="message" role="status">正在读取期刊数据…</p>
       <div id="papers" class="papers"></div>
       <button type="button" id="more" class="outline" hidden>加载更多</button>
+      <div id="statistics" class="statistics" hidden></div>
     </section>
   </div>
   <details id="sources" class="sources">
