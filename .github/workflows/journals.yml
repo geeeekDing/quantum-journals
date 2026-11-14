@@ -1,6 +1,15 @@
 name: Update journal digest
 on:
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 选择刷新数据、补译现有归档，或只发布网页
+        type: choice
+        options:
+          - refresh
+          - backfill
+          - publish
+        default: refresh
   schedule:
     - cron: '20 11 * * *'
 permissions:
@@ -13,20 +22,29 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: ${{ inputs.mode == 'backfill' && 180 || 25 }}
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
+        if: inputs.mode != 'publish'
         with:
           python-version: '3.12'
       - name: Refresh public metadata and licensed abstracts
+        if: inputs.mode != 'publish'
         env:
+          MODE: ${{ inputs.mode }}
           CROSSREF_EMAIL: ${{ vars.CROSSREF_EMAIL }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           MODEL_NAME: ${{ vars.MODEL_NAME }}
-        run: python3 update.py
+        run: |
+          if [ "$MODE" = backfill ]; then
+            python3 update.py --backfill
+          else
+            python3 update.py
+          fi
       - name: Save the archive
+        if: inputs.mode != 'publish'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -38,7 +56,7 @@ jobs:
       - name: Stage the website
         run: |
           mkdir site
-          cp index.html style.css app.js sources.json site/
+          cp index.html style.css app.js topics.js sources.json site/
           cp -R data site/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
