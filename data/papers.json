@@ -2,6 +2,36 @@
   "updated": "2026-11-14",
   "papers": [
     {
+      "journal": "npjqi",
+      "doi": "10.1038/s41534-026-01424-7",
+      "title": "CryoCMOS RF multiplexer for superconducting qubit control, readout and flux biasing at millikelvin temperatures with picowatt power consumption",
+      "authors": [
+        "Liam Fallik",
+        "Sriram Balamurali",
+        "Alican Caglar",
+        "Rohith Acharya",
+        "Jacques Van Damme",
+        "Tsvetan Ivanov",
+        "Shana Massar",
+        "Ruben Asanovski",
+        "A. M. Vadiraj",
+        "Massimo Mongillo",
+        "Jan Craninckx",
+        "Alexander Grill",
+        "Danny Wan",
+        "Anton Potočnik",
+        "Kristiaan De Greve"
+      ],
+      "url": "https://doi.org/10.1038/s41534-026-01424-7",
+      "status": "published",
+      "date": "2026-11-14",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1038/s41534-026-01424-7",
+      "tags": [
+        "量子硬件"
+      ]
+    },
+    {
       "journal": "prb",
       "doi": "10.1103/193w-z7l3",
       "title": "Towards optimal carrier injection in topological electronics",
@@ -3006,7 +3036,9 @@
       ],
       "abstract": "We introduce a general framework for the analysis of non-Gaussian entanglement in bosonic states of finite stellar rank. The central result is the full characterization of their entanglement structure through the atomic decomposition of their stellar polynomial and its associated structural graph, whose connected components determine the mode-intrinsic entanglement content of the state and all partitions compatible with passive separability. An essential ingredient in this construction is the concept of essential variables, which identify the minimal number of effective modes involved in a core state, in direct correspondence with the symplectic rank. This reduction provides the foundation for decomposing stellar polynomials into atomic factors and for revealing the underlying entanglement structure. Building on this, we derive complete separability criteria for two-mode states, expressed through hyperplane decompositions of zero sets, and for stellar-rank-2 states across an arbitrary number of modes. Applications to several example states illustrate how the method isolates genuinely non-Gaussian resources and quantifies preparation complexity.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "39e0d3fd4aaf0196f04038afbaf0fce0557667a03aaee91788b3eacc69f45454",
+      "abstract_zh": "我们提出了一个用于分析有限恒星阶玻色态中非高斯纠缠的通用框架。其核心成果是通过恒星多项式的原子分解及其关联结构图，全面刻画其纠缠结构，其中连通分量决定了态的模式内禀纠缠内容以及与被动可分离性兼容的所有划分。该构造的一个关键要素是本质变量的概念，它识别核心态所涉及的最小数量的有效模式，并与辛秩直接对应。这种约简为将恒星多项式分解为原子因子以及揭示底层纠缠结构提供了基础。在此基础上，我们推导出了双模态的完全可分离性判据，通过零集的超平面分解来表达，并针对任意数量模式的恒星阶2态给出了完全可分离性判据。对若干示例态的应用说明了该方法如何分离出真正的非高斯资源并量化制备复杂度。"
     },
     {
       "journal": "prb",
@@ -3041,7 +3073,9 @@
       ],
       "abstract": "In the Selection-Stitch Model (SSM), space is a lattice of Bell pairs that builds itself by two local rules: stitch adds a node in a triangle’s plane, and lift adds one above or below it, both at exact close-packed sites, so that every bond has the same length. From one tetrahedron, stitch generates only the face-centered cubic (FCC) lattice spanned by its edges, so FCC order is a closure property of the rules; the simulations measure the defects that growth adds. In 688 simulations of up to 1.2×106 nodes, with the bare rule, about 98% of cluster nodes four or more layers below the surface are FCC. Slabs grown on one close-packed sheet form twin domains and are 84–92% FCC; on a three-layer ABC substrate they grow as one variant. Read as a quantum state, the grown network has an entanglement entropy that counts the bonds crossing a boundary. Node parity checks with local repair turn it deterministically into a state of the FCC stabilizer code. Its distance is at most three, so it protects the lattice locally, cell by cell; checks are intact around 96% of cluster nodes three or more layers deep. The error-correcting lattice emerges from the postulate “what exists is what can persist”: only checked bonds of equal length persist, and the triangle is the smallest network whose bonds check one another.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "ccb3afee21958bdab33601a90df62ed4040fcd2073bfdfac5f0cef55af79f383",
+      "abstract_zh": "在选择-缝合模型（SSM）中，空间是由贝尔对构成的晶格，通过两条局部规则自我构建：缝合规则在一个三角形的平面内添加一个节点，提升规则在其上方或下方添加一个节点，两者均位于精确的密堆积位置，使得每个键具有相同的长度。从一个四面体出发，缝合规则仅生成由其边张成的面心立方（FCC）晶格，因此FCC序是这些规则的闭合属性；模拟测量了生长过程中引入的缺陷。在多达1.2×10^6个节点的688次模拟中，采用基本规则时，距离表面四层或更多层的簇节点中约98%为FCC。在单一密堆积片上生长的板状结构形成孪晶畴，FCC比例为84–92%；在三层ABC衬底上，它们作为单一变体生长。作为量子态解读，生成的网络具有纠缠熵，该熵计算跨越边界的键。节点奇偶校验配合局部修复，确定性地将其转变为FCC稳定子码的状态。其距离至多为三，因此它局部地、逐单元地保护晶格；在深度三层或更多的簇节点周围，约96%的校验保持完整。纠错晶格源自公设“存在即能持久”：只有等长的受校验键才能持久，而三角形是其键相互校验的最小网络。"
     },
     {
       "journal": "quantum",
@@ -3067,7 +3101,9 @@
       ],
       "abstract": "X-ray absorption spectroscopy (XAS) is a leading technique for understanding structural changes in advanced battery materials such as lithium-excess cathodes. However, extracting critical information like oxidation states from the experimental spectra requires expensive and time-consuming simulations. Building upon a recent proposal to simulate XAS using quantum computers, this work proposes a highly-optimized implementation of the time-domain algorithm for X-ray absorption. Among a host of improvements to Hamiltonian representation, circuit implementation, and measurement strategies, three optimizations are key to the efficiency of the algorithm. The first is the use of product formulas with the compressed double factorized form of the Hamiltonian. The second is recognizing that for spectroscopy applications, it is sufficient to control the error in the eigenvalues of the (approximate) Hamiltonian being implemented by the product formula, rather than the generic error on the full time evolution operator. Using perturbation theory to estimate this eigenvalue error, we find that significantly fewer Trotter steps are needed than expected from the time evolution error bound. The third is the choice of an optimized distribution of samples that takes advantage of the exponentially decaying Lorentzian kernel. Through constant factor resource estimates, we show that a challenging model Li 4 Mn 2 O cluster system with 18 spatial orbitals and 22 electrons in the active space can be simulated with 100 logical qubits and less than 4 × 10 8 Toffoli gates per circuit. Finally, the algorithm is implemented on a simulator, and the reconstructed spectrum is verified against a classical computational reference. The low cost of our algorithm makes it attractive to use on fault-tolerant quantum devices to accelerate the development and commercialization of high-capacity battery cathodes.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "a39c1d34d136b7078b291e8a3ff5f83e9ea352b2865e63c11c1c59e6e69a3579",
+      "abstract_zh": "X射线吸收光谱（XAS）是理解先进电池材料（如富锂正极）结构变化的一项领先技术。然而，从实验光谱中提取氧化态等关键信息需要昂贵且耗时的模拟。基于近期提出的利用量子计算机模拟XAS的提议，本工作提出了一种高度优化的X射线吸收时域算法实现。在对哈密顿量表示、电路实现和测量策略的众多改进中，三项优化是算法效率的关键。第一是使用具有哈密顿量压缩双因子化形式的乘积公式。第二是认识到对于光谱学应用，只需控制由乘积公式所实现的（近似）哈密顿量特征值的误差，而非完整时间演化算符的一般误差。利用微扰理论估计该特征值误差，我们发现所需的Trotter步数显著少于时间演化误差界所预期的步数。第三是选择优化的采样分布，以利用指数衰减的洛伦兹核。通过常数因子资源估计，我们展示了一个具有挑战性的模型Li 4 Mn 2 O团簇系统，其活性空间包含18个空间轨道和22个电子，可以用100个逻辑量子比特和每个电路少于4 × 10 8 个Toffoli门进行模拟。最后，该算法在模拟器上实现，并对照经典计算参考验证了重建的光谱。我们算法的低成本使其有望在容错量子设备上使用，以加速高容量电池正极的开发和商业化。"
     },
     {
       "journal": "qmi",
@@ -3144,7 +3180,9 @@
       ],
       "abstract": "Quantum money is a representative application in cryptography that utilizes quantum technology to achieve security that is unattainable with classical systems. Since the theoretical proposal by Wiesner in 1983, the most recent instantiation is the quantum money using class group actions on elliptic curves, proposed by Montgomery and Sharif in Asiacrypt'24. In this work, we propose a concrete cryptanalysis by leveraging the efficiency of evaluating division polynomials with the coordinates of rational points, offering a speedup of O ( log 4 ⁡ p ) compared to the brute-force attack. While the resulting attack still runs in exponential time, our method provides the first nontrivial algorithmic insight into their structural hardness. Furthermore, due to the algebraic properties of rational points and quadratic twists, our technique naturally yields a more efficient verification procedure for the underlying quantum money. We believe this new line of analysis opens promising directions for future research in elliptic-curve-based quantum cryptography.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "3717b10c71679d108e611a1225024ad7c647d2db86f7223bf995fc4c8c1b5f57",
+      "abstract_zh": "量子货币是密码学中的一个代表性应用，它利用量子技术实现经典系统无法达到的安全性。自Wiesner于1983年提出理论方案以来，最新的实例是Montgomery和Sharif在Asiacrypt'24上提出的基于椭圆曲线上类群作用的量子货币。在本工作中，我们提出了一种具体的密码分析，利用有理点坐标评估除法多项式的效率，相比暴力攻击实现了O(log^4 p)的加速。尽管由此产生的攻击仍以指数时间运行，我们的方法首次为其结构硬度提供了非平凡的算法洞察。此外，由于有理点和二次扭转的代数性质，我们的技术自然地产生了一种更高效的底层量子货币验证程序。我们相信这一新的分析路线为基于椭圆曲线的量子密码学的未来研究开辟了有前景的方向。"
     },
     {
       "journal": "pra",
@@ -3218,7 +3256,9 @@
       ],
       "abstract": "One of the core challenges of research in quantum computing is concerned with the question whether quantum advantages can be found for near-term quantum circuits that have implications for practical applications. Motivated by this mindset, in this work, we prove an unconditional quantum advantage in the probably approximately correct (PAC) distribution learning framework with shallow quantum circuit hypotheses. We identify a meaningful generative distribution learning problem where constant-depth quantum circuits using one and two qubit gates are superior compared to constant-depth bounded fan-in and fan-out classical circuits as a choice for hypothesis classes. We hence prove a PAC distribution learning separation for shallow quantum circuits over shallow classical circuits. We do so by building on recent results by Bene Watts and Parham on unconditional quantum advantages for sampling tasks with shallow circuits, which we technically uplift to a hyperplane learning problem, identifying non-local correlations as the origin of the quantum advantage.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0"
+      "license": "https://creativecommons.org/licenses/by/4.0",
+      "abstract_hash": "42aa9cc660e723eebdae32e0f504b1c7c967158f8422d9060a57ff4d367547a3",
+      "abstract_zh": "量子计算研究的核心挑战之一，是能否在近期量子电路中找到对实际应用有意义的量子优势。受这一思路启发，在本工作中，我们证明了在浅层量子电路假设下，概率近似正确（PAC）分布学习框架中的无条件量子优势。我们识别出一个有意义的生成分布学习问题，其中使用单量子比特门和两量子比特门的常数深度量子电路，作为假设类的选择，优于常数深度有界扇入和扇出的经典电路。因此，我们证明了浅层量子电路相对于浅层经典电路的PAC分布学习分离。我们通过建立在Bene Watts和Parham关于浅层电路采样任务无条件量子优势的最新结果之上来实现这一点，并在技术上将其提升为超平面学习问题，识别出非局域关联是量子优势的根源。"
     },
     {
       "journal": "prresearch",
@@ -3338,7 +3378,9 @@
       ],
       "abstract": "Understanding the spatial distribution of carriers is important for interpreting transport in nanoscale devices. Here, we apply conductance fluctuation tomography to planar selective-area-grown InAs nanowires in both normal–normal and normal-superconductor device geometries. By tracking the evolution of conductance-interference features as a function of magnetic-field strength and orientation, we extract information about the geometry of phase-coherent transport pathways. By comparing the angular evolution of the conductance fluctuations with geometrical projected-area models, we distinguish between bulk-dominated transport, coherent near-surface transport across facets, and transport confined to individual facets. The measurements are consistent with transport dominated by a near-surface accumulation layer in InAs. Devices with normal contacts show behavior consistent with coherent transport across the nanowire apex, whereas hybrid normal-superconductor devices exhibit signatures of more facet-dependent transport. These results demonstrate how universal conductance fluctuations can be used as a tomographic probe of phase-coherent transport pathways in semiconductor nanostructures.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "4a5db85e2afd85802ef069554129b4dd67d3bf29b5ad8c0fda2222e2ac1031ee",
+      "abstract_zh": "理解载流子的空间分布对于解释纳米尺度器件中的输运过程至关重要。在此，我们将电导涨落层析成像技术应用于平面选择性区域生长的InAs纳米线，涵盖正常-正常和正常-超导体两种器件几何结构。通过追踪电导干涉特征随磁场强度和方向的变化，我们提取了关于相位相干输运路径几何形状的信息。通过将电导涨落的角度演化与几何投影面积模型进行比较，我们区分了体主导输运、跨晶面的相干近表面输运以及局限于单个晶面的输运。测量结果与InAs中由近表面积累层主导的输运相一致。具有正常接触的器件表现出与跨纳米线顶点的相干输运一致的行为，而混合正常-超导体器件则展现出更多晶面依赖性输运的特征。这些结果证明了普适电导涨落如何能够被用作半导体纳米结构中相位相干输运路径的层析探针。"
     },
     {
       "journal": "prresearch",
@@ -3357,7 +3399,9 @@
       ],
       "abstract": "We derive thermodynamic speed limits for isolated quantum systems undergoing finite-time unitary driving. The key ingredient is a set of generalized second-law inequalities: For the Gibbs entropy and for several thermodynamically motivated observational entropies, the entropy production is bounded from below by a function of the Vu-Saito quantum Wasserstein distance between the initial and final coarse-grained states. These inequalities yield lower bounds on the operation time in terms of the average entropy-production rate. We apply the framework to system-bath coarse graining, local-energy coarse graining, and diagonal entropy, and illustrate the resulting bounds with numerical and analytically solvable examples. Our results provide a thermodynamic characterization of finite-time state transformations in isolated quantum systems and clarify how coarse-grained entropy production constrains macroscopic reachability.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "bff434b06278962910291e95d934209eb63e3ebbed76872e845e1167bc30a392",
+      "abstract_zh": "我们为经历有限时间幺正驱动的孤立量子系统推导了热力学速度极限。关键要素是一组广义第二定律不等式：对于吉布斯熵以及若干具有热力学动机的可观测熵，熵产生由初始与最终粗粒化态之间的Vu-Saito量子Wasserstein距离的函数从下方界定。这些不等式以平均熵产生率给出了操作时间的下界。我们将该框架应用于系统-浴粗粒化、局域能量粗粒化和对角熵，并用数值和可解析求解的示例说明了所得界限。我们的结果为孤立量子系统中的有限时间状态变换提供了热力学刻画，并阐明了粗粒化熵产生如何约束宏观可达性。"
     },
     {
       "journal": "epjqt",
@@ -3377,7 +3421,9 @@
       ],
       "abstract": "We present a quantum implementation of the Euclid algorithm for calculating the Greatest Common Divisor when one of the integers involved is a compound of two odd-valued primes. We discuss a possible application to the quantum factoring problem, for which modular exponentiation is no longer required, and the factors are revealed directly by measurements, although the method does not scale for large numbers in a favourable manner.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0"
+      "license": "https://creativecommons.org/licenses/by/4.0",
+      "abstract_hash": "7252143d99ce5f8206501953fbde294d58d4e8599cd3bde958df4adec3d15cd8",
+      "abstract_zh": "我们提出了一种计算最大公约数的欧几里得算法的量子实现，其中涉及的整数之一是两个奇素数之积。我们讨论了该算法在量子分解问题上的潜在应用，此时不再需要模幂运算，且因子直接通过测量揭示，尽管该方法对于大数并不具备良好的可扩展性。"
     },
     {
       "journal": "prb",
@@ -3493,7 +3539,9 @@
       ],
       "abstract": "Laser cooling is fundamental to quantum computing and metrology using atomic systems. Precise control often requires cooling atoms’ motional degrees of freedom to the quantum ground state, imposing operation time and architectural limitations particularly in large-scale systems. Here we demonstrate how the integrated optical control of interest for scaling trapped-ion systems additionally enables laser cooling that bypasses limitations of conventional schemes. Leveraging multi-channel integrated delivery of ultraviolet to infrared wavelengths for calcium ion control including in passively phase-stable ultraviolet standing waves (SWs), we experimentally verify a long-standing prediction by Cirac ., realizing Doppler cooling to below the conventional Doppler limit at a SW node. We also present the first realization of ground-state cooling via electromagnetically induced transparency (EIT) using a “probe” beam delivered as a SW with atoms positioned at a node, predicted to enable multi-mode sub-recoil-limit laser cooling. We demonstrate cooling of motional modes spanning an approximately 5 MHz bandwidth from the Doppler temperature to near the ground state within 150 μ s , reaching n ¯ ≈ 0.05 phonon number occupancies for the target mode. Direct evaluation against the comparable running-wave (RW) scheme shows the SW implementation’s simultaneous advantage in cooling rate, motional mode bandwidth, and final phonon number, as previously theoretically predicted. Our work leverages capabilities enabled by integrated optical delivery to demonstrate fast cooling of multiple modes to the quantum ground state, and more broadly how scalable approaches to optical control can enable enhancements in fundamental atomic functionalities.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "d0960b043d250e48b07fce9c380204bdb788d6db38230fac006394bc9beb1fa2",
+      "abstract_zh": "激光冷却是基于原子系统的量子计算和计量学的基础。精确控制通常需要将原子的运动自由度冷却至量子基态，这在大规模系统中尤其会带来操作时间和架构上的限制。在此，我们展示了为扩展囚禁离子系统所关注的集成光学控制如何额外实现激光冷却，从而绕过传统方案的局限性。利用多通道集成传输紫外至红外波长以控制钙离子，包括被动相位稳定的紫外驻波（SW），我们通过实验验证了Cirac等人长期以来的预测，实现了在SW波节处冷却至低于传统多普勒极限的多普勒冷却。我们还首次展示了利用电磁诱导透明（EIT）实现基态冷却，其中“探测”光束以SW形式传输，原子定位在波节处，理论上可实现对多模式亚反冲极限的激光冷却。我们展示了跨越约5 MHz带宽的运动模式的冷却，从多普勒温度冷却至接近基态，在150 μs内，目标模式的声子数占据达到n̄ ≈ 0.05。与可比的行波（RW）方案的直接评估表明，SW实现在冷却速率、运动模式带宽和最终声子数方面同时具有优势，正如先前理论预测的那样。我们的工作利用集成光学传输所赋能的能力，展示了多个模式快速冷却至量子基态，更广泛地说，展示了可扩展的光学控制方法如何能够增强基本原子功能。"
     },
     {
       "journal": "pra",
@@ -3587,7 +3635,9 @@
       ],
       "abstract": "Measurement-based quantum computation (MBQC) is a framework for quantum information processing in which a computational task is carried out through one-qubit measurements on a highly entangled resource state. Due to the indeterminacy of the outcomes of a quantum measurement, the random outcomes of these operations, if not corrected, yield a variational quantum channel family. Traditionally, this randomness is corrected through classical processing in order to ensure deterministic unitary computations. Recently, variational measurement-based quantum computation (VMBQC) has been introduced to exploit this measurement-induced randomness to gain an advantage in generative modeling. A limitation of this approach is that the corresponding channel model has twice as many parameters compared with the unitary model, scaling as N × D , where N is the number of logical qubits (width) and D is the depth of the VMBQC model. This can often make optimization more difficult and may lead to poorly trainable models. In this paper, we present a restricted VMBQC model that extends the unitary setting to a channel-based one using only a single additional trainable parameter. We show, both numerically and algebraically, that this minimal extension is sufficient to generate probability distributions that cannot be represented by the corresponding unitary model.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "46bcdbdd23d31b35ad4a33257d1c15e4fce1dbccd7b633dbc0cd05e518f0ee0b",
+      "abstract_zh": "基于测量的量子计算（MBQC）是一种量子信息处理框架，其中计算任务通过对高度纠缠的资源态进行单量子比特测量来完成。由于量子测量结果的不确定性，这些操作的随机结果若未被校正，会产生一个变分量子通道族。传统上，这种随机性通过经典处理进行校正，以确保确定性的幺正计算。最近，变分基于测量的量子计算（VMBQC）被引入，以利用这种测量诱导的随机性在生成建模中获得优势。这种方法的一个局限是，相应的通道模型参数数量是幺正模型的两倍，规模为N × D，其中N是逻辑量子比特数（宽度），D是VMBQC模型的深度。这通常会使优化更加困难，并可能导致模型训练效果不佳。在本文中，我们提出了一种受限的VMBQC模型，该模型仅使用一个额外的可训练参数就将幺正设置扩展到基于通道的设置。我们通过数值和代数方法表明，这种最小扩展足以生成相应幺正模型无法表示的概率分布。"
     },
     {
       "journal": "prapplied",
@@ -12842,6 +12892,22 @@
       "evidence": "https://feeds.aps.org/rss/accepted/prresearch.xml",
       "tags": [
         "量子算法"
+      ]
+    },
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/nwxy-sr1z",
+      "title": "Achieving high filling of an optical lattice by light-assisted redistribution of atoms",
+      "authors": [
+        "Lauren Weiss, Evan Yamaguchi, Claire Pritts, Tadej Mežnaršič, and Cheng Chin"
+      ],
+      "url": "https://journals.aps.org/prresearch/accepted/8a07eY3eF182850726e71f198721904fa54d6df95",
+      "status": "accepted",
+      "date": "2026-10-19",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prresearch.xml",
+      "tags": [
+        "量子信息与基础"
       ]
     },
     {
