@@ -31,9 +31,16 @@
 
 ## 数据边界
 
-- APS 的 PRL、PRX、PRX Quantum、PRA 分别接入官方接收与发表 RSS。接收日期使用订阅源所列日期。发表 RSS 或带明确出版日期的 Crossref 记录会把同 DOI 条目更新为已发表。
-- Nature、Nature Physics、Nature Communications、npj Quantum Information、Science、Science Advances 和 QST 接入期刊 RSS 与 Crossref。Quantum 使用 Crossref。未接入官方接收源的期刊只显示可确认的已发表条目。
+- APS 的 PRL、PRX、PRX Quantum、PRA、PR Research、PR Applied、PRB 和 RMP 分别接入官方接收与发表 RSS。接收日期使用订阅源所列日期。发表 RSS 或带明确出版日期的 Crossref 记录会把同 DOI 条目更新为已发表。
+- Nature、Nature Physics、Nature Communications、npj Quantum Information、Science、Science Advances 和 QST 接入期刊 RSS 与 Crossref。Nature Communications 和 Nature Physics 同时接入 Nature 的量子信息专题 RSS。Quantum 使用 Crossref。未接入官方接收源的期刊只显示可确认的已发表条目。
+- 其他新增来源通过 Crossref 接入，包括 IEEE TQE、ACM TQC、QMI、EPJ Quantum Technology、APL Quantum、AVS Quantum Science、Advanced Quantum Technologies、Materials for Quantum Technology、Quantum Reports、Nature Computational Science 和 APL Photonics。
 - 综合期刊用英文标题、摘要及 APS 栏目关键词筛选量子研究。规则可能遗漏相关论文，期刊名不是分类标签。
 - 公开快照只保存 Crossref 中明确允许改编和转载的摘要及许可链接。Quantum 的 CC BY 出版政策也支持其 Crossref 未标明内容版本的许可条目。RSS 导语只参与发现和筛选。摘要缺失时保留出版社入口，公开数据不保存论文正文或 PDF。
 - 保留最近 120 天逐次采到的记录。订阅源窗口和 Crossref 登记质量影响覆盖率，接入数量不代表每个期刊每天都有入库文章。来源暂时失败时保留档案中尚在有效期内的记录。全源失败时停止更新。
 - 修改 `sources.json` 可以扩充来源。状态来自来源证据，关键词匹配只用于主题。
+
+## 查看每日变更
+
+在网站仓库的 `main` 分支中，`data/papers.json` 是网页使用的汇总数据，`data/daily/YYYY-MM-DD.json` 是按北京时间保存的每日变更。第一次有变更时，工作流会创建 `data/daily/`，并和汇总文件一起提交。无需创建额外仓库或配置跨仓库 Token。
+
+`refresh` 和 `backfill` 会记录新增论文、转为已发表、更换或新增的英文摘要和中文译文。同一天多次运行时，同一篇论文合并为一条。如果当天没有这些变化，就不创建日文件。日报从安装新版后开始累计，独立于网站汇总的 120 天浏览窗口。

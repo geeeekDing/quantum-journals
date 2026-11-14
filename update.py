@@ -90,6 +90,15 @@ def doi_for(*values):
     return ""
 
 
+def nature_doi(url):
+    address = urlsplit(url)
+    # Nature's subject RSS identifies articles by publisher URL rather than DOI.
+    article = re.fullmatch(r"/articles/(s\d{5}-[\w-]+)/?", address.path)
+    if address.hostname == "www.nature.com" and article:
+        return f"10.1038/{article[1].lower()}"
+    return ""
+
+
 def safe_url(url):
     return url if urlsplit(url).scheme in ("http", "https") and urlsplit(url).hostname else ""
 
@@ -119,7 +128,8 @@ def tags_for(source, title, abstract="", section=""):
     return tags or (["量子研究"] if source.get("focused") else [])
 
 
-def rss_records(payload, source, status, observed):
+def rss_records(payload, source, status, observed, *, feed_kind=None):
+    feed_kind = feed_kind or ("accepted" if status == "accepted" else "rss")
     root = ET.fromstring(payload)
     if local_name(root) not in ("rss", "RDF", "feed"):
         raise ValueError("Expected an RSS or Atom document")
@@ -139,6 +149,8 @@ def rss_records(payload, source, status, observed):
         title = clean(fields.get("title"))
         link = fields.get("link", "")
         doi = doi_for(fields.get("doi"), fields.get("identifier"), link)
+        if not doi and source["group"] == "Nature":
+            doi = nature_doi(link)
         kind = fields.get("type", "").lower()
         if not title or EXCLUDED.search(title) or kind in {"editorial", "news", "books et al.", "perspective", "correction"}:
             continue
@@ -160,7 +172,12 @@ def rss_records(payload, source, status, observed):
             if re.match(r"Author\(s\):", description, re.I):
                 description = re.split(r"<br\s*/?>", description, maxsplit=1, flags=re.I)[-1]
             excerpt = re.split(r"\s+\[[^\]]+\]\s+Published\s", clean(description), maxsplit=1)[0]
+        elif source["group"] == "Nature":
+            # The publisher blurb is for relevance filtering, not display as an abstract.
+            excerpt = clean(re.sub(r"^\s*<p>.*?</p>", "", fields.get("encoded", ""), count=1, flags=re.S))
         tags = tags_for(source, title, excerpt, fields.get("section", ""))
+        if not tags and feed_kind == "topic_rss":
+            tags = ["量子信息与基础"]
         if not tags:
             continue
         reported = day(fields.get("date") or fields.get("pubDate") or fields.get("publicationDate"))
@@ -169,7 +186,7 @@ def rss_records(payload, source, status, observed):
             "url": url or f"https://doi.org/{doi}", "status": status,
             "date": reported or observed,
             "date_kind": ("accepted_feed" if status == "accepted" else "publisher_feed") if reported else "observed",
-            "evidence": source["accepted"] if status == "accepted" else source["rss"],
+            "evidence": source[feed_kind],
             "tags": tags,
         }
 
@@ -330,17 +347,19 @@ def add_translations(snapshot, previous, args):
 
 def refresh(args):
     existing = json.loads(args.output.read_text(encoding="utf-8")) if args.output.exists() else {"papers": []}
+    catalog = json.loads((ROOT / "sources.json").read_text(encoding="utf-8"))
+    active_journals = {source["id"] for source in catalog}
+    existing["papers"] = [paper for paper in existing["papers"] if paper["journal"] in active_journals]
     if args.backfill:
         if not args.output.is_file():
             raise SystemExit("找不到数据归档，请先运行 refresh。")
         snapshot = {**existing, "papers": [dict(row) for row in existing["papers"]]}
         return add_translations(snapshot, existing, args)
 
-    catalog = json.loads((ROOT / "sources.json").read_text(encoding="utf-8"))
     now = date.fromisoformat(args.today) if args.today else datetime.now(timezone.utc).date()
     jobs = []
     for source in catalog:
-        for kind in ("rss", "accepted"):
+        for kind in ("rss", "topic_rss", "accepted"):
             if source.get(kind):
                 jobs.append((source, kind, source[kind]))
         jobs.append((source, "crossref", crossref_url(source)))
@@ -356,7 +375,7 @@ def refresh(args):
                 rows = list(crossref_records(payload, source, now.isoformat()))
             else:
                 status = "accepted" if kind == "accepted" else "published"
-                rows = list(rss_records(payload, source, status, now.isoformat()))
+                rows = list(rss_records(payload, source, status, now.isoformat(), feed_kind=kind))
             return rows, {"source": source["id"], "kind": kind, "ok": True, "count": len(rows)}
         except Exception as error:
             if not args.fixtures:

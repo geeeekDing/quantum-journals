@@ -175,6 +175,11 @@ function render() {
   }
   el.message.hidden = matches.length > 0;
   el.message.textContent = wrongRange ? '开始日期需要早于或等于结束日期。' : '没有符合筛选条件的论文。';
+  if (!matches.length && !wrongRange && status === 'accepted' && selectedJournal && !journals.get(selectedJournal)?.accepted) {
+    el.message.textContent = '本站暂无该期刊的接收数据，可切换到「已发表」查看。';
+  } else if (!matches.length && !wrongRange && el.hasAbstract.checked) {
+    el.message.textContent = '没有符合条件且有站内摘要的论文。取消「仅看站内有摘要的论文」可查看其他条目。';
+  }
 }
 
 function resetPage() {
@@ -216,6 +221,7 @@ function renderSources(sources, health) {
     const item = node('li', source.name);
     const runs = health.filter(record => record.source === source.id);
     if (source.rss) item.append(external('发表源 ↗', source.rss));
+    if (source.topic_rss) item.append(external('量子信息专题 ↗', source.topic_rss));
     if (source.accepted) item.append(external('接收源 ↗', source.accepted));
     item.append(external('Crossref ↗', 'https://api.crossref.org/journals/' + source.issn));
     if (runs.some(run => !run.ok)) {
@@ -237,7 +243,7 @@ async function start() {
     const [catalog, snapshot] = await Promise.all([getJSON('sources.json'), getJSON('data/papers.json')]);
     journals = new Map(catalog.map(journal => [journal.id, journal]));
     renderJournalFilters(catalog);
-    papers = snapshot.papers.map(paper => {
+    papers = snapshot.papers.filter(paper => journals.has(paper.journal)).map(paper => {
       const researchTopics = classifyPaper(paper);
       const searchable = [paper.title, ...paper.authors, ...(paper.tags || []),
         ...[...researchTopics].flatMap(([group, children]) => [group, ...children]),
