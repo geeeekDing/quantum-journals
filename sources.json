@@ -1,0 +1,14 @@
+[
+  {"id":"prl","name":"Physical Review Letters","short":"PRL","group":"APS","issn":"1079-7114","rss":"https://feeds.aps.org/rss/recent/prl.xml","accepted":"https://feeds.aps.org/rss/accepted/prl.xml"},
+  {"id":"prx","name":"Physical Review X","short":"PRX","group":"APS","issn":"2160-3308","rss":"https://feeds.aps.org/rss/recent/prx.xml","accepted":"https://feeds.aps.org/rss/accepted/prx.xml"},
+  {"id":"prxquantum","name":"PRX Quantum","short":"PRX Quantum","group":"APS","focused":true,"issn":"2691-3399","rss":"https://feeds.aps.org/rss/recent/prxquantum.xml","accepted":"https://feeds.aps.org/rss/accepted/prxquantum.xml"},
+  {"id":"pra","name":"Physical Review A","short":"PRA","group":"APS","issn":"2469-9934","rss":"https://feeds.aps.org/rss/recent/pra.xml","accepted":"https://feeds.aps.org/rss/accepted/pra.xml"},
+  {"id":"nature","name":"Nature","short":"Nature","group":"Nature","issn":"1476-4687","rss":"https://www.nature.com/nature.rss"},
+  {"id":"nphys","name":"Nature Physics","short":"Nature Physics","group":"Nature","issn":"1745-2481","rss":"https://www.nature.com/nphys.rss"},
+  {"id":"ncomms","name":"Nature Communications","short":"Nature Communications","group":"Nature","issn":"2041-1723","rss":"https://www.nature.com/ncomms.rss"},
+  {"id":"npjqi","name":"npj Quantum Information","short":"npj Quantum Information","group":"Nature","focused":true,"issn":"2056-6387","rss":"https://www.nature.com/npjqi.rss"},
+  {"id":"science","name":"Science","short":"Science","group":"AAAS","issn":"1095-9203","rss":"https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science"},
+  {"id":"sciadv","name":"Science Advances","short":"Science Advances","group":"AAAS","issn":"2375-2548","rss":"https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv"},
+  {"id":"qst","name":"Quantum Science and Technology","short":"QST","group":"量子专刊","focused":true,"issn":"2058-9565","rss":"https://iopscience.iop.org/journal/rss/2058-9565"},
+  {"id":"quantum","name":"Quantum","short":"Quantum","group":"量子专刊","focused":true,"issn":"2521-327X"}
+]

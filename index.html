@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="在一个页面追踪量子研究的期刊接收和发表动态，按期刊、主题和状态筛选。">
+  <title>量子期刊速览</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+<header class="top">
+  <div class="shell top-inner">
+    <a href="./" class="brand"><span class="mark" aria-hidden="true">Q</span>量子期刊速览</a>
+    <a href="#sources" class="quiet">数据来源 ↓</a>
+  </div>
+</header>
+<main class="shell">
+  <section class="hero" aria-labelledby="title">
+    <div><p class="kicker">QUANTUM JOURNALS</p><h1 id="title">量子期刊速览</h1>
+      <p>追踪量子研究的期刊发表与接收动态，浏览摘要并直达出版社原文。</p>
+    </div>
+    <dl class="snapshot">
+      <div><dt>已发表</dt><dd id="totalPublished">—</dd></div>
+      <div><dt>已接收</dt><dd id="totalAccepted">—</dd></div>
+      <div><dt>数据日期</dt><dd id="updated">—</dd></div>
+    </dl>
+  </section>
+  <div class="layout">
+    <aside class="filters" aria-label="论文筛选">
+      <div class="filter-heading"><h2>筛选</h2><button id="reset" class="quiet" type="button">重置</button></div>
+      <div class="field"><label for="journal">期刊</label><select id="journal"><option value="">全部期刊</option></select></div>
+      <div class="field"><label for="topic">研究主题</label><select id="topic"><option value="">全部主题</option></select></div>
+      <fieldset class="dates"><legend>日期范围</legend>
+        <label for="from">开始日期</label><input id="from" type="date">
+        <label for="to">结束日期</label><input id="to" type="date">
+      </fieldset>
+      <label class="checkbox"><input id="hasAbstract" type="checkbox">仅看站内有摘要的论文</label>
+    </aside>
+    <section aria-labelledby="listTitle" class="feed">
+      <div class="feed-head">
+        <div><h2 id="listTitle">论文动态</h2><p id="count" aria-live="polite"></p></div>
+        <label class="search"><span class="search-icon" aria-hidden="true"></span><input id="search" type="search" aria-label="搜索标题、作者、摘要或 DOI" placeholder="搜索标题、作者、摘要或 DOI"></label>
+      </div>
+      <div class="tabs" role="group" aria-label="发表状态">
+        <button type="button" data-status="" aria-pressed="true">全部</button>
+        <button type="button" data-status="published" aria-pressed="false">已发表</button>
+        <button type="button" data-status="accepted" aria-pressed="false">已接收</button>
+      </div>
+      <p id="message" class="message" role="status">正在读取期刊数据…</p>
+      <div id="papers" class="papers"></div>
+      <button type="button" id="more" class="outline" hidden>加载更多</button>
+    </section>
+  </div>
+  <details id="sources" class="sources">
+    <summary>数据来源与状态说明</summary>
+    <p>「已接收」来自期刊官方接收列表，接收列表日期是该来源标注的日期。「已发表」来自期刊发表源或 Crossref 的出版日期。同一 DOI 优先显示已发表状态。</p>
+    <p>站内只展示有公开转载依据的论文摘要。部分源只提供目录、导语或元数据，可通过论文链接查看出版社摘要。</p>
+    <ul id="sourceList"></ul>
+  </details>
+</main>
+<footer class="shell"><span>量子期刊速览</span><a class="quiet" href="#title">回到顶部 ↑</a></footer>
+</body>
+</html>
