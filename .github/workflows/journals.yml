@@ -1,0 +1,56 @@
+name: Update journal digest
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 11 * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: quantum-journal-digest
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Refresh public metadata and licensed abstracts
+        env:
+          CROSSREF_EMAIL: ${{ vars.CROSSREF_EMAIL }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          MODEL_NAME: ${{ vars.MODEL_NAME }}
+        run: python3 update.py
+      - name: Save the archive
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/papers.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh journal digest"
+            git push
+          fi
+      - name: Stage the website
+        run: |
+          mkdir site
+          cp index.html style.css app.js sources.json site/
+          cp -R data site/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+  publish:
+    needs: collect
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
