@@ -1371,7 +1371,9 @@
       ],
       "abstract": "Recent advances in transmission electron microscopy (TEM) have opened the path toward spin resonance spectroscopy with single-spin sensitivity. To assess this potential, we investigate the quantum precision limits for sensing magnetic moments with free-electron probes. Using a scattering model where an electron wavepacket interacts with a localized spin, we study two metrological tasks: estimating the magnitude of the magnetic moment and discriminating the presence of a spin. The sensitivity for a given measurement setting is generally determined by the classical Fisher information, which we benchmark against the quantum bound optimized over all measurements. We find that conventional TEM imaging can saturate the quantum bound when backaction (BA) of the probe electron onto the spin state is negligible. We also find that, when BA is relevant, one could do better by realizing a measurement of the electron’s orbital angular momentum state. These results establish the quantum limits of spin sensing in TEM and guide the development of future experiments probing individual electron spins or nanoscale ensembles of nuclear spins.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "d3715e5e8bfae73d937a2cc9dfe6d8477b2df5e96d0435c830da69261ab0b263",
+      "abstract_zh": "透射电子显微镜（TEM）的最新进展为具有单自旋灵敏度的自旋共振谱学开辟了道路。为评估这一潜力，我们研究了利用自由电子探针传感磁矩的量子精度极限。采用电子波包与局域自旋相互作用的散射模型，我们研究了两个计量学任务：估计磁矩的大小和辨别自旋的存在。给定测量设置的灵敏度通常由经典Fisher信息决定，我们将其与在所有测量上优化得到的量子界限进行基准比较。我们发现，当探针电子对自旋状态的反作用（BA）可忽略时，常规TEM成像能够达到量子界限。我们还发现，当BA相关时，通过实现电子轨道角动量态的测量可以获得更好的结果。这些结果确立了TEM中自旋传感的量子极限，并指导未来探测单个电子自旋或纳米尺度核自旋系综的实验发展。"
     },
     {
       "journal": "qst",
@@ -1447,7 +1449,9 @@
       ],
       "abstract": "The paper presents variational formulae for entropy-like functionals, including Segal and Rényi entropies, for normal states on semifinite von Neumann algebras. The considered functionals are of the form τ ( f ( h ) ) where τ is a normal faithful semifinite trace on this algebra, h is a positive selfadjoint operator from L 1 ( M , τ ) , and f is an appropriate convex or concave function. The results cover both finite and semifinite algebras, and the obtained formulae generalise known results, in particular, those concerning relative entropy. Moreover, the connection between quantum entropies and the structure of abelian subalgebras is highlighted, providing new interpretations in the context of quantum information theory.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "59fc844d6b8db14c48029c71e26517f66b69ba9cc069b92bc459823e7100fce8",
+      "abstract_zh": "本文提出了关于半有限冯·诺依曼代数上正规态的熵类似泛函的变分公式，包括塞加尔熵和雷尼熵。所考虑的泛函形式为 τ(f(h))，其中 τ 是该代数上的正规忠实半有限迹，h 是 L1(M, τ) 中的正自伴算子，f 是适当的凸函数或凹函数。研究结果涵盖了有限和半有限代数，所获得的公式推广了已知结果，特别是关于相对熵的结果。此外，还强调了量子熵与阿贝尔子代数结构之间的联系，为量子信息理论提供了新的解释。"
     },
     {
       "journal": "pra",
@@ -1489,7 +1493,9 @@
       ],
       "abstract": "Quantum batteries are quantum systems that store energy and deliver it on demand, and their practical value hinges on how fast they can be charged. While collective charging protocols and global control are known to enhance charging power, it remains unclear how the battery’s internal interaction architecture itself constrains performance. Here we study interacting fermionic batteries whose internal couplings are encoded by a graph adjacency matrix and which are charged through a uniform interaction with an external fermionic device. We prove that the star topology uniquely maximizes the initial slope of the charging power at zero local field. At finite field, we derive an exact spectral criterion for outperforming the star and construct a star-like family that satisfies it. Based on numerically established correlation, we expect these findings to extend to the maximal average charging power as well. To confirm the dominance of the star architecture, we complement the analysis by an exhaustive sweep over all connected graphs with N ⩽ 7 vertices, and by larger random-graph benchmarks.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "4e363e96c809952125405f367008a3935fd95a29ff1e73ed7b6d807f2169c44b",
+      "abstract_zh": "量子电池是储存能量并按需释放能量的量子系统，其实际价值取决于充电速度。虽然已知集体充电协议和全局控制能够增强充电功率，但电池内部相互作用架构本身如何约束性能仍不清楚。本文研究相互作用的费米子电池，其内部耦合由图的邻接矩阵编码，并通过与外部费米子装置的均匀相互作用进行充电。我们证明，在零局部场下，星形拓扑唯一地最大化了充电功率的初始斜率。在有限场下，我们推导出超越星形结构的精确谱判据，并构造了一个满足该判据的星形类族。基于数值建立的相关性，我们预期这些发现也可推广到最大平均充电功率。为确认星形架构的主导地位，我们通过对所有 N ⩽ 7 个顶点的连通图进行穷举扫描以及更大规模的随机图基准测试来补充分析。"
     },
     {
       "journal": "pra",
@@ -1530,7 +1536,9 @@
       ],
       "abstract": "We show that a distribution related to Gaussian Boson Sampling (GBS) on graphs can be sampled classically in polynomial time. Graphical applications of GBS typically sample from this distribution, and thus quantum algorithms do not provide exponential speedup for these applications. We also show that another distribution related to Boson sampling can be sampled classically in polynomial time.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "c1b44915f9171b239401d906ccc1a1ba74e6a60f0c03787a384344224f754785",
+      "abstract_zh": "我们证明，与图上的高斯玻色采样（GBS）相关的一种分布可以在多项式时间内经典采样。GBS的图形应用通常从这种分布中采样，因此量子算法为这些应用提供的加速并非指数级。我们还证明，与玻色采样相关的另一种分布也可以在多项式时间内经典采样。"
     },
     {
       "journal": "quantum",
@@ -1552,7 +1560,9 @@
       ],
       "abstract": "In adaptive quantum circuits classical results of mid-circuit measurements determine the upcoming gates. This allows POVMs, quantum channels or more generally quantum instruments to be implemented sequentially, so that fewer qubits need to be used at each of the N measurement steps. In this paper, we mathematically describe these problems via adaptive sequence of instruments (ASI) and show how any instrument can be decomposed into it. Number of steps N and number of ancillary qubits n A needed for actual implementation are crucial parameters of any such ASI. We show an achievable lower bound on the product N . n A and we determine in which situations this tradeoff is likely to be optimal. Contrary to common intuition we show that for quantum instruments which transform n to m ( > n ) qubits, there exist N -step ASI implementing them just with ( m − n ) ancillary qubits, which are remeasured ( N − 1 ) times and finally used as output qubits.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "9689d1b581ddc52c2bcf5271a3176d323a7a355a060a4644a21cd6fe9873107a",
+      "abstract_zh": "在自适应量子电路中，经典的中路测量结果决定后续门操作。这使得POVM、量子信道或更一般的量子仪器能够被顺序实现，从而在N个测量步骤中的每一步所需使用的量子比特数更少。本文通过仪器的自适应序列（ASI）对这些问题进行数学描述，并展示任何仪器如何分解为这种形式。实际实现所需的步骤数N和辅助量子比特数n_A是任何此类ASI的关键参数。我们给出了乘积N·n_A的可达下界，并确定了这种权衡在何种情况下可能达到最优。与常见直觉相反，我们表明，对于将n个量子比特变换为m（>n）个量子比特的量子仪器，存在N步ASI仅使用（m−n）个辅助量子比特即可实现它们，这些辅助量子比特被重新测量（N−1）次，并最终用作输出量子比特。"
     },
     {
       "journal": "quantum",
@@ -1574,7 +1584,9 @@
       ],
       "abstract": "We derive a nonperturbative bound on the distance between evolutions of open quantum systems described by time-dependent generators. We show how this result can be employed to provide an explicit upper bound on the error of the rotating-wave approximation in the presence of dissipation and decoherence. We apply the derived bound to the strong-coupling limit in open quantum systems and to the secular approximation used to obtain a master equation of the Gorini-Kossakowski-Lindblad-Sudarshan form from the Redfield master equation.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "e35c6fdfae85bfaddeb3d37f9c906176f2f8b4f3d572d500aada177ba6c482a7",
+      "abstract_zh": "我们推导出一个非微扰的界限，用于估计由时间依赖生成元描述的开放量子系统演化之间的距离。我们展示了如何利用这一结果，在存在耗散和退相干的情况下，为旋转波近似的误差提供一个明确的上界。我们将推导出的界限应用于开放量子系统的强耦合极限，以及用于从Redfield主方程获得Gorini-Kossakowski-Lindblad-Sudarshan形式主方程的 secular 近似。"
     },
     {
       "journal": "prl",
@@ -1646,7 +1658,9 @@
       ],
       "abstract": "We study the metrological properties of a continuously monitored Kitaev chain in the presence of imperfect detection. The system is conditioned on a no-click record, while each emitted fermion is registered only with probability 0 ⩽ q ⩽ 1 . Because the conditional dynamics remains Gaussian, the steady state is fully characterized by the fermionic correlation matrix. This allows a direct evaluation of the quantum Fisher information (QFI) and of the mean Uhlmann curvature. For perfect detection, the monitored steady state retains a singular critical structure and the QFI with respect to the chemical potential becomes super-extensive. For any q < 1 , imperfect detection introduces a finite smoothing length that rounds the singularity and restores extensive scaling. Treating the detector efficiency as an additional estimation parameter reveals a generic multiparameter incompatibility for imperfect detection, with compatibility recovered only in the perfect-detection limit, where the mean Uhlmann curvature vanishes. These results show that incomplete trajectory information destroys the metrological enhancement associated with monitored criticality through a mechanism distinct from ordinary thermal smearing.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "d9a6dd37d30eabccb5e5753cf33b087244626757f7275dd5037006ee93e1fd94",
+      "abstract_zh": "我们研究了在不完美探测条件下连续监测的Kitaev链的计量学性质。系统以无点击记录为条件，而每个发射的费米子仅以概率0 ⩽ q ⩽ 1被登记。由于条件动力学保持高斯性，稳态完全由费米子关联矩阵表征。这使得可以直接评估量子Fisher信息（QFI）和平均Uhlmann曲率。对于完美探测，监测稳态保留奇异的临界结构，并且关于化学势的QFI变得超广延。对于任何q < 1，不完美探测引入有限的平滑长度，使奇异性圆滑化并恢复广延标度。将探测器效率视为额外的估计参数，揭示了不完美探测下的普遍多参数不相容性，仅在完美探测极限下恢复相容性，此时平均Uhlmann曲率消失。这些结果表明，不完整轨迹信息通过一种不同于普通热涂抹的机制破坏了与监测临界性相关的计量增强。"
     },
     {
       "journal": "pra",
@@ -1775,7 +1789,9 @@
       ],
       "abstract": "The surface code is the most studied error-correcting code thanks to its high threshold, simple decoding, and locality in two dimensions (2D). A key component of any code is its encoding circuit, which maps an unencoded state to the corresponding encoded state. The best previous surface code encoding circuit compatible with 2D local connectivity requires depth 2 d to encode distance- d surface codes. This paper presents depth d encoding circuits for the rotated surface code. Our circuit is constructed inductively from circuits that grow the code from d to ( d + 2 ) . We prove that depth d + O ( 1 ) is optimal for inductively constructed circuits.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "f72cdaf9a7fa0493b0e6752e61b998561c2eec0b7e090b6ae2790c649b102b1a",
+      "abstract_zh": "表面码因其高阈值、简单解码以及二维（2D）局域性而成为研究最多的纠错码。任何编码的关键组成部分是其编码电路，该电路将未编码状态映射到相应的编码状态。先前与2D局域连通性兼容的最佳表面码编码电路需要深度2d来编码距离为d的表面码。本文提出了旋转表面码的深度d编码电路。我们的电路是通过归纳法从将码从d增长到(d + 2)的电路构建的。我们证明了深度d + O(1)对于归纳构建的电路是最优的。"
     },
     {
       "journal": "prl",
@@ -1856,7 +1872,9 @@
       ],
       "abstract": "Many-body ground state preparation is an important subroutine used in the simulation of physical systems. In this paper, we introduce a flexible and efficient framework for obtaining a state preparation circuit for a large class of many-body ground states. We introduce polynomial-time classical algorithms that take reduced density matrices over O ( 1 ) -sized balls as inputs, and output a circuit that prepares the global state. We introduce algorithms applicable to (i) short-range entangled states (e.g., states prepared by shallow quantum circuits in any number of dimensions, and more generally, invertible states) and (ii) long-range entangled ground states (e.g., the toric code on a disk). Both algorithms can provably find a circuit whose depth is asymptotically optimal. Our approach uses a variant of the quantum Markov chain condition that remains robust against constant-depth circuits. The robustness of this condition makes our method applicable to a large class of states, whilst ensuring a classically tractable optimization landscape.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "fcf9d7fce6b2345137296edffbb956f815b85cf0360086ea7c44482a81e82dcb",
+      "abstract_zh": "多体基态制备是物理系统模拟中一个重要的子程序。在本文中，我们引入了一个灵活且高效的框架，用于获取一大类多体基态的态制备电路。我们引入了多项式时间的经典算法，这些算法以大小为O(1)的球上的约化密度矩阵为输入，并输出一个制备全局态的电路。我们引入了适用于以下情况的算法：(i) 短程纠缠态（例如，任意维数下由浅量子电路制备的态，更一般地，可逆态）和(ii) 长程纠缠基态（例如，圆盘上的环面码）。这两种算法均可证明地找到一个深度渐近最优的电路。我们的方法使用了量子马尔可夫链条件的一个变体，该变体对常数深度电路保持鲁棒性。这一条件的鲁棒性使我们的方法适用于一大类态，同时确保了一个经典可处理的优化景观。"
     },
     {
       "journal": "prxquantum",
@@ -1891,7 +1909,9 @@
       ],
       "abstract": "Entanglement swapping between photon pairs generated at physically separated nodes over telecommunication fiber infrastructure is an essential step toward the quantum internet, enabling applications such as quantum repeaters, blind quantum computing, distributed quantum computing, and distributed quantum sensing. However, successful networked entanglement swapping relies on generating indistinguishable pairs of photons and preserving them over deployed fibers. This has limited most previous demonstrations to laboratory settings or relied on sophisticated methods to maintain the necessary indistinguishability. Here, we demonstrate a scalable entanglement-swapping experiment using naturally indistinguishable entanglement sources based on warm atomic vapor cells. Without sharing lasers or optical frequency references between nodes, nor the need for pulsing the sources, we achieve a swapping rate of nearly 500 pairs/s in a local configuration while maintaining the Clauser–Horne–Shimony–Holt (CHSH) parameter above 2. Additionally, we demonstrate the scalability of our method by maintaining the quality of the entanglement swapping on 17.6 km of deployed fibers in New York City, relying on commercially available single-photon avalanche detectors at the spoke nodes, superconducting nanowire detectors at the hub and standard time-synchronization techniques. Our work paves the way for the practical deployment of large-scale hub-and-spoke quantum networks within cities and data centers.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "4f0a6da77ee42647959a43e7c925902a6641e1d11e162721be7b6e793eb39e8a",
+      "abstract_zh": "在电信光纤基础设施上，物理分离节点产生的光子对之间的纠缠交换是迈向量子互联网的关键一步，可实现量子中继器、盲量子计算、分布式量子计算和分布式量子传感等应用。然而，成功的网络化纠缠交换依赖于生成不可区分的光子对并在部署的光纤上保持其不可区分性。这限制了大多数先前的演示仅限于实验室环境，或依赖于复杂方法来维持必要的不可区分性。在此，我们展示了一个可扩展的纠缠交换实验，使用基于温热原子蒸气池的自然不可区分纠缠源。无需在节点间共享激光或光学频率参考，也无需对源进行脉冲调制，我们在本地配置中实现了近500对/秒的交换速率，同时保持Clauser–Horne–Shimony–Holt（CHSH）参数高于2。此外，我们通过在纽约市17.6公里的部署光纤上保持纠缠交换的质量，展示了我们方法的可扩展性，依赖于轮辐节点上商用的单光子雪崩探测器、枢纽节点上的超导纳米线探测器以及标准时间同步技术。我们的工作为在城市和数据中心内实际部署大规模轮辐式量子网络铺平了道路。"
     },
     {
       "journal": "quantum",
