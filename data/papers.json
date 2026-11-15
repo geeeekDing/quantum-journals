@@ -1,6 +1,118 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "papers": [
+    {
+      "journal": "ncomms",
+      "doi": "10.1038/s41467-026-79672-6",
+      "title": "Directly visualizing the energy level structure of quantum dot molecules",
+      "authors": [
+        "Heun Mo Yoo",
+        "Tanner M. Janda",
+        "Connor Nasseraddin",
+        "Jason R. Petta"
+      ],
+      "url": "https://doi.org/10.1038/s41467-026-79672-6",
+      "status": "published",
+      "date": "2026-11-15",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1038/s41467-026-79672-6",
+      "tags": [
+        "量子硬件"
+      ]
+    },
+    {
+      "journal": "aqt",
+      "doi": "10.1002/qute.70545",
+      "title": "Quantum State Texture From the Average Absolutes of Density Entries",
+      "authors": [
+        "Cong Xu",
+        "Ming‐Jing Zhao",
+        "Tao Li",
+        "Qing‐Hua Zhang",
+        "Shao‐Ming Fei"
+      ],
+      "url": "https://doi.org/10.1002/qute.70545",
+      "status": "published",
+      "date": "2026-11-14",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1002/qute.70545",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "aqt",
+      "doi": "10.1002/qute.70531",
+      "title": "Non‐Gaussian EPR Steering as a Quantum Resource for High‐Efficiency Quantum Batteries",
+      "authors": [
+        "P. H. Liao",
+        "C. Zhang",
+        "Y. Zhao",
+        "Z. F. Huang",
+        "Y. B. Yu",
+        "G. R. Jin",
+        "A. X. Chen"
+      ],
+      "url": "https://doi.org/10.1002/qute.70531",
+      "status": "published",
+      "date": "2026-11-14",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1002/qute.70531",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "aqt",
+      "doi": "10.1002/qute.70554",
+      "title": "Nanoscale Quantum‐State Mapping in the Scanning Electron Microscope Using Secondary Electron Energy Spectroscopy",
+      "authors": [
+        "Anjam Khursheed"
+      ],
+      "url": "https://doi.org/10.1002/qute.70554",
+      "status": "published",
+      "date": "2026-11-14",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1002/qute.70554",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "aqt",
+      "doi": "10.1002/qute.70542",
+      "title": "Infrared Quantum Illumination",
+      "authors": [
+        "Deyi Kong",
+        "Chenglin Zheng",
+        "Fei Wang"
+      ],
+      "url": "https://doi.org/10.1002/qute.70542",
+      "status": "published",
+      "date": "2026-11-14",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1002/qute.70542",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "aqt",
+      "doi": "10.1002/qute.70539",
+      "title": "Hybrid Quantum Secret‐Sharing Subprotocols for a Class of Non‐Maximal Quantum Access Structures",
+      "authors": [
+        "Lei Li",
+        "Zhi Li"
+      ],
+      "url": "https://doi.org/10.1002/qute.70539",
+      "status": "published",
+      "date": "2026-11-14",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1002/qute.70539",
+      "tags": [
+        "量子物理"
+      ]
+    },
     {
       "journal": "npjqi",
       "doi": "10.1038/s41534-026-01424-7",
@@ -3733,7 +3845,9 @@
       ],
       "abstract": "The importance of analyzing nontrivial datasets when testing quantum machine learning (QML) models is becoming increasingly prominent in literature, yet a cohesive framework for understanding dataset characteristics remains elusive. In this work, we introduce a data-generation tool that allows to construct semi-artificial classical datasets tailored to quantum kernel methods (QKMs). Using this tool, we show that on fully classical datasets, QKMs can require fewer training examples than classical kernels to reach comparable error, providing clear empirical evidence that data-efficient learning with quantum models is possible on classical data. The main motivation behind this tool is to enable the community to perform controlled studies to figure out which dataset characteristics are particularly fitting for quantum models by tuning the data-generation procedure. Additionally, our study brings a spectral-bias–based generalization metric from classical kernel methods into the QML domain and shows that the performance predicted by this metric aligns closely with empirical results, thereby closing an important gap between theory and practice in QML generalization. Our tool paves the way for a systematic exploration of dataset complexities. This could potentially contribute to a deeper understanding of the generalization benefits of QKM models (extendable to a broader family of QML models) and shifts the search for quantum advantage from ad hoc benchmark hunting to principled dataset design.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0"
+      "license": "https://creativecommons.org/licenses/by/4.0",
+      "abstract_hash": "7a1b2780bcd37003ad6ec5a96a6f21d2e250055171d5ac2a95f330ea7dd6df70",
+      "abstract_zh": "在测试量子机器学习（QML）模型时，分析非平凡数据集的重要性在文献中日益凸显，然而，一个用于理解数据集特征的内聚框架仍然难以实现。在本工作中，我们引入了一种数据生成工具，该工具允许构建针对量子核方法（QKMs）定制的半人工经典数据集。使用该工具，我们展示了在完全经典的数据集上，QKMs达到可比误差所需的训练样本可能比经典核方法更少，提供了明确的经验证据，表明在经典数据上使用量子模型进行数据高效学习是可能的。该工具背后的主要动机是使社区能够通过调整数据生成过程进行受控研究，以找出哪些数据集特征特别适合量子模型。此外，我们的研究将基于谱偏置的泛化度量从经典核方法引入QML领域，并表明该度量预测的性能与经验结果紧密一致，从而弥合了QML泛化中理论与实践之间的重要差距。我们的工具为系统探索数据集复杂性铺平了道路。这可能有助于更深入地理解QKM模型（可扩展到更广泛的QML模型家族）的泛化优势，并将寻找量子优势的方向从临时基准追逐转变为有原则的数据集设计。"
     },
     {
       "journal": "prb",
@@ -3842,7 +3956,9 @@
       ],
       "abstract": "Mathematical similarities between Fokker–Planck diffusion, Schrödinger evolution and quantum measurement do not establish physical equivalence. We identify separate requirements for stationary-density matching, a shared spectral clock, quantum-state admissibility and measurement statistics. For harmonic gradient diffusion, matching a quantum ground-state position density fixes only the ratio of spatial diffusivity to relaxation rate. A common clock across independently identified modes additionally requires equal relaxation-to-frequency ratios, equivalently equal mass-weighted diffusivities. Two independently calibratable residuals distinguish these requirements; circulating Ornstein–Uhlenbeck countermodels retain the matched stationary marginals without satisfying the common-clock condition. A laboratory test requires an independently specified carrier in the strongly overdamped regime; none is identified here. We distinguish density Fisher information from quantum Fisher information, specify the phase structure needed for local Schrödinger evolution, and state Husimi-state and quantum-channel admissibility criteria. A previously published completely positive measurement instrument provides a benchmark for finite-time records and backaction. Its Born weights and threshold preparation are supplied inputs. Selected earlier Architecture of Distinction (AoD) identifications are also clarified and corrected. Neither the Born rule nor an individual outcome is derived, and no parameter-free departure from quantum mechanics is predicted.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "85f4906e9b50fe77b3fd589f5892a85ab5769ce8d8fc97a48d6b3daf82f6d1f5",
+      "abstract_zh": "Fokker–Planck扩散、Schrödinger演化与量子测量之间的数学相似性并不确立物理等价性。我们确定了分别针对稳态密度匹配、共享谱时钟、量子态可容许性以及测量统计的独立要求。对于谐波梯度扩散，匹配量子基态位置密度仅确定空间扩散率与弛豫率之比。跨独立识别模式的共同时钟额外要求相等的弛豫-频率比，等价地，相等的质量加权扩散率。两个可独立校准的残差区分这些要求；循环Ornstein–Uhlenbeck反模型保留匹配的稳态边缘分布，但不满足共同时钟条件。实验室检验需要在强过阻尼区域中独立指定的载流子；此处未识别出任何此类载流子。我们区分密度Fisher信息与量子Fisher信息，指定局域Schrödinger演化所需的相位结构，并陈述Husimi态与量子信道的可容许性判据。先前发表的一个完全正测量仪器为有限时间记录与反作用提供了基准。其Born权重与阈值制备是作为输入提供的。选定的早期“区分架构”（AoD）识别也得到了澄清与修正。Born规则与单个结果均未被导出，且未预测任何无参数偏离量子力学的情况。"
     },
     {
       "journal": "pra",
@@ -3879,7 +3995,9 @@
       ],
       "abstract": "Relative motion between interacting systems can generate emergent energy scales that are absent in isolated systems. While uniform motion can be eliminated by a Galilean transformation, relative motion between interacting systems generally cannot. By coupling to an excitation’s spatial structure, relative motion generates a Doppler frequency determined by its wavevector and the relative velocity, providing a mechanism for driving nonequilibrium phenomena. In this tutorial, we illustrate these ideas using magnonic systems as a concrete platform. We first discuss motion-induced magnon transport between relatively moving ferromagnets, in which the Doppler frequency serves as an effective nonequilibrium bias in the perturbative regime. This mechanism produces magnon currents even without conventional driving forces such as temperature gradients or chemical potential differences. We then introduce motion-induced parametric instabilities. When the emergent scale becomes sufficiently large to resonantly create magnon pairs, the perturbative description breaks down, and the magnonic vacuum becomes unstable. This instability occurs above a critical velocity threshold and leads to spontaneous magnon-pair creation. Connections to related phenomena, including quantum friction, Cherenkov emission, and Zel’dovich superradiance, are also highlighted. The concept of an emergent energy scale provides a unifying framework for understanding transport phenomena and instabilities in quantum systems with relative motion.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "24253cda72306a85cc316bd6b71fdc709d15d75eecf36001c43f90e9679d2c14",
+      "abstract_zh": "相互作用系统之间的相对运动可以产生孤立系统中不存在的涌现能量尺度。虽然匀速运动可以通过伽利略变换消除，但相互作用系统之间的相对运动通常无法消除。通过与激发态的空间结构耦合，相对运动产生由波矢和相对速度决定的多普勒频率，为驱动非平衡现象提供了机制。在本教程中，我们以磁振子系统作为具体平台来说明这些思想。我们首先讨论相对运动的铁磁体之间由运动诱导的磁振子输运，其中多普勒频率在微扰区域充当有效的非平衡偏置。即使没有温度梯度或化学势差等传统驱动力，该机制也能产生磁振子电流。然后我们介绍运动诱导的参数不稳定性。当涌现尺度变得足够大以共振产生磁振子对时，微扰描述失效，磁振子真空变得不稳定。这种不稳定性发生在临界速度阈值以上，并导致自发磁振子对产生。还强调了与相关现象的联系，包括量子摩擦、切伦科夫辐射和泽尔多维奇超辐射。涌现能量尺度的概念为理解具有相对运动的量子系统中的输运现象和不稳定性提供了一个统一框架。"
     },
     {
       "journal": "prb",
@@ -4121,7 +4239,9 @@
       ],
       "abstract": "Quantum-mechanical interaction potentials support localized bound states below the dissociation threshold or delocalized scattering states above it. Although bound states are energetically isolated, scattering states couple a quantum system to environmental modes, making dissipation and loss intrinsic to open systems. Bound states in the continuum are an exception, as destructive interference keeps them localized within the scattering continuum. Theory predicts that such states can arise through interference between two Feshbach resonances coupled to a common continuum. Here we form such an interference-stabilized state in ultracold collisions of 6 Li atoms by coherently coupling two tunable Feshbach resonances using Floquet engineering. At a critical parameter point, elastic and inelastic coupling to the continuum vanish, producing a molecular state above the dissociation threshold. Consequently, resonant scattering features disappear and the colliding atoms become effectively transparent to one another. Full coupled-channel calculations and a minimal non-Hermitian model quantitatively reproduce our observations and identify the state as a Friedrich–Wintgen bound state in the continuum. These results show how quantum interference can control openness in quantum matter and enable the engineering of non-Hermitian Hamiltonians.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0"
+      "license": "https://creativecommons.org/licenses/by/4.0",
+      "abstract_hash": "cbf561d77e3c02fed4aeb129e17f38a07c947115678c107a2b757f77947abf2a",
+      "abstract_zh": "量子力学相互作用势支持低于解离阈值的局域束缚态或高于解离阈值的离域散射态。尽管束缚态在能量上是孤立的，但散射态将量子系统与环境模式耦合，使得耗散和损失成为开放系统的内在特征。连续谱中的束缚态是一个例外，因为相消干涉使其局域化在散射连续谱内。理论预测，这种状态可以通过耦合到共同连续谱的两个Feshbach共振之间的干涉产生。在这里，我们通过使用Floquet工程相干耦合两个可调Feshbach共振，在6 Li原子的超冷碰撞中形成了这种干涉稳定态。在临界参数点，与连续谱的弹性和非弹性耦合消失，在解离阈值以上产生分子态。因此，共振散射特征消失，碰撞原子彼此变得有效透明。全耦合通道计算和最小非厄米模型定量再现了我们的观察结果，并将该状态识别为Friedrich–Wintgen连续谱中的束缚态。这些结果展示了量子干涉如何控制量子物质中的开放性，并实现非厄米哈密顿量的工程化。"
     },
     {
       "journal": "prb",
@@ -4469,7 +4589,9 @@
       ],
       "abstract": "The generation of transverse voltage in superconducting thin films carrying a longitudinal current has been recently related to demonstrate exotic, symmetry-breaking transport phenomena. To understand the underlying phenomenon we chose two distinctly different systems to investigate; a conventional (Nb) and a nonconventional (Ni/Bi bilayer) superconductor. A systematic study of this transverse response in these type-II superconducting thin films we aimed towards establishing its microscopic origin. Both longitudinal and transverse magnetotransport measurements were carried out with Hall-bar patterned devices as a function of temperature with magnetic field applied out-of-plane. In both systems, a sharp, field antisymmetric transverse resistance emerges in the superconducting transition region, closely following the field derivative of the longitudinal resistance while it was vanishingly small or absent in the fully superconducting or normal states. Based on the vortex-flow model, the behavior could be quantitatively attributed as the transverse voltage arising due to the motion of Abrikosov vortices under a combined action of Magnus like force and viscous drag force, rather than from any exotic or intrinsic Hall-type mechanism. The close correspondence between a nominally conventional superconductor Nb and an unconventional superconductor heterostructure incorporating a ferromagnetic layer indicates that the vortex dynamics alone, independent of magnetic proximity effects or unconventional pairing, seems to be sufficient to account for the observed transverse signal. Our observations while seems to provide a quantitative, material-independent model for interpreting transverse voltages in superconducting films, raises the concerns in attributing such signals to exotic physics without first ruling out conventional vortex-flow contributions.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "08a5f65aad977e330b82b4d293755750e2ad61b3c06e84f9f84cb9a478b750a8",
+      "abstract_zh": "超导薄膜中纵向电流产生横向电压的现象最近被认为与展示奇异的对称破缺输运现象有关。为了理解这一潜在现象，我们选择了两种截然不同的体系进行研究：常规超导体（Nb）和非常规超导体（Ni/Bi双层）。我们旨在通过系统研究这些II型超导薄膜中的横向响应来确立其微观起源。我们使用霍尔条图案化器件，在不同温度下以及施加面外磁场的条件下，进行了纵向和横向磁输运测量。在这两个体系中，超导转变区域内均出现了一个尖锐的、对磁场反对称的横向电阻，其变化紧密跟随纵向电阻的磁场导数，而在完全超导态或正常态时该横向电阻极小或不存在。基于涡旋流动模型，该行为可以定量归因于在类马格努斯力和粘滞阻力共同作用下阿布里科索夫涡旋运动所产生的横向电压，而非任何奇异或本征的霍尔型机制。名义上常规的超导体Nb与包含铁磁层的非常规超导体异质结构之间的密切对应表明，仅涡旋动力学本身，独立于磁邻近效应或非常规配对，似乎就足以解释观测到的横向信号。我们的观察似乎提供了一个定量的、与材料无关的模型来解释超导薄膜中的横向电压，但同时也引发了对以下做法的担忧：在未首先排除常规涡旋流动贡献的情况下，就将此类信号归因于奇异物理。"
     },
     {
       "journal": "prl",
@@ -4545,7 +4667,9 @@
       ],
       "abstract": "We solve Dicke superradiance with two or more competing collective decay channels of tunable rates using a symbolic quantum-trajectory construction. The method yields closed time-domain populations and observables as finite combinations of exponential terms for arbitrary numbers of emitters and arbitrary decay rates. For two channels, the behavior of the stationary ground-state distribution resembles a first-order phase transition at the point where the channel-rate ratio is equal to unity. For balanced d -channel decay, we obtain scaling laws for the superradiant peak time and intensity. These results unify and extend single-channel Dicke dynamics to multilevel emitters and provide a compact tool for cavity and waveguide experiments, where permutation-symmetric reservoirs engineer multiple collective decay paths.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "16227aadd3d6f3cd87ea49a28c7fb126b14c4edd6b542840adbff0902b0b182e",
+      "abstract_zh": "我们利用符号量子轨迹构造，求解具有两个或多个可调速率相互竞争的集体衰减通道的Dicke超辐射。该方法对任意数量的发射体和任意衰减速率，给出封闭的时域布居数和可观测量，表示为有限项的指数组合。对于两个通道，当通道速率比等于1时，稳态基态分布的行为类似于一阶相变。对于平衡的d通道衰减，我们获得了超辐射峰值时间和强度的标度律。这些结果将单通道Dicke动力学统一并推广到多能级发射体，并为腔和波导实验提供了一种紧凑的工具，其中置换对称的库工程化多个集体衰减路径。"
     },
     {
       "journal": "prxquantum",
@@ -4571,7 +4695,9 @@
       ],
       "abstract": "Shallow nitrogen-vacancy (NV) centers in diamond are promising nanoscale quantum sensors, yet their coherence is strongly limited by surface-induced noise. Surface adsorbates are widely believed to be a major source of decoherence. Here, we test this assumption by characterizing shallow single NV centers under ultrahigh vacuum (UHV) conditions, where the diamond surface is kept free of adsorbates, and comparing their behavior to ambient conditions. Surprisingly, we observe a ∼ 4 × reduction in the Hahn echo coherence time T 2 in UHV. By combining Hahn echo measurements in the single-quantum and double-quantum (DQ) bases, we separate contributions from different noise sources and find that both electric and magnetic noise are enhanced in UHV. In contrast, T 1 measurements reveal an increased DQ T 1 in UHV, indicating suppressed electric field noise in the ∼ 100 MHz frequency regime. These results point to a modification of the surface noise spectrum upon adsorbate removal, with different frequency regimes arising from distinct microscopic mechanisms. Specifically, we find that the low-frequency noise is consistent with increased surface charge in UHV that can be compensated by surface adsorbates in ambient conditions. Our findings highlight a complex and previously underappreciated role of surface adsorbates in shaping the noise environment of shallow NV centers, with important implications for nanoscale quantum sensing.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "7e2048a2bcb663580146adfc8e8dcc84d863ed0bcf54c07002bce24aa4db25e4",
+      "abstract_zh": "金刚石中的浅层氮-空位（NV）中心是有前景的纳米尺度量子传感器，然而其相干性受到表面诱导噪声的强烈限制。表面吸附物被广泛认为是退相干的主要来源。在此，我们通过表征超高真空（UHV）条件下的浅层单个NV中心——其中金刚石表面保持无吸附物——并将其行为与环境条件进行比较，来检验这一假设。令人惊讶的是，我们观察到在UHV中Hahn回波相干时间T₂约减少4倍。通过结合单量子和双量子（DQ）基下的Hahn回波测量，我们分离了不同噪声源的贡献，并发现电场噪声和磁场噪声在UHV中均增强。相比之下，T₁测量揭示UHV中DQ T₁增加，表明在约100 MHz频率范围内电场噪声受到抑制。这些结果表明，吸附物去除后表面噪声谱发生改变，不同频率范围源于不同的微观机制。具体而言，我们发现低频噪声与UHV中表面电荷增加一致，而该表面电荷在环境条件下可由表面吸附物补偿。我们的发现凸显了表面吸附物在塑造浅层NV中心噪声环境中的复杂且此前未被充分认识的作用，这对纳米尺度量子传感具有重要意义。"
     },
     {
       "journal": "prresearch",
@@ -4927,7 +5053,9 @@
       ],
       "abstract": "As quantum communication systems and networks are becoming a commercial reality, clarity on their future infrastructure is increasingly important. Based on the inevitable presence of some amount of loss, chromatic dispersion, and timing jitter, we present simulations to show that certain wavelengths and bandwidths have clear advantages.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "56292e5a2c33203a1c8f23743b1c14e40ea7b1c4f3c82e1b574b074553ed722c",
+      "abstract_zh": "随着量子通信系统和网络逐渐成为商业现实，明确其未来基础设施变得日益重要。基于不可避免存在的一定量的损耗、色散和时间抖动，我们通过模拟展示，特定的波长和带宽具有明显优势。"
     },
     {
       "journal": "prb",
@@ -5011,7 +5139,9 @@
       ],
       "abstract": "We show that in a minimal setup of two waveguide-coupled quantum emitters, separated by long distances and subject to an external field, time-delayed feedback can be a resource for sensing field gradients. While the field gradient induces a detuning between the emitters, the large interatomic separations render the system dynamics non-Markovian. We show that the quantum Fisher information for estimating the detuning parameter, and thereby the field gradient, is enhanced in the presence of non-Markovian delay. Such an enhancement can be attributed to the formation of atom-photon quasibound states that enable the field to interact with the emitters for longer times, thereby gaining more information about their relative detunings. Additionally, in the presence of delay, the interaction between the emitters is mediated via multiple spectral modes of the field, further enhancing the sensing capabilities of the system. Our results establish non-Markovian time-delayed feedback and multimode reservoirs as a resource for distributed quantum sensing with waveguide-coupled quantum emitters.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "75481cde38e13d7b1f330b4914291b5f2efe19b19681ae0302f9792d7722e8de",
+      "abstract_zh": "我们证明，在由两个波导耦合量子发射器构成的最小设置中，当它们相隔长距离并受到外场作用时，时间延迟反馈可以成为传感场梯度的资源。虽然场梯度会引起发射器之间的失谐，但较大的原子间距离使系统动力学呈现非马尔可夫特征。我们证明，在非马尔可夫延迟存在时，用于估计失谐参数从而估计场梯度的量子费舍尔信息得到增强。这种增强可归因于原子-光子准束缚态的形成，使场能够与发射器相互作用更长时间，从而获取关于其相对失谐的更多信息。此外，在延迟存在时，发射器之间的相互作用通过场的多个谱模介导，进一步增强了系统的传感能力。我们的结果确立了非马尔可夫时间延迟反馈和多模库作为波导耦合量子发射器分布式量子传感的资源。"
     },
     {
       "journal": "pra",
@@ -5136,7 +5266,9 @@
       ],
       "abstract": "We investigate the zero-temperature transition from the polarized normal phase to the FFLO state in a two-dimensional Fermi gas by means of a diagrammatic t -matrix approach. We first show that the standard non-self-consistent theory produces an unphysical critical polarization because of a severe violation of the Luttinger theorem. Motivated by this observation, we introduce a minimal self-consistent extension that largely restores compliance with the Luttinger theorem while preserving the analytical simplicity of the original formalism. This leads to a physically consistent critical polarization over the whole interaction range. Building on this improved description, we characterize the quantum critical behavior of the FFLO transition through the quasiparticle decay rates, quasiparticle weights, momentum distributions, and the critical dynamics of both fermionic and bosonic degrees of freedom. We further compare the two- and three-dimensional systems, showing that their critical properties can be understood within a unified geometrical picture based on the nesting of the majority and minority Fermi surfaces. Finally, for a three-dimensional lattice, we demonstrate within the Hertz–Millis framework that vertex corrections are irrelevant, thereby placing the FFLO quantum phase transition in the mean-field universality class, in close analogy with the itinerant antiferromagnet transition.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "25101a7bdcc141b5af8e3dc025dcdda03363b73f127c6a4411b92aa34a347776",
+      "abstract_zh": "我们通过图解t矩阵方法研究了二维费米气体中从极化正常相到FFLO态的零温转变。我们首先表明，由于严重违反Luttinger定理，标准的非自洽理论会产生一个非物理的临界极化。受此观察启发，我们引入了一个最小自洽扩展，该扩展在很大程度上恢复了对Luttinger定理的符合，同时保持了原形式体系的解析简洁性。这导致在整个相互作用范围内产生物理上一致的临界极化。基于这一改进的描述，我们通过准粒子衰减率、准粒子权重、动量分布以及费米子和玻色子自由度的临界动力学来刻画FFLO转变的量子临界行为。我们进一步比较了二维和三维系统，表明它们的临界性质可以在基于多数和少数费米面嵌套的统一几何图像内理解。最后，对于三维晶格，我们在Hertz–Millis框架内证明了顶点修正是不相关的，从而将FFLO量子相变置于平均场普适类中，这与巡游反铁磁转变非常相似。"
     },
     {
       "journal": "acm-tqc",
@@ -22057,122 +22189,6 @@
         "量子纠错",
         "量子算法"
       ]
-    },
-    {
-      "journal": "sciadv",
-      "doi": "10.1126/sciadv.aed8404",
-      "title": "Photonic networking of quantum memories in high dimensions",
-      "authors": [
-        "Mikhail Shalaev",
-        "Sagnik Saha",
-        "George Toh",
-        "Isabella Goetting",
-        "Ashish Kalakuntla",
-        "Harriet Bufan Shi",
-        "Jameson O’Reilly",
-        "Yichao Yu",
-        "Christopher Monroe"
-      ],
-      "url": "https://doi.org/10.1126/sciadv.aed8404",
-      "status": "published",
-      "date": "2026-07-17",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1126/sciadv.aed8404",
-      "tags": [
-        "量子算法",
-        "量子通信",
-        "量子硬件",
-        "量子信息与基础"
-      ]
-    },
-    {
-      "journal": "sciadv",
-      "doi": "10.1126/sciadv.aeg2635",
-      "title": "Mitigating surface structural disorder for high-performance near-infrared quantum dot light-emitting diodes",
-      "authors": [
-        "Jiawei Chen",
-        "Xiyu Luo",
-        "Xiangyu Liu",
-        "Boning Han",
-        "Danlei Zhu",
-        "Yuhang Cui",
-        "Xudong Hu",
-        "Jiuyao Du",
-        "Wenyu Gu",
-        "Xinghua Yan",
-        "Ye Wu",
-        "Yuanzhuang Cheng",
-        "Shulin Chen",
-        "Xiaoming Li",
-        "Lian Duan",
-        "Dongxin Ma",
-        "Haibo Zeng"
-      ],
-      "url": "https://doi.org/10.1126/sciadv.aeg2635",
-      "status": "published",
-      "date": "2026-07-17",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1126/sciadv.aeg2635",
-      "tags": [
-        "量子物理"
-      ]
-    },
-    {
-      "journal": "prxquantum",
-      "doi": "10.1103/vszq-z1sh",
-      "title": "Loss Mechanisms in High-Coherence Multimode Mechanical Resonators Coupled to Superconducting Circuits",
-      "authors": [
-        "Raquel Garcia-Belles, Alexander Anferov, Lukas F. Deeg, Loris Colicchio, Arianne Brooks, Tom Schatteburg, Maxwell Drimmer, Ines C. Rodrigues, Rodrigo Benevides, Marco Liffredo, Jyotish Patidar, Oleksandr Pshyk, Matteo Fadel, Luis Guillermo Villanueva, Sebastian Siol, Gerhard Kirchmair, and Yiwen Chu"
-      ],
-      "url": "https://link.aps.org/doi/10.1103/vszq-z1sh",
-      "status": "published",
-      "date": "2026-07-17",
-      "date_kind": "publisher_feed",
-      "evidence": "https://feeds.aps.org/rss/recent/prxquantum.xml",
-      "tags": [
-        "量子硬件"
-      ]
-    },
-    {
-      "journal": "aplq",
-      "doi": "10.1063/5.0335941",
-      "title": "Geometry-optimised plasmon-enhanced diamond NV− scanning probes for high-efficiency quantum sensing",
-      "authors": [
-        "Hamidreza Siampour"
-      ],
-      "url": "https://doi.org/10.1063/5.0335941",
-      "status": "published",
-      "date": "2026-07-17",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1063/5.0335941",
-      "tags": [
-        "量子测量"
-      ],
-      "abstract": "Nitrogen-vacancy (NV−) centers in diamond are a leading platform for room-temperature quantum sensing with nanoscale spatial resolution. In scanning-probe implementations, however, overall performance remains limited by the efficiency of optical excitation and fluorescence collection, which directly constrain readout signal-to-noise ratio, spin contrast, and magnetic-field sensitivity. Here, we present a comparative numerical study of plasmon-enhanced diamond NV− scanning probes in which the optical response is engineered through the tip geometry and local metallic functionalization. We analyze paraboloid, truncated-paraboloid, single-cone, double-cone, and trench-cone tip geometries, considering both bare and Au-coated structures. Using full-vector electromagnetic simulations, we compare the fraction coupled into the collection objective, Tobj, alongside the normalized total radiative decay rate Ttot, the waveguide-coupled transfer Twg, the effective β-factor, and the collection efficiency. Tobj is used as the main practical comparison metric, while the other quantities clarify the underlying optical behavior. Among the investigated designs, the truncated-paraboloid probe offers the best bare-tip balance of local enhancement and useful photon extraction, while thin Au coatings further improve both the effective β-factor and the collection efficiency. In the explored design space, the 50 nm Au-coated truncated-paraboloid probe gives the highest objective-coupled signal, Tobj = 0.92, together with Ttot = 1.17, β = 94%, and a collection efficiency of 79%, establishing a practical route toward improved optical readout and enhanced quantum sensing with scanning NV− probes.",
-      "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
-    },
-    {
-      "journal": "sciadv",
-      "doi": "10.1126/sciadv.aeb7304",
-      "title": "Direct characterization of quantum dynamics via generalized weak values",
-      "authors": [
-        "Liang Xu",
-        "Yue Pan",
-        "Hui Li",
-        "Ben Wang",
-        "Aonan Zhang",
-        "Ying Dong",
-        "Lijian Zhang"
-      ],
-      "url": "https://doi.org/10.1126/sciadv.aeb7304",
-      "status": "published",
-      "date": "2026-07-17",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1126/sciadv.aeb7304",
-      "tags": [
-        "量子信息与基础"
-      ]
     }
   ],
   "sources": [
@@ -22408,7 +22424,7 @@
       "source": "ncomms",
       "kind": "rss",
       "ok": true,
-      "count": 0
+      "count": 1
     },
     {
       "source": "ncomms",
@@ -22450,7 +22466,7 @@
       "source": "prresearch",
       "kind": "accepted",
       "ok": true,
-      "count": 32
+      "count": 33
     },
     {
       "source": "prapplied",
