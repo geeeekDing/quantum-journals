@@ -1,6 +1,658 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "papers": [
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/x7vj-t725",
+      "title": "Vorticity induced by nonfrontal collisions of quantum droplets",
+      "authors": [
+        "J. E. Alba-Arroyo",
+        "Santiago F. Caballero-Benitez",
+        "R. Jáuregui"
+      ],
+      "url": "https://doi.org/10.1103/x7vj-t725",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/x7vj-t725",
+      "tags": [
+        "量子物理"
+      ],
+      "abstract": "The rotational dynamics induced by the nonfrontal binary collisions of quantum droplets composed of ultracold alkali atoms are analyzed. A theoretical study is presented within the extended Gross-Pitaevskii equation framework, using experimentally feasible conditions. Numerical experiments elucidate a rich landscape of possible topological excitations in the system that are robust toward measurements. The collision of heteronuclear quantum droplets composed of K 41 and Rb 87 atoms in the incompressible regime gives rise to dynamical instabilities that spontaneously generate topological defects: vortex rings, dislocation lines, and vortices in one species. Their presence depends on the Weber number and the impact parameter. An experimental proposal for vortex detection in both real and Fourier spaces using interaction ramps is described.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "478c99dc8687e9e73864891986ca393063867ca0e247bdf9aa28d2d09ef04b2b",
+      "abstract_zh": "分析了由超冷碱原子组成的量子液滴在非正面二元碰撞中引发的旋转动力学。在扩展的Gross-Pitaevskii方程框架内，利用实验上可行的条件进行了理论研究。数值实验揭示了系统中可能存在的丰富拓扑激发景观，这些激发对测量具有鲁棒性。由K 41和Rb 87原子组成的异核量子液滴在不可压缩区域中的碰撞产生了动态不稳定性，自发地生成拓扑缺陷：一种物种中的涡环、位错线和涡旋。它们的存在取决于韦伯数和撞击参数。描述了利用相互作用斜坡在实空间和傅里叶空间中进行涡旋检测的实验提案。"
+    },
+    {
+      "journal": "sciadv",
+      "doi": "10.1126/sciadv.aeh8616",
+      "title": "Tunable spectral correlations of highly multimode visible light via broadband quantum frequency conversion",
+      "authors": [
+        "Federico Presutti",
+        "Logan G. Wright",
+        "Shi-Yuan Ma",
+        "Tianyu Wang",
+        "Benjamin K. Malia",
+        "Tatsuhiro Onodera",
+        "Peter L. McMahon"
+      ],
+      "url": "https://doi.org/10.1126/sciadv.aeh8616",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1126/sciadv.aeh8616",
+      "tags": [
+        "量子算法",
+        "量子测量",
+        "量子信息与基础",
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/ht4z-4rv2",
+      "title": "Topological superradiant phases in a quantum Rabi array",
+      "authors": [
+        "You-Qi Lu",
+        "Yu-Yu Zhang",
+        "Zi-Xiang Hu"
+      ],
+      "url": "https://doi.org/10.1103/ht4z-4rv2",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/ht4z-4rv2",
+      "tags": [
+        "量子物理",
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "quantum",
+      "doi": "10.22331/q-2026-11-20-2279",
+      "title": "Symmetries, correlation functions, and entanglement of general quantum Motzkin spin-chains",
+      "authors": [
+        "Varun Menon",
+        "Andi Gu",
+        "Ramis Movassagh"
+      ],
+      "url": "https://doi.org/10.22331/q-2026-11-20-2279",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.22331/q-2026-11-20-2279",
+      "tags": [
+        "量子信息与基础"
+      ],
+      "abstract": "Motzkin spin-chains, which include `colorless' (integer spin s = 1 ) and `colorful' ( s ≥ 2 ) variants, are one-dimensional (1D) local integer spin models notable for their lack of a conformal field theory (CFT) description of their low-energy physics, despite being gapless. The colorful variants are particularly unusual, as they exhibit power-law violation of the area-law of entanglement entropy (as n in system size n ), rather than a logarithmic violation as seen in a CFT. In this work, we analytically discover several unique properties of these models, potentially suggesting a new universality class for their low-energy physics. We identify a complex structure of symmetries and unexpected scaling behavior in spin-spin correlations, which deviate from known 1D universality classes. Specifically, the s = 1 chain exhibits U ( 1 ) spontaneous symmetry breaking and ferromagnetic order. Meanwhile, the s ≥ 2 chains do not appear to spontaneously break any symmetries, but display quasi-long-range algebraic order with power-law decaying correlations, inconsistent with standard Berezinskii-Kosterlitz-Thouless (BKT) critical exponents. We also derive asymptotic scaling expressions, with explicit additive constants, for entanglement measures in both colorless and colorful chains, generalizing previous results of Movassagh \\cite{movassagh2017entanglement}, while providing benchmarks for potential quantum simulation experiments. The n entanglement scaling implies that any matrix-product-state description of these ground states requires bond dimension e Ω ( n ) ; this superpolynomial cost of the standard 1D tensor-network toolkit, along with the analytical tractability of their ground state properties, positions Motzkin spin chains as intriguing testbeds for quantum simulation of many-body physics.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "bb83122afa28b3bf82b46b13780635c92193a8d8e1872b31c22ef2d0aa773483",
+      "abstract_zh": "Motzkin自旋链，包括“无色”（整数自旋s = 1）和“有色”（s ≥ 2）变体，是一维（1D）局部整数自旋模型，其低能物理缺乏共形场论（CFT）描述而著称，尽管它们是无能隙的。有色变体尤其不寻常，因为它们表现出对纠缠熵面积律的幂律违反（系统大小为n时呈n的幂律），而非CFT中所见的对数违反。在本工作中，我们分析性地发现了这些模型的若干独特性质，可能暗示其低能物理属于一个新的普适类。我们识别出对称性的复杂结构和自旋-自旋关联中出乎意料的标度行为，这些偏离了已知的一维普适类。具体而言，s = 1链表现出U(1)自发对称破缺和铁磁序。同时，s ≥ 2链似乎不自发破缺任何对称性，但显示出具有幂律衰减关联的准长程代数序，与标准的Berezinskii-Kosterlitz-Thouless（BKT）临界指数不一致。我们还推导了无色和有色彩链中纠缠度量的渐近标度表达式，包含显式加性常数，推广了Movassagh先前的结果\\cite{movassagh2017entanglement}，同时为潜在的量子模拟实验提供了基准。n的纠缠标度意味着这些基态的任何矩阵乘积态描述都需要键维e^{Ω(n)}；标准一维张量网络工具包的这种超多项式成本，加之其基态性质的分析可处理性，使Motzkin自旋链成为多体物理量子模拟的引人入胜的测试平台。"
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/pd42-lb7j",
+      "title": "Static entanglement structure and Bell-state preparation in the tripartite quantum Rabi model",
+      "authors": [
+        "Li-Li Gao",
+        "Zi-Xuan Chen",
+        "Long-Jie Li",
+        "Zi-Cheng Liu",
+        "A-Long Zhou",
+        "Chuan-Cun Shu",
+        "Zi-Min Li"
+      ],
+      "url": "https://doi.org/10.1103/pd42-lb7j",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/pd42-lb7j",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/vcbb-k8zw",
+      "title": "Robust high-order quantum simulation using finite-width pulses",
+      "authors": [
+        "Leeseok Kim",
+        "Milad Marvian"
+      ],
+      "url": "https://doi.org/10.1103/vcbb-k8zw",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/vcbb-k8zw",
+      "tags": [
+        "量子模拟与多体"
+      ],
+      "abstract": "We present a general framework for promoting first-order pulse sequences in quantum simulation to higher-order sequences that maintain robustness in the presence of finite pulse-width effects. Our approach maps a given first-order pulse sequence to a first-order Trotter formula, applies higher-order Trotter-formula constructions, and then compiles the resulting evolution back into physically implementable finite-width pulses via dynamically corrected gates. The resulting sequences achieve arbitrarily high-order error scaling with respect to the control-cycle time of the underlying first-order sequence while maintaining robustness to finite pulse-width effects. The framework also enables the use of multiproduct formulas for more efficient constructions. We apply the framework to several physically motivated quantum-simulation tasks and numerically verify the predicted error scalings.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "3b534d9461f51ae6bec3e7b45f97968a409cb1845de292f9923662bd8e65cb65",
+      "abstract_zh": "我们提出一个通用框架，用于将量子模拟中的一阶脉冲序列提升至高阶序列，这些高阶序列在有限脉冲宽度效应存在时仍保持鲁棒性。我们的方法将给定的一阶脉冲序列映射为一阶Trotter公式，应用高阶Trotter公式构造，然后通过动态校正门将所得演化编译回物理上可实现的有限宽度脉冲。所得序列在底层一阶序列的控制周期时间方面实现了任意高阶误差标度，同时保持对有限脉冲宽度效应的鲁棒性。该框架还允许使用多乘积公式以实现更高效的构造。我们将该框架应用于若干具有物理动机的量子模拟任务，并数值验证了预测的误差标度。"
+    },
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/6lqb-4j6k",
+      "title": "Robust and cost-effective quantum network using Kramers-Kronig receiver",
+      "authors": [
+        "Xu Liu",
+        "Tao Wang",
+        "Junpeng Zhang",
+        "Yankai Xu",
+        "Yuehan Xu",
+        "Lang Li",
+        "Peng Huang",
+        "Guihua Zeng"
+      ],
+      "url": "https://doi.org/10.1103/6lqb-4j6k",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/6lqb-4j6k",
+      "tags": [
+        "量子通信",
+        "量子信息与基础"
+      ],
+      "abstract": "The quantum internet holds the potential to facilitate applications that are fundamentally inaccessible to the classical internet. Among its most prominent applications is quantum key distribution (QKD) networks, which connect two distant nodes to establish a secure key based on the principles of quantum mechanics. However, the subsequent extensive reliance on interferences in existing QKD protocols leads to the weak robustness of the system and the corresponding network. In this work, we propose a robust and cost-effective quantum network using the Kramers-Kronig receiver. We first propose a continuous-variable QKD protocol based on direct detection without interference, which achieves the recovery of quadrature components through the Kramers-Kronig relation. Subsequently, we have extended this protocol to continuous-variable quantum access networks, further highlighting the robustness and cost advantages of interference-free detection. The experimental results show that each user can achieve an asymptotic secret key rate of 50 kbit/s within the access network range using only one photodetector without optical interference structures. This scheme opens up new possibilities in establishing a robust and cost-effective quantum network, serving as a foundational element in the progress toward establishing a large-scale quantum internet.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "0fcec1b808be97930b69e12190ace622dcfc4331d31cd569fc1224b98384bad1",
+      "abstract_zh": "量子互联网有潜力促进经典互联网根本无法实现的各类应用。其中最突出的应用之一是量子密钥分发（QKD）网络，它连接两个遥远节点，基于量子力学原理建立安全密钥。然而，现有QKD协议随后对干涉的广泛依赖导致系统及相应网络的鲁棒性较弱。在本工作中，我们提出了一种使用Kramers-Kronig接收机的鲁棒且成本高效的量子网络。我们首先提出了一种基于直接探测、无需干涉的连续变量QKD协议，该协议通过Kramers-Kronig关系实现正交分量的恢复。随后，我们将该协议扩展到连续变量量子接入网络，进一步凸显了无干涉探测的鲁棒性和成本优势。实验结果表明，在接入网络范围内，每个用户仅使用一个光电探测器且无需光学干涉结构，即可实现50 kbit/s的渐近秘密密钥速率。该方案为建立鲁棒且成本高效的量子网络开辟了新的可能性，成为迈向大规模量子互联网进程中的基础要素。"
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/j5q3-4qww",
+      "title": "Resonant delay in a stationary quantum clock: Lifting the threshold mask",
+      "authors": [
+        "Paul C. W. Davies",
+        "Damien A. Easson"
+      ],
+      "url": "https://doi.org/10.1103/j5q3-4qww",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/j5q3-4qww",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/yc7d-rybf",
+      "title": "Reconfigurable superconducting quantum circuits enabled by micro-scale liquid-metal interconnects",
+      "authors": [
+        "Zhancheng Yao",
+        "Nicholas E. Fuhr",
+        "Nicholas Russo",
+        "David W. Abraham",
+        "Kevin E. Smith",
+        "David J. Bishop"
+      ],
+      "url": "https://doi.org/10.1103/yc7d-rybf",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/yc7d-rybf",
+      "tags": [
+        "量子算法"
+      ]
+    },
+    {
+      "journal": "npjqi",
+      "doi": "10.1038/s41534-026-01415-8",
+      "title": "RF-free control of nuclear spins with color centers in silicon carbide",
+      "authors": [
+        "Raphael Wörnle",
+        "Jonathan Körber",
+        "Timo Steidl",
+        "Georgy V. Astakhov",
+        "Durga B. R. Dasari",
+        "Florian Kaiser",
+        "Vadim Vorobyov",
+        "Jörg Wrachtrup"
+      ],
+      "url": "https://doi.org/10.1038/s41534-026-01415-8",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1038/s41534-026-01415-8",
+      "tags": [
+        "量子通信",
+        "量子硬件",
+        "量子测量",
+        "量子研究"
+      ],
+      "abstract": "Color centers that enable nuclear-spin control offer a powerful route towards simplified and scalable quantum devices. Such capabilities are especially valuable for quantum sensing and computing platforms that already find applications in biology, materials science, and geophysics. A key challenge is the coherent manipulation of nearby nuclear spins, which serve as quantum memories and auxiliary qubits but conventionally require additional high-power RF fields, which increase the experimental complexity and overall power consumption. Finding systems where both electron and nuclear spins can be controlled using a single MW source is therefore highly desirable. Here, using a modified divacancy center in silicon carbide, we show that coherent control of a coupled nuclear spin is possible without any RF fields. Instead, MW pulses driving the electron spin also manipulate the nuclear spin through hyperfine-enhanced effects, activated by a precisely tilted external magnetic field. We demonstrate high-fidelity nuclear-spin control, achieving 89% two-qubit tomography fidelity and nearly T 1 -limited nuclear coherence times. This approach offers a simplified and scalable route for future quantum applications.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0",
+      "abstract_hash": "a1f3d31fcc51dafb9fc1c19ed5c826e20a642c2cbb3d3e67221e99382bbc4cfb",
+      "abstract_zh": "能够实现核自旋控制的色心为简化且可扩展的量子器件提供了一条强大途径。这些能力对于已在生物学、材料科学和地球物理学中得到应用的量子传感和计算平台尤为宝贵。一个关键挑战是邻近核自旋的相干操控，这些核自旋充当量子存储器和辅助量子比特，但传统上需要额外的高功率射频场，这增加了实验复杂性和整体功耗。因此，找到能够使用单一微波源同时控制电子自旋和核自旋的系统非常理想。在此，利用碳化硅中修饰过的双空位色心，我们展示了无需任何射频场即可实现对耦合核自旋的相干控制。相反，驱动电子自旋的微波脉冲也通过超精细增强效应操控核自旋，该效应由精确倾斜的外部磁场激活。我们展示了高保真度的核自旋控制，实现了89%的双量子比特层析保真度和接近T1极限的核相干时间。这种方法为未来的量子应用提供了一条简化且可扩展的途径。"
+    },
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/th44-jfjh",
+      "title": "Quantum-enhanced Markov Chain Monte Carlo for Combinatorial Optimization",
+      "authors": [
+        "Kate V. Marshall",
+        "Daniel J. Egger",
+        "Michael Garn",
+        "Francesca Schiavello",
+        "Sebastian Brandhofer",
+        "Christa Zoufal",
+        "Stefan Woerner"
+      ],
+      "url": "https://doi.org/10.1103/th44-jfjh",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/th44-jfjh",
+      "tags": [
+        "量子测量"
+      ]
+    },
+    {
+      "journal": "prb",
+      "doi": "10.1103/tdlt-y9pd",
+      "title": "Quantum transport in Cooper pair splitters using hierarchical equations of motion",
+      "authors": [
+        "Riya Baruah",
+        "Neill Lambert",
+        "Franco Nori",
+        "Christian Flindt"
+      ],
+      "url": "https://doi.org/10.1103/tdlt-y9pd",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/tdlt-y9pd",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/f8mx-vsfw",
+      "title": "Quantum integrable matrix models of spinor Bose gases in one spatial dimension",
+      "authors": [
+        "Hannes Köper",
+        "Thomas Gasenzer"
+      ],
+      "url": "https://doi.org/10.1103/f8mx-vsfw",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/f8mx-vsfw",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/tg1w-vprw",
+      "title": "Quantum control of chemical bonding and antibonding: Entanglement of a single alkaline-earth-metal long-range dimer",
+      "authors": [
+        "G. A. Bougas",
+        "U. D. Jentschura",
+        "S. I. Mistakidis"
+      ],
+      "url": "https://doi.org/10.1103/tg1w-vprw",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/tg1w-vprw",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/4qqz-4sy6",
+      "title": "Quantifying irreversibility of quantum channels via dual maps",
+      "authors": [
+        "Zhaohui Pei",
+        "Hanyu Yang",
+        "Nan Li",
+        "Shunlong Luo"
+      ],
+      "url": "https://doi.org/10.1103/4qqz-4sy6",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/4qqz-4sy6",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "prl",
+      "doi": "10.1103/7ncz-zr3x",
+      "title": "Probing Fractional Quantum Hall States in Weakly Interacting Fermi Gases",
+      "authors": [
+        "Viktor Bekassy",
+        "Mikael Fogelström",
+        "Johannes Hofmann"
+      ],
+      "url": "https://doi.org/10.1103/7ncz-zr3x",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/7ncz-zr3x",
+      "tags": [
+        "量子硬件"
+      ],
+      "abstract": "Quantum gases are used to simulate the physics of the lowest Landau level with neutral atoms, which in the simplest setup is achieved by rotating the gas at the confining harmonic trap frequency, a requirement that is difficult to meet in practice. However, it is known that lowest Landau level states appear among the excited states of weakly interacting gases, even in a nonrotating trap, by working at fixed finite angular momentum. Thus, even in the absence of rotations or for moderate rotation frequencies, fractional quantum Hall (FQH) states can be accessed as excited states at finite angular momentum. Motivated by this, and by recent experimentally demonstrated excitation protocols for two particles, we show that such states can be selectively addressed at larger particle numbers, and we propose imaging techniques to resolve their distinct microscopic structure. In particular, we suggest that recently developed excitation and imaging techniques for rotating few-fermion systems allow for a detailed experimental investigation of FQH wave functions and of the crossover to large particle numbers. We illustrate the evolution of the excitation spectrum with rotations at weak interactions for N = 6 spin-balanced fermions and show how sampling of the few-body wave function allows one to discriminate between total guiding-center, center-of-mass vortex, and hyperradial excitations, thus providing detailed and versatile probes of the microscopic structure of FQH states.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "d60501e22f16e1efa91031fa0c18cc265102540c03236d0bb2eaab1857966f95",
+      "abstract_zh": "量子气体被用于用中性原子模拟最低朗道级的物理，在最简单的设置中，这是通过以约束谐波陷阱频率旋转气体来实现的，而这一要求在实践中难以满足。然而，已知即使在非旋转陷阱中，通过在固定有限角动量下工作，最低朗道级态也会出现在弱相互作用气体的激发态中。因此，即使在没有旋转或中等旋转频率的情况下，分数量子霍尔（FQH）态也可以作为有限角动量下的激发态被访问。受此启发，以及最近实验演示的两粒子激发协议，我们表明这些态可以在更大粒子数下被选择性访问，并提出成像技术以解析它们独特的微观结构。特别是，我们建议最近开发的旋转少费米子系统的激发和成像技术允许对FQH波函数以及向大粒子数的交叉进行详细的实验研究。我们展示了在弱相互作用下N = 6自旋平衡费米子的激发光谱随旋转的演化，并展示了少体波函数的采样如何允许区分总引导中心、质心涡旋和超径向激发，从而为FQH态的微观结构提供详细且多功能的探针。"
+    },
+    {
+      "journal": "epjqt",
+      "doi": "10.1140/epjqt/s40507-026-00602-y",
+      "title": "Optimal elemental configuration search in crystal using quantum approximate optimization algorithm",
+      "authors": [
+        "Kazuhide Ichikawa",
+        "Genta Hayashi",
+        "Satoru Ohuchi",
+        "Tomoyasu Yokoyama",
+        "Ken N. Okada",
+        "Keisuke Fujii"
+      ],
+      "url": "https://doi.org/10.1140/epjqt/s40507-026-00602-y",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1140/epjqt/s40507-026-00602-y",
+      "tags": [
+        "量子算法"
+      ]
+    },
+    {
+      "journal": "epjqt",
+      "doi": "10.1140/epjqt/s40507-026-00601-z",
+      "title": "Numerical quantum framework for an optically pumped scalar vector helium magnetometer",
+      "authors": [
+        "Corey J. Cochrane",
+        "Andreas P. Gottscholl",
+        "Hannes Kraus",
+        "David Pierce"
+      ],
+      "url": "https://doi.org/10.1140/epjqt/s40507-026-00601-z",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1140/epjqt/s40507-026-00601-z",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "acm-tqc",
+      "doi": "10.1145/3864022",
+      "title": "Fully Quantum Computational Entropies",
+      "authors": [
+        "Noam Avidan",
+        "Thomas Hahn",
+        "Joseph Renes",
+        "Rotem Arnon"
+      ],
+      "url": "https://doi.org/10.1145/3864022",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1145/3864022",
+      "tags": [
+        "量子算法",
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "epjqt",
+      "doi": "10.1140/epjqt/s40507-026-00596-7",
+      "title": "Exploring students’ conceptions of quantum entanglement in the context of photon polarisation",
+      "authors": [
+        "Kristóf Tóth",
+        "Michael Brang",
+        "Fabian Hennig",
+        "Malte S. Ubben",
+        "Joaquin Veith",
+        "Annamária Komáromi",
+        "Abdullah Kurudirek",
+        "Philipp Bitzenbauer"
+      ],
+      "url": "https://doi.org/10.1140/epjqt/s40507-026-00596-7",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1140/epjqt/s40507-026-00596-7",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/ngpp-zfgv",
+      "title": "Equilibration of generalized subsystems: A quantum-channel approach",
+      "authors": [
+        "Pedro S. Correia",
+        "Adalberto D. Varizi",
+        "Gabriel Dias Carvalho"
+      ],
+      "url": "https://doi.org/10.1103/ngpp-zfgv",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/ngpp-zfgv",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "prxquantum",
+      "doi": "10.1103/r726-r5xr",
+      "title": "Engineering Discrete Local Dynamics in Globally Driven Dual-Species Atom Arrays",
+      "authors": [
+        "Francesco Cesa",
+        "Andrea Di Fini",
+        "David Aram Korbany",
+        "Roberto Tricarico",
+        "Hannes Bernien",
+        "Hannes Pichler",
+        "Lorenzo Piroli"
+      ],
+      "url": "https://doi.org/10.1103/r726-r5xr",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/r726-r5xr",
+      "tags": [
+        "量子硬件"
+      ],
+      "abstract": "We introduce a method for engineering discrete local dynamics in globally driven dual-species neutral atom experiments, allowing us to study emergent digital models through uniform analog controls. Leveraging the new opportunities offered by dual-species systems, such as species-alternated driving, our construction exploits simple Floquet protocols on static atom arrangements and benefits of generalized blockade regimes (different inter- and intra-species interactions). We focus on discrete dynamical models that are special instances of quantum cellular automata and explicitly consider a number of relevant examples, including the kicked-Ising model, the Floquet Kitaev honeycomb model, and the digitization of a broad family of translation-invariant nearest-neighbor Hamiltonians (e.g., for Trotterized evolution). As an application, we study chaotic features of discretized many-body dynamics that can be detected by leveraging only demonstrated capabilities of globally driven experiments, and benchmark their ability to discriminate chaotic evolution.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "5ac891f3c7fac3266c1204cc24212960344893e7877edd543378c2ab769edfad",
+      "abstract_zh": "我们提出了一种方法，用于在全局驱动的双物种中性原子实验中设计离散局部动力学，使我们能够通过均匀的模拟控制研究涌现的数字模型。利用双物种系统提供的新机遇，例如物种交替驱动，我们的构造利用了静态原子排列上的简单Floquet协议，并受益于广义阻塞区域（不同的种间和种内相互作用）。我们关注作为量子元胞自动机特殊实例的离散动力学模型，并明确考虑了一些相关示例，包括踢Ising模型、Floquet Kitaev蜂窝模型以及一大类平移不变最近邻哈密顿量的数字化（例如，用于Trotter化演化）。作为应用，我们研究了离散多体动力学的混沌特征，这些特征可以仅利用全局驱动实验已展示的能力来检测，并评估了它们区分混沌演化的能力。"
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/shy3-388z",
+      "title": "Enabling quantum communication in ultra-large-scale networks",
+      "authors": [
+        "Filippo Radicchi"
+      ],
+      "url": "https://doi.org/10.1103/shy3-388z",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/shy3-388z",
+      "tags": [
+        "量子通信"
+      ]
+    },
+    {
+      "journal": "prb",
+      "doi": "10.1103/1nqs-dy38",
+      "title": "Electron-phonon decoupling in the quantum Hall regime",
+      "authors": [
+        "R. Carroll",
+        "G. Auton",
+        "J. Gough",
+        "S. N. Holmes",
+        "C. Chen",
+        "D. A. Ritchie",
+        "M. Pepper"
+      ],
+      "url": "https://doi.org/10.1103/1nqs-dy38",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/1nqs-dy38",
+      "tags": [
+        "量子物理"
+      ],
+      "abstract": "The temperature dependence of the breakdown of the quantum Hall effect in a GaAs / Al x Ga 1 − x As two-dimensional electron gas is reported. Two-terminal current-voltage characteristics show hysteretic current jumps of greater than three orders of magnitude. We demonstrate that this is a manifestation of electron overheating that can be explained by an electron-phonon decoupling mechanism; an overheating model can explain the experimental observations with lattice temperatures varying between 65 and 800 mK. Applied voltage-induced electron overheating in disordered materials has previously been demonstrated in systems with an Arrhenius temperature dependence; in this work the dominant transport mechanism is that of Efros-Shklovskii hopping. Notably, it has been predicted that electron-phonon decoupling is harder to observe in such a system, when compared to a system in which transport takes an Arrhenius form.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "cb58ee7b9278e528dfde6f6359d5d2ec4ec37d3ce09d253c094f4a5cb0fe8a2d",
+      "abstract_zh": "报道了GaAs/AlxGa1−xAs二维电子气中量子霍尔效应击穿的温度依赖性。两端电流-电压特性显示出超过三个数量级的滞回电流跳变。我们证明这是电子过热的一种表现，可以通过电子-声子解耦机制来解释；一个过热模型能够解释晶格温度在65至800 mK之间变化时的实验观测结果。先前已在具有阿伦尼乌斯温度依赖性的系统中证明了无序材料中施加电压引起的电子过热；在本工作中，主导输运机制是Efros-Shklovskii跳跃。值得注意的是，与输运呈阿伦尼乌斯形式的系统相比，据预测在这种系统中电子-声子解耦更难被观察到。"
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/lm14-kzlg",
+      "title": "Efficient description of parametric amplification of quantum pulses",
+      "authors": [
+        "Victor Rueskov Christiansen",
+        "Klaus Mølmer",
+        "Emanuel Hubenschmid"
+      ],
+      "url": "https://doi.org/10.1103/lm14-kzlg",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/lm14-kzlg",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "epjqt",
+      "doi": "10.1140/epjqt/s40507-026-00597-6",
+      "title": "Dual quantum sensor navigation: gravity-magnetic anomaly fusion for GNSS-denied environments",
+      "authors": [
+        "Deok-Young Lee",
+        "Jayden Dongwoo Lee",
+        "Heonsik Lee",
+        "Minseok Choi",
+        "Hyochoong Bang"
+      ],
+      "url": "https://doi.org/10.1140/epjqt/s40507-026-00597-6",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1140/epjqt/s40507-026-00597-6",
+      "tags": [
+        "量子测量"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/k4w9-8xwk",
+      "title": "Counterfactual quantum sensing: What interaction-free measurement can and cannot buy",
+      "authors": [
+        "Christoph F. Wildfeuer"
+      ],
+      "url": "https://doi.org/10.1103/k4w9-8xwk",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/k4w9-8xwk",
+      "tags": [
+        "量子测量"
+      ],
+      "abstract": "Interaction-free measurement infers the presence of an absorbing object from a photon that, in the counterfactual sense, never interacted with it, and is widely described as a route to minimally invasive sensing. We ask what it actually buys, in estimation-theoretic terms. Writing the Elitzur-Vaidman interferometer as a channel-estimation problem, its Fisher information for the transmissivity T of an object in one arm is [ 2 T ( 1 − T ) ] − 1 , exactly half that of direct transmission probing, and the two schemes deliver identical Fisher information per absorbed photon, [ T ( 1 − T ) 2 ] − 1 : for measuring how transparent something is, the interferometer buys nothing. The advantage lies in discrimination, and we show that what it requires is not that the object be opaque but that the competing hypothesis be the object's absence. Against empty space the Chernoff information per absorbed photon grows as ( 8 / π 2 ) [ ( 1 − T ) / ( 1 + T ) ] N ln N in the number of Zeno cycles N , even for a weakly absorbing object, while between two partial transparencies it does not grow at all. Parasitic per-cycle loss ε caps the advantage: the conclusive interrogations per absorbed photon peak at ( 0.2625 / ε ) ( 1 − T ) / ( 1 + T ) , attained at N opt = 1.5936 / ε for an opaque object, which identifies the loss per cycle as the figure of merit governing how far interaction-free sensing can be pushed. Finally, the negative result is not special to the interferometer: for a single photon meeting a memoryless, nondispersive object any number of times through arbitrary fixed optics, the accessible quantum Fisher information never exceeds that of the same incident flux spent on independent single-pass probes, and is generically far below it. This recovers the bound of Massar, Mitchison, and Pironio for this class, by a short argument that also identifies when it is tight.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "b3c4cd5c55f1061896ca9ce105f504b619034b2926c982422199428300752a16",
+      "abstract_zh": "无相互作用测量从一种在反事实意义上从未与吸收物体发生相互作用的光子推断该物体的存在，被广泛描述为一种实现微创传感的途径。我们追问：用估计论的术语来说，它究竟带来了什么。将 Elitzur–Vaidman 干涉仪写成一个信道估计问题，其对一臂中物体透射率 T 的 Fisher 信息为 [ 2 T ( 1 − T ) ] − 1，恰好是直接透射探测的一半，而两种方案每吸收一个光子给出的 Fisher 信息完全相同，均为 [ T ( 1 − T ) 2 ] − 1：对于测量某物的透明程度而言，干涉仪毫无所得。优势在于判别，而我们证明，它所要求的并不是物体不透明，而是竞争假设为物体的缺失。相对于真空，每吸收一个光子的 Chernoff 信息在 Zeno 循环数 N 下以 ( 8 / π 2 ) [ ( 1 − T ) / ( 1 + T ) ] N ln N 增长，即使对于弱吸收物体也是如此；而在两个部分透明度之间，它根本不增长。每循环的寄生损耗 ε 给这一优势设定了上限：每吸收一个光子的确定性 interrogations 在 ( 0.2625 / ε ) ( 1 − T ) / ( 1 + T ) 处达到峰值，对于不透明物体在 N opt = 1.5936 / ε 处取得，这确定每循环损耗是决定无相互作用传感能推进到何种程度的品质因数。最后，这一否定性结果并非干涉仪所特有：对于单个光子通过任意固定光学系统任意多次遇到无记忆、无色散物体的情况，可获取的量子 Fisher 信息永不超过相同入射通量用于独立单程探测时的量子 Fisher 信息，并且通常远低于它。这以一段简短论证恢复了 Massar、Mitchison 和 Pironio 针对此类情形给出的界，该论证同时指出了该界何时是紧的。"
+    },
+    {
+      "journal": "avsqs",
+      "doi": "10.1116/5.0356589",
+      "title": "Chip-integrated superconducting gravimetric sensing via flux-mediated transmon mechanical coupling: Theory and device requirements",
+      "authors": [
+        "Salman Sajad Wani",
+        "Mughees Ahmed Khan",
+        "Abrar Ahmed Naqash",
+        "Saif Al-Kuwari"
+      ],
+      "url": "https://doi.org/10.1116/5.0356589",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1116/5.0356589",
+      "tags": [
+        "量子硬件",
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "prl",
+      "doi": "10.1103/hxwv-chdc",
+      "title": "Airy functions from quantum M-theory",
+      "authors": [
+        "Pietro Benetti Genolini",
+        "Florian Gaar",
+        "Jerome P. Gauntlett",
+        "Jaeha Park",
+        "James Sparks"
+      ],
+      "url": "https://doi.org/10.1103/hxwv-chdc",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/hxwv-chdc",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "avsqs",
+      "doi": "10.1116/5.0338793",
+      "title": "A critical survey of quantum computing for plasma modeling through the lens of application to magnetic confinement fusion",
+      "authors": [
+        "Maryam Reza"
+      ],
+      "url": "https://doi.org/10.1116/5.0338793",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1116/5.0338793",
+      "tags": [
+        "量子算法"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/2r1w-g1lq",
+      "title": "Experimental observation of anomalous complementary weak values from correlated pairwise two-state vectors",
+      "authors": [
+        "Qian Xie, Liang Xu, and Lijian Zhang"
+      ],
+      "url": "https://journals.aps.org/pra/accepted/dd071Y56D562240c85f873c84515426c299966984",
+      "status": "accepted",
+      "date": "2026-11-20",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
     {
       "journal": "prb",
       "doi": "10.1103/1mwj-kqvl",
@@ -18,7 +670,8 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/1mwj-kqvl",
       "tags": [
-        "量子物理"
+        "量子物理",
+        "量子模拟与多体"
       ]
     },
     {
@@ -43,6 +696,22 @@
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "abstract_hash": "995998154a16677ed9cab2b4812235628a3c2e338693bf2f967c23ea9d8f7e17",
       "abstract_zh": "量子临界系统的拓扑分类近年来引起了越来越多的兴趣，因为它们超越了凝聚态物理和统计物理的传统范式。然而，这种分类在非周期环境中，特别是在准周期调制下，在很大程度上仍未被探索。在本快报中，我们揭示了一类拓扑准周期不动点，其临界标度介于干净极限和无限随机极限之间。通过精确求解准周期团簇伊辛链，我们证明分隔准周期调制相的所有相边界均由强调制准周期系统特有的拓扑伊辛类不动点所支配。尽管它们的局部体临界性质与之前报道的传统准周期伊辛临界点相匹配，但这些不动点具有稳健的拓扑边缘简并性，并展现出准周期伊辛临界性的独特对称性富集实现，这进一步得到了补充晶格模拟的支持。"
+    },
+    {
+      "journal": "prl",
+      "doi": "10.1103/ddrf-yxd4",
+      "title": "Spin-Valley Relaxation of Rydberg Excitons",
+      "authors": [
+        "V. Jindal, K. Mourzidis, M. Semina, D. Lagarde, A. Balocchi, P. Renucci, T. Boulier, T. Taniguchi, K. Watanabe, M. Glazov, and X. Marie"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/ddrf-yxd4",
+      "status": "published",
+      "date": "2026-11-19",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/prl.xml",
+      "tags": [
+        "量子硬件"
+      ]
     },
     {
       "journal": "prl",
@@ -74,6 +743,57 @@
     },
     {
       "journal": "prb",
+      "doi": "10.1103/wgm7-36tn",
+      "title": "Skyrmion phase control by magnetic dipole-dipole interaction and electric field in centrosymmetric materials",
+      "authors": [
+        "Raz Rivlis, Alexander P. Petrović, and Yuri Dahnovsky"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/wgm7-36tn",
+      "status": "published",
+      "date": "2026-11-19",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/prb.xml",
+      "tags": [
+        "量子算法"
+      ]
+    },
+    {
+      "journal": "prl",
+      "doi": "10.1103/plv9-bn9t",
+      "title": "Scalable Generation of Macroscopic Fock States Exceeding 10,000 Photons",
+      "authors": [
+        "Ming Li, Weizhou Cai, Ziyue Hua, Yifang Xu, Yilong Zhou, Zi-Jie Chen, Xu-Bo Zou, Guang-Can Guo, Luyan Sun, and Chang-Ling Zou"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/plv9-bn9t",
+      "status": "published",
+      "date": "2026-11-19",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/prl.xml",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/vmwl-qymb",
+      "title": "Reducing quantum error mitigation bias using verifiable benchmark circuits",
+      "authors": [
+        "Joseph Harris",
+        "Kevin Lively",
+        "Peter K. Schuhmacher"
+      ],
+      "url": "https://doi.org/10.1103/vmwl-qymb",
+      "status": "published",
+      "date": "2026-11-19",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/vmwl-qymb",
+      "tags": [
+        "量子物理",
+        "量子硬件"
+      ]
+    },
+    {
+      "journal": "prb",
       "doi": "10.1103/s68k-jy35",
       "title": "Real-axis least-squares bath discretization for real-time transport in quantum-dot Josephson junctions",
       "authors": [
@@ -88,6 +808,45 @@
       "evidence": "https://api.crossref.org/works/10.1103/s68k-jy35",
       "tags": [
         "量子物理"
+      ]
+    },
+    {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aec479",
+      "title": "Radio-frequency reflectometry in silicon carbide large-area transistors",
+      "authors": [
+        "alexander zotov",
+        "Conor McGeough",
+        "Megan Powell",
+        "Alessandro Rossi"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aec479",
+      "status": "published",
+      "date": "2026-11-19",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aec479",
+      "tags": [
+        "量子研究"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/bjd7-3gnv",
+      "title": "Quantum-state texture measure and texture transformation",
+      "authors": [
+        "Yufan Lin",
+        "Yu Guo",
+        "Fei He",
+        "Shuanping Du"
+      ],
+      "url": "https://doi.org/10.1103/bjd7-3gnv",
+      "status": "published",
+      "date": "2026-11-19",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/bjd7-3gnv",
+      "tags": [
+        "量子物理",
+        "量子信息与基础"
       ]
     },
     {
@@ -388,7 +1147,8 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1126/science.aec3042",
       "tags": [
-        "量子硬件"
+        "量子硬件",
+        "量子物理"
       ]
     },
     {
@@ -431,6 +1191,82 @@
       "evidence": "https://api.crossref.org/works/10.1103/7hdp-y4vw",
       "tags": [
         "量子物理"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/vp2y-g83k",
+      "title": "Quantum antidipolar systems in two-dimensional geometries",
+      "authors": [
+        "J. Sánchez-Baena",
+        "J. Boronat"
+      ],
+      "url": "https://doi.org/10.1103/vp2y-g83k",
+      "status": "published",
+      "date": "2026-11-19",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/vp2y-g83k",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aec478",
+      "title": "Quantifying Margenau-Hill Nonclassicality",
+      "authors": [
+        "Sudip Chakrabarty"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aec478",
+      "status": "published",
+      "date": "2026-11-19",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aec478",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "avsqs",
+      "doi": "10.1116/5.0352555",
+      "title": "Power sensitivity of broadband radiofrequency detectors based on quantum diamond spins",
+      "authors": [
+        "Nicholas Gillespie",
+        "Christopher T.-K. Lew",
+        "Ryan Kinsella",
+        "Andy Sayers",
+        "Brant Gibson",
+        "David A. Broadway",
+        "Jean-Philippe Tetienne"
+      ],
+      "url": "https://doi.org/10.1116/5.0352555",
+      "status": "published",
+      "date": "2026-11-19",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1116/5.0352555",
+      "tags": [
+        "量子物理"
+      ],
+      "abstract": "Nitrogen-vacancy (NV) centers in diamond can be used to detect radiofrequency (RF) signals through coupling of the RF magnetic field with the NV spins, combined with optical readout of the spin state. The sensitivity of such RF detectors has so far been mainly studied in terms of magnetic field sensitivity, which is relevant when the RF signal is generated by a near-field source. However, for applications where the RF input is delivered externally, a more relevant quantity is the sensitivity in terms of the input RF power. Here, we theoretically analyze the power sensitivity of NV-based RF detectors as a function of the RF–spin interface geometry. We derive scaling laws of the power sensitivity for both slope-detection and variance-detection RF sensing protocols, and for various noise regimes. We find that, in most scenarios, the power sensitivity scales inversely with the characteristic physical dimension of the RF–spin interface, for instance, the width of a coplanar waveguide or the diameter of a loop antenna. In other words, the smaller the structure and the probed NV volume, the better the power sensitivity, which is contrary to the case of magnetic field sensitivity. Lastly, we numerically estimate that photon shot-noise-limited sensitivities of 10−20 W Hz−1 (slope) and 10−12 W Hz−1/2 (variance) are achievable. This work lays the groundwork for further optimization of NV-based RF detectors.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "73d2ea60a333ab2fb397224a43fb92de6b424336fee8627793b61db3ebc71581",
+      "abstract_zh": "金刚石中的氮-空位（NV）色心可通过射频（RF）磁场与NV自旋的耦合，结合自旋态的光学读出，用于检测射频信号。迄今为止，此类射频探测器的灵敏度主要从磁场灵敏度的角度进行研究，这在射频信号由近场源产生时具有相关性。然而，对于射频输入由外部提供的应用，更相关的量是输入射频功率的灵敏度。在此，我们从理论上分析了NV基射频探测器的功率灵敏度随射频-自旋界面几何结构的变化关系。我们推导了斜率检测和方差检测射频传感协议在不同噪声 regime 下功率灵敏度的标度律。我们发现，在大多数情况下，功率灵敏度与射频-自旋界面的特征物理尺寸成反比，例如共面波导的宽度或环形天线的直径。换言之，结构和探测的NV体积越小，功率灵敏度越好，这与磁场灵敏度的情况相反。最后，我们通过数值估算表明，光子散粒噪声限制的灵敏度可达10−20 W Hz−1（斜率）和10−12 W Hz−1/2（方差）。这项工作为NV基射频探测器的进一步优化奠定了基础。"
+    },
+    {
+      "journal": "prl",
+      "doi": "10.1103/q1cs-j5py",
+      "title": "Odd-Parity Magnons in the Haldane-Hubbard Model from Topological Exciton Condensation",
+      "authors": [
+        "Rintaro Eto and Johannes Knolle"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/q1cs-j5py",
+      "status": "published",
+      "date": "2026-11-19",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/prl.xml",
+      "tags": [
+        "量子模拟与多体"
       ]
     },
     {
@@ -479,6 +1315,38 @@
     },
     {
       "journal": "prapplied",
+      "doi": "10.1103/xbql-8dcc",
+      "title": "Micrometer-sized magnonic three-port rectilinear circulator",
+      "authors": [
+        "Kevin S. Weber, Loic Temdie, Vincent Castel, Timmy Reimann, Morris Lindner, Carsten Dubs, Yves Henry, Matthieu Bailleul, and Vincent Vlaminck"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/xbql-8dcc",
+      "status": "published",
+      "date": "2026-11-19",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/prapplied.xml",
+      "tags": [
+        "量子算法"
+      ]
+    },
+    {
+      "journal": "prb",
+      "doi": "10.1103/9d27-6dvw",
+      "title": "Magnetic-field control of the excitonic transition in ${\\mathrm{Ta}}_{2}{\\mathrm{NiSe}}_{5}$",
+      "authors": [
+        "Giacomo Mazza"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/9d27-6dvw",
+      "status": "published",
+      "date": "2026-11-19",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/prb.xml",
+      "tags": [
+        "量子模拟与多体"
+      ]
+    },
+    {
+      "journal": "prapplied",
       "doi": "10.1103/z5nv-w92y",
       "title": "Learning quantum data distributions via a chaotic quantum diffusion model",
       "authors": [
@@ -493,7 +1361,9 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/z5nv-w92y",
       "tags": [
-        "量子物理"
+        "量子物理",
+        "量子模拟与多体",
+        "量子信息与基础"
       ]
     },
     {
@@ -584,6 +1454,22 @@
       "abstract_zh": "我们提出了一种结合脉冲光和连续波（CW）光优势的连续变量测量型光量子计算的脉冲与连续波混合架构。在该架构中，容错性和通用性所需的输入及辅助非高斯量子态由脉冲光生成，而包括连续变量簇态和零差测量系统在内的量子处理器则采用连续波光运行。该架构有望实现以更短光波包生成量子态以实现超快计算，以及对这些态进行低损耗操控与测量。在本研究中，作为原理验证，利用连续波本地振荡器对脉冲光生成的单光子态进行了超快零差测量。所测单光子态的时间宽度约为74皮秒。原点处维格纳函数的测量值为W(0,0) = −0.153 ± 0.003，表明具有强非经典性。我们预期这将成为高速光量子信息处理的核心技术。"
     },
     {
+      "journal": "prapplied",
+      "doi": "10.1103/3fwq-zn71",
+      "title": "High-speed control of a fluxonium qubit via picosecond pulses from Josephson digital circuits",
+      "authors": [
+        "M. V. Bastrakova, D. S. Pashin, V. A. Vozhakov, N. V. Klenov, and I. I. Soloviev"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/3fwq-zn71",
+      "status": "published",
+      "date": "2026-11-19",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/prapplied.xml",
+      "tags": [
+        "量子硬件"
+      ]
+    },
+    {
       "journal": "npjqi",
       "doi": "10.1038/s41534-026-01412-x",
       "title": "High-key-rate fully-passive quantum access network with thermal source",
@@ -603,6 +1489,46 @@
       "evidence": "https://api.crossref.org/works/10.1038/s41534-026-01412-x",
       "tags": [
         "量子物理"
+      ]
+    },
+    {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aec477",
+      "title": "Fraxonium: Fractional fluxon states for qudit encoding",
+      "authors": [
+        "Luca Chirolli",
+        "Valentina Brosco",
+        "Uri Vool",
+        "Gianluigi Catelani",
+        "Luigi Amico"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aec477",
+      "status": "published",
+      "date": "2026-11-19",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aec477",
+      "tags": [
+        "量子硬件"
+      ]
+    },
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/krgw-pwjk",
+      "title": "Framework for the benchmarking of transport-induced excitations in shuttling-based ion-trap quantum processors",
+      "authors": [
+        "Rodrigo Munoz",
+        "Phil Nuschke",
+        "Teresa Meiners",
+        "Brigitte Kaune",
+        "Christian Ospelkaus"
+      ],
+      "url": "https://doi.org/10.1103/krgw-pwjk",
+      "status": "published",
+      "date": "2026-11-19",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/krgw-pwjk",
+      "tags": [
+        "量子硬件"
       ]
     },
     {
@@ -663,6 +1589,54 @@
       "abstract_zh": "将量子算法扩展到解决科学和工业中高影响力问题需要量子纠错和容错。尽管在实验实现纠错原语方面已取得进展，但仅使用容错（FT）组件端到端执行逻辑量子算法仍遥不可及。我们展示了两种量子算法的容错和纠错执行，即量子近似优化算法（QAOA）和应用于泊松方程的Harrow-Hassidim-Lloyd算法，在Quantinuum H2和Helios陷阱离子量子处理器上使用⟦7,1,3⟧ Steane码。对于五个和六个逻辑量子比特上的QAOA电路，我们展示了增加QAOA层数和用于近似逻辑旋转的T门数量带来的性能提升，尽管物理电路复杂性增加。我们进一步表明，最多八个逻辑量子比特和九个逻辑T门的QAOA电路表现与未编码电路相似。对于我们运行的最大QAOA电路，具有12个逻辑（97个物理）量子比特和2132个物理双量子比特门，我们仍观察到优于随机的性能。最后，我们表明添加主动量子纠错周期和增加状态准备子程序的重复直到成功限制可以改善量子算法的性能，从而展示了可扩展容错量子计算的关键能力。我们的结果得益于不保真度为2.7(4)×10⁻³的容错逻辑T门实现以及具有测量依赖反馈的动态电路。我们的工作展示了仅使用容错组件的复杂、纠错算法量子电路的接近盈亏平衡性能。"
     },
     {
+      "journal": "prx",
+      "doi": "10.1103/74gr-cq5n",
+      "title": "Exponential Onset of Scalable Entanglement via Twist-and-Turn Dynamics in XY Models",
+      "authors": [
+        "Tommaso Roscilde, Meenu Kumari, Alexandre Cooper, and Fabio Mezzacapo"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/74gr-cq5n",
+      "status": "published",
+      "date": "2026-11-19",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/prx.xml",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "avsqs",
+      "doi": "10.1116/5.0349209",
+      "title": "Exact thermal spin–charge separation in capacitively coupled quantum dots within sequential tunneling",
+      "authors": [
+        "Ridha Horchani"
+      ],
+      "url": "https://doi.org/10.1116/5.0349209",
+      "status": "published",
+      "date": "2026-11-19",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1116/5.0349209",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "prb",
+      "doi": "10.1103/zk1n-x14g",
+      "title": "Entanglement entropy of an acoustic black hole",
+      "authors": [
+        "P. C. van de Graaf and H. T. C. Stoof"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/zk1n-x14g",
+      "status": "published",
+      "date": "2026-11-19",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/prb.xml",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
       "journal": "prl",
       "doi": "10.1103/bp46-97l5",
       "title": "Electronic correlations and dynamical screening with ab initio quantum embedding",
@@ -681,7 +1655,8 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/bp46-97l5",
       "tags": [
-        "量子物理"
+        "量子物理",
+        "量子模拟与多体"
       ]
     },
     {
@@ -739,7 +1714,8 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/kfd4-91m9",
       "tags": [
-        "量子纠错"
+        "量子纠错",
+        "量子信息与基础"
       ]
     },
     {
@@ -887,6 +1863,22 @@
       "date": "2026-11-19",
       "date_kind": "accepted_feed",
       "evidence": "https://feeds.aps.org/rss/accepted/prb.xml",
+      "tags": [
+        "量子模拟与多体"
+      ]
+    },
+    {
+      "journal": "prl",
+      "doi": "10.1103/q94d-rf67",
+      "title": "Collective excitations in chiral spin liquid: Chiral roton and long-wavelength nematic mode",
+      "authors": [
+        "Hongyu Lu, Wei Zhu, and Wang Yao"
+      ],
+      "url": "https://journals.aps.org/prl/accepted/4a076Yc2De516e9b58124134b0750b76803eed781",
+      "status": "accepted",
+      "date": "2026-11-19",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prl.xml",
       "tags": [
         "量子模拟与多体"
       ]
@@ -10705,22 +11697,6 @@
     },
     {
       "journal": "pra",
-      "doi": "10.1103/k4w9-8xwk",
-      "title": "Counterfactual quantum sensing: What interaction-free measurement can and cannot buy",
-      "authors": [
-        "Christoph F. Wildfeuer"
-      ],
-      "url": "https://journals.aps.org/pra/accepted/14077Na3H1419f3091af846422281c744f806cc84",
-      "status": "accepted",
-      "date": "2026-11-06",
-      "date_kind": "accepted_feed",
-      "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
-      "tags": [
-        "量子测量"
-      ]
-    },
-    {
-      "journal": "pra",
       "doi": "10.1103/5672-djvn",
       "title": "Construction of three-qubit positive-partial-transpose entangled states of rank 4",
       "authors": [
@@ -10955,25 +11931,6 @@
       "tags": [
         "量子通信",
         "量子信息与基础"
-      ]
-    },
-    {
-      "journal": "prb",
-      "doi": "10.1103/tdlt-y9pd",
-      "title": "Quantum transport in Cooper pair splitters using hierarchical equations of motion",
-      "authors": [
-        "Riya Baruah",
-        "Neill Lambert",
-        "Franco Nori",
-        "Christian Flindt"
-      ],
-      "url": "https://doi.org/10.1103/tdlt-y9pd",
-      "status": "published",
-      "date": "2026-11-05",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1103/tdlt-y9pd",
-      "tags": [
-        "量子物理"
       ]
     },
     {
@@ -13081,22 +14038,6 @@
     },
     {
       "journal": "prapplied",
-      "doi": "10.1103/3fwq-zn71",
-      "title": "High-speed control of a fluxonium qubit via picosecond pulses from Josephson digital circuits",
-      "authors": [
-        "M. V. Bastrakova, D. S. Pashin, V. A. Vozhakov, N. V. Klenov, and I. I. Soloviev"
-      ],
-      "url": "https://journals.aps.org/prapplied/accepted/a8079Af1F351390d25ff6dd0f25c854d94bd3c613",
-      "status": "accepted",
-      "date": "2026-11-03",
-      "date_kind": "accepted_feed",
-      "evidence": "https://feeds.aps.org/rss/accepted/prapplied.xml",
-      "tags": [
-        "量子硬件"
-      ]
-    },
-    {
-      "journal": "prapplied",
       "doi": "10.1103/f7cg-hsw2",
       "title": "Digitally enhanced multiwavelength stabilization using a passive fiber frequency reference",
       "authors": [
@@ -13607,22 +14548,6 @@
       ]
     },
     {
-      "journal": "prl",
-      "doi": "10.1103/plv9-bn9t",
-      "title": "Scalable generation of macroscopic Fock states exceeding 10,000 photons",
-      "authors": [
-        "Ming Li, Weizhou Cai, Ziyue Hua, Yifang Xu, Yilong Zhou, Zi-Jie Chen, Xu-Bo Zou, Guang-Can Guo, Luyan Sun, and Chang-Ling Zou"
-      ],
-      "url": "https://journals.aps.org/prl/accepted/e3079Y9eDfd2e502a0744562d42462185bfc1ae19",
-      "status": "accepted",
-      "date": "2026-11-02",
-      "date_kind": "accepted_feed",
-      "evidence": "https://feeds.aps.org/rss/accepted/prl.xml",
-      "tags": [
-        "量子信息与基础"
-      ]
-    },
-    {
       "journal": "npjqi",
       "doi": "10.1038/s41534-026-01379-9",
       "title": "Unifying quantum smoothing theories with extended retrodiction",
@@ -13859,23 +14784,6 @@
       "abstract": "Quantum speckles exhibit significantly richer behavior than their classical counterparts due to their higher dimensionality. A simple example is the far-field speckle pattern in one-dimensional (1D) light scattering: Classical light forms 1D speckles defined by the numerical aperture, whereas biphoton scattering depends in addition on the photon correlation length, forming two-dimensional elliptical speckles. To date, the behavior of quantum speckles for shorter propagation distances has not been considered. We remedy this here by considering the paraxial evolution of two-photon entanglement at arbitrary propagation distances from a scatterer. We show, theoretically, numerically, and experimentally, that the two length scales of the biphoton introduce a new Fresnel regime between the conventional near and far fields. Further, we show that the quantum near field is characterized by speckles with a square shape that remain constant during propagation. In contrast, the intermediate regime can be engineered to have a constant speckle size along the sum coordinate but a linearly expanding speckle size along the difference coordinate, with a speckle shape that transitions from square to elliptical. The results merge quantum coherence with scattering statistics and suggest new regimes of operation for correlation-based quantum sensing and imaging.",
       "abstract_source": "Crossref",
       "license": "https://creativecommons.org/licenses/by/4.0/"
-    },
-    {
-      "journal": "prresearch",
-      "doi": "10.1103/vcbb-k8zw",
-      "title": "Robust high-order quantum simulation using finite-width pulses",
-      "authors": [
-        "Leeseok Kim",
-        "Milad Marvian"
-      ],
-      "url": "https://doi.org/10.1103/vcbb-k8zw",
-      "status": "published",
-      "date": "2026-10-30",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1103/vcbb-k8zw",
-      "tags": [
-        "量子模拟与多体"
-      ]
     },
     {
       "journal": "prl",
@@ -15262,29 +16170,6 @@
       ]
     },
     {
-      "journal": "prresearch",
-      "doi": "10.1103/6lqb-4j6k",
-      "title": "Robust and cost-effective quantum network using Kramers-Kronig receiver",
-      "authors": [
-        "Xu Liu",
-        "Tao Wang",
-        "Junpeng Zhang",
-        "Yankai Xu",
-        "Yuehan Xu",
-        "Lang Li",
-        "Peng Huang",
-        "Guihua Zeng"
-      ],
-      "url": "https://doi.org/10.1103/6lqb-4j6k",
-      "status": "published",
-      "date": "2026-10-27",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1103/6lqb-4j6k",
-      "tags": [
-        "量子通信"
-      ]
-    },
-    {
       "journal": "epjqt",
       "doi": "10.1140/epjqt/s40507-026-00583-y",
       "title": "Quantum at a music festival: the impact of an exhibit about quantum science and technologies on festival visitors",
@@ -16449,7 +17334,10 @@
       "evidence": "https://api.crossref.org/works/10.1038/s41467-026-78740-1",
       "tags": [
         "量子物理"
-      ]
+      ],
+      "abstract": "Colloidal quantum dots (CQDs) short-wave infrared (SWIR) detectors (1-2 µm) are of great interest for a plethora of applications including autonomous driving, machine vision, night and adverse weather imaging, in view of their low-cost and compatibility to read-out electronics. However, to date, CQDs photodetectors still suffer from high dark current and thereby noise such that their performance remains inferior to epitaxially grown III-V semiconductors. This performance gap originates from the limited passivation of non-polar surfaces existent in large PbS CQDs needed to access the SWIR spectral range. Here we report on a lead-thiolate based chemistry that serves to passivate both polar and non-polar surfaces of PbS CQDs yielding inks with unprecedented optoelectronic quality evidenced by open circuit voltage deficit and dark current activation energies matching those of single crystalline semiconductors. As a result, we demonstrate infrared photodetectors with remarkable thermal resilience, very low dark current density ( ~ 34 nA cm −2 at −1 V) and a specific detectivity D* of ~8×10 12 Jones. The measured D* value is on par with that of commercially available InGaAs photodiodes (PDs).",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0"
     },
     {
       "journal": "qmi",
@@ -18826,22 +19714,6 @@
       "tags": [
         "量子纠错",
         "量子算法"
-      ]
-    },
-    {
-      "journal": "prx",
-      "doi": "10.1103/74gr-cq5n",
-      "title": "Exponential onset of scalable entanglement via twist-and-turn dynamics in XY models",
-      "authors": [
-        "Tommaso Roscilde, Meenu Kumari, Alexandre Cooper, and Fabio Mezzacapo"
-      ],
-      "url": "https://journals.aps.org/prx/accepted/7d070K8dT6510b1dc08793286c10426a27c639af4",
-      "status": "accepted",
-      "date": "2026-10-13",
-      "date_kind": "accepted_feed",
-      "evidence": "https://feeds.aps.org/rss/accepted/prx.xml",
-      "tags": [
-        "量子信息与基础"
       ]
     },
     {
@@ -24428,22 +25300,6 @@
     },
     {
       "journal": "prxquantum",
-      "doi": "10.1103/r726-r5xr",
-      "title": "Engineering discrete local dynamics in globally driven dual-species atom arrays",
-      "authors": [
-        "Francesco Cesa, Andrea Di Fini, David Aram Korbany, Roberto Tricarico, Hannes Bernien, Hannes Pichler, and Lorenzo Piroli"
-      ],
-      "url": "https://journals.aps.org/prxquantum/accepted/ce079D42Ca81f20331c82ca06d56a31e5c7510c15",
-      "status": "accepted",
-      "date": "2026-08-18",
-      "date_kind": "accepted_feed",
-      "evidence": "https://feeds.aps.org/rss/accepted/prxquantum.xml",
-      "tags": [
-        "量子硬件"
-      ]
-    },
-    {
-      "journal": "prxquantum",
       "doi": "10.1103/rvhv-ms4t",
       "title": "Experimental Observation of Multimode Quantum Phase Transitions in a Superconducting Bose-Hubbard Simulator",
       "authors": [
@@ -26469,85 +27325,6 @@
       "tags": [
         "量子信息与基础"
       ]
-    },
-    {
-      "journal": "avsqs",
-      "doi": "10.1116/5.0308965",
-      "title": "Quaternary-squeeze quantum identity authentication: Direction-scaling security via single-mode squeezed light",
-      "authors": [
-        "Zhipeng Chen",
-        "Haolun Tang",
-        "Xiao-Qi Xiao",
-        "Li-Hua Gong"
-      ],
-      "url": "https://doi.org/10.1116/5.0308965",
-      "status": "published",
-      "date": "2026-07-22",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1116/5.0308965",
-      "tags": [
-        "量子通信",
-        "量子测量"
-      ]
-    },
-    {
-      "journal": "nature",
-      "doi": "10.1038/s41586-026-10823-x",
-      "title": "Imaging of nanoscale polar textures in quantum paraelectric SrTiO3",
-      "authors": [
-        "Yang Zhang",
-        "Suk Hyun Sung",
-        "Nishkarsh Agarwal",
-        "Maya Gates",
-        "Cong Li",
-        "Pu Yu",
-        "Robert Hovden",
-        "Ismail El Baggari"
-      ],
-      "url": "https://doi.org/10.1038/s41586-026-10823-x",
-      "status": "published",
-      "date": "2026-07-22",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1038/s41586-026-10823-x",
-      "tags": [
-        "量子物理"
-      ]
-    },
-    {
-      "journal": "nphys",
-      "doi": "10.1038/s41567-026-03374-5",
-      "title": "From electronic clovers to emergent quantum matter",
-      "authors": [
-        "Eduardo H. da Silva Neto"
-      ],
-      "url": "https://doi.org/10.1038/s41567-026-03374-5",
-      "status": "published",
-      "date": "2026-07-22",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1038/s41567-026-03374-5",
-      "tags": [
-        "量子物理"
-      ]
-    },
-    {
-      "journal": "aplq",
-      "doi": "10.1063/5.0301580",
-      "title": "A quantum artificial intelligence roadmap for autonomous photonic quantum technologies",
-      "authors": [
-        "Mrittunjoy Guha Majumdar"
-      ],
-      "url": "https://doi.org/10.1063/5.0301580",
-      "status": "published",
-      "date": "2026-07-22",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1063/5.0301580",
-      "tags": [
-        "量子测量",
-        "量子信息与基础"
-      ],
-      "abstract": "The growing scale and complexity of photonic quantum systems demand a transition from manual, heuristic control toward intelligent, autonomous operational frameworks. Quantum Artificial Intelligence (QAI) integrates machine learning, quantum-enhanced optimization, and real-time feedback to address key challenges in the calibration, stabilization, and scaling of photonic quantum technologies. Unlike conventional machine-learning-assisted quantum control and self-driving laboratory approaches that rely primarily on classical intelligence, the proposed QAI paradigm establishes a tighter integration between artificial intelligence and quantum hardware. Parameterized quantum circuits executed directly on the photonic processor participate in the agent’s decision-making process, while the same framework supports both real-time control tasks. QAI combines variational quantum neural networks, meta-reinforcement learning, multi-agent control architectures, and quantum optimization methods, such as the Quantum Approximate Optimization Algorithm, to enable adaptive calibration, error mitigation, and high-dimensional optimization in programmable photonic platforms. While this perspective focuses on real-time control and calibration, we also outline a conceptual pathway toward autonomous generative inverse design. To guide future development, we propose a three-stage roadmap that progresses from open-source hybrid quantum–classical control tools to fully autonomous laboratories capable of closed-loop self-optimization and experiment design. Experimental platforms include programmable silicon photonic circuits and lithium-niobate interferometers, where thermal drift, fabrication variability, and crosstalk require intelligent adaptation. Beyond quantum optics, the QAI framework has broader implications for quantum sensing, secure communications, and photonic computing. By introducing a unified QAI framework and a structured classification of Quantum Autonomy Levels (QALs), this work provides a roadmap toward autonomous quantum-optics laboratories and photonic quantum technologies.",
-      "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
   "sources": [
@@ -26723,13 +27500,13 @@
       "source": "prl",
       "kind": "accepted",
       "ok": true,
-      "count": 25
+      "count": 26
     },
     {
       "source": "prx",
       "kind": "rss",
       "ok": true,
-      "count": 35
+      "count": 36
     },
     {
       "source": "prx",
@@ -26747,13 +27524,13 @@
       "source": "prxquantum",
       "kind": "accepted",
       "ok": true,
-      "count": 42
+      "count": 41
     },
     {
       "source": "pra",
       "kind": "rss",
       "ok": true,
-      "count": 62
+      "count": 58
     },
     {
       "source": "pra",
@@ -26801,7 +27578,7 @@
       "source": "science",
       "kind": "rss",
       "ok": true,
-      "count": 0
+      "count": 2
     },
     {
       "source": "sciadv",
@@ -26813,25 +27590,25 @@
       "source": "qst",
       "kind": "rss",
       "ok": true,
-      "count": 11
+      "count": 10
     },
     {
       "source": "prresearch",
       "kind": "rss",
       "ok": true,
-      "count": 29
+      "count": 31
     },
     {
       "source": "prresearch",
       "kind": "accepted",
       "ok": true,
-      "count": 27
+      "count": 28
     },
     {
       "source": "prapplied",
       "kind": "rss",
       "ok": true,
-      "count": 43
+      "count": 44
     },
     {
       "source": "prapplied",
@@ -26843,7 +27620,7 @@
       "source": "prb",
       "kind": "rss",
       "ok": true,
-      "count": 22
+      "count": 25
     },
     {
       "source": "prb",
