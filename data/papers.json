@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "papers": [
     {
       "journal": "prresearch",
@@ -69,6 +69,26 @@
       ]
     },
     {
+      "journal": "prapplied",
+      "doi": "10.1103/r1v9-mff5",
+      "title": "Tailoring germanium heterostructures for quantum devices with machine learning",
+      "authors": [
+        "Patrick Del Vecchio",
+        "Kevin Rossi",
+        "Giordano Scappucci",
+        "Stefano Bosco"
+      ],
+      "url": "https://doi.org/10.1103/r1v9-mff5",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/r1v9-mff5",
+      "tags": [
+        "量子物理",
+        "量子硬件"
+      ]
+    },
+    {
       "journal": "quantum",
       "doi": "10.22331/q-2026-11-20-2279",
       "title": "Symmetries, correlation functions, and entanglement of general quantum Motzkin spin-chains",
@@ -109,6 +129,51 @@
       "date": "2026-11-20",
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/pd42-lb7j",
+      "tags": [
+        "量子信息与基础",
+        "量子硬件"
+      ]
+    },
+    {
+      "journal": "prxquantum",
+      "doi": "10.1103/9x6d-mgqn",
+      "title": "Site-specific electric-field tuning of two-level system defects in superconducting qubit arrays",
+      "authors": [
+        "Larry Chen",
+        "Kan-Heng Lee",
+        "Chuan-Hong Liu",
+        "Brian Marinelli",
+        "Ravi K. Naik",
+        "Ziqi Kang",
+        "Noah Goss",
+        "Sanchayeta R. Mudi",
+        "Hyunseong Kim",
+        "David I. Santiago",
+        "Irfan Siddiqi"
+      ],
+      "url": "https://doi.org/10.1103/9x6d-mgqn",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/9x6d-mgqn",
+      "tags": [
+        "量子硬件",
+        "量子纠错",
+        "量子算法"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/jt21-pwng",
+      "title": "Single-photon transport and localization in one-dimensional atomic chains: Transfer matrices and a frequency-parametrized tight-binding mapping",
+      "authors": [
+        "Yuezhou Ying, Jie-Qiao Liao, and Ming Gong"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/jt21-pwng",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/pra.xml",
       "tags": [
         "量子信息与基础"
       ]
@@ -182,6 +247,22 @@
       ]
     },
     {
+      "journal": "prapplied",
+      "doi": "10.1103/vbpq-f9qf",
+      "title": "Reducibility of native weighted graphs on Rydberg arrays",
+      "authors": [
+        "J. Kombe and J. D. Pritchard"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/vbpq-f9qf",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/prapplied.xml",
+      "tags": [
+        "量子硬件"
+      ]
+    },
+    {
       "journal": "prresearch",
       "doi": "10.1103/yc7d-rybf",
       "title": "Reconfigurable superconducting quantum circuits enabled by micro-scale liquid-metal interconnects",
@@ -199,7 +280,25 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/yc7d-rybf",
       "tags": [
-        "量子算法"
+        "量子算法",
+        "量子硬件"
+      ]
+    },
+    {
+      "journal": "prb",
+      "doi": "10.1103/qrqr-vvrw",
+      "title": "Random matrix theory of charge distribution in disordered quantum impurity models",
+      "authors": [
+        "Maxime Debertolis",
+        "Serge Florens"
+      ],
+      "url": "https://doi.org/10.1103/qrqr-vvrw",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/qrqr-vvrw",
+      "tags": [
+        "量子物理"
       ]
     },
     {
@@ -252,7 +351,8 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/th44-jfjh",
       "tags": [
-        "量子测量"
+        "量子测量",
+        "量子算法"
       ]
     },
     {
@@ -270,6 +370,24 @@
       "date": "2026-11-20",
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/tdlt-y9pd",
+      "tags": [
+        "量子物理",
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "prl",
+      "doi": "10.1103/h566-3p1d",
+      "title": "Quantum metric and nonlinear Hall effect of photons",
+      "authors": [
+        "Keidai Akiba",
+        "Naoki Yamamoto"
+      ],
+      "url": "https://doi.org/10.1103/h566-3p1d",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/h566-3p1d",
       "tags": [
         "量子物理"
       ]
@@ -306,7 +424,8 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/tg1w-vprw",
       "tags": [
-        "量子信息与基础"
+        "量子信息与基础",
+        "量子硬件"
       ]
     },
     {
@@ -325,7 +444,8 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/4qqz-4sy6",
       "tags": [
-        "量子信息与基础"
+        "量子信息与基础",
+        "量子纠错"
       ]
     },
     {
@@ -350,6 +470,22 @@
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "abstract_hash": "d60501e22f16e1efa91031fa0c18cc265102540c03236d0bb2eaab1857966f95",
       "abstract_zh": "量子气体被用于用中性原子模拟最低朗道级的物理，在最简单的设置中，这是通过以约束谐波陷阱频率旋转气体来实现的，而这一要求在实践中难以满足。然而，已知即使在非旋转陷阱中，通过在固定有限角动量下工作，最低朗道级态也会出现在弱相互作用气体的激发态中。因此，即使在没有旋转或中等旋转频率的情况下，分数量子霍尔（FQH）态也可以作为有限角动量下的激发态被访问。受此启发，以及最近实验演示的两粒子激发协议，我们表明这些态可以在更大粒子数下被选择性访问，并提出成像技术以解析它们独特的微观结构。特别是，我们建议最近开发的旋转少费米子系统的激发和成像技术允许对FQH波函数以及向大粒子数的交叉进行详细的实验研究。我们展示了在弱相互作用下N = 6自旋平衡费米子的激发光谱随旋转的演化，并展示了少体波函数的采样如何允许区分总引导中心、质心涡旋和超径向激发，从而为FQH态的微观结构提供详细且多功能的探针。"
+    },
+    {
+      "journal": "prapplied",
+      "doi": "10.1103/71gp-fpwf",
+      "title": "Photonic-computing error correction through optical encoder and decoder calibrations",
+      "authors": [
+        "Adam Carstensen and Babak Vosoughi Lahijani"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/71gp-fpwf",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/prapplied.xml",
+      "tags": [
+        "量子纠错"
+      ]
     },
     {
       "journal": "epjqt",
@@ -392,6 +528,46 @@
       ]
     },
     {
+      "journal": "prresearch",
+      "doi": "10.1103/pcr3-sk73",
+      "title": "Multiparameter two-photon polarimetry approaching the quantum limit",
+      "authors": [
+        "Joseph Niblo",
+        "Luca Maggio",
+        "Russell M. J. Brooks",
+        "Joseph Ho",
+        "Vincenzo Tamma",
+        "Alessandro Fedrizzi"
+      ],
+      "url": "https://doi.org/10.1103/pcr3-sk73",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/pcr3-sk73",
+      "tags": [
+        "量子测量"
+      ]
+    },
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/txz1-dfxf",
+      "title": "Iterative optimization with partial convergence guarantees on neutral atom quantum computers",
+      "authors": [
+        "Cédrick Perron",
+        "Yves Bérubé-Lauzière",
+        "Victor Drouin-Touchette"
+      ],
+      "url": "https://doi.org/10.1103/txz1-dfxf",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/txz1-dfxf",
+      "tags": [
+        "量子算法",
+        "量子硬件"
+      ]
+    },
+    {
       "journal": "acm-tqc",
       "doi": "10.1145/3864022",
       "title": "Fully Quantum Computational Entropies",
@@ -409,6 +585,23 @@
       "tags": [
         "量子算法",
         "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/s3y8-dptj",
+      "title": "First and second quantized digital quantum simulations of bosonic systems",
+      "authors": [
+        "Mathias Mikkelsen",
+        "Hubert Okadome Valencia"
+      ],
+      "url": "https://doi.org/10.1103/s3y8-dptj",
+      "status": "published",
+      "date": "2026-11-20",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/s3y8-dptj",
+      "tags": [
+        "量子模拟与多体"
       ]
     },
     {
@@ -471,7 +664,8 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/r726-r5xr",
       "tags": [
-        "量子硬件"
+        "量子硬件",
+        "量子研究"
       ],
       "abstract": "We introduce a method for engineering discrete local dynamics in globally driven dual-species neutral atom experiments, allowing us to study emergent digital models through uniform analog controls. Leveraging the new opportunities offered by dual-species systems, such as species-alternated driving, our construction exploits simple Floquet protocols on static atom arrangements and benefits of generalized blockade regimes (different inter- and intra-species interactions). We focus on discrete dynamical models that are special instances of quantum cellular automata and explicitly consider a number of relevant examples, including the kicked-Ising model, the Floquet Kitaev honeycomb model, and the digitization of a broad family of translation-invariant nearest-neighbor Hamiltonians (e.g., for Trotterized evolution). As an application, we study chaotic features of discretized many-body dynamics that can be detected by leveraging only demonstrated capabilities of globally driven experiments, and benchmark their ability to discriminate chaotic evolution.",
       "abstract_source": "Crossref",
@@ -537,7 +731,8 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/lm14-kzlg",
       "tags": [
-        "量子物理"
+        "量子物理",
+        "量子信息与基础"
       ]
     },
     {
@@ -638,6 +833,137 @@
       ]
     },
     {
+      "journal": "prapplied",
+      "doi": "10.1103/fl24-s4n7",
+      "title": "Unified evolutionary optimization for high-fidelity spin qubit operations",
+      "authors": [
+        "Sam R. Katiraee-Far, Yuta Matsumoto, Brennan Undseth, Maxim De Smet, Valentina Gualtieri, Christian Ventura Meinersen, Irene Fernandez de Fuentes, Kenji Capannelli, Maximilian Rimbach-Russ, Giordano Scappucci, Lieven M. K. Vandersypen, and Eliska Greplova"
+      ],
+      "url": "https://journals.aps.org/prapplied/accepted/b8072K8eYe31b80d295e61f304b4fd3c15b30f380",
+      "status": "accepted",
+      "date": "2026-11-20",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prapplied.xml",
+      "tags": [
+        "量子算法",
+        "量子硬件"
+      ]
+    },
+    {
+      "journal": "prb",
+      "doi": "10.1103/b1vg-t3yp",
+      "title": "Topological invariant of periodic many-body wave function from charge-pumping simulation",
+      "authors": [
+        "Haoxiang Chen, Yubing Qian, Weiluo Ren, Xiang Li, and Ji Chen"
+      ],
+      "url": "https://journals.aps.org/prb/accepted/5f074Y67E652a10af2c7025842d0c977ab023d42e",
+      "status": "accepted",
+      "date": "2026-11-20",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prb.xml",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "prx",
+      "doi": "10.1103/7ppv-tw3b",
+      "title": "Revealing temperature effects on sliding friction through many-body phonon dynamics",
+      "authors": [
+        "Yi Tao, Chengdong Sun, Huaicheng Zhou, Xiang Zhang, Yun Dong, Chenhan Liu, and Yunfei Chen"
+      ],
+      "url": "https://journals.aps.org/prx/accepted/d7073Y80T372580413012ca10d3b79b58f0d23b3f",
+      "status": "accepted",
+      "date": "2026-11-20",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prx.xml",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "prl",
+      "doi": "10.1103/rd9t-jb7c",
+      "title": "Relationship between antibunching and entanglement in resonance fluorescence",
+      "authors": [
+        "Xin-Xin Hu, Gabriele Maron, Luke Masters, Arno Rauschenbeutel, and Jürgen Volz"
+      ],
+      "url": "https://journals.aps.org/prl/accepted/c507aKb5Z5b1a10109333d08fd430bcd7a5ca051a",
+      "status": "accepted",
+      "date": "2026-11-20",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prl.xml",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "prl",
+      "doi": "10.1103/syf4-2hgz",
+      "title": "Quadratic pair-breaking absorption edge from Anderson localization in a superconducting wire",
+      "authors": [
+        "Bahruz Suleymanli and B. Tanatar"
+      ],
+      "url": "https://journals.aps.org/prl/accepted/e6079Y4cI6423e03603e55756b12661638b197ef6",
+      "status": "accepted",
+      "date": "2026-11-20",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prl.xml",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "prl",
+      "doi": "10.1103/c98q-fhbn",
+      "title": "Magic without entanglement: Exact revivals and their Fisher information origin",
+      "authors": [
+        "Rishabh Jha and Karun Gadge"
+      ],
+      "url": "https://journals.aps.org/prl/accepted/3b071Y58Ic117897319a26394c710b29c5847effc",
+      "status": "accepted",
+      "date": "2026-11-20",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prl.xml",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "prb",
+      "doi": "10.1103/3524-86sk",
+      "title": "Long-range and steady-state entanglement of nitrogen vacancy centers using microwaves as a drive and synthetic antiferromagnet as a dissipator",
+      "authors": [
+        "Federico Garcia-Gaitan and Branislav K. Nikolić"
+      ],
+      "url": "https://journals.aps.org/prb/accepted/7407eOdfH55Ecd1eb5d145e1c9d710ccbbf223048",
+      "status": "accepted",
+      "date": "2026-11-20",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prb.xml",
+      "tags": [
+        "量子硬件",
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "prapplied",
+      "doi": "10.1103/gq44-wqcw",
+      "title": "Fluxon time-delay readout of a superconducting qubit protected by a spectral gap in a Josephson transmission line",
+      "authors": [
+        "Shunsuke Kamimura, Aree Taguchi, Masamitsu Tanaka, and Tsuyoshi Yamamoto"
+      ],
+      "url": "https://journals.aps.org/prapplied/accepted/ec07eDbbEd41d90a71176ed62102691420c0b2d2c",
+      "status": "accepted",
+      "date": "2026-11-20",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prapplied.xml",
+      "tags": [
+        "量子硬件",
+        "量子信息与基础"
+      ]
+    },
+    {
       "journal": "pra",
       "doi": "10.1103/2r1w-g1lq",
       "title": "Experimental observation of anomalous complementary weak values from correlated pairwise two-state vectors",
@@ -649,6 +975,54 @@
       "date": "2026-11-20",
       "date_kind": "accepted_feed",
       "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/12c2-x6nc",
+      "title": "Entanglement negativity in free fermions: Twisted characteristic polynomial, universal bounds, and area laws",
+      "authors": [
+        "Ryota Matsuda and Zongping Gong"
+      ],
+      "url": "https://journals.aps.org/prresearch/accepted/f7075YdbWd11ee92f1a425908a64d64848ed0f6fa",
+      "status": "accepted",
+      "date": "2026-11-20",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prresearch.xml",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "prb",
+      "doi": "10.1103/qklf-knf7",
+      "title": "Enhancing neural-network variational Monte Carlo through basis transformation",
+      "authors": [
+        "Zhixuan Liu, Dongheng Qian, and Jing Wang"
+      ],
+      "url": "https://journals.aps.org/prb/accepted/48072Ya8Ge51799df6ec33e9476ca6cb7bc08eb47",
+      "status": "accepted",
+      "date": "2026-11-20",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prb.xml",
+      "tags": [
+        "量子模拟与多体"
+      ]
+    },
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/wl6l-d3wy",
+      "title": "Conversion of optical to mechanical states at the few-photon level",
+      "authors": [
+        "Alexander Rolf Korsch, Liu Chen, Pedro V. Pinho, Boris Müllendorff, Jan N. Kirchhof, Yong Yu, Thiago P. Mayer Alegre, and Simon Gröblacher"
+      ],
+      "url": "https://journals.aps.org/prresearch/accepted/c9072K07F0a14d11f07c4835dc323573e37ec343a",
+      "status": "accepted",
+      "date": "2026-11-20",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prresearch.xml",
       "tags": [
         "量子信息与基础"
       ]
@@ -2603,7 +2977,9 @@
       ],
       "abstract": "Reduced-state distinguishability can revive and entropy can oscillate in non-Markovian dynamics. Thus, instantaneous states may not fully capture irreversibility. As histories unfold, causal consequences may spread across environmental records and multitime correlations beyond local recovery control. This mismatch can yield operational irreversibility despite reversible joint dynamics, even when reduced states recur. We therefore propose history recoverability as an operational perspective on irreversibility, describing multitime histories through process tensors under specified control. The optimal operational gap between ideal history reversal and admissible recoveries defines the history-recovery distance. We establish conditional monotonicity for causal extensions of a common physical realisation under compatible accessibility, recovery resources, and nested multitime testers. A three-qubit model shows reduced-state distinguishability revival alongside an increasing history-recovery distance under compatible constraints. Independent optimisation over the complete admissible recovery class yields positive increments across sampled parameters. Whether this ordering extends beyond these conditions, or admits counterexamples, remains open. These model-specific results motivate a proposed superconducting-qubit experiment. More broadly, a conceptual hierarchy relates history-level, state-level, statistical, entropic, and thermodynamic descriptions through operational sufficiency, coarse-graining, and additional reference-state and dynamical conditions. These connections suggest that different manifestations of operational irreversibility may share a common origin in the causal delocalisation of recovery-relevant information beyond accessible control.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "a5c9dcb39060d65727ad1cef5b6895c377534f019278daf55c839a51522311db",
+      "abstract_zh": "在非马尔可夫动力学中，约化态可区分性可以复苏，熵也可以振荡。因此，瞬时状态可能无法完全刻画不可逆性。随着历史展开，因果后果可能通过环境记录和超出局部恢复控制的多时间关联而扩散。这种不匹配可能导致在联合动力学可逆的情况下仍出现操作层面的不可逆性，即使约化态复现也是如此。因此，我们提出历史可恢复性作为不可逆性的一种操作视角，在指定控制下通过过程张量描述多时间历史。理想历史反转与可允许恢复之间的最优操作差距定义了历史恢复距离。我们在兼容的可访问性、恢复资源和嵌套多时间测试器下，为共同物理实现的因果扩展建立了条件单调性。一个三量子比特模型显示，在兼容约束下，约化态可区分性复苏的同时历史恢复距离增加。在完整的可允许恢复类上进行独立优化，在采样参数上产生正增量。这种序关系是否超出这些条件，或是否存在反例，仍然开放。这些模型特定的结果启发了 proposed 的超导量子比特实验。更广泛地说，一个概念层级通过操作充分性、粗粒化以及额外的参考态和动力学条件，将历史层面、状态层面、统计层面、熵层面和热力学层面的描述联系起来。这些联系表明，操作不可逆性的不同表现可能共享一个共同起源，即与恢复相关的信息在因果上离域到可访问控制之外。"
     },
     {
       "journal": "quantum",
@@ -2626,7 +3002,9 @@
       ],
       "abstract": "High-fidelity entanglement shared between distant quantum systems is an essential resource for quantum communication and computation. Entanglement distillation addresses this need by converting multiple noisy Bell pairs into fewer higher-fidelity pairs, using only local quantum operations and classical communication. However, this approach typically requires a substantial overhead in the number of qubits. To bypass this hurdle, we propose to leverage the high-dimensional Hilbert space of a s i n g l e pair of bosonic systems to store a large amount of entanglement, replacing the need for multi-qubit systems. To distill entanglement in such a setup, we devise a new entanglement distillation protocol, tailored for bosonic systems. The protocol converts a highly-entangled noisy state between two bosonic systems into a lower-dimensional but high-fidelity entangled state, using only local bosonic operations. We show that our protocol significantly enhances the fidelity of the entangled state in the presence of naturally occurring loss and dephasing errors. Compared to methods relying on multiple Bell pairs, our scheme offers a more hardware-efficient strategy, providing a practical route toward the realization of entanglement distillation.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "f3831c85be7da5a40295f574dc8236e18abb0b76080940e95dbfe96fb2201f7a",
+      "abstract_zh": "远距离量子系统间的高保真纠缠是量子通信与计算的关键资源。纠缠蒸馏通过仅使用局部量子操作和经典通信，将多个噪声贝尔对转换为数量更少但保真度更高的对，从而满足这一需求。然而，这种方法通常需要在量子比特数量上付出大量开销。为绕过这一障碍，我们提出利用一对玻色子系统的高维希尔伯特空间来存储大量纠缠，从而替代对多量子比特系统的需求。为在此类装置中蒸馏纠缠，我们设计了一种专为玻色子系统量身定制的新型纠缠蒸馏协议。该协议仅使用局部玻色子操作，将两个玻色子系统间的高纠缠噪声态转换为低维但高保真度的纠缠态。我们表明，在存在自然发生的损耗和退相位误差的情况下，我们的协议显著提高了纠缠态的保真度。与依赖多个贝尔对的方法相比，我们的方案提供了一种更具硬件效率的策略，为实现纠缠蒸馏提供了切实可行的途径。"
     },
     {
       "journal": "pra",
@@ -2692,7 +3070,9 @@
       ],
       "abstract": "Quantum conference key agreement (CKA) provides a secure method for multiparty communication. A recently developed interference-based prepare-and-measure quantum CKA possesses the advantages of measurement-device-independence, namely, being immune to side channels from the detector side. Besides, it achieves good key- rate performance, especially for high-loss channels, due to the use of single-photon interference. Meanwhile, several fully passive QKD schemes have been proposed, which eliminate all side channels from the source modulation side. We extend the fully passive idea to an interference-based CKA, which has a high level of implementation security for many-user communication.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "48f607af2d1078d1eaeb4b35ec5e5f9b18df7241a08aeb8cb2d03d25b8ad7206",
+      "abstract_zh": "量子会议密钥协商（CKA）为多方通信提供了一种安全的方法。最近发展的一种基于干涉的制备-测量量子CKA具有测量设备无关性的优势，即对探测器侧的边信道免疫。此外，由于使用了单光子干涉，它实现了良好的密钥率性能，特别是对于高损耗信道。同时，已经提出了几种全被动的QKD方案，这些方案消除了源调制侧的所有边信道。我们将全被动的思想扩展到基于干涉的CKA中，这对于多用户通信具有高水平的实现安全性。"
     },
     {
       "journal": "prapplied",
@@ -2845,7 +3225,9 @@
       ],
       "abstract": "We study the distinguishability of quantum states under local operations with classical communication (LOCC), separable, and positive-partial-transpose (PPT) measurements, focusing on locally diagonal orthogonally invariant (LDOI) states – those invariant under local diagonal orthogonal twirling. This class includes many important families such as Werner states, isotropic states, X-states, and Dicke states. We show that optimal PPT and separable measurements for distinguishing LDOI states can always be taken to be LDOI, and the LOCC supremum can be approached by LDOI LOCC POVMs, enabling a dimensional reduction from n 4 to O ( n 2 ) in the associated optimization problems. We establish efficiently computable bounds on the distinguishability of orthonormal LDOI bases and prove that for a broad class of such bases – including all two-qubit cases – the LOCC supremum equals the PPT and separable optima. More generally, we show the gap between PPT and LOCC distinguishability is at most ( n − 2 ) / ( 2 n 2 ) for local dimension n .",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "835292b236cf235b22a7f372c988256aca3960955bb9fec088299f091bd5b14e",
+      "abstract_zh": "我们研究在局部操作与经典通信（LOCC）、可分离测量以及正部分转置（PPT）测量下量子态的可区分性，重点关注局部对角正交不变（LDOI）态——即在局部对角正交扭转下保持不变的那些态。这一类包括许多重要的态族，如Werner态、各向同性态、X态和Dicke态。我们证明，用于区分LDOI态的最优PPT测量和可分离测量总可以取为LDOI，而LOCC上确界可以由LDOI LOCC POVM逼近，从而在相关优化问题中实现从n^4到O(n^2)的维数约化。我们建立了关于正交归一LDOI基可区分性的可高效计算的界，并证明对于一大类这样的基——包括所有两量子比特情形——LOCC上确界等于PPT和可分离最优值。更一般地，我们证明对于局部维数n，PPT与LOCC可区分性之间的差距至多为(n−2)/(2n^2)。"
     },
     {
       "journal": "aplphotonics",
@@ -2868,7 +3250,9 @@
       ],
       "abstract": "Entanglement in light fields generated by parametric down-conversion (PDC) can enhance multiphoton processes beyond classical limits. In the spontaneous (low-gain) regime, where the mean photon number per mode is well below unity, a signature of entanglement is the linear scaling of the rate of two-photon interactions with the illumination flux. The enhancement of second-harmonic generation has been shown to persist into the stimulated PDC regime, where the modes become macroscopically populated. In this regime, however, the quantum contribution cannot be distinguished from the classical nonlinear response using the linear scaling arguments developed for lower gains. Here, we introduce a method based on the spatial selection of quantum-correlated modes, which allows us to distinguish two-photon processes involving the phase-conjugated mode pairs of the entangled PDC state from purely classical contributions. This approach provides a practical route to probing quantum correlations in macroscopic nonlinear optical processes, which can be readily extended to other nonlinear interactions, such as two-photon absorption, where no coherent nonlinear field is generated.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "2a7e019fffdcd4b7ccb7ea8131771ee4e76b114fe7539c8ce97ca64b209b92b9",
+      "abstract_zh": "由参量下转换（PDC）产生的光场中的纠缠能够增强多光子过程，使其超越经典极限。在自发（低增益）区域，即每模平均光子数远低于1时，纠缠的一个标志是双光子相互作用速率随照明通量呈线性缩放。二次谐波产生的增强已被证明能持续到受激PDC区域，此时模式变为宏观占据。然而，在该区域，利用为较低增益所发展的线性缩放论证，量子贡献无法与经典非线性响应区分开来。在此，我们引入一种基于量子相关模式空间选择的方法，该方法使我们能够区分涉及纠缠PDC态的相位共轭模式对的双光子过程与纯经典贡献。这一方法为探测宏观非线性光学过程中的量子关联提供了实用途径，且可易于推广至其他非线性相互作用，例如双光子吸收，其中不产生相干非线性场。"
     },
     {
       "journal": "aplq",
@@ -2892,7 +3276,9 @@
       ],
       "abstract": "Quantum steering provides a framework for benchmarking the nonclassicality of general quantum state transfer processes. A central diagnostic is the no-signaling-in-time (NSIT) condition, whose violation can indicate basis-dependent hardware errors. However, finite measurement statistics may also yield apparent violations, thereby obscuring the detection of basis-dependent hardware errors. To address this, we construct a statistical hypothesis test under the null hypothesis that NSIT violations arise solely from statistical fluctuations. Combining the statistical properties of NSIT violations under the null hypothesis with Chebyshev’s inequality, we obtain a distribution-free upper bound on the p-value without parametric assumptions. We apply this method to two examples. For a single-qubit state-transfer experiment on a superconducting processor, we identify several instances in which the NSIT violation is observed, and the null hypothesis is simultaneously rejected by a small p-value, providing statistical evidence of basis-dependent hardware errors. For a seven-qubit Hayden–Preskill teleportation protocol on the IonQ device, the null hypothesis is also rejected even though the average fidelity exceeds the classical threshold, while the associated nonclassicality measure vanishes. Our results highlight the necessity of statistical hypothesis testing for detecting basis-dependent errors in near-term quantum devices.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "7e60846adc9325a2100389ceba0a4b268409876ed3ddeb3969f2c841dcac6ead",
+      "abstract_zh": "量子 steering 为评估一般量子态传输过程的非经典性提供了一个框架。一个核心诊断指标是无时信号（no-signaling-in-time, NSIT）条件，其违反可指示依赖于基的硬件错误。然而，有限的测量统计也可能产生表观违反，从而掩盖对依赖于基的硬件错误的检测。为解决这一问题，我们在零假设——即 NSIT 违反仅源于统计涨落——下构建了一个统计假设检验。结合零假设下 NSIT 违反的统计性质与切比雪夫不等式，我们得到了一个无需参数假设的、无分布依赖的 p 值上界。我们将该方法应用于两个例子。对于超导处理器上的单量子比特态传输实验，我们识别出若干实例，其中观察到 NSIT 违反，同时零假设以较小的 p 值被拒绝，从而提供了依赖于基的硬件错误的统计证据。对于 IonQ 设备上的七量子比特 Hayden–Preskill 隐形传态协议，即使平均保真度超过经典阈值，而相关的非经典性度量消失，零假设仍被拒绝。我们的结果凸显了在近期量子设备中检测依赖于基的错误时统计假设检验的必要性。"
     },
     {
       "journal": "qst",
@@ -2996,7 +3382,9 @@
       ],
       "abstract": "The Berry phase is a fundamental quantity in the classification of topological phases of matter. In this paper, we present a new quantum algorithm and several complexity-theoretical results for the Berry phase estimation (BPE) problems. Our new quantum algorithm achieves BPE in a more general setting than previously known quantum algorithms, with a theoretical guarantee. For the complexity-theoretic results, we consider two main cases. First, we prove B Q P -completeness when we are given a guiding state that has a large overlap with the ground state. This result establishes an exponential quantum speedup for estimating the Berry phase. Second, we prove U Q M A ∩ c o - U Q M A -completeness when we have an a priori bound for the ground-state energy. Here, U Q M A is the unique witness version of Q M A , and U Q M A ∩ c o - U Q M A precisely captures the complexity of BPE without the known guiding state. Remarkably, this problem is, to our knowledge, the first natural problem complete for U Q M A ∩ c o - U Q M A . These results advance the role of quantum computing in the study of topological phases of matter and provide a pathway for clarifying the connection between topological phases of matter and computational complexity.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "9c0e3cd0905dfa76593e5b8df99714ad6877517e2c881bc2178930c31d15b96b",
+      "abstract_zh": "Berry相位是物质量子拓扑相分类中的一个基本量。在本文中，我们针对Berry相位估计（BPE）问题提出了一种新的量子算法以及若干复杂度理论结果。我们的新量子算法在比以往已知量子算法更一般的设置下实现了BPE，并具有理论保证。对于复杂度理论结果，我们考虑两种主要情形。首先，我们证明了当给定一个与基态具有较大重叠的引导态时，该问题是BQP完全的。这一结果确立了估计Berry相位的指数级量子加速。其次，我们证明了当对基态能量有一个先验界时，该问题是UQMA ∩ co-UQMA完全的。这里，UQMA是QMA的唯一见证版本，而UQMA ∩ co-UQMA恰好刻画了在没有已知引导态的情况下BPE的复杂度。值得注意的是，据我们所知，该问题是第一个针对UQMA ∩ co-UQMA完全的自然问题。这些结果推进了量子计算在物质量子拓扑相研究中的作用，并为阐明物质量子拓扑相与计算复杂度之间的联系提供了一条途径。"
     },
     {
       "journal": "rmp",
@@ -3038,7 +3426,9 @@
       ],
       "abstract": "Detecting coherence transfer in complex quantum networks is challenging under uncharacterized experimental conditions and with limited access to the system. Here, we use the coexistence of static and dynamic coherence to derive a nonlinear criterion for coherence transfer. The criterion applies even when the verification capabilities of checkpoint nodes are uncharacterized. It requires only minimal one-network output analysis, up to the number of output state dimensions. Each output requires only two-setting measurements of state populations, regardless of the network size. The criterion is general for both spatial and temporal networks, including those with multiple coherence sources, and applies to quantum transport in solid-state nanostructures. Experimentally, using entanglement swapping, we transfer polarization-entangled pairs in four- and six-photon entanglement networks. The criterion provides experimental evidence of coherence transfer in multiphoton entanglement networks. Our findings provide a practical tool for investigating the presence, role, or function of coherence transfer in quantum networks.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "eeae2a5a67edafcc1509704477886ed5baa18da08218c5380872eeb2030f4120",
+      "abstract_zh": "在未表征的实验条件下且对系统访问受限时，检测复杂量子网络中的相干转移具有挑战性。在此，我们利用静态与动态相干性的共存，推导出相干转移的非线性判据。该判据即使在检查点节点的验证能力未被表征的情况下也适用。它仅需对单网络输出进行最小分析，最多达到输出状态维数。无论网络规模如何，每个输出仅需对状态布居进行两组设置测量。该判据对空间和时间网络均具有一般性，包括具有多个相干源的网络，并适用于固态纳米结构中的量子输运。在实验上，利用纠缠交换，我们在四光子和六光子纠缠网络中转移了偏振纠缠对。该判据为多光子纠缠网络中的相干转移提供了实验证据。我们的发现为研究量子网络中相干转移的存在、作用或功能提供了一种实用工具。"
     },
     {
       "journal": "prapplied",
@@ -3087,7 +3477,9 @@
       ],
       "abstract": "We propose a cavity-mediated gate between two transmon qubits or other nonlinear superconducting elements. The gate is realized by driving both qubits at a frequency that is near-resonant with the frequency of the cavity. Since both qubits are subject to a cross-resonant drive, we call this gate a cross-cross-resonance gate. In close analogy with gates between trapped-ion qubits, in phase space, the state of the cavity makes a circle whose area depends on the states of the two qubits, thus realizing a controlled-phase gate. We propose two schemes for canceling the dominant error, which is the qubit-cavity dispersive coupling. We also show that this cross-cross-resonance gate allows one to realize simultaneous gates between multiple pairs of qubits coupled via the same metamaterial composed of an array of coupled cavities or other linear mediators.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "1fb0184ea9de4332880e1b6d9bfef40975dc4b5ac9e9fe88b4796f5445c5faa8",
+      "abstract_zh": "我们提出了一种通过腔体介导的、作用于两个传输子量子比特或其他非线性超导元件之间的门。该门通过以接近腔体频率的频率驱动两个量子比特来实现。由于两个量子比特都受到交叉共振驱动，我们将此门称为交叉-交叉-共振门。与囚禁离子量子比特之间的门非常类似，在相空间中，腔体的状态描绘出一个圆，其面积取决于两个量子比特的状态，从而实现受控相位门。我们提出了两种方案来抵消主要误差，即量子比特-腔体的色散耦合。我们还表明，这种交叉-交叉-共振门允许在通过由耦合腔阵列或其他线性中介组成的同一超材料耦合的多对量子比特之间实现同时门。"
     },
     {
       "journal": "quantum",
@@ -3115,7 +3507,9 @@
       ],
       "abstract": "Over the past decade, several schemes for imaging and sensing based on nonlinear interferometers have been proposed and demonstrated experimentally. These interferometers exhibit two main advantages. First, they enable probing a sample at a chosen wavelength while detecting light at a different wavelength with high efficiency (bicolor quantum imaging and sensing with undetected light). Second, they can show quantum-enhanced sensitivities below the shot-noise limit, potentially reaching Heisenberg-limited precision in parameter estimation. Here, we compare three quantum-imaging configurations using only easily accessible intensity-based measurements for phase estimation: a Yurke-type SU(1,1) interferometer, a Mandel-type induced-coherence interferometer, and a hybrid scheme that continuously interpolates between them. While an ideal Yurke interferometer can exhibit Heisenberg scaling, this advantage is known to be fragile under realistic detection constraints and in the presence of loss. We demonstrate that differential intensity detection in the Mandel interferometer provides the highest and most robust phase sensitivity among the considered schemes, reaching but not surpassing the shot-noise limit, even in the presence of loss. Intensity measurements in a Yurke-type configuration can achieve genuine sub-shot-noise sensitivity under balanced losses and moderate gain; however, their performance degrades in realistic high-gain regimes. Consequently, in this regime, the Mandel configuration with differential detection outperforms the Yurke-type setup and constitutes the most robust approach for phase estimation.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "9e857fb5d6cb37c1a750df22b8408298a436bd9f4b061fd7645c40c234b8acaf",
+      "abstract_zh": "在过去十年中，人们提出了若干基于非线性干涉仪的成像与传感方案，并进行了实验验证。这些干涉仪展现出两大优势。第一，它们能够以选定波长探测样品，同时以另一波长高效探测光（双色量子成像与传感，以及未探测光成像）。第二，它们可以展现出低于散粒噪声极限的量子增强灵敏度， potentially 在参数估计中达到海森堡极限精度。在此，我们比较了三种仅使用易于实现的基于强度的测量进行相位估计的量子成像配置：Yurke型SU(1,1)干涉仪、Mandel型诱导相干干涉仪，以及一种在两者之间连续插值的混合方案。虽然理想Yurke干涉仪可以展现海森堡标度，但已知这种优势在现实探测约束和存在损耗的情况下是脆弱的。我们证明，Mandel干涉仪中的差分强度探测在所考虑的方案中提供了最高且最稳健的相位灵敏度，即使存在损耗，也能达到但不超过散粒噪声极限。Yurke型配置中的强度测量在平衡损耗和中等增益下可以实现真正的亚散粒噪声灵敏度；然而，其性能在现实高增益 regime 中会下降。因此，在该 regime 中，采用差分探测的Mandel配置优于Yurke型装置，并构成相位估计中最稳健的方法。"
     },
     {
       "journal": "qst",
@@ -10319,22 +10713,6 @@
       ]
     },
     {
-      "journal": "prapplied",
-      "doi": "10.1103/vbpq-f9qf",
-      "title": "Reducibility of native weighted graphs on Rydberg arrays",
-      "authors": [
-        "J. Kombe and J. D. Pritchard"
-      ],
-      "url": "https://journals.aps.org/prapplied/accepted/34073Ab2Fa31c102b6cb06601329d2daafd4c2fe7",
-      "status": "accepted",
-      "date": "2026-11-09",
-      "date_kind": "accepted_feed",
-      "evidence": "https://feeds.aps.org/rss/accepted/prapplied.xml",
-      "tags": [
-        "量子硬件"
-      ]
-    },
-    {
       "journal": "prl",
       "doi": "10.1103/13wt-lzjm",
       "title": "Observing Bell inequality violation beyond the qubit bound in a spinor Bose-Einstein condensate",
@@ -13272,22 +13650,6 @@
       "evidence": "https://api.crossref.org/works/10.1038/s41467-026-78322-1",
       "tags": [
         "量子物理"
-      ]
-    },
-    {
-      "journal": "pra",
-      "doi": "10.1103/jt21-pwng",
-      "title": "Single-photon transport and localization in one-dimensional atomic chains: Transfer matrices and a frequency-parametrized tight-binding mapping",
-      "authors": [
-        "Yuezhou Ying, Jie-Qiao Liao, and Ming Gong"
-      ],
-      "url": "https://journals.aps.org/pra/accepted/2c071N0eEe211c27a5068c10e9e3603e6d80a78fc",
-      "status": "accepted",
-      "date": "2026-11-04",
-      "date_kind": "accepted_feed",
-      "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
-      "tags": [
-        "量子信息与基础"
       ]
     },
     {
@@ -21515,22 +21877,6 @@
       ]
     },
     {
-      "journal": "prapplied",
-      "doi": "10.1103/71gp-fpwf",
-      "title": "Photonic-computing error correction through optical encoder and decoder calibrations",
-      "authors": [
-        "Adam Carstensen and Babak Vosoughi Lahijani"
-      ],
-      "url": "https://journals.aps.org/prapplied/accepted/a6077A31C7b1250675268f113920b04d7b59d27ac",
-      "status": "accepted",
-      "date": "2026-09-30",
-      "date_kind": "accepted_feed",
-      "evidence": "https://feeds.aps.org/rss/accepted/prapplied.xml",
-      "tags": [
-        "量子纠错"
-      ]
-    },
-    {
       "journal": "prxquantum",
       "doi": "10.1103/dmhd-pyct",
       "title": "Theory of Quantum-Enhanced Interferometry with General Markovian Light Sources",
@@ -27311,20 +27657,6 @@
       "tags": [
         "量子信息与基础"
       ]
-    },
-    {
-      "journal": "ncomms",
-      "doi": "10.1038/s41467-026-75553-0",
-      "title": "Entanglement-enhanced learning of quantum processes at scale",
-      "authors": [],
-      "url": "https://www.nature.com/articles/s41467-026-75553-0",
-      "status": "published",
-      "date": "2026-07-23",
-      "date_kind": "publisher_feed",
-      "evidence": "https://www.nature.com/subjects/quantum-information/ncomms.rss",
-      "tags": [
-        "量子信息与基础"
-      ]
     }
   ],
   "sources": [
@@ -27494,25 +27826,25 @@
       "source": "prl",
       "kind": "rss",
       "ok": true,
-      "count": 26
+      "count": 25
     },
     {
       "source": "prl",
       "kind": "accepted",
       "ok": true,
-      "count": 26
+      "count": 30
     },
     {
       "source": "prx",
       "kind": "rss",
       "ok": true,
-      "count": 36
+      "count": 35
     },
     {
       "source": "prx",
       "kind": "accepted",
       "ok": true,
-      "count": 11
+      "count": 12
     },
     {
       "source": "prxquantum",
@@ -27524,19 +27856,19 @@
       "source": "prxquantum",
       "kind": "accepted",
       "ok": true,
-      "count": 41
+      "count": 40
     },
     {
       "source": "pra",
       "kind": "rss",
       "ok": true,
-      "count": 58
+      "count": 64
     },
     {
       "source": "pra",
       "kind": "accepted",
       "ok": true,
-      "count": 53
+      "count": 51
     },
     {
       "source": "nature",
@@ -27596,37 +27928,37 @@
       "source": "prresearch",
       "kind": "rss",
       "ok": true,
-      "count": 31
+      "count": 33
     },
     {
       "source": "prresearch",
       "kind": "accepted",
       "ok": true,
-      "count": 28
+      "count": 29
     },
     {
       "source": "prapplied",
       "kind": "rss",
       "ok": true,
-      "count": 44
+      "count": 45
     },
     {
       "source": "prapplied",
       "kind": "accepted",
       "ok": true,
-      "count": 37
+      "count": 38
     },
     {
       "source": "prb",
       "kind": "rss",
       "ok": true,
-      "count": 25
+      "count": 20
     },
     {
       "source": "prb",
       "kind": "accepted",
       "ok": true,
-      "count": 22
+      "count": 23
     },
     {
       "source": "rmp",
