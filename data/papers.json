@@ -1,6 +1,22 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "papers": [
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/wwhc-xh97",
+      "title": "Non-Hermitian renormalization group from a few-body perspective",
+      "authors": [
+        "Hiroyuki Tajima, Masaya Nakagawa, Haozhao Liang, and Masahito Ueda"
+      ],
+      "url": "https://journals.aps.org/prresearch/accepted/6607aK57Caa1960eb9b783c24ac3788f6ef3c093b",
+      "status": "accepted",
+      "date": "2026-11-21",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prresearch.xml",
+      "tags": [
+        "量子测量"
+      ]
+    },
     {
       "journal": "prresearch",
       "doi": "10.1103/x7vj-t725",
@@ -3557,7 +3573,9 @@
       ],
       "abstract": "Quantum field theories provide fundamental models of complex interacting systems 1–3 , from high-energy physics and cosmology to condensed matter. However, solving these models in non-perturbative and dynamical regimes is often challenging, particularly in more than one spatial dimension. Analogue simulation using tunable synthetic quantum systems can both verify existing theoretical predictions and lead to physical insights. Here we realize analogue simulation of massive relativistic quantum fields in 2 + 1 dimensions (two spatial dimensions and time), using two coherently coupled spin components 4,5 in a uniform two-dimensional atomic Bose–Einstein condensate 6,7 . Specifically, we encode the paradigmatic sine-Gordon model 8,9 in the long-wavelength modes of the field describing the relative phase, ϕ , of the two components. In the perturbative regime, collective field excitations exhibit a relativistic dispersion with a tunable mass gap. We also observe explicitly non-perturbative phenomena, including the existence of topological domain walls across which ϕ rapidly winds by 2π (ref. 10 ). Our work opens possibilities for studies of cosmologically relevant phenomena including preheating 11,12 , dynamics of topological defects 13,14 and relativistic false-vacuum decay 15–19 .",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0"
+      "license": "https://creativecommons.org/licenses/by/4.0",
+      "abstract_hash": "c44f510a8efd543d9774bc3c5416bbfdb3b55d5fbd8afdbb3dc49ee987bfcfd1",
+      "abstract_zh": "量子场论为复杂相互作用系统提供了基础模型1–3，涵盖从高能物理和宇宙学到凝聚态物理的广泛领域。然而，在非微扰和动力学区域求解这些模型往往具有挑战性，尤其是在超过一个空间维度的情况下。利用可调谐合成量子系统进行模拟仿真，既可以验证现有的理论预测，也能够带来物理上的深刻见解。本文利用均匀二维原子玻色–爱因斯坦凝聚体6,7中两个相干耦合的自旋分量4,5，实现了2+1维（两个空间维度加时间）大质量相对论量子场的模拟仿真。具体而言，我们将典型的sine-Gordon模型8,9编码在描述两个分量相对相位ϕ的场的长波模式中。在微扰区域，集体场激发表现出具有可调质量间隙的相对论色散关系。我们还明确观测到了非微扰现象，包括拓扑畴壁的存在，在该畴壁上ϕ快速绕转2π（参考文献10）。我们的工作为研究宇宙学相关现象开辟了可能性，包括预热11,12、拓扑缺陷动力学13,14以及相对论假真空衰变15–19。"
     },
     {
       "journal": "qst",
@@ -3599,7 +3617,9 @@
       ],
       "abstract": "For a traveling salesperson problem of n cities, we present a compact quantum encoding based on a time-register representation of tours. A candidate route is represented as a sequence of n − 1 city labels over discrete time steps, with one fixed start city and the remaining cities encoded in binary registers. We describe three ingredients of the construction: uniform route generation over the route register, a reversible validity oracle, and a phase oracle that encodes the total tour cost. The validity oracle checks both that the non-start city labels form a permutation and, for incomplete graphs, that every directed edge used by the route exists. The cost oracle then accumulates the start-edge, intermediate-transition, and return-edge costs into a tour-dependent phase for valid routes. This yields a coherent superposition of candidate routes with feasibility and tour-length information embedded directly in the quantum state. The complete construction uses O(n⁡log⁡n) qubits, while a naive implementation requires O(n3⁡log2n) CX gates and On3[log2n+log2(1/ϵ)]T gates, where ϵ denotes the target approximation precision. The encoding is compatible with amplitude amplification or spectral filtering techniques, such as the quantum singular value transform or Grover’s algorithm. However, due to the exponentially small fraction of valid tours, the overall complexity remains exponential even when combined with amplitude amplification.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "f4cd9e0f101e38060f847b274c4a6d23e950da0b1bb01f586749728eb7ad3293",
+      "abstract_zh": "对于n个城市的旅行商问题，我们提出了一种基于旅行时间寄存器表示的紧凑量子编码。候选路线表示为离散时间步上n−1个城市标签的序列，其中一个固定起始城市，其余城市以二进制寄存器编码。我们描述了构造的三个要素：路线寄存器上的均匀路线生成、可逆有效性预言机以及编码总旅行成本的相位预言机。有效性预言机检查非起始城市标签是否构成一个排列，并且对于不完全图，检查路线使用的每条有向边是否存在。然后，成本预言机将起始边、中间转移和返回边的成本累加为有效路线依赖于旅行的相位。这产生了候选路线的相干叠加，其中可行性和旅行长度信息直接嵌入量子态中。完整构造使用O(n log n)个量子比特，而朴素实现需要O(n^3 log^2 n)个CX门和O(n^3[log^2 n + log^2(1/ε)])个T门，其中ε表示目标近似精度。该编码与振幅放大或谱滤波技术兼容，例如量子奇异值变换或Grover算法。然而，由于有效旅行所占比例指数级小，即使与振幅放大结合，整体复杂度仍然是指数级的。"
     },
     {
       "journal": "prb",
@@ -4155,7 +4175,9 @@
       ],
       "abstract": "Reconstructing DNA sequences without a reference, known as de novo assembly, is a complex computational task involving the alignment of overlapping fragments. To address this problem, a usual strategy is to map the assembly to a Quadratic Unconstrained Binary Optimization (QUBO) formulation, which can be solved by different quantum algorithms. In this work, we focus on standard Feedback-based Algorithm for Quantum Optimization (FALQON) and two previously proposed feedback-based variants, which update control parameters without an external classical parameter-optimization routine. We analyze DNA sequence fragments from SARS-CoV-2 and human mitochondrial DNA using standard FALQON, second-order FALQON (SO-FALQON), and time-rescaled FALQON (TR-FALQON). Numerical results show that both variants can improve convergence and success probability while requiring fewer feedback layers than standard FALQON in selected configurations. These results support the use of enhanced feedback dynamics as a proof-of-concept strategy for reduced DNA-assembly instances, while practical scalability and hardware performance remain open questions.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0"
+      "license": "https://creativecommons.org/licenses/by/4.0",
+      "abstract_hash": "34db808e6b956e0cc655a5073edc3415d644707c86dde8b7d9311733f4d52c35",
+      "abstract_zh": "无需参考序列重建DNA序列，即从头组装，是一项涉及重叠片段比对的复杂计算任务。为解决这一问题，一种常用策略是将组装问题映射为二次无约束二值优化（QUBO）形式，该形式可由不同的量子算法求解。在本工作中，我们聚焦于标准的基于反馈的量子优化算法（FALQON）以及先前提出的两种基于反馈的变体，这些变体在无需外部经典参数优化程序的情况下更新控制参数。我们使用标准FALQON、二阶FALQON（SO-FALQON）和时间重标度FALQON（TR-FALQON）分析了SARS-CoV-2和人类线粒体DNA的DNA序列片段。数值结果表明，在选定配置中，两种变体均能改善收敛性和成功概率，同时所需反馈层数少于标准FALQON。这些结果支持将增强反馈动力学作为简化DNA组装实例的概念验证策略，而实际可扩展性和硬件性能仍是未解问题。"
     },
     {
       "journal": "prresearch",
@@ -12485,7 +12507,9 @@
       ],
       "abstract": "A frustrated Ising model on a two‐dimensional square lattice is investigated using exact diagonalization and the Quantum Approximate Optimization Algorithm (QAOA), with additional benchmarks on IonQ quantum hardware. The dependence of the ground‐state sampling probability on the number of QAOA layers and the frustration strength is analyzed. In weakly frustrated regimes, the probability increases rapidly with a modest increase in the number of QAOA layers. In contrast, in the strongly frustrated regime, the probability remains limited even at larger circuit depths, reflecting the enhanced degeneracy and low‐energy competition induced by frustration. This behavior indicates that strongly frustrated, nearly degenerate regimes present a greater challenge for finite‐depth QAOA. Hardware‐oriented tests are also performed in the non‐frustrated regime, where ideal QAOA simulations reproduce the exact result. On a noisy simulator and IonQ quantum hardware, however, the probability decreases as the number of layers increases, showing that hardware noise still limits the achievable performance of deeper QAOA circuits.",
       "abstract_source": "Crossref",
-      "license": "http://creativecommons.org/licenses/by/4.0/"
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "b56dca40030e86e2e8b7e97b17218971af98975dc98f2a3d757900582e2bbc32",
+      "abstract_zh": "利用精确对角化和量子近似优化算法（QAOA）研究了二维方格上的受挫Ising模型，并在IonQ量子硬件上进行了额外基准测试。分析了基态采样概率对QAOA层数和受挫强度的依赖关系。在弱受挫区域，概率随QAOA层数的适度增加而迅速上升。相比之下，在强受挫区域，即使在较大的电路深度下，概率仍然有限，这反映了受挫引起的简并增强和低能竞争。这种行为表明，强受挫、近乎简并的区域对有限深度的QAOA构成了更大的挑战。还在非受挫区域进行了面向硬件的测试，其中理想的QAOA模拟再现了精确结果。然而，在含噪模拟器和IonQ量子硬件上，概率随着层数的增加而下降，表明硬件噪声仍然限制了更深QAOA电路可达到的性能。"
     },
     {
       "journal": "quantum",
@@ -12506,7 +12530,9 @@
       ],
       "abstract": "In this paper, we introduce post-selection games, a generalization of nonlocal games where each round can be not only won or lost by the players, but also discarded by the referee. Such games naturally formalize possibilistic proofs of nonlocality, such as Hardy's paradox. We develop algorithms for computing the local and Tsirelson bounds of post-selection games. Furthermore, we show that they have an unbounded advantage in statistical power over traditional nonlocal games, making them ideally suited for analysing Bell tests with low detection efficiency.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "1db667d72c1efe67bf96677d5380f3368fb9625f5a164483d797adb4ea2a08d6",
+      "abstract_zh": "在本文中，我们介绍了后选择游戏，这是非局域游戏的一种推广，其中每一轮不仅可以由玩家赢得或输掉，还可以由裁判丢弃。这类游戏自然地形式化了非局域性的可能性证明，例如哈代悖论。我们开发了计算后选择游戏的局部界限和齐雷尔森界限的算法。此外，我们表明它们在统计功效上相较于传统非局域游戏具有无界优势，使其非常适合分析低检测效率的贝尔测试。"
     },
     {
       "journal": "prl",
@@ -12532,7 +12558,9 @@
       ],
       "abstract": "Quantum simulation offers a powerful approach to studying quantum field theories, particularly ( 2 + 1 ) D quantum electrodynamics ( QED 3 ) with Wilson fermions, which hosts a rich landscape of physical phenomena. A key challenge in lattice formulations is the proper realization of topological phases and the Chern-Simons terms, where fermion discretization plays a crucial role. In this Letter, we highlight the differences between staggered and Wilson fermions coupled to U(1) gauge fields in the Hamiltonian formulation. We analyze why staggered fermions fail to induce ( 2 + 1 ) D topological phases, while Wilson fermions admit a variety of topological phases including Chern insulator and quantum spin Hall phases. Additionally, we uncover a rich phase diagram for the two-flavor Wilson fermion model in the presence of a chemical potential. Our findings resolve existing ambiguities in Hamiltonian formulations and provide a theoretical foundation for future quantum simulations of lattice field theories with topological phases. We further outline connections to experimental platforms, offering guidance for implementations on near-term quantum computing architectures. A complementary presentation of the analytical calculations, the identification of robust topological structure and response, and extensive numerical results is contained in a joint submission [S. Bharadwaj , , 094502 (2026)].",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "81a006c6532d1674a0f0988c0c70d2aa0a4a00e3db310dcc3f1e9cc55b4ba63f",
+      "abstract_zh": "量子模拟为研究量子场论提供了一种强大的方法，特别是具有Wilson费米子的(2+1)维量子电动力学（QED₃），其蕴含着丰富的物理现象。格点表述中的一个关键挑战是拓扑相和Chern-Simons项的恰当实现，其中费米子离散化起着至关重要的作用。在本快报中，我们着重指出哈密顿量表述中耦合至U(1)规范场的交错费米子与Wilson费米子之间的差异。我们分析了交错费米子为何无法诱导(2+1)维拓扑相，而Wilson费米子则允许存在包括Chern绝缘体和量子自旋霍尔相在内的多种拓扑相。此外，我们揭示了在存在化学势的情况下双味Wilson费米子模型的丰富相图。我们的发现解决了哈密顿量表述中现有的歧义，并为未来具有拓扑相的格点场论的量子模拟提供了理论基础。我们进一步概述了与实验平台的关联，为近期量子计算架构上的实现提供了指导。关于解析计算、鲁棒拓扑结构与响应的识别以及大量数值结果的补充性展示，包含在一篇联合投稿中[S. Bharadwaj, , 094502 (2026)]。"
     },
     {
       "journal": "pra",
@@ -12572,7 +12600,9 @@
       ],
       "abstract": "Squeezed light is usually generated using parametric processes in various nonlinear materials. Semiconductor lasers and optical amplifiers (SOAs) also offer nonlinearities, but they differ in that they add amplified spontaneous emission originating from population inversion, which represents a thermal state. Squeezing to below the vacuum level has been demonstrated in a semiconductor laser, and gain saturation in SOAs can likewise reduce field amplitude fluctuations to below the vacuum limit. Here, we demonstrate that Rabi oscillations in room-temperature quantum dot SOAs induced by short resonant pulses cause cyclical noise modification that repeats with every change of 2 π in pulse area. Homodyne measurements reveal in those cases elliptical Wigner functions corresponding to displaced squeezed thermal states and in some cases those corresponding to squeezing below the vacuum level. At other pulse areas, the Wigner functions are circular representing displaced thermal states. This periodic behavior persists over two orders of magnitude in input pulse energy. Under specific bias and excitation conditions, we further observe a non-Gaussian Wigner function featuring two bright lobes. Such a Wigner function does not represent any known quantum state. It resembles though a Schrödinger catlike non-Gaussian state, and we speculate that the accompanying negativity is suppressed due to an approximately 10 dB optical output loss. This speculation is confirmed by a simulation. Notably, the emergence of this non-Gaussian state is itself periodic in excitation pulse energy.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "fb9d11d2c5e6a1d3b6c88ca86a8dd5a6c5f47435bad342c0189907e95806d2d3",
+      "abstract_zh": "压缩光通常通过各种非线性材料中的参量过程产生。半导体激光器和光放大器（SOA）也具有非线性，但不同之处在于它们会添加源自粒子数反转的放大自发辐射，这代表一种热态。已在半导体激光器中演示了压缩至真空水平以下，而SOA中的增益饱和同样可以将场振幅涨落降低至真空极限以下。在此，我们证明，由短共振脉冲在室温量子点SOA中诱导的拉比振荡会引起周期性噪声变化，该变化随脉冲面积每改变2π而重复。零拍测量在这些情况下揭示了对应于位移压缩热态的椭圆维格纳函数，在某些情况下则对应于压缩至真空水平以下。在其他脉冲面积下，维格纳函数为圆形，代表位移热态。这种周期性行为在输入脉冲能量跨越两个数量级的范围内持续存在。在特定的偏置和激发条件下，我们进一步观察到具有两个亮瓣的非高斯维格纳函数。这样的维格纳函数不代表任何已知的量子态。然而，它类似于薛定谔猫状非高斯态，我们推测伴随的负性由于约10 dB的光输出损耗而被抑制。这一推测得到了模拟的证实。值得注意的是，这种非高斯态的出现本身在激发脉冲能量上是周期性的。"
     },
     {
       "journal": "prb",
@@ -12955,7 +12985,9 @@
       ],
       "abstract": "Quantum error mitigation (QEM) can improve target observables without ensuring that reconstructed experimental data satisfy known physical consistency conditions. We introduce a constraint-preserving QEM framework that represents reconstruction error in residual coordinates and projects the estimated residual onto the locally admissible tangent space defined by a differentiable physical constraint. The method removes the complete first-order constraint-violating component and suppresses generic constraint leakage to second order. We develop the construction analytically for CHSH correlations using no-signalling as the benchmark constraint and extend it to general smooth constraints. Deterministic and finite-shot simulations confirm the predicted suppression, including improved sampling behavior after projection. The method composes with calibrated readout mitigation and zero-noise extrapolation, while covariance-informed metrics provide optional task-dependent refinements. Real-device experiments on IBM quantum hardware validate the approach across eight disjoint physical qubit pairs and 24 pair-block realizations. After readout mitigation, projection reduces the no-signalling residual in all 24 realizations, with a mean paired reduction of 96.61% and negligible additional change in CHSH. A separate shot-count sweep improves all 15 hardware realizations, with a mean paired reduction of 97.38%, while revealing a hardware-limited residual floor at high shot count. Constraint-selectivity tests further show that different constraints remove different residual components. The method is entirely classical, requires no additional qubits, ancillas, or circuit depth, and provides a resource-efficient consistency layer for existing QEM pipelines.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "126395316bc88f8ee1691243bb9bbcd1e68234b0f69defce6f246414a1c0808a",
+      "abstract_zh": "量子误差缓解（QEM）可以在不确保重建的实验数据满足已知物理一致性条件的情况下改进目标可观测量。我们引入了一个保持约束的QEM框架，该框架在残差坐标中表示重建误差，并将估计的残差投影到由可微物理约束定义的局部容许切空间上。该方法消除了完整的一阶违反约束分量，并将一般约束泄漏抑制到二阶。我们使用无信号性作为基准约束，对CHSH关联进行了解析构造，并将其推广到一般光滑约束。确定性和有限次采样模拟证实了预测的抑制效果，包括投影后改善的采样行为。该方法与校准的读出缓解和零噪声外推相组合，而协方差信息度量提供了可选的依赖于任务的改进。在IBM量子硬件上的真实设备实验在八个不相交的物理量子比特对和24个对块实现上验证了该方法。在读出缓解之后，投影在全部24个实现中降低了无信号性残差，平均配对降低为96.61%，而CHSH的额外变化可忽略不计。单独的采样次数扫描改善了全部15个硬件实现，平均配对降低为97.38%，同时揭示了在高采样次数下受硬件限制的残差下限。约束选择性测试进一步表明，不同的约束消除不同的残差分量。该方法完全经典，不需要额外的量子比特、辅助比特或电路深度，并为现有QEM流水线提供了一个资源高效的一致性层。"
     },
     {
       "journal": "pra",
@@ -12994,7 +13026,9 @@
       ],
       "abstract": "We propose a protocol to adiabatically prepare a many-particle fractional quantum Hall fluid of bosonic ultracold atoms exploiting a time-dependent coherent coupling of a strongly interacting atomic state with a large dilute Bose-Einstein condensate. Starting from an empty cloud, atoms with well-defined angular momentum are coherently pumped into the fluid by Raman beams with a Laguerre-Gauss profile. Compared to number-conserving schemes which rely on finite-size-induced gaps, we identify an adiabatic path in the Fock space which avoids crossing fixed-particle-number phase transitions and maintains a sizable and externally controlled adiabatic gap open at all times. The efficiency of our preparation protocol is numerically assessed for typical experimental parameters up to particle numbers that largely exceed the experimental state of the art. The crucial advantage of including an anharmonic confinement is finally highlighted.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "6ebcfd99e03d27825fd700a42a97f72efa9f01a19c4d75638e23405d0084f93f",
+      "abstract_zh": "我们提出一种方案，通过利用强相互作用原子态与大稀薄玻色-爱因斯坦凝聚体之间的时间依赖相干耦合，绝热制备玻色超冷原子的多粒子分数量子霍尔流体。从空云开始，具有明确角动量的原子通过具有拉盖尔-高斯分布的拉曼光束相干地泵浦到流体中。与依赖于有限尺寸诱导能隙的守恒粒子数方案相比，我们在福克空间中确定了一条绝热路径，该路径避免了穿越固定粒子数相变，并在所有时刻保持一个可观的、外部可控的绝热能隙开放。对于典型实验参数，我们的制备方案效率在数值上进行了评估，粒子数远远超过实验现状。最后强调了包含非谐约束的关键优势。"
     },
     {
       "journal": "qst",
@@ -13286,7 +13320,9 @@
       ],
       "abstract": "Temporal entanglement (TE) of an influence matrix (IM) has been proposed as a measure of the complexity of simulating dynamics of local observables in many-body systems. Foligno recently argued that the TE in chaotic 1D quantum circuits obeys linear (volume law) scaling with evolution time. To reconcile this apparent high complexity of IM with the rapid thermalization of local observables, here we study the relation between TE, non-Markovianity, and local temporal correlations for chaotic quantum baths. By exactly solving a random-unitary bath model and bounding distillable entanglement between future and past degrees of freedom, we identify a regime where TE is extensive and reflects genuine non-Markovianity. This memory, however, is entirely contained in highly complex temporal correlations, and its effect on few-point temporal correlators is negligible. An IM coarse-graining procedure, reducing the allowed frequency of measurements of the probe system, results in a transition from volume- to subvolume- (area or logarithmic) law TE scaling. We demonstrate the generality of this TE transition in 1D circuits by analyzing the kicked Ising model analytically at dual-unitary points, as well as numerically away from them. This finding indicates that dynamics of local observables are fully captured by a subvolume-law IM. We provide evidence that the compact IM MPS obtained via standard compression algorithms accurately describes local evolution.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "06eb79bfcfac015b3812b0a94727318cca72b736fb5f5a569c75e26a65422480",
+      "abstract_zh": "影响矩阵（IM）的时间纠缠（TE）已被提出作为多体系统中局部可观测量动力学模拟复杂性的一种度量。Foligno最近论证，混沌一维量子电路中的TE随演化时间遵循线性（体积律）标度。为了调和IM这种表观高复杂性与局部可观测量的快速热化之间的矛盾，本文研究混沌量子浴中TE、非马尔可夫性与局部时间关联之间的关系。通过精确求解随机幺正浴模型，并界定未来与过去自由度之间的可蒸馏纠缠，我们确定了一个TE为广延且反映真正非马尔可夫性的区域。然而，这种记忆完全包含在高度复杂的时间关联中，其对少点时间关联函数的影响可忽略不计。一种IM粗粒化程序——降低对探针系统允许的测量频率——导致TE标度从体积律转变为亚体积律（面积律或对数律）。我们通过解析分析对偶幺正点处的踢动Ising模型，以及在离开这些点处进行数值分析，证明了一维电路中这种TE转变的普遍性。这一发现表明，局部可观测量的动力学完全由亚体积律IM所捕获。我们提供证据表明，通过标准压缩算法获得的紧凑IM MPS能够准确描述局部演化。"
     },
     {
       "journal": "prresearch",
@@ -27537,126 +27573,6 @@
       "tags": [
         "量子物理"
       ]
-    },
-    {
-      "journal": "prxquantum",
-      "doi": "10.1103/rcpf-8nh9",
-      "title": "Triangle Criterion: A Mixed-State Magic Criterion with Applications in Distillation and Detection",
-      "authors": [
-        "Zhenhuan Liu, Tobias Haug, Qi Ye, Zi-Wen Liu, and Ingo Roth"
-      ],
-      "url": "https://link.aps.org/doi/10.1103/rcpf-8nh9",
-      "status": "published",
-      "date": "2026-07-24",
-      "date_kind": "publisher_feed",
-      "evidence": "https://feeds.aps.org/rss/recent/prxquantum.xml",
-      "tags": [
-        "量子信息与基础"
-      ]
-    },
-    {
-      "journal": "sciadv",
-      "doi": "10.1126/sciadv.aeb6386",
-      "title": "Sub- 1 / 10 exciton threshold lasers using stable self-charged perovskite quantum rods",
-      "authors": [
-        "Jialu Li",
-        "Xue Han",
-        "Wenjie Wang",
-        "Jinhui Wang",
-        "Tingting Zhang",
-        "Yuting Wu",
-        "Guofeng Zhang",
-        "Bin Li",
-        "Changgang Yang",
-        "Wenli Guo",
-        "Mi Zhang",
-        "Ruiyun Chen",
-        "Chengbing Qin",
-        "Jianyong Hu",
-        "Zhichun Yang",
-        "Shaoding Liu",
-        "Yue Wang",
-        "Yunan Gao",
-        "Jie Ma",
-        "Liantuan Xiao",
-        "Suotang Jia"
-      ],
-      "url": "https://doi.org/10.1126/sciadv.aeb6386",
-      "status": "published",
-      "date": "2026-07-24",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1126/sciadv.aeb6386",
-      "tags": [
-        "量子物理"
-      ]
-    },
-    {
-      "journal": "sciadv",
-      "doi": "10.1126/sciadv.aec3824",
-      "title": "Quantum convolutional HLA immunogenic peptide prediction (Q-CHIPP): Next-generation neoantigen prediction with quantum neural network",
-      "authors": [
-        "Ryan Peters",
-        "Kahn Rhrissorrakrai",
-        "Prerana Bangalore Parthasarathy",
-        "Vadim Ratner",
-        "Tanvi P. Gujarati",
-        "Meltem Tolunay",
-        "Jie Shi",
-        "Jeffrey K. Weber",
-        "Timothy A. Chan",
-        "Laxmi Parida",
-        "Sara Capponi",
-        "Filippo Utro",
-        "Tyler J. Alban"
-      ],
-      "url": "https://doi.org/10.1126/sciadv.aec3824",
-      "status": "published",
-      "date": "2026-07-24",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1126/sciadv.aec3824",
-      "tags": [
-        "量子算法"
-      ]
-    },
-    {
-      "journal": "aplq",
-      "doi": "10.1063/5.0326496",
-      "title": "Floquet frequency-bin photon-pair generation in time-modulated nonlinear metasurfaces",
-      "authors": [
-        "Netzer Moriya"
-      ],
-      "url": "https://doi.org/10.1063/5.0326496",
-      "status": "published",
-      "date": "2026-07-24",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1063/5.0326496",
-      "tags": [
-        "量子研究"
-      ],
-      "abstract": "We propose Floquet (periodically driven) control of spontaneous parametric downconversion in electrically biased nonlinear metasurfaces, enabling programmable frequency-bin photon pairs. A Floquet expansion of the time-dependent nonlinear interaction derived here expresses the biphoton amplitude as a coherent sum over discrete pathways, predicting tunable correlations spaced by the drive frequency. The modulation phase provides an electrical knob that coherently redistributes frequency-bin coincidences, including dark bins from interference between overlapping Floquet contributions. For predominantly phase-modulated sinusoidal drive, Bessel-function weights furnish a universal rule for suppressing selected Floquet orders without per-channel redesign. Numerical simulations validate the predicted coincidence statistics under finite-bandwidth, filter-based detection.",
-      "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
-    },
-    {
-      "journal": "sciadv",
-      "doi": "10.1126/sciadv.aea9457",
-      "title": "Above-twofold quantum super-resolution microscopy enabled by multiple idler passes with entangled biphotons",
-      "authors": [
-        "Xin Tong",
-        "Zhe He",
-        "Yide Zhang",
-        "Wenyu Liu",
-        "Chien-Ying Huang",
-        "Lihong V. Wang"
-      ],
-      "url": "https://doi.org/10.1126/sciadv.aea9457",
-      "status": "published",
-      "date": "2026-07-24",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1126/sciadv.aea9457",
-      "tags": [
-        "量子信息与基础"
-      ]
     }
   ],
   "sources": [
@@ -27868,7 +27784,7 @@
       "source": "pra",
       "kind": "accepted",
       "ok": true,
-      "count": 51
+      "count": 52
     },
     {
       "source": "nature",
@@ -27934,7 +27850,7 @@
       "source": "prresearch",
       "kind": "accepted",
       "ok": true,
-      "count": 29
+      "count": 30
     },
     {
       "source": "prapplied",
