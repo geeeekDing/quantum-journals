@@ -1,6 +1,854 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "papers": [
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/c72q-yck9",
+      "title": "Superposed quantum evolutions across chaotic and regular regimes",
+      "authors": [
+        "Amit Anand",
+        "Anne-Catherine de la Hamette",
+        "Robert B. Mann",
+        "Shohini Ghose"
+      ],
+      "url": "https://doi.org/10.1103/c72q-yck9",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/c72q-yck9",
+      "tags": [
+        "量子物理"
+      ],
+      "abstract": "While the superposition of quantum evolutions is known to produce interference effects, the interference between evolutions with regular and chaotic classical limits remains largely unexplored. Here, we use a Mach-Zehnder interferometer to investigate the superposition of two quantum evolutions, implemented via postselection, and to compare it with the corresponding classical mixture. The quantum kicked top provides a natural platform for this study, as its classical dynamics ranges from regular to mixed to fully chaotic depending on the Hamiltonian parameters. We show that when a regular evolution is superposed with a chaotic one, the resulting subsystem entropy can exceed that of the classical mixture, provided the contribution of the chaotic branch dominates in the superposed quantum evolution. We further demonstrate that entropy production in such superpositions is strongly influenced by the structure of the underlying classical phase space. We further show that increased entropy generation can occur for purely regular dynamics at small values of the chaos parameter, given an appropriate choice of postselection. These results reveal a nontrivial interplay between classical chaos and quantum interference in superposed quantum dynamics.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "e03481165d2f58078521b57ce3f6353d598d3970c94ff39d5cee405ec20d17f6",
+      "abstract_zh": "尽管已知量子演化的叠加会产生干涉效应，但具有规则和混沌经典极限的演化之间的干涉在很大程度上仍未被探索。在此，我们使用马赫-曾德尔干涉仪来研究通过后选择实现的两个量子演化的叠加，并将其与相应的经典混合进行比较。量子踢陀螺为这项研究提供了一个天然平台，因为其经典动力学根据哈密顿参数的不同而从规则到混合再到完全混沌不等。我们表明，当一个规则演化与一个混沌演化叠加时，只要混沌分支的贡献在叠加的量子演化中占主导地位，所得子系统熵就可以超过经典混合的熵。我们进一步证明，这种叠加中的熵产生受到 underlying 经典相空间结构的强烈影响。我们 further 表明，在混沌参数较小的情况下，对于纯粹规则动力学，如果后选择选择适当，也可以发生熵产生的增加。这些结果揭示了叠加量子动力学中经典混沌与量子干涉之间的非平凡相互作用。"
+    },
+    {
+      "journal": "nature",
+      "doi": "10.1038/s41586-026-11279-9",
+      "title": "Submillimetre hot-electron transport in manganese-doped quantum dot solids",
+      "authors": [
+        "Whi Dong Kim",
+        "Clément Livache",
+        "Ho Jin",
+        "Valerio Pinchetti",
+        "Tung H. Dang",
+        "Oleg V. Kozlov",
+        "Heeyoung Jung",
+        "Zachary L. Robinson",
+        "Victor I. Klimov"
+      ],
+      "url": "https://doi.org/10.1038/s41586-026-11279-9",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1038/s41586-026-11279-9",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/nh5n-7srt",
+      "title": "Semi-device-independent self-testing of bipartite pure quantum states without nonlocality",
+      "authors": [
+        "Lijinzhi Lin",
+        "Zhenyu Chen",
+        "Xiaodie Lin",
+        "Zhaohui Wei"
+      ],
+      "url": "https://doi.org/10.1103/nh5n-7srt",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/nh5n-7srt",
+      "tags": [
+        "量子信息与基础",
+        "量子测量"
+      ]
+    },
+    {
+      "journal": "prb",
+      "doi": "10.1103/vwwq-l8wp",
+      "title": "Role of quantum confinement in semiconductor-superconductor core-shell nanowires",
+      "authors": [
+        "Tudor Gabriel Dumitru",
+        "Anna Sitek",
+        "Gunnar Thorgilsson",
+        "Sigurdur I. Erlingsson",
+        "Tudor Dan Stanescu",
+        "Andrei Manolescu"
+      ],
+      "url": "https://doi.org/10.1103/vwwq-l8wp",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/vwwq-l8wp",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "quantum",
+      "doi": "10.22331/q-2026-11-25-2280",
+      "title": "Recursive Clifford noise reduction",
+      "authors": [
+        "Aharon Brodutch",
+        "Gregory Baimetov",
+        "Edwin Tham",
+        "Nicolas Delfosse"
+      ],
+      "url": "https://doi.org/10.22331/q-2026-11-25-2280",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.22331/q-2026-11-25-2280",
+      "tags": [
+        "量子纠错",
+        "量子硬件"
+      ],
+      "abstract": "Clifford noise reduction CliNR is a partial error correction scheme that reduces the logical error rate of Clifford circuits at the cost of a modest qubit and gate overhead. The CliNR implementation of an n -qubit Clifford circuit of size s achieves a vanishing logical error rate if s n p 2 → 0 where p is the physical error rate. Here, we propose a recursive version of CliNR that can reduce errors on larger circuits with a relatively small gate overhead. When n p → 0 , the logical error rate can be vanishingly small. When s p > 2 this can be achieved with ( 2 ⌈ log ⁡ ( s p ) ⌉ + 1 ) n + 1 qubits and at most 24 s ⌈ ( s p ) 3.6 ⌉ gates. For s p ≤ 2 we recover the original CliNR. Using numerical simulations, we show that the recursive method can offer an advantage in a realistic near-term parameter regime. When circuit sizes are large enough, recursive CliNR can reach a lower logical error rate than the original CliNR with the same gate overhead. The results offer promise for reducing logical errors in large Clifford circuits with relatively small overheads.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "0656112724101bf3d2f4c86c653ca583fb977aa95bbabb11522ea7a8ed46bd9e",
+      "abstract_zh": "Clifford噪声降低CliNR是一种部分纠错方案，它以适度的量子比特和门开销为代价，降低Clifford电路的逻辑错误率。对于一个规模为s的n量子比特Clifford电路，当其满足s n p^2 → 0时（p为物理错误率），CliNR实现可达到趋于零的逻辑错误率。在此，我们提出一种递归版本的CliNR，能够以相对较小的门开销在更大规模电路上减少错误。当n p → 0时，逻辑错误率可变得极其微小。当s p > 2时，这可通过(2⌈log(s p)⌉ + 1)n + 1个量子比特及至多24s⌈(s p)^3.6⌉个门来实现。对于s p ≤ 2的情况，我们回归到原始的CliNR。通过数值模拟，我们展示递归方法在实际近期的参数范围内能提供优势。当电路规模足够大时，递归CliNR能在相同的门开销下达到比原始CliNR更低的逻辑错误率。这些结果为在相对较小开销下减少大规模Clifford电路中的逻辑错误提供了希望。"
+    },
+    {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aebe59",
+      "title": "Reconstructing the unitary part of a noisy quantum channel",
+      "authors": [
+        "Adrian Romer",
+        "Daniel M Reich",
+        "Christiane P Koch"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aebe59",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aebe59",
+      "tags": [
+        "量子信息与基础"
+      ],
+      "abstract": "We consider the problem of reconstructing, from a set of input and output states, the unitary describing the evolution of a quantum system or quantum channel. For ideal, fully coherent evolution, we show that the unitary can be reconstructed from two mixed states or d + 1 pure states, where d is the size of Hilbert space. The reconstruction method can be extended to approximate the unitary part of a dynamical map, provided the decoherence is not too strong to render this question meaningless. We exemplify the method for the example of the cross-resonance gate as well as a random set of unitaries, comparing the reconstruction from pure, respectively mixed, states to an approach based on the Choi matrix. We find that the pure state reconstruction requires the least amount of resources when the dynamics is close to unitary, whereas the mixed state approach outperforms the pure state reconstruction in terms of channel uses for appreciable decoherence. These conclusions hold also in the presence of state preparation and measurement errors and irrespective of the Hilbert space size.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "be843bfcd22d6523e96c977e6d986b67cb26766832c0f2e495acaed08bf8358b",
+      "abstract_zh": "我们考虑从一组输入和输出状态中重构描述量子系统或量子通道演化的酉算子的问题。对于理想、完全相干的演化，我们证明酉算子可以由两个混合态或d+1个纯态重构，其中d是希尔伯特空间的大小。该重构方法可以扩展用于近似动力学映射的酉算子部分，前提是退相干不太强，以至于使该问题失去意义。我们以交叉共振门以及一组随机酉算子为例演示该方法，将从纯态和混合态的重构分别与基于Choi矩阵的方法进行比较。我们发现，当动力学接近酉演化时，纯态重构所需的资源最少；而当局域退相干显著时，混合态方法在通道使用次数方面优于纯态重构。这些结论在存在态制备和测量误差的情况下同样成立，且与希尔伯特空间的大小无关。"
+    },
+    {
+      "journal": "nature",
+      "doi": "10.1038/s41586-026-11353-2",
+      "title": "Quantum-enhanced sensing with 500 photons via Fock-space confocal focusing",
+      "authors": [
+        "Ziyue Hua",
+        "Chuanlong Ma",
+        "Yilong Zhou",
+        "Yifang Xu",
+        "Zi-Jie Chen",
+        "Weizhou Cai",
+        "Jiajun Chen",
+        "Lintao Xiao",
+        "Hongwei Huang",
+        "Weiting Wang",
+        "Hekang Li",
+        "Haohua Wang",
+        "Ming Li",
+        "Chang-Ling Zou",
+        "Luyan Sun"
+      ],
+      "url": "https://doi.org/10.1038/s41586-026-11353-2",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1038/s41586-026-11353-2",
+      "tags": [
+        "量子测量"
+      ]
+    },
+    {
+      "journal": "prl",
+      "doi": "10.1103/lbvb-c8m9",
+      "title": "Quantum timekeeping and the dynamics of scrambling in critical systems",
+      "authors": [
+        "Devjyoti Tripathy",
+        "Federico Centrone",
+        "Sebastian Deffner"
+      ],
+      "url": "https://doi.org/10.1103/lbvb-c8m9",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/lbvb-c8m9",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/t9fh-4bsq",
+      "title": "Quantum theory of electrically levitated nanoparticle-ion systems: Motional dynamics and sympathetic cooling",
+      "authors": [
+        "Saurabh Gupta",
+        "Bernard Faulend",
+        "Dmitry S. Bykov",
+        "Tracy E. Northup",
+        "Carlos Gonzalez-Ballestero"
+      ],
+      "url": "https://doi.org/10.1103/t9fh-4bsq",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/t9fh-4bsq",
+      "tags": [
+        "量子信息与基础"
+      ],
+      "abstract": "We develop the theory describing the quantum coupled dynamics of the center-of-mass motion of a nanoparticle and an ensemble of ions cotrapped in a dual-frequency linear Paul trap. We first derive analytical expressions for the motional frequencies and classical trajectories of both nanoparticle and ions. We then derive a quantum master equation for the ion-nanoparticle system and quantify the sympathetic cooling of the nanoparticle motion enabled by its Coulomb coupling to a continuously Doppler-cooled ion. We predict that motional cooling down to subkelvin temperatures is achievable in state-of-the-art experiments even in the absence of motional feedback and in the presence of micromotion. We then extend our analysis to an ensemble of N ions, predicting a linear increase of the cooling rate as a function of N and motional cooling of the nanoparticle down to tenths of millikelvin in current experimental platforms. Our work establishes the theoretical toolbox needed to explore the ion-assisted preparation of non-Gaussian motional states of levitated nanoparticles.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "fcb03b0fc72700bd50eae9f53856843cfb5896aa4dd38baa335888a3115cef13",
+      "abstract_zh": "我们发展了描述纳米颗粒质心运动与双频线性保罗阱中共捕获的离子系综之间量子耦合动力学的理论。我们首先推导了纳米颗粒和离子的运动频率及经典轨迹的解析表达式。随后，我们推导了离子-纳米颗粒系统的量子主方程，并量化了通过纳米颗粒与持续多普勒冷却离子的库仑耦合所实现的协同冷却效应。我们预测，在当前最先进的实验中，即使没有运动反馈且存在微运动的情况下，也能够实现低至亚开尔文温度的运动冷却。接着，我们将分析扩展到N个离子的系综，预测冷却速率随N线性增加，并且在当前实验平台上纳米颗粒的运动冷却可达到几十毫开尔文的温度。我们的工作建立了探索离子辅助制备悬浮纳米颗粒非高斯运动态所需的理论工具箱。"
+    },
+    {
+      "journal": "quantum",
+      "doi": "10.22331/q-2026-11-25-2283",
+      "title": "Quantum fields in a cold atomic simulator: relaxation and phase locking in tunnel-coupled 1D bosonic quasi-condensates",
+      "authors": [
+        "B. Fitos",
+        "G. Takács"
+      ],
+      "url": "https://doi.org/10.22331/q-2026-11-25-2283",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.22331/q-2026-11-25-2283",
+      "tags": [
+        "量子物理"
+      ],
+      "abstract": "We consider a prime example of simulating interacting relativistic QFT with cold atoms: the realisation of the sine-Gordon model by tunnel-coupled quasi-1D Bose gases. While experiments have shown that it can realise the sine-Gordon model in equilibrium, studies of non-equilibrium dynamics have revealed phase-locking behaviour that contrasts with predictions from sine-Gordon field theory. Here, we examine a one-dimensional field-theoretic model of the system and find that the phase-locking behaviour can be understood in terms of the longitudinal harmonic trap, and that the additional degrees of freedom observed in the experiment do not appear to play a significant role. Therefore, the experimental setup provides a good simulator of the sine-Gordon quantum field theory, even out of equilibrium, if the inhomogeneous background induced by the trap is taken into account. Furthermore, our results support the idea that modifying the longitudinal trap to a box shape should result in agreement with standard sine-Gordon dynamics. The main remaining open issues are accounting for 3D corrections and modelling the effect of the boundaries.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "6bf67860b430f63ce6495f9009d20953ef0742fbbffe9c4becb0cd1b21c58c25",
+      "abstract_zh": "我们考虑一个用冷原子模拟相互作用的相对论量子场论的主要范例：通过隧道耦合的准一维玻色气体实现正弦-戈尔登模型。尽管实验已表明它能在平衡态下实现正弦-戈尔登模型，但对非平衡动力学的研究揭示了相位锁定行为，这与正弦-戈尔登场论的预测形成对比。在此，我们研究该系统的一维场论模型，并发现相位锁定行为可以从纵向谐波陷阱的角度理解，而且实验中观察到的额外自由度似乎并未发挥显著作用。因此，如果考虑到陷阱引起的不均匀背景，该实验装置即使远离平衡态也能很好地模拟正弦-戈尔登量子场论。此外，我们的结果支持这样一种观点：将纵向陷阱改为盒状应能导致与标准正弦-戈尔登动力学一致。剩余的主要未解决问题包括考虑三维修正和模拟边界效应。"
+    },
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/c233-6588",
+      "title": "Quantum fast-forwarding fermion-boson interactions via the polaron transform",
+      "authors": [
+        "Harriet Apel",
+        "Burak Şahinoğlu"
+      ],
+      "url": "https://doi.org/10.1103/c233-6588",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/c233-6588",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "prl",
+      "doi": "10.1103/qhk1-8b27",
+      "title": "Quantum Correlations and Dissipative Blockade of Polaritons in a Tunable Fiber Cavity",
+      "authors": [
+        "Gian-Marco Schnüriger",
+        "Martin Kroner",
+        "Emre Togan",
+        "Patrick Knüppel",
+        "Aymeric Delteil",
+        "Stefan Fält",
+        "Werner Wegscheider",
+        "Ataç Imamoğlu"
+      ],
+      "url": "https://doi.org/10.1103/qhk1-8b27",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/qhk1-8b27",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "prxquantum",
+      "doi": "10.1103/xvjl-h44h",
+      "title": "Polariton-Polariton Coherent Coupling in a Molecular Spin-Superconductor Chip",
+      "authors": [
+        "Carolina del Río",
+        "Marcos Rubín-Osanz",
+        "David Rodriguez",
+        "Sebastián Roca-Jerat",
+        "María Carmen Pallarés",
+        "J. Alejandro de Sousa",
+        "Paweł Pakulski",
+        "José Luis García Palacios",
+        "Daniel Granados",
+        "Dawid Pinkowicz",
+        "Núria Crivillers",
+        "Anabel Lostao",
+        "David Zueco",
+        "Alicia Gomez",
+        "Fernando Luis"
+      ],
+      "url": "https://doi.org/10.1103/xvjl-h44h",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/xvjl-h44h",
+      "tags": [
+        "量子研究",
+        "量子信息与基础"
+      ],
+      "abstract": "The ability to establish coherent communication channels is key for scaling up quantum devices. Here, we engineer interactions between distant polaritons, hybrid spin-photon excitations formed at different lumped-element superconducting resonators within a chip. The chip consists of several resonator pairs, slightly detuned in frequency to make them addressable, capacitively coupled within each pair and inductively coupled to a common readout line. They interact locally with samples of PTMr and Tripak − organic free radicals, deposited onto their inductors, which provide model S = 1 / 2 , g ≃ 2 spin ensembles. Frequency-dependent microwave transmission experiments, performed at very low temperatures, measure polariton frequencies as a function of magnetic field in different scenarios. When only one resonator within a pair hosts a molecular sample, the results evidence that spins couple remotely to the empty LER as well as to the local cavity mode. If both resonators interact with a spin ensemble, the magnetic field tunes the polariton frequencies relative to each other, on account of the different spin-photon interactions at each LER. When polaritons are brought into mutual resonance, the microwave transmission spectroscopically resolves an avoided level crossing that evidences a polariton-polariton interaction mediated by the circuit. Then, pump-probe experiments reveal that the excitation of a polariton within a connected pair is indeed felt, thus it can be read out, by the other one. Model calculations, compatible with the experimental parameters and results, suggest that the system excitation eigenstates show photon-photon and spin-spin correlations and entanglement near the polariton-polariton anticrossing.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "c51b75b847d0ae62a3af7e149cd5863deff8f010e4bdcf506cbcebac85027117",
+      "abstract_zh": "建立相干通信信道的能力是扩展量子器件的关键。在此，我们设计了芯片内不同集总元件超导谐振器中形成的远距离极化激元之间的相互作用，极化激元是混合自旋-光子激发。该芯片由若干谐振器对组成，频率略有失谐以使其可寻址，每对内部电容耦合，并电感耦合到一条公共读出线。它们与沉积在其电感器上的PTMr和Tripak−有机自由基样品发生局部相互作用，这些样品提供模型S = 1/2、g ≃ 2的自旋系综。在极低温度下进行的频率相关微波透射实验，测量了不同场景下极化激元频率随磁场的变化。当一对中只有一个谐振器承载分子样品时，结果表明自旋既远程耦合到空LER，也耦合到局部腔模。如果两个谐振器都与自旋系综相互作用，则由于每个LER处不同的自旋-光子相互作用，磁场会调节极化激元频率的相对位置。当极化激元达到相互共振时，微波透射谱分辨出一个避免能级交叉，这证明了由电路介导的极化激元-极化激元相互作用。然后，泵浦-探测实验揭示，连接对中一个极化激元的激发确实能被另一个感受到，从而可以被读出。与实验参数和结果兼容的模型计算表明，在极化激元-极化激元反交叉附近，系统激发本征态显示出光子-光子和自旋-自旋关联以及纠缠。"
+    },
+    {
+      "journal": "quantum",
+      "doi": "10.22331/q-2026-11-25-2284",
+      "title": "Optimal Calibration of Qubit Detuning and Crosstalk",
+      "authors": [
+        "David Shnaiderov",
+        "Matan Ben Dov",
+        "Yoav Woldiger",
+        "Assaf Hamo",
+        "Eugene Demler",
+        "Emanuele G. Dalla Torre"
+      ],
+      "url": "https://doi.org/10.22331/q-2026-11-25-2284",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.22331/q-2026-11-25-2284",
+      "tags": [
+        "量子硬件"
+      ],
+      "abstract": "Characterizing and calibrating physical qubits is essential for maintaining the performance of quantum processors. A key challenge in this process is crosstalk, which complicates the estimation of individual qubit detunings. In this work, we derive optimal strategies for estimating detuning and crosstalk parameters by optimizing Ramsey interference experiments using Fisher information and the Cramér–Rao bound. We compare several calibration protocols, including measurements of a single quadrature at multiple times and of two quadratures at a single time, for a fixed number of total measurements. Our results predict that the latter approach yields the highest precision and robustness in both cases of isolated and coupled qubits. We validate our approach experimentally using both a single NV center and superconducting transmon qubits. Our approach enables accurate parameter extraction with significantly fewer measurements, resulting in up to a 50% reduction in calibration time while maintaining estimation accuracy.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "a6400808076ec9a65094187bb858295b0f701821817f11aeaf6dad978ea1e2cd",
+      "abstract_zh": "表征和校准物理量子比特对于维持量子处理器的性能至关重要。这一过程中的一个关键挑战是串扰，它使单个量子比特失谐的估计变得复杂。在本工作中，我们通过利用Fisher信息和Cramér–Rao界优化Ramsey干涉实验，推导出估计失谐和串扰参数的最优策略。我们在固定总测量次数下比较了几种校准协议，包括在多个时刻测量单一正交分量以及在单一时刻测量两个正交分量。我们的结果预测，后者在孤立量子比特和耦合量子比特两种情况下都能获得最高的精度和鲁棒性。我们使用单个NV中心和超导transmon量子比特对这一方法进行了实验验证。我们的方法能够以显著更少的测量实现准确的参数提取，在保持估计精度的同时将校准时间最多缩短50%。"
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/ltwy-bty1",
+      "title": "One-query quantum algorithms for the index- q hidden subgroup problem",
+      "authors": [
+        "Amit Te’eni",
+        "Yaron Oz",
+        "Eliahu Cohen"
+      ],
+      "url": "https://doi.org/10.1103/ltwy-bty1",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/ltwy-bty1",
+      "tags": [
+        "量子算法"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/smp7-gp8x",
+      "title": "Noise propagation and effective channels in encrypted quantum cloning",
+      "authors": [
+        "Yun-Fei Li",
+        "Fei-Hao Yang",
+        "Qing Chen",
+        "Liu-Jun Wang"
+      ],
+      "url": "https://doi.org/10.1103/smp7-gp8x",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/smp7-gp8x",
+      "tags": [
+        "量子物理",
+        "量子硬件"
+      ]
+    },
+    {
+      "journal": "prxquantum",
+      "doi": "10.1103/2shm-wqmf",
+      "title": "Minimum weight decoding in the colour code is NP-hard",
+      "authors": [
+        "Mark Walters",
+        "Mark L. Turner"
+      ],
+      "url": "https://doi.org/10.1103/2shm-wqmf",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/2shm-wqmf",
+      "tags": [
+        "量子研究",
+        "量子纠错",
+        "量子算法",
+        "量子硬件"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/5qlk-4w51",
+      "title": "Matrix phase-space representations for quantum symmetries",
+      "authors": [
+        "Alexander S. Dellios",
+        "Margaret D. Reid",
+        "Peter D. Drummond"
+      ],
+      "url": "https://doi.org/10.1103/5qlk-4w51",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/5qlk-4w51",
+      "tags": [
+        "量子模拟与多体"
+      ],
+      "abstract": "We introduce a general phase-space representation that includes global quantum symmetries in the basis expansion. This method, called matrix phase-space, projects the basis onto a reduced Hilbert space, which can greatly reduce sampling errors of many-body quantum simulations when there is a symmetry, and unifies several previous phase-space methods. The purpose of this paper is to provide detailed proofs of basic theorems and operator identities. We also treat several different types of symmetries, corresponding to parity, number, and momentum conservation laws. To illustrate these methods, we give a detailed derivation of previous applications to the topical problem of validating the outputs of Gaussian boson sampling (GBS) quantum computers (QCs) with photon-number-resolving (PNR) detectors. Exact evaluation of GBS PNR output probabilities has exponential classical complexity. Fortunately, special cases of output GBS grouped probabilities have tractable solutions, providing a way to check the results. Using matrix phase-space with parity symmetry, we observe a reduction of over two orders of magnitude in sampling errors compared with earlier methods in low-loss cases. Additional nonlinear examples are also treated. These include the dynamical evolution of a nonlinear damped one-dimensional lattice and the periodic Bose-Hubbard model. More details will be given elsewhere. As well as direct application to experiments, this scalable first-principles method may be useful for validating other QC calculations on large Hilbert spaces.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "b6e4ca1a908cba3a1a4e12effc839dc771883f40300373138e96832e073580a8",
+      "abstract_zh": "我们引入了一种广义相空间表示方法，该方法在基展开中包含了全局量子对称性。这种方法被称为矩阵相空间，它将基投影到约化的希尔伯特空间上，当存在对称性时，这能极大地减少多体量子模拟的采样误差，并且统一了若干先前的相空间方法。本文的目的是提供基本定理和算子恒等式的详细证明。我们还处理了几种不同类型的对称性，分别对应于宇称、数量和动量守恒定律。为了说明这些方法，我们详细推导了先前应用于典型问题的案例，即利用光子数分辨(PNR)探测器验证高斯玻色采样(GBS)量子计算机(QCs)输出的问题。GBS PNR输出概率的精确评估具有指数级的经典复杂度。幸运的是，输出GBS分组概率的特殊情况具有可处理的解，为检查结果提供了一种途径。利用具有宇称对称性的矩阵相空间，我们观察到在低损耗情况下，与早期方法相比，采样误差减少了两个数量级以上。还处理了其他非线性示例，包括非线性阻尼一维晶格的动态演化和周期性Bose-Hubbard模型。更多细节将在别处给出。除了直接应用于实验外，这种可扩展的第一性原理方法可能有助于验证大型希尔伯特空间上的其他量子计算计算结果。"
+    },
+    {
+      "journal": "quantum",
+      "doi": "10.22331/q-2026-11-25-2281",
+      "title": "Logarithmic-depth quantum state preparation of polynomials",
+      "authors": [
+        "Baptiste Claudon",
+        "Alexis Lucas",
+        "Jean-Philip Piquemal",
+        "César Feniou",
+        "Julien Zylberman"
+      ],
+      "url": "https://doi.org/10.22331/q-2026-11-25-2281",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.22331/q-2026-11-25-2281",
+      "tags": [
+        "量子算法",
+        "量子硬件",
+        "量子信息与基础"
+      ],
+      "abstract": "Quantum state preparation is a central primitive in many quantum algorithms, yet it is generally resource intensive, with efficient constructions known only for structured families of states. This work introduces a method for preparing quantum states whose amplitudes are given by a degree − d polynomial, using circuits with logarithmic depth in the number n of qubits and only O ( n ) ancilla qubits, improving previous approaches that required linear-depth circuits. The construction first relies on a block-encoding of an affine diagonal operator based on its Pauli-basis decomposition, which involves only n terms. A modified linear-combination-of-unitaries (LCU) technique is introduced to implement this decomposition in logarithmic depth, together with a novel circuit for the EXACT-one oracle that flags basis states in which exactly one qubit is in the state | 1 ⟩ . It then uses a generalized quantum eigenvalue transformation (GQET) to promote this affine operator to an arbitrary degree polynomial. Theoretical analysis and numerical simulations are reported along with a proof-of-principle implementation on a Quantinuum System Model H2 trapped-ion quantum processor using 14 qubits and more than 500 primitive quantum gates. Because polynomial approximations are ubiquitous in scientific computing, this construction provides a scalable and resource-efficient approach to quantum state preparation, further improving the potential of quantum algorithms in fields such as chemistry, physics, engineering, and finance.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "d4bfb0a90194e8701459033d44c5c996944fba90bc3f1a8a160d5bf95c887e6d",
+      "abstract_zh": "量子态制备是许多量子算法的核心基础操作，但通常资源消耗较大，目前仅对结构化态族已知高效构造。本文提出一种制备量子态的方法，其振幅由次数为d的多项式给出，所用电路在量子比特数n上具有对数深度，且仅需O(n)个辅助量子比特，改进了此前需要线性深度电路的方法。该构造首先基于仿射对角算符的泡利基分解实现其块编码，该分解仅涉及n项。引入一种改进的幺正线性组合（LCU）技术以对数深度实现该分解，并提出一种用于EXACT-one oracle的新电路，该oracle标记恰好有一个量子比特处于|1⟩态的基态。随后利用广义量子特征值变换（GQET）将该仿射算符提升为任意次数多项式。报告了理论分析和数值模拟，以及在Quantinuum System Model H2囚禁离子量子处理器上使用14个量子比特和超过500个基本量子门的原理验证实现。由于多项式逼近在科学计算中无处不在，该构造为量子态制备提供了一种可扩展且资源高效的方法，进一步提升了量子算法在化学、物理、工程和金融等领域的潜力。"
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/dgzp-j833",
+      "title": "Learning adaptive unravelings for efficient quantum-trajectory simulations",
+      "authors": [
+        "Xing-Liang Dong",
+        "Yun-Feng Xiao"
+      ],
+      "url": "https://doi.org/10.1103/dgzp-j833",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/dgzp-j833",
+      "tags": [
+        "量子物理",
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/fjzj-9vt3",
+      "title": "Johnson-spectral recycling for photon-loss mitigation in linear-optical quantum circuits",
+      "authors": [
+        "Yu. A. Biriukov"
+      ],
+      "url": "https://doi.org/10.1103/fjzj-9vt3",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/fjzj-9vt3",
+      "tags": [
+        "量子算法",
+        "量子硬件"
+      ]
+    },
+    {
+      "journal": "prapplied",
+      "doi": "10.1103/tf8y-nlsk",
+      "title": "High-bandwidth heterodyne sensing with bulk N-$V$ diamond",
+      "authors": [
+        "H. A. M. Taylor, J. P. Duff, L. B. Miller, A. Tritt, M. S. Oldfield, K. Helmerson, and M. S. J. Barson"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/tf8y-nlsk",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/prapplied.xml",
+      "tags": [
+        "量子测量"
+      ]
+    },
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/7fn3-dqmq",
+      "title": "General framework for interactions between electron beams and quantum optical systems",
+      "authors": [
+        "Jakob M. Grzesik",
+        "Aviv Karnieli",
+        "Charles Roques-Carmes",
+        "Dylan S. Black",
+        "Trung Kiên Lê",
+        "Olav Solgaard",
+        "Shanhui Fan",
+        "Jelena Vučković"
+      ],
+      "url": "https://doi.org/10.1103/7fn3-dqmq",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/7fn3-dqmq",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/vx95-6gcf",
+      "title": "Flux control of measurement back-action and Leggett-Garg correlations in chiral quantum walks",
+      "authors": [
+        "Paolo Luppi"
+      ],
+      "url": "https://doi.org/10.1103/vx95-6gcf",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/vx95-6gcf",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "prb",
+      "doi": "10.1103/1m6r-p4dl",
+      "title": "Electrical control of valley hybridization in moiré quantum dots",
+      "authors": [
+        "Yasser Saleem",
+        "Paweł Potasz",
+        "Ewelina M. Hankiewicz"
+      ],
+      "url": "https://doi.org/10.1103/1m6r-p4dl",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/1m6r-p4dl",
+      "tags": [
+        "量子模拟与多体"
+      ]
+    },
+    {
+      "journal": "prl",
+      "doi": "10.1103/28st-q915",
+      "title": "Efficient Integrated Quantum Memory Based on a Waveguide Cavity",
+      "authors": [
+        "Pei-Xi Liu",
+        "Yi-Xin Xiao",
+        "Tian-Xiang Zhu",
+        "Zhe-Kai You",
+        "Zong-Quan Zhou",
+        "Chuan-Feng Li",
+        "Guang-Can Guo"
+      ],
+      "url": "https://doi.org/10.1103/28st-q915",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/28st-q915",
+      "tags": [
+        "量子通信"
+      ]
+    },
+    {
+      "journal": "ncomms",
+      "doi": "10.1038/s41467-026-79572-9",
+      "title": "Directional codes for quantum LDPC error correction on square and hexagonal grid architectures",
+      "authors": [
+        "György P. Gehér",
+        "David Byfield",
+        "Archibald Ruban"
+      ],
+      "url": "https://doi.org/10.1038/s41467-026-79572-9",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1038/s41467-026-79572-9",
+      "tags": [
+        "量子纠错"
+      ]
+    },
+    {
+      "journal": "prx",
+      "doi": "10.1103/d396-73sy",
+      "title": "Designing fault-tolerant blind quantum computation",
+      "authors": [
+        "Gefen Baranes",
+        "Iria W. Wang",
+        "Francisco Machado",
+        "Aziza Suleymanzade",
+        "Pieter-Jan Stas",
+        "Yan-Cheng Wei",
+        "Susanne F. Yelin",
+        "Johannes Borregaard",
+        "Mikhail D. Lukin"
+      ],
+      "url": "https://doi.org/10.1103/d396-73sy",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/d396-73sy",
+      "tags": [
+        "量子纠错",
+        "量子算法"
+      ]
+    },
+    {
+      "journal": "epjqt",
+      "doi": "10.1140/epjqt/s40507-026-00577-w",
+      "title": "Convergence-guided quantum combinatorial optimization via deep Q-network reinforcement learning and adaptive Kalman filtering under simulated NISQ noise",
+      "authors": [
+        "Sanjay Sharma",
+        "Amanjot Kaur Lamba",
+        "Govind Murari Upadhyay",
+        "Shyam Akashe"
+      ],
+      "url": "https://doi.org/10.1140/epjqt/s40507-026-00577-w",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1140/epjqt/s40507-026-00577-w",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "prl",
+      "doi": "10.1103/43s7-tgzq",
+      "title": "Comment on “Quantum Limits to Incoherent Imaging Are Achieved by Linear Interferometry”",
+      "authors": [
+        "George Brumpton",
+        "Aiman Khan",
+        "Helia Hooshmand",
+        "Samanta Piano",
+        "Gerardo Adesso"
+      ],
+      "url": "https://doi.org/10.1103/43s7-tgzq",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/43s7-tgzq",
+      "tags": [
+        "量子测量"
+      ]
+    },
+    {
+      "journal": "nature",
+      "doi": "10.1038/s41586-026-11309-6",
+      "title": "Coherent parity oscillations in coupled minimal Kitaev chains",
+      "authors": [
+        "Francesco Zatelli",
+        "Bart Roovers",
+        "Nick van Loo",
+        "Antonio Lombardi",
+        "Juan D. Torres Luna",
+        "Sebastian Miles",
+        "Vincent P. M. Sietses",
+        "Florian J. Bennebroek Evertsz’",
+        "Pablo Cova Fariña",
+        "Alberto Bordin",
+        "Ghada Badawy",
+        "Erik P. A. M. Bakkers",
+        "Michael Wimmer",
+        "Leo P. Kouwenhoven"
+      ],
+      "url": "https://www.nature.com/articles/s41586-026-11309-6",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publisher_feed",
+      "evidence": "https://www.nature.com/nature.rss",
+      "tags": [
+        "量子硬件"
+      ]
+    },
+    {
+      "journal": "nphys",
+      "doi": "10.1038/s41567-026-03529-4",
+      "title": "Coherent manipulation of interacting electron qubits on solid neon",
+      "authors": [
+        "Xinhao Li",
+        "Yizhong Huang",
+        "Xu Han",
+        "Xianjing Zhou",
+        "Amir Yacoby",
+        "Dafei Jin"
+      ],
+      "url": "https://www.nature.com/articles/s41567-026-03529-4",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publisher_feed",
+      "evidence": "https://www.nature.com/subjects/quantum-information/nphys.rss",
+      "tags": [
+        "量子硬件"
+      ]
+    },
+    {
+      "journal": "quantum",
+      "doi": "10.22331/q-2026-11-25-2282",
+      "title": "Climbing the Clifford Hierarchy",
+      "authors": [
+        "Luca Bastioni",
+        "Akash Bhople",
+        "Samuel Glandon",
+        "Tefjol Pllaha",
+        "Madison Stewart",
+        "Phillip Waitkevich"
+      ],
+      "url": "https://doi.org/10.22331/q-2026-11-25-2282",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.22331/q-2026-11-25-2282",
+      "tags": [
+        "量子纠错",
+        "量子算法"
+      ],
+      "abstract": "The Clifford Hierarchy has been a central topic in quantum computation due to its strong connections with fault-tolerant quantum computation, magic state distillation, and more. Nevertheless, only sections of the hierarchy are fully understood, such as diagonal gates and third level gates. The diagonal part of the hierarchy can be climbed by taking square roots and adding controls. Similarly, square roots of Pauli gates (first level) are Clifford gates (climb to the second level). Based on this theme, we study gates whose square roots climb to the next level. In this paper, we primarily focus on Hermitian gates, and in particular, we fully characterize Hermitian Clifford gates whose square roots climb to the third level.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "ad79cf5c71a5e2476dd44f4220c7234453d906d998c435ebee98328c5f9249e9",
+      "abstract_zh": "克利福德层级由于与容错量子计算、魔态蒸馏等密切相关，一直是量子计算中的核心话题。然而，目前仅对该层级的某些部分有完全理解，例如对角门和第三级门。该层级中的对角部分可通过取平方根并添加控制来攀升。类似地，泡利门（第一级）的平方根是克利福德门（攀升至第二级）。基于这一主题，我们研究其平方根攀升至下一级的门。在本文中，我们主要关注埃尔米特门，特别是完全刻画了其平方根攀升至第三级的埃尔米特克利福德门。"
+    },
+    {
+      "journal": "nature",
+      "doi": "10.1038/s41586-026-11146-7",
+      "title": "Augmenting reality with integrated photonics",
+      "authors": [
+        "Zhujun Shi",
+        "Jelena Notaros",
+        "Youmin Wang",
+        "Maxwell F. Parsons",
+        "Vittal Prakasam",
+        "Nga P. Pham",
+        "Philippe Helin",
+        "Takashi Honda",
+        "Hideaki Fukuzawa",
+        "Andres Garcia Coleto",
+        "Yun Wang",
+        "Giuseppe Calafiore"
+      ],
+      "url": "https://www.nature.com/articles/s41586-026-11146-7",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publisher_feed",
+      "evidence": "https://www.nature.com/nature.rss",
+      "tags": [
+        "量子算法"
+      ]
+    },
+    {
+      "journal": "prx",
+      "doi": "10.1103/s8dg-rmg2",
+      "title": "Atomic interface for high-dimensional temporal mode quantum networks",
+      "authors": [
+        "Shicheng Zhang",
+        "Aonan Zhang",
+        "Ilse Maillette de Buy Wenniger",
+        "Paul M. Burdekin",
+        "Jerzy Szuniewicz",
+        "Steven Sagona-Stophel",
+        "Sarah E. Thomas",
+        "Ian A. Walmsley"
+      ],
+      "url": "https://doi.org/10.1103/s8dg-rmg2",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/s8dg-rmg2",
+      "tags": [
+        "量子通信"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/k4qw-grmj",
+      "title": "Adaptive quantum metrology with large dynamic range using short one-axis twists",
+      "authors": [
+        "Tyler G. Thurtell",
+        "Akimasa Miyake"
+      ],
+      "url": "https://doi.org/10.1103/k4qw-grmj",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/k4qw-grmj",
+      "tags": [
+        "量子测量"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/817r-g5kt",
+      "title": "Unified physical picture for enantioselective molecular orientation driven by optical and terahertz fields",
+      "authors": [
+        "Lili Bian, Libin Fu, and Long Xu"
+      ],
+      "url": "https://journals.aps.org/pra/accepted/49072NadE131f92d29d66030c8a6af443f7216178",
+      "status": "accepted",
+      "date": "2026-11-25",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
+      "tags": [
+        "量子模拟与多体"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/36wb-fzdp",
+      "title": "Rydbergizationlike mechanism in dissociative electron attachment and its consequences for electron-scattering cross sections",
+      "authors": [
+        "Pedro A. S. Randi, Paulo Limão-Vieira, and Márcio H. F. Bettega"
+      ],
+      "url": "https://journals.aps.org/pra/accepted/92076Ye8G3618d9db960384509f9d5b883ac61ec2",
+      "status": "accepted",
+      "date": "2026-11-25",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
+      "tags": [
+        "量子硬件"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/3f43-3lb3",
+      "title": "Logical entangling by qubit permutations in hypergraph products",
+      "authors": [
+        "Keming He, Ziao Tang, Zetong Li, Ge Bai, and Xin Wang"
+      ],
+      "url": "https://journals.aps.org/pra/accepted/b8072Ye0I622810be24616061dfe6d3a133a4bf9d",
+      "status": "accepted",
+      "date": "2026-11-25",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
+      "tags": [
+        "量子纠错",
+        "量子算法",
+        "量子硬件"
+      ]
+    },
     {
       "journal": "pra",
       "doi": "10.1103/ln98-1tn6",
@@ -17,7 +865,9 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/ln98-1tn6",
       "tags": [
-        "量子算法"
+        "量子算法",
+        "量子硬件",
+        "量子信息与基础"
       ]
     },
     {
@@ -39,6 +889,62 @@
       "date": "2026-11-24",
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1038/s41534-026-01421-w",
+      "tags": [
+        "量子研究"
+      ]
+    },
+    {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aec628",
+      "title": "Transient entanglement generation in driven chiral networks beyond the secular approximation",
+      "authors": [
+        "Yan Xi Foo",
+        "Kian Hwee Lim",
+        "Jia-Bin You",
+        "Leong-Chuan Kwek",
+        "Davit Aghamalyan"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aec628",
+      "status": "published",
+      "date": "2026-11-24",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aec628",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/vz5z-yqfh",
+      "title": "Strong-field Rydberg-state excitation of aligned ${\\mathrm{N}}_{2}$ and ${\\mathrm{O}}_{2}$ molecules",
+      "authors": [
+        "Jianting Lei, Zhijie Yang, Fenghao Sun, Jinmei Zheng, Yubin Zhang, Luqi Li, Guangqi Fan, Zijun Zhang, Yongzhe Ma, and Qingcao Liu"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/vz5z-yqfh",
+      "status": "published",
+      "date": "2026-11-24",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/pra.xml",
+      "tags": [
+        "量子硬件"
+      ]
+    },
+    {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aec62e",
+      "title": "Stripping phase-dominated magic for sample-efficient fidelity estimation",
+      "authors": [
+        "Guedong Park ­",
+        "Jaekwon Chang",
+        "Yosep Kim",
+        "Yong S Teo",
+        "Hyunseok Jeong"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aec62e",
+      "status": "published",
+      "date": "2026-11-24",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aec62e",
       "tags": [
         "量子研究"
       ]
@@ -76,7 +982,8 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/866f-xmqx",
       "tags": [
-        "量子测量"
+        "量子测量",
+        "量子硬件"
       ]
     },
     {
@@ -96,7 +1003,8 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/n4mm-jz2s",
       "tags": [
-        "量子物理"
+        "量子物理",
+        "量子测量"
       ]
     },
     {
@@ -179,7 +1087,26 @@
       "evidence": "https://api.crossref.org/works/10.1103/kztb-9ykh",
       "tags": [
         "量子物理",
-        "量子信息与基础"
+        "量子信息与基础",
+        "量子通信"
+      ]
+    },
+    {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aec62c",
+      "title": "Quantum sensing through bosonic-fermionic Bell-state transitions in two-photon interference",
+      "authors": [
+        "Chahat Kaushik",
+        "Vimlesh Kumar",
+        "Goutam K Kumar Samanta"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aec62c",
+      "status": "published",
+      "date": "2026-11-24",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aec62c",
+      "tags": [
+        "量子测量"
       ]
     },
     {
@@ -275,7 +1202,8 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/q4yd-qpqh",
       "tags": [
-        "量子测量"
+        "量子测量",
+        "量子信息与基础"
       ]
     },
     {
@@ -351,6 +1279,23 @@
       "abstract_zh": "动态规划是图优化领域的基石。尽管有效，但其计算规模随问题规模增大而不利地增长。在本工作中，我们提出了QuantGraph，一个两阶段量子增强框架，将局部和全局图优化问题转化为离散轨迹空间上的量子搜索。该求解器通过首先在图中寻找一系列局部最优转移（局部阶段），而不考虑完整轨迹，从而实现高效运行。所得候选解的累积成本作为阈值，用于剪枝搜索空间（在某些示例中减少高达60%）。随后的全局阶段基于此阈值细化解决方案。为实现可扩展性和鲁棒性，我们借鉴控制理论的原理，并将QuantGraph的全局阶段嵌入到滚动时域模型预测控制方案中。这一经典层稳定并引导量子搜索，提高精度并减少计算负担。在实践中，所得闭环系统表现出鲁棒行为和更低的查询复杂度。值得注意的是，对于固定的控制时域和查询预算，QuantGraph支持大约两倍的控制离散化位数，同时仍受益于Grover搜索相较于经典方法固有的二次加速。"
     },
     {
+      "journal": "prl",
+      "doi": "10.1103/j1r2-5ph7",
+      "title": "Probing the Memory of a Superconducting Qubit Environment",
+      "authors": [
+        "Nicolas Gosling, Denis Bénâtre, Paul Kugler, Simon Geisert, Nicolas Zapata, Mitchell Field, Sumeru Hazra, Simon Günzler, Thomas Reisinger, Martin Spiecker, Mathieu Féchant, and Ioan M. Pop"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/j1r2-5ph7",
+      "status": "published",
+      "date": "2026-11-24",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/prl.xml",
+      "tags": [
+        "量子纠错",
+        "量子硬件"
+      ]
+    },
+    {
       "journal": "pra",
       "doi": "10.1103/r345-my6q",
       "title": "Polynomial-time decidability of quantum state transfer",
@@ -404,7 +1349,62 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/fxpf-vzxx",
       "tags": [
-        "量子硬件"
+        "量子硬件",
+        "量子算法"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/pxrf-bf72",
+      "title": "Optimality of trine states for two-copy discrimination",
+      "authors": [
+        "Hyunho Cha and Jungwoo Lee"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/pxrf-bf72",
+      "status": "published",
+      "date": "2026-11-24",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/pra.xml",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aec62d",
+      "title": "On the viability of transatlantic quantum entanglement distribution using combined satellite and stratospheric relay nodes",
+      "authors": [
+        "Kimia Mohammadi",
+        "Paul J. Godin",
+        "Thomas Jennewein"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aec62d",
+      "status": "published",
+      "date": "2026-11-24",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aec62d",
+      "tags": [
+        "量子通信",
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aec629",
+      "title": "On super additivity of Fisher information in fully Gaussian metrology",
+      "authors": [
+        "Javier Navarro",
+        "Simon Morelli",
+        "Mikel Sanz",
+        "Mohammad Mehboudi"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aec629",
+      "status": "published",
+      "date": "2026-11-24",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aec629",
+      "tags": [
+        "量子研究"
       ]
     },
     {
@@ -443,7 +1443,8 @@
       "evidence": "https://api.crossref.org/works/10.1103/r98s-g3q3",
       "tags": [
         "量子通信",
-        "量子硬件"
+        "量子硬件",
+        "量子信息与基础"
       ]
     },
     {
@@ -487,7 +1488,8 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/4rtv-cjxb",
       "tags": [
-        "量子信息与基础"
+        "量子信息与基础",
+        "量子硬件"
       ]
     },
     {
@@ -531,7 +1533,116 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/rcps-df2n",
       "tags": [
+        "量子硬件",
+        "量子算法"
+      ]
+    },
+    {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aec627",
+      "title": "Ion trap on borosilicate substrate with integrated femtosecond-laser-written waveguide",
+      "authors": [
+        "Jakob Wahl",
+        "Alexander Zesar",
+        "Philipp Hurdax",
+        "Marco Schmauser",
+        "Victoria Schwab",
+        "Michael Pasquini",
+        "Marco Valentini",
+        "Clemens Rössler",
+        "Thomas Monz",
+        "Bernhard Lamprecht",
+        "Klemens Schüppert",
+        "Philipp Schindler"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aec627",
+      "status": "published",
+      "date": "2026-11-24",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aec627",
+      "tags": [
         "量子硬件"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/3cy6-5pdq",
+      "title": "Intelligent control of collisional architectures for multipartite Dicke-state preparation",
+      "authors": [
+        "Duc-Kha Vu, Minh Tam Nguyen, Özgür E. Müstecaplıoğlu, and Fatih Ozaydin"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/3cy6-5pdq",
+      "status": "published",
+      "date": "2026-11-24",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/pra.xml",
+      "tags": [
+        "量子硬件",
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/s7tq-rz7c",
+      "title": "Hybrid quantum-classical analog simulation of two-dimensional Fermi-Hubbard models with neutral atoms within an auxiliary-spin approximation",
+      "authors": [
+        "Sergi Julià-Farré",
+        "Antoine Michel",
+        "Christophe Domain",
+        "Joseph Mikael",
+        "Jacques-Charles Lafoucriere",
+        "Joseph Vovrosh",
+        "Ahmed Chahlaoui",
+        "Dorian Claveau",
+        "Guillaume Villaret",
+        "Julius de Hond",
+        "Loïc Henriet",
+        "Antoine Browaeys",
+        "Thomas Ayral",
+        "Alexandre Dauphin"
+      ],
+      "url": "https://doi.org/10.1103/s7tq-rz7c",
+      "status": "published",
+      "date": "2026-11-24",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/s7tq-rz7c",
+      "tags": [
+        "量子硬件"
+      ]
+    },
+    {
+      "journal": "prl",
+      "doi": "10.1103/zmky-pr37",
+      "title": "High-Purity Entanglement Mediated by Magnons Despite Weak Coupling",
+      "authors": [
+        "Sanchar Sharma"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/zmky-pr37",
+      "status": "published",
+      "date": "2026-11-24",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/prl.xml",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aec626",
+      "title": "Graph-based shallow circuit mixing for molecular excited state preparation",
+      "authors": [
+        "Silvia Riera",
+        "Jakob Kottmann",
+        "Jesús González-Vázquez",
+        "Alicia Palacios"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aec626",
+      "status": "published",
+      "date": "2026-11-24",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aec626",
+      "tags": [
+        "量子算法"
       ]
     },
     {
@@ -549,6 +1660,22 @@
       "evidence": "https://api.crossref.org/works/10.1103/ysgv-4dd7",
       "tags": [
         "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/gp2v-gfrw",
+      "title": "Giant third-order polarization rotation via wave-mixing-induced symmetry breaking in a Rydberg–electromagnetically-induced-transparency medium",
+      "authors": [
+        "Lintian Luo, Yan Li, Chengjie Zhu, and Runbing Li"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/gp2v-gfrw",
+      "status": "published",
+      "date": "2026-11-24",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/pra.xml",
+      "tags": [
+        "量子硬件"
       ]
     },
     {
@@ -589,7 +1716,8 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/pg14-f96q",
       "tags": [
-        "量子物理"
+        "量子物理",
+        "量子信息与基础"
       ]
     },
     {
@@ -629,6 +1757,25 @@
       "tags": [
         "量子硬件",
         "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aec62b",
+      "title": "Efficient quantum circuits for coherent conversion between general first-and second-quantized many-body representations",
+      "authors": [
+        "Jack S. Baker",
+        "Gaurav Saxena",
+        "Thi Ha Kyaw"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aec62b",
+      "status": "published",
+      "date": "2026-11-24",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aec62b",
+      "tags": [
+        "量子算法",
+        "量子模拟与多体"
       ]
     },
     {
@@ -691,7 +1838,8 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/kgjs-qlsb",
       "tags": [
-        "量子研究"
+        "量子研究",
+        "量子纠错"
       ]
     },
     {
@@ -726,6 +1874,22 @@
       "evidence": "https://feeds.aps.org/rss/recent/prresearch.xml",
       "tags": [
         "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/6v9t-c5h4",
+      "title": "Compressed-sensing shadow tomography",
+      "authors": [
+        "Joseph Barreto and Daniel Lidar"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/6v9t-c5h4",
+      "status": "published",
+      "date": "2026-11-24",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/pra.xml",
+      "tags": [
+        "量子模拟与多体"
       ]
     },
     {
@@ -766,7 +1930,8 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/pyzl-sllm",
       "tags": [
-        "量子物理"
+        "量子物理",
+        "量子信息与基础"
       ]
     },
     {
@@ -782,7 +1947,8 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/p1ks-qpnr",
       "tags": [
-        "量子物理"
+        "量子物理",
+        "量子信息与基础"
       ]
     },
     {
@@ -845,6 +2011,157 @@
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "abstract_hash": "8c9fc803d6c5c1c07e3b36d3ab08cd0da6c499f140e865b4980384cd1bb189f1",
       "abstract_zh": "在小实例上一次性训练量子近似优化算法的变分角度，并将其复用到更大的实例上，这被称为参数迁移，是绕过精确模拟壁垒的标准途径。现有的参数迁移解释主要关注结构相似性，但约束编码引入了第二个必须跟踪的量：惩罚尺度。我们刻画了当电路角度保持固定时对部署惩罚尺度的依赖关系。我们证明，对于标量化代价 C λ = C + λ v（其中违反计数 v 为整数值），在任意固定深度 p 下的可行概率 F ( λ ) 是一个有限实三角多项式，其频率是固定 γ 角度的整数线性组合。我们将这种依赖关系称为 λ -共振。它将惩罚失配重新表述为相位干涉问题，并给出了显式的谱支撑公式、关于使 F 改变指定量所需失谐的 Bernstein 下界，以及当层相位共享公共周期时的精确递推关系。这些结论对任意固定角度成立，包括未训练的角度；它们建立了谱支撑和递推条件，但并未断言训练惩罚是优选工作点。在 20 量子比特资源分配 QUBO 上的精确状态向量实验表现出尖锐和钝化的响应曲线，以及与预测谱支撑一致的经验递推关系。独立的惩罚相位采样可恢复完整的傅里叶系数，并允许评估基于系数的递推界。一个训练过的双量子比特示例表明，保持训练相位尺度未必能最大化可行性：邻近的惩罚可能表现更好。理论与实验共同促成了一个条件迁移协议：将 ( β , γ , λ 0 ) 视为单一校准参数集，验证目标有效性，并在可行时用小的固定角度扫描包围匹配的惩罚。"
+    },
+    {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aec62a",
+      "title": "A room-temperature extreme high vacuum system for trapped-ion quantum information processing",
+      "authors": [
+        "Lewis Hahn",
+        "Nikhil Kotibhaskar",
+        "Fabien Lefebvre",
+        "Sakshee Patil",
+        "Sainath Motlakunta",
+        "Mahmood Sabooni",
+        "Rajibul Islam"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aec62a",
+      "status": "published",
+      "date": "2026-11-24",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aec62a",
+      "tags": [
+        "量子硬件",
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "prb",
+      "doi": "10.1103/h8hr-135w",
+      "title": "Spin liquid and multi-Q orders in the triangular-lattice $J$-$K$-$Γ$-$Γ$’ model with four-spin ring exchange",
+      "authors": [
+        "Xinzhe Wang, Yiwen Liu, Bin Xi, Shun-Li Yu, and Jian-Xin Li"
+      ],
+      "url": "https://journals.aps.org/prb/accepted/90073O73G0c1d656856f1993c8b54e79fa96fbc90",
+      "status": "accepted",
+      "date": "2026-11-24",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prb.xml",
+      "tags": [
+        "量子模拟与多体"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/npj5-82pg",
+      "title": "Scalable spin squeezing in power-law-interacting $XXZ$ models with disorder",
+      "authors": [
+        "Samuel E. Begg, Bishal K. Ghosh, Chong Zu, Chuanwei Zhang, and Michael Kolodrubetz"
+      ],
+      "url": "https://journals.aps.org/pra/accepted/c7072Y8dA251bd9cc6805c026de0a9a8f6ab0f63a",
+      "status": "accepted",
+      "date": "2026-11-24",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
+      "tags": [
+        "量子硬件"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/knb2-y8q4",
+      "title": "Programmable chiral entanglement routing in a multi-giant-atom waveguide",
+      "authors": [
+        "Peng-Fei Wang, Lei Huang, Yi-Long-Yue Guo, Jing Wang, Han-Xiao Zhang, Hong Yang, and Dong Yan"
+      ],
+      "url": "https://journals.aps.org/pra/accepted/0f076N20G1912329b7227f16667935d9f9400c418",
+      "status": "accepted",
+      "date": "2026-11-24",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "prb",
+      "doi": "10.1103/dj3j-sz2h",
+      "title": "Perfect chiral state transfer in multinode cavity magnonics",
+      "authors": [
+        "Xin Liu, Hong-Li Zhang, Guo-Qiang Zhang, Lijiong Shen, and Wei Feng"
+      ],
+      "url": "https://journals.aps.org/prb/accepted/69076ObaH201df5868e162f98c629b6b56b9c53bb",
+      "status": "accepted",
+      "date": "2026-11-24",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prb.xml",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/mbf2-x71h",
+      "title": "Multipartite entanglement via photon hopping with conditional measurements",
+      "authors": [
+        "Sitotaw Eshete and Gashaw Tsegaw"
+      ],
+      "url": "https://journals.aps.org/pra/accepted/55078N49Ic010d2c160675001c066187b176c10ad",
+      "status": "accepted",
+      "date": "2026-11-24",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/kmdx-f79q",
+      "title": "Limits of device-independent randomness certification: Maximal Bell violations compatible with predetermined outputs for every input",
+      "authors": [
+        "Ravishankar Ramanathan, Yuan Liu, and Stefano Pironio"
+      ],
+      "url": "https://journals.aps.org/pra/accepted/ef07fK8aA1e1f803c92832a8cc3eedd1aacc86ef3",
+      "status": "accepted",
+      "date": "2026-11-24",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/kz9b-4sd1",
+      "title": "Collective excitations of dissipative time crystals",
+      "authors": [
+        "Gage W. Harmon, Giovanna Morigi, and Simon B. Jäger"
+      ],
+      "url": "https://journals.aps.org/pra/accepted/c307aY5cX381999091f43ad164bf20d9524ea0fe2",
+      "status": "accepted",
+      "date": "2026-11-24",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/zfqt-dw8g",
+      "title": "Application of optical squeezing to microresonator-based optical sensors",
+      "authors": [
+        "Dariya Salykina, Daniil Shakhbaziants, Igor Bilenko, and Farid Ya. Khalili"
+      ],
+      "url": "https://journals.aps.org/pra/accepted/35077NcfH3911e20c9fb994813edd07bee14a1139",
+      "status": "accepted",
+      "date": "2026-11-24",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
+      "tags": [
+        "量子信息与基础"
+      ]
     },
     {
       "journal": "pra",
@@ -5430,7 +6747,7 @@
       "doi": "10.1103/z581-xt8x",
       "title": "High-precision measurement of level leakage via intelligent coherent control",
       "authors": [
-        "Ting Wang, Hang Xu, Shiqiang Qiao, Xue-Ke Song, Haipeng Cao, Zhao-Feng Su, Liu Ye, and Dong Wang"
+        "Ting Wang, Hang Xu, Shi-Qiang Qiao, Xue-Ke Song, Haipeng Cao, Zhao-Feng Su, Liu Ye, and Dong Wang"
       ],
       "url": "https://journals.aps.org/pra/accepted/6907dN95Fbb19e2d87ac2ae26227f96bcc2f45842",
       "status": "accepted",
@@ -9162,22 +10479,6 @@
       ]
     },
     {
-      "journal": "prapplied",
-      "doi": "10.1103/tf8y-nlsk",
-      "title": "High-bandwidth heterodyne sensing with bulk N-$V$ diamond",
-      "authors": [
-        "H. A. M. Taylor, J. P. Duff, L. B. Miller, A. Tritt, M. S. Oldfield, K. Helmerson, and M. S. J. Barson"
-      ],
-      "url": "https://journals.aps.org/prapplied/accepted/05073A38C0911d06052e39f3d12a9b322af1e6cb0",
-      "status": "accepted",
-      "date": "2026-11-13",
-      "date_kind": "accepted_feed",
-      "evidence": "https://feeds.aps.org/rss/accepted/prapplied.xml",
-      "tags": [
-        "量子测量"
-      ]
-    },
-    {
       "journal": "prl",
       "doi": "10.1103/9x8h-h3hp",
       "title": "Exponentially robust non-Clifford gate in a driven-dissipative circuit",
@@ -11434,22 +12735,6 @@
       ]
     },
     {
-      "journal": "pra",
-      "doi": "10.1103/vz5z-yqfh",
-      "title": "Strong-field Rydberg-state excitation of aligned N${}_{2}$ and O${}_{2}$ molecules",
-      "authors": [
-        "Jianting Lei, Zhijie Yang, Fenghao Sun, Jinmei Zheng, Yubin Zhang, Luqi Li, Guangqi Fan, Zijun Zhang, Yongzhe Ma, and Qingcao Liu"
-      ],
-      "url": "https://journals.aps.org/pra/accepted/9b074NbbE3314b2238de2645fd6054692d0bf4d18",
-      "status": "accepted",
-      "date": "2026-11-10",
-      "date_kind": "accepted_feed",
-      "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
-      "tags": [
-        "量子硬件"
-      ]
-    },
-    {
       "journal": "prb",
       "doi": "10.1103/85cz-l846",
       "title": "Plasma effects on lifetimes and screening of Rydberg excitons in Cu${}_{2}$O",
@@ -11853,24 +13138,6 @@
       ]
     },
     {
-      "journal": "pra",
-      "doi": "10.1103/dgzp-j833",
-      "title": "Learning adaptive unravelings for efficient quantum-trajectory simulations",
-      "authors": [
-        "Xing-Liang Dong",
-        "Yun-Feng Xiao"
-      ],
-      "url": "https://doi.org/10.1103/dgzp-j833",
-      "status": "published",
-      "date": "2026-11-09",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1103/dgzp-j833",
-      "tags": [
-        "量子物理",
-        "量子信息与基础"
-      ]
-    },
-    {
       "journal": "qmi",
       "doi": "10.1007/s42484-026-00461-x",
       "title": "Is data-efficient learning feasible with quantum models?",
@@ -12057,24 +13324,6 @@
       "tags": [
         "量子算法",
         "量子硬件"
-      ]
-    },
-    {
-      "journal": "prb",
-      "doi": "10.1103/1m6r-p4dl",
-      "title": "Electrical control of valley hybridization in moiré quantum dots",
-      "authors": [
-        "Yasser Saleem",
-        "Paweł Potasz",
-        "Ewelina M. Hankiewicz"
-      ],
-      "url": "https://doi.org/10.1103/1m6r-p4dl",
-      "status": "published",
-      "date": "2026-11-09",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1103/1m6r-p4dl",
-      "tags": [
-        "量子模拟与多体"
       ]
     },
     {
@@ -12370,22 +13619,6 @@
       "evidence": "https://feeds.aps.org/rss/accepted/prapplied.xml",
       "tags": [
         "量子硬件"
-      ]
-    },
-    {
-      "journal": "prl",
-      "doi": "10.1103/zmky-pr37",
-      "title": "High-purity entanglement mediated by magnons despite weak coupling",
-      "authors": [
-        "Sanchar Sharma"
-      ],
-      "url": "https://journals.aps.org/prl/accepted/2a071Yc5H8322e14f314368300c4b6625e2cade75",
-      "status": "accepted",
-      "date": "2026-11-09",
-      "date_kind": "accepted_feed",
-      "evidence": "https://feeds.aps.org/rss/accepted/prl.xml",
-      "tags": [
-        "量子信息与基础"
       ]
     },
     {
@@ -13379,23 +14612,6 @@
     },
     {
       "journal": "pra",
-      "doi": "10.1103/nh5n-7srt",
-      "title": "Semi-device-independent self-testing of bipartite pure quantum states without nonlocality",
-      "authors": [
-        "Lijinzhi Lin, Zhenyu Chen, Xiaodie Lin, and Zhaohui Wei"
-      ],
-      "url": "https://journals.aps.org/pra/accepted/e9075Ye0K7717f83c67f8aa04f7f071b7fd1d24b5",
-      "status": "accepted",
-      "date": "2026-11-06",
-      "date_kind": "accepted_feed",
-      "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
-      "tags": [
-        "量子测量",
-        "量子信息与基础"
-      ]
-    },
-    {
-      "journal": "pra",
       "doi": "10.1103/89pz-bspx",
       "title": "Probing chaos and criticality with observational entropy and finite-resolution measurements",
       "authors": [
@@ -13424,40 +14640,6 @@
       "date_kind": "accepted_feed",
       "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
       "tags": [
-        "量子信息与基础"
-      ]
-    },
-    {
-      "journal": "pra",
-      "doi": "10.1103/fjzj-9vt3",
-      "title": "Johnson-spectral recycling for photon-loss mitigation in linear-optical quantum circuits",
-      "authors": [
-        "Yu. A. Biriukov"
-      ],
-      "url": "https://journals.aps.org/pra/accepted/36072D30G091770fc2a65431eb60a8f5decc583e0",
-      "status": "accepted",
-      "date": "2026-11-06",
-      "date_kind": "accepted_feed",
-      "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
-      "tags": [
-        "量子算法",
-        "量子硬件"
-      ]
-    },
-    {
-      "journal": "pra",
-      "doi": "10.1103/3cy6-5pdq",
-      "title": "Intelligent control of collisional architectures for multipartite Dicke-state preparation",
-      "authors": [
-        "Duc-Kha Vu, Minh Tam Nguyen, Özgür E. Müstecaplioğlu, and Fatih Ozaydin"
-      ],
-      "url": "https://journals.aps.org/pra/accepted/8c07fUa8Dff1540320622cd2894b02d0fcb87ca3e",
-      "status": "accepted",
-      "date": "2026-11-06",
-      "date_kind": "accepted_feed",
-      "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
-      "tags": [
-        "量子硬件",
         "量子信息与基础"
       ]
     },
@@ -13721,25 +14903,6 @@
       ]
     },
     {
-      "journal": "prresearch",
-      "doi": "10.1103/c72q-yck9",
-      "title": "Superposed quantum evolutions across chaotic and regular regimes",
-      "authors": [
-        "Amit Anand",
-        "Anne-Catherine de la Hamette",
-        "Robert B. Mann",
-        "Shohini Ghose"
-      ],
-      "url": "https://doi.org/10.1103/c72q-yck9",
-      "status": "published",
-      "date": "2026-11-05",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1103/c72q-yck9",
-      "tags": [
-        "量子物理"
-      ]
-    },
-    {
       "journal": "prl",
       "doi": "10.1103/xlxf-y4vg",
       "title": "Superconducting Proximity Effect in a Strongly Correlated Charge-Transfer Insulator",
@@ -13769,24 +14932,6 @@
       "evidence": "https://api.crossref.org/works/10.1103/sdhw-kmbc",
       "tags": [
         "量子物理"
-      ]
-    },
-    {
-      "journal": "qst",
-      "doi": "10.1088/2058-9565/aebe59",
-      "title": "Reconstructing the unitary part of a noisy quantum channel",
-      "authors": [
-        "Adrian Romer",
-        "Daniel M. Reich",
-        "Christiane Koch"
-      ],
-      "url": "https://doi.org/10.1088/2058-9565/aebe59",
-      "status": "published",
-      "date": "2026-11-05",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aebe59",
-      "tags": [
-        "量子信息与基础"
       ]
     },
     {
@@ -15864,26 +17009,6 @@
     },
     {
       "journal": "prresearch",
-      "doi": "10.1103/t9fh-4bsq",
-      "title": "Quantum theory of electrically levitated nanoparticle-ion systems: Motional dynamics and sympathetic cooling",
-      "authors": [
-        "Saurabh Gupta",
-        "Bernard Faulend",
-        "Dmitry S. Bykov",
-        "Tracy E. Northup",
-        "Carlos Gonzalez-Ballestero"
-      ],
-      "url": "https://doi.org/10.1103/t9fh-4bsq",
-      "status": "published",
-      "date": "2026-11-02",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1103/t9fh-4bsq",
-      "tags": [
-        "量子信息与基础"
-      ]
-    },
-    {
-      "journal": "prresearch",
       "doi": "10.1103/snzq-fp39",
       "title": "Quantum simulation of wave optics in weakly inhomogeneous media using block encoding",
       "authors": [
@@ -17885,7 +19010,10 @@
         "量子算法",
         "量子通信",
         "量子硬件"
-      ]
+      ],
+      "abstract": "Realizing photonic quantum computing at scale requires integrated circuits that combine ultra-low loss with fast, low-power, low-hysteresis, and low-crosstalk reconfiguration. These requirements are particularly challenging at visible wavelengths, where many quantum resource-state generators, including single-photon sources and quantum memories, naturally operate. Low-confinement silicon nitride waveguides offer the requisite loss performance, but conventional thermo-optic modulators dissipate significant static power, driving thermal crosstalk and precluding cryogenic operation. Visible-wavelength piezo-optomechanical circuits avoid these drawbacks, but existing demonstrations rely either on high-confinement waveguides with propagation losses of 35-100 dB/m, or on low-confinement platforms using foundry-incompatible lead zirconate titanate (PZT). Here we combine piezo-optomechanical actuation with a CMOS-foundry-fabricated, low-confinement silicon nitride platform, achieving 2.6 dB/m propagation loss at 780 nm, megahertz-scale modulation bandwidth, a half-wave voltage-length product of 2.8 V ⋅ m, and negligible hysteresis. We demonstrate reconfigurable Mach-Zehnder interferometers with 0.63 dB loss per spiral phase shifter, enabling deep, actively reconfigurable visible-wavelength quantum photonic circuits.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0"
     },
     {
       "journal": "prl",
@@ -22955,22 +24083,6 @@
       "evidence": "https://api.crossref.org/works/10.1002/qute.70492",
       "tags": [
         "量子物理"
-      ]
-    },
-    {
-      "journal": "prxquantum",
-      "doi": "10.1103/xvjl-h44h",
-      "title": "Polariton-polariton coherent coupling in a molecular spin-superconductor chip",
-      "authors": [
-        "Carolina del Río, Marcos Rubín-Osanz, David Rodriguez, Sebastián Roca-Jerat, María Carmen Pallarés, J. Alejandro de Sousa, Paweł Pakulski, José Luis García Palacios, Daniel Granados, Dawid Pinkowicz, Núria Crivillers, Anabel Lostao, David Zueco, Alicia Gomez, and Fernando Luis"
-      ],
-      "url": "https://journals.aps.org/prxquantum/accepted/a107fDc5Dbd1dd0e815e6a689117a4e538f34ac67",
-      "status": "accepted",
-      "date": "2026-10-02",
-      "date_kind": "accepted_feed",
-      "evidence": "https://feeds.aps.org/rss/accepted/prxquantum.xml",
-      "tags": [
-        "量子研究"
       ]
     },
     {
@@ -28686,153 +29798,6 @@
       "tags": [
         "量子物理"
       ]
-    },
-    {
-      "journal": "nphys",
-      "doi": "10.1038/s41567-026-03381-6",
-      "title": "Topological phase transitions and mixed-state order in a Hubbard quantum simulator",
-      "authors": [
-        "Lin Su",
-        "Rahul Sahay",
-        "Michal Szurek",
-        "Alexander Douglas",
-        "Ognjen Marković",
-        "Ceren B. Dag",
-        "Ruben Verresen",
-        "Markus Greiner"
-      ],
-      "url": "https://doi.org/10.1038/s41567-026-03381-6",
-      "status": "published",
-      "date": "2026-07-27",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1038/s41567-026-03381-6",
-      "tags": [
-        "量子模拟与多体"
-      ]
-    },
-    {
-      "journal": "ncomms",
-      "doi": "10.1038/s41467-026-75251-x",
-      "title": "Probing entanglement scaling across a quantum phase transition on a quantum computer",
-      "authors": [],
-      "url": "https://www.nature.com/articles/s41467-026-75251-x",
-      "status": "published",
-      "date": "2026-07-27",
-      "date_kind": "publisher_feed",
-      "evidence": "https://www.nature.com/subjects/quantum-information/ncomms.rss",
-      "tags": [
-        "量子算法",
-        "量子模拟与多体",
-        "量子信息与基础"
-      ]
-    },
-    {
-      "journal": "prx",
-      "doi": "10.1103/c994-bzx7",
-      "title": "Long-Lived Mechanically Detected Molecular Spins for Quantum Sensing",
-      "authors": [
-        "Sahand Tabatabaei",
-        "Pritam Priyadarsi",
-        "Daniel Tay",
-        "Namanish Singh",
-        "Pardis Sahafi",
-        "Andrew Jordan",
-        "Raffi Budakian"
-      ],
-      "url": "https://doi.org/10.1103/c994-bzx7",
-      "status": "published",
-      "date": "2026-07-27",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1103/c994-bzx7",
-      "tags": [
-        "量子测量"
-      ],
-      "abstract": "Quantum sensors based on individual spins provide unprecedented access to local magnetic fields in condensed matter, chemistry, and biology, with solid-state defect spins emerging as the leading platform. However, their molecular-sensing capabilities are limited by confinement to a host lattice, which prevents placement in close proximity to a target molecule. Molecular spins offer an alternative, enabling chemical tunability and flexible positioning relative to the target system. Here we present a nanoscale sensing platform that combines molecular electron spins, ultrasensitive mechanical readout, and Hamiltonian engineering. Using a modified XYXY dipolar decoupling sequence, we suppress electron-electron dipolar interactions across a broad distribution of control fields, extending coherence times to ∼ 400 μ s in an attoliter-scale droplet containing ∼ 100 trityl-OX063 radicals. Leveraging this sequence, we demonstrate frequency-selective detection of nanotesla-scale ac fields and perform sensing and spectroscopy of small, local nuclear-spin ensembles. Collectively, these results establish spin-based quantum integrated nanomechanical transduction as a framework for quantum sensing that affords molecular-level control over sensor properties and enables direct integration into complex molecular targets.",
-      "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
-    },
-    {
-      "journal": "prx",
-      "doi": "10.1103/kwh6-hncn",
-      "title": "Leading and Beyond Leading-Order Spectral Form Factor in Chaotic Quantum Many-Body Systems Across All Dyson Symmetry Classes",
-      "authors": [
-        "Vijay Kumar",
-        "Tomaž Prosen",
-        "Dibyendu Roy"
-      ],
-      "url": "https://doi.org/10.1103/kwh6-hncn",
-      "status": "published",
-      "date": "2026-07-27",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1103/kwh6-hncn",
-      "tags": [
-        "量子模拟与多体"
-      ],
-      "abstract": "We show the emergence of random matrix theory (RMT) spectral correlations in the chaotic phase of generic, periodically kicked, interacting, quantum many-body systems by analytically calculating the spectral form factor (SFF), K ( t ) , up to two leading orders in time, t . We explicitly consider the presence or absence of time-reversal ( T ) symmetry to investigate all three Dyson symmetry classes, namely, the circular orthogonal ensemble (COE) for T -invariant systems with T 2 = 1 , the circular unitary ensemble (CUE) in the absence of T symmetry, and the circular symplectic ensemble (CSE) for T -invariant systems with T 2 = − 1 . Our derivation applies the random phase approximation to perform ensemble averages, and we give its justification for generic many-body interactions. We express the SFF as a sum of contributions of certain diagrams. While the number of diagrams that contribute to the SFF in the first and second orders in t for the COE and CUE classes is finite, the number of such diagrams is exponentially large in t for the CSE class. Thus, we have developed a new diagrammatic technique that uses reduced diagrams to incorporate contributions from many diagrams. For the COE class, we show that beyond Thouless time t * , the SFF takes the form K ( t ) ≃ 2 t − 2 t 2 / N up to second order in time, where N is the Hilbert space dimension. For the CUE class, we show that K ( t ) ≃ t beyond t * , and there is no universal term in the second order, unlike the COE case. For the CSE class, we show that K ( t ) ≃ 2 t + 2 t 2 / N up to two orders in time beyond t * . The above findings of the SFF up to second order in time are in agreement with the RMT predictions for these classes. In all three cases, the scaling of t * with system size L is determined by the eigenvalues of a doubly stochastic matrix M . For strongly interacting fermionic chains, M is S U ( 2 ) invariant in all three cases, leading to t * ∝ L 2 in the presence of U ( 1 ) symmetry. In the absence of U ( 1 ) symmetry, we find t * ∝ L 0 , due to the gapped, nondegenerate, second-largest eigenvalue of M , or t * ∝ ln ( L ) , due to the gapped second-largest eigenvalue with degeneracy proportional to L ζ , ζ > 0 . Our calculation of the SFF is plausible in higher space dimensions as well, where similar system-size scalings of t * can be obtained.",
-      "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
-    },
-    {
-      "journal": "prxquantum",
-      "doi": "10.1103/m348-gy75",
-      "title": "Fast, High-Fidelity Transmon Readout with Intrinsic Purcell Protection via Nonperturbative Cross-Kerr Coupling",
-      "authors": [
-        "Guillaume Beaulieu, Jun-Zhe Chen, Marco Scigliuzzo, Othmane Benhayoune-Khadraoui, Alex A. Chapple, Peter A. Spring, Alexandre Blais, and Pasquale Scarlino"
-      ],
-      "url": "https://link.aps.org/doi/10.1103/m348-gy75",
-      "status": "published",
-      "date": "2026-07-27",
-      "date_kind": "publisher_feed",
-      "evidence": "https://feeds.aps.org/rss/recent/prxquantum.xml",
-      "tags": [
-        "量子研究"
-      ]
-    },
-    {
-      "journal": "ncomms",
-      "doi": "10.1038/s41467-026-75903-y",
-      "title": "Experimental realization of a bidirectional quantum analog-to-digital converter between photonic wavefront and qubits",
-      "authors": [],
-      "url": "https://www.nature.com/articles/s41467-026-75903-y",
-      "status": "published",
-      "date": "2026-07-27",
-      "date_kind": "publisher_feed",
-      "evidence": "https://www.nature.com/subjects/quantum-information/ncomms.rss",
-      "tags": [
-        "量子硬件"
-      ]
-    },
-    {
-      "journal": "mqt",
-      "doi": "10.1088/2633-4356/ae7fe1",
-      "title": "Electrical post-fabrication tuning of aluminum Josephson junctions at room temperature",
-      "authors": [
-        "Christian Križan",
-        "Maurizio Toselli",
-        "Irshad Ahmad",
-        "Hadi Khaksaran",
-        "Marcus Rommel",
-        "Nermin Trnjanin",
-        "Janka Biznárová",
-        "Mamta Dahiya",
-        "Emil Hogedal",
-        "Halldór Jakobsson",
-        "Andreas Nylander",
-        "Jonas Bylander",
-        "Per Delsing",
-        "Giovanna Tancredi"
-      ],
-      "url": "https://doi.org/10.1088/2633-4356/ae7fe1",
-      "status": "published",
-      "date": "2026-07-27",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1088/2633-4356/ae7fe1",
-      "tags": [
-        "量子硬件"
-      ],
-      "abstract": "Josephson junctions are key elements of superconducting quantum technology, serving as the core building blocks of superconducting qubits. We present an experimental study on room-temperature electrical tuning of aluminum junctions, showing that voltage pulses can controllably increase their resistance and adjust the Josephson energy while maintaining qubit quality factors above 1 million. We find that the rate of resistance increase scales exponentially with pulse amplitude during manipulation. Following the manipulation, the resistance increases spontaneously through contributions proportional to both the initial resistance and the preceding manipulation. We show that this spontaneous increase halts at cryogenic temperatures, and resumes again at room temperature. Using our stepwise protocol, we achieve up to a 270% increase in junction resistance, corresponding to a reduction of nearly 2 GHz of the qubit transition frequency. These results establish the achievable range, relaxation behavior, and practical limits of electrical tuning, enabling post-fabrication mitigation of frequency crowding in quantum processors.",
-      "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
   "sources": [
@@ -29002,13 +29967,13 @@
       "source": "prl",
       "kind": "rss",
       "ok": true,
-      "count": 27
+      "count": 28
     },
     {
       "source": "prl",
       "kind": "accepted",
       "ok": true,
-      "count": 30
+      "count": 29
     },
     {
       "source": "prx",
@@ -29032,7 +29997,7 @@
       "source": "prxquantum",
       "kind": "accepted",
       "ok": true,
-      "count": 40
+      "count": 41
     },
     {
       "source": "pra",
@@ -29044,19 +30009,19 @@
       "source": "pra",
       "kind": "accepted",
       "ok": true,
-      "count": 48
+      "count": 52
     },
     {
       "source": "nature",
       "kind": "rss",
       "ok": true,
-      "count": 0
+      "count": 4
     },
     {
       "source": "nphys",
       "kind": "rss",
       "ok": true,
-      "count": 4
+      "count": 5
     },
     {
       "source": "nphys",
@@ -29092,7 +30057,7 @@
       "source": "sciadv",
       "kind": "rss",
       "ok": true,
-      "count": 1
+      "count": 0
     },
     {
       "source": "qst",
@@ -29110,7 +30075,7 @@
       "source": "prresearch",
       "kind": "accepted",
       "ok": true,
-      "count": 30
+      "count": 29
     },
     {
       "source": "prapplied",
@@ -29122,19 +30087,19 @@
       "source": "prapplied",
       "kind": "accepted",
       "ok": true,
-      "count": 40
+      "count": 38
     },
     {
       "source": "prb",
       "kind": "rss",
       "ok": true,
-      "count": 15
+      "count": 14
     },
     {
       "source": "prb",
       "kind": "accepted",
       "ok": true,
-      "count": 22
+      "count": 20
     },
     {
       "source": "rmp",
