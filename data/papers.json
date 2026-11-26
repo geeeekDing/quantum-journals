@@ -1,6 +1,470 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "papers": [
+    {
+      "journal": "ncomms",
+      "doi": "10.1038/s41467-026-79443-3",
+      "title": "The nature of the phase transition in VO2 B-phase and a quantum entanglement perspective",
+      "authors": [
+        "Banabir Pal",
+        "Amar Srivastava",
+        "Abhinav Kumar",
+        "Sumanta Mukherjee",
+        "Indranil Sarkar",
+        "Suman Mandal",
+        "Mihaela Gorgoi",
+        "Paola Di Pietro",
+        "Stefano Lupi",
+        "W. Drube",
+        "E. Arenholz",
+        "J. Chakhalian",
+        "A. Perucchi",
+        "Stuart S. P. Parkin",
+        "T. Venkatesan",
+        "S. Biermann",
+        "Jan M. Tomczak",
+        "D. D. Sarma"
+      ],
+      "url": "https://doi.org/10.1038/s41467-026-79443-3",
+      "status": "published",
+      "date": "2026-11-26",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1038/s41467-026-79443-3",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/7kz5-bqgk",
+      "title": "Quantum printing: Laguerre-Gaussian beam induced topological magnetic textures",
+      "authors": [
+        "Yuefei Liu",
+        "Tien-Tien Yeh",
+        "Alexander V. Balatsky"
+      ],
+      "url": "https://doi.org/10.1103/7kz5-bqgk",
+      "status": "published",
+      "date": "2026-11-26",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/7kz5-bqgk",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "epjqt",
+      "doi": "10.1140/epjqt/s40507-026-00606-8",
+      "title": "Modular low-cost 3D printed setup for coherent control experiments with NV centres",
+      "authors": [
+        "Dennis Stiegekötter",
+        "Jonas Homrighausen",
+        "Glen Neiteler",
+        "Marina Peters",
+        "Luca Sapion",
+        "Stefan Heusler",
+        "Peter Glösekötter",
+        "Markus Gregor"
+      ],
+      "url": "https://doi.org/10.1140/epjqt/s40507-026-00606-8",
+      "status": "published",
+      "date": "2026-11-26",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1140/epjqt/s40507-026-00606-8",
+      "tags": [
+        "量子研究"
+      ]
+    },
+    {
+      "journal": "science",
+      "doi": "10.1126/science.aee7961",
+      "title": "Magic state cultivation on a superconducting quantum processor",
+      "authors": [
+        "E. Rosenfeld",
+        "C. Gidney",
+        "G. Roberts",
+        "A. Morvan",
+        "N. Lacroix",
+        "D. Kafri",
+        "J. Marshall",
+        "M. Li",
+        "V. Sivak",
+        "D. Abanin",
+        "A. Abbas",
+        "R. Acharya",
+        "L. Aghababaie Beni",
+        "G. Aigeldinger",
+        "R. Alcaraz",
+        "S. Alcaraz",
+        "T. I. Andersen",
+        "M. Ansmann",
+        "F. Arute",
+        "K. Arya",
+        "W. Askew",
+        "N. Astrakhantsev",
+        "J. Atalaya",
+        "R. Babbush",
+        "B. Ballard",
+        "J. C. Bardin",
+        "H. Bates",
+        "A. Bengtsson",
+        "M. Bigdeli Karimi",
+        "A. Bilmes",
+        "S. Bilodeau",
+        "F. Borjans",
+        "J. Bovaird",
+        "D. Bowers",
+        "L. Brill",
+        "P. Brooks",
+        "M. Broughton",
+        "D. A. Browne",
+        "B. Buchea",
+        "B. B. Buckley",
+        "T. Burger",
+        "B. Burkett",
+        "N. Bushnell",
+        "J. Busnaina",
+        "A. Cabrera",
+        "J. Campero",
+        "H.-S. Chang",
+        "S. Chen",
+        "Z. Chen",
+        "B. Chiaro",
+        "L.-Y. Chih",
+        "A. Y. Cleland",
+        "B. Cochrane",
+        "M. Cockrell",
+        "J. Cogan",
+        "P. Conner",
+        "H. Cook",
+        "R. G. Cortiñas",
+        "W. Courtney",
+        "A. L. Crook",
+        "B. Curtin",
+        "M. Damyanov",
+        "S. Das",
+        "D. M. Debroy",
+        "S. Demura",
+        "P. Donohoe",
+        "I. Drozdov",
+        "A. Dunsworth",
+        "V. Ehimhen",
+        "A. Eickbusch",
+        "A. Moshe Elbag",
+        "L. Ella",
+        "M. Elzouka",
+        "D. Enriquez",
+        "C. Erickson",
+        "L. Faoro",
+        "V. S. Ferreira",
+        "M. Flores",
+        "L. Flores Burgos",
+        "S. Fontes",
+        "E. Forati",
+        "J. Ford",
+        "B. Foxen",
+        "M. Fukami",
+        "A. Wing Lun Fung",
+        "L. Fuste",
+        "S. Ganjam",
+        "G. Garcia",
+        "C. Garrick",
+        "R. Gasca",
+        "H. Gehring",
+        "R. Geiger",
+        "É. Genois",
+        "W. Giang",
+        "D. Gilboa",
+        "J. E. Goeders",
+        "E. C. Gonzales",
+        "R. Gosula",
+        "S. J. de Graaf",
+        "A. Grajales Dau",
+        "D. Graumann",
+        "J. Grebel",
+        "A. Greene",
+        "J. A. Gross",
+        "J. Guerrero",
+        "L. Le Guevel",
+        "T. Ha",
+        "S. Habegger",
+        "T. Hadick",
+        "A. Hadjikhani",
+        "M. C. Hamilton",
+        "M. Hansen",
+        "M. P. Harrigan",
+        "S. D. Harrington",
+        "J. Hartshorn",
+        "S. Heslin",
+        "P. Heu",
+        "O. Higgott",
+        "R. Hiltermann",
+        "J. Hilton",
+        "H.-Y. Huang",
+        "M. Hucka",
+        "C. Hudspeth",
+        "A. Huff",
+        "W. J. Huggins",
+        "L. B. Ioffe",
+        "E. Jeffrey",
+        "S. Jevons",
+        "Z. Jiang",
+        "X. Jin",
+        "C. Joshi",
+        "P. Juhas",
+        "A. Kabel",
+        "H. Kang",
+        "K. Kang",
+        "A. H. Karamlou",
+        "R. Kaufman",
+        "K. Kechedzhi",
+        "T. Khattar",
+        "M. Khezri",
+        "S. Kim",
+        "P. V. Klimov",
+        "C. M. Knaut",
+        "B. Kobrin",
+        "A. N. Korotkov",
+        "F. Kostritsa",
+        "J. M. Kreikebaum",
+        "R. Kudo",
+        "B. Kueffler",
+        "A. Kumar",
+        "V. D. Kurilovich",
+        "V. Kutsko",
+        "T. Lange-Dei",
+        "B. W. Langley",
+        "P. Laptev",
+        "K.-M. Lau",
+        "E. Leavell",
+        "J. Ledford",
+        "J. Lee",
+        "K. Lee",
+        "B. J. Lester",
+        "W. Leung",
+        "L. Li",
+        "W. Yan Li",
+        "A. T. Lill",
+        "W. P. Livingston",
+        "M. T. Lloyd",
+        "A. Locharla",
+        "L. De Lorenzo",
+        "E. Lucero",
+        "D. Lundahl",
+        "A. Lunt",
+        "S. Madhuk",
+        "A. Maiti",
+        "A. Maloney",
+        "S. Mandrà",
+        "L. S. Martin",
+        "O. Martin",
+        "E. Mascot",
+        "P. Masih Das",
+        "D. Maslov",
+        "M. Mathews",
+        "C. Maxfield",
+        "J. R. McClean",
+        "M. McEwen",
+        "S. Meeks",
+        "A. Megrant",
+        "K. C. Miao",
+        "Z. K. Minev",
+        "R. Molavi",
+        "S. Molina",
+        "S. Montazeri",
+        "C. Neill",
+        "M. Newman",
+        "A. Nguyen",
+        "M. Nguyen",
+        "C.-H. Ni",
+        "M. Yuezhen Niu",
+        "N. Noll",
+        "L. Oas",
+        "W. D. Oliver",
+        "R. Orosco",
+        "K. Ottosson",
+        "A. Pagano",
+        "A. Di Paolo",
+        "S. Peek",
+        "D. Peterson",
+        "A. Pizzuto",
+        "E. Portoles",
+        "R. Potter",
+        "O. Pritchard",
+        "L. Pryadko",
+        "M. Qian",
+        "C. Quintana",
+        "G. Ramachandran",
+        "A. Ranadive",
+        "M. J. Reagor",
+        "R. Resnick",
+        "D. M. Rhodes",
+        "D. Riley",
+        "R. Rodriguez",
+        "E. Ropes",
+        "L. B. De Rose",
+        "E. Rosenberg",
+        "D. Rosenstock",
+        "E. Rossi",
+        "P. Roushan",
+        "D. A. Rower",
+        "R. Salazar",
+        "K. Sankaragomathi",
+        "M. Can Sarihan",
+        "M. Schaefer",
+        "S. Schroeder",
+        "H. F. Schurkus",
+        "A. Shahingohar",
+        "M. J. Shearn",
+        "A. Shorter",
+        "N. Shutty",
+        "V. Shvarts",
+        "S. Small",
+        "W. C. Smith",
+        "D. A. Sobel",
+        "B. Spells",
+        "S. Springer",
+        "G. Sterling",
+        "J. Suchard",
+        "A. Szasz",
+        "A. Sztein",
+        "M. Taylor",
+        "J. Priyanka Thiruraman",
+        "D. Thor",
+        "D. Timucin",
+        "E. Tomita",
+        "A. Torres",
+        "M. M. Torunbalci",
+        "H. Tran",
+        "A. Vaishnav",
+        "J. Vargas",
+        "S. Vdovichev",
+        "G. Vidal",
+        "B. Villalonga",
+        "C. Vollgraff Heidweiller",
+        "M. Voorhees",
+        "S. Waltman",
+        "J. Waltz",
+        "S. X. Wang",
+        "D. Wang",
+        "B. Ware",
+        "J. D. Watson",
+        "Y. Wei",
+        "T. Weidel",
+        "T. White",
+        "K. Wong",
+        "B. W. K. Woo",
+        "C. J. Wood",
+        "M. Woodson",
+        "C. Xing",
+        "Z. J. Yao",
+        "P. Yeh",
+        "B. Ying",
+        "J. Yoo",
+        "N. Yosri",
+        "E. Young",
+        "G. Young",
+        "A. Zalcman",
+        "R. Zhang",
+        "Y. Zhang",
+        "N. Zhu",
+        "N. Zobrist",
+        "Z. Zou",
+        "H. Neven",
+        "S. Boixo",
+        "C. Jones",
+        "J. Kelly",
+        "A. Bourassa",
+        "K. J. Satzinger"
+      ],
+      "url": "https://doi.org/10.1126/science.aee7961",
+      "status": "published",
+      "date": "2026-11-26",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1126/science.aee7961",
+      "tags": [
+        "量子纠错",
+        "量子算法",
+        "量子通信",
+        "量子硬件"
+      ]
+    },
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/hm5z-844n",
+      "title": "Interaction-mediated non-reciprocal dynamics in open quantum systems: From an exactly solvable model to generic behavior",
+      "authors": [
+        "Pietro Borchia",
+        "Johannes Knolle",
+        "Andreas Nunnenkamp"
+      ],
+      "url": "https://doi.org/10.1103/hm5z-844n",
+      "status": "published",
+      "date": "2026-11-26",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1103/hm5z-844n",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "science",
+      "doi": "10.1126/science.aen1265",
+      "title": "Growing magic for quantum computers",
+      "authors": [
+        "Aziza Suleymanzade"
+      ],
+      "url": "https://doi.org/10.1126/science.aen1265",
+      "status": "published",
+      "date": "2026-11-26",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1126/science.aen1265",
+      "tags": [
+        "量子算法",
+        "量子硬件"
+      ]
+    },
+    {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aec6d4",
+      "title": "TensorCircuit-NG: A universal, composable, and scalable platform for quantum computing and quantum simulation",
+      "authors": [
+        "Shi-Xin Zhang",
+        "Yu-Qin Chen",
+        "Weitang Li",
+        "Jiace Sun",
+        "Weiguo Ma",
+        "Pei-Lin Zheng",
+        "Yu-Xiang Huang",
+        "Qixiang Wang",
+        "Hui Yu",
+        "Zhuo Li",
+        "Xuyang Huang",
+        "Zong-Liang Li",
+        "Zhou-Quan Wan",
+        "Shuo Liu",
+        "Jiezhong Qiu",
+        "Jiaqi Miao",
+        "Zixuan Song",
+        "Yuxuan Yan",
+        "Kazuki Tsuoka",
+        "Pan Zhang",
+        "Lei Wang",
+        "Heng Fan",
+        "Chang-Yu Hsieh",
+        "Hong Yao",
+        "Tao Xiang"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aec6d4",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aec6d4",
+      "tags": [
+        "量子算法",
+        "量子模拟与多体"
+      ]
+    },
     {
       "journal": "prresearch",
       "doi": "10.1103/c72q-yck9",
@@ -47,6 +511,38 @@
       "evidence": "https://api.crossref.org/works/10.1038/s41586-026-11279-9",
       "tags": [
         "量子物理"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/zr6v-vpkv",
+      "title": "Sequential decoding of the ${\\mathrm{XYZ}}^{2}$ hexagonal stabilizer code",
+      "authors": [
+        "Basudha Srivastava, Yinzi Xiao, Anton Frisk Kockum, Ben Criger, and Mats Granath"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/zr6v-vpkv",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/pra.xml",
+      "tags": [
+        "量子纠错"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/6f3j-jx35",
+      "title": "Semidefinite-programming hierarchies for classically simulable state sets",
+      "authors": [
+        "Mengyan Li, Yanning Jia, Fenzhuo Guo, Haifeng Dong, Sujuan Qin, and Fei Gao"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/6f3j-jx35",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/pra.xml",
+      "tags": [
+        "量子信息与基础"
       ]
     },
     {
@@ -183,7 +679,10 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/lbvb-c8m9",
       "tags": [
-        "量子物理"
+        "量子物理",
+        "量子测量",
+        "量子模拟与多体",
+        "量子信息与基础"
       ]
     },
     {
@@ -247,7 +746,8 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/c233-6588",
       "tags": [
-        "量子物理"
+        "量子物理",
+        "量子算法"
       ]
     },
     {
@@ -310,6 +810,42 @@
       "abstract_zh": "建立相干通信信道的能力是扩展量子器件的关键。在此，我们设计了芯片内不同集总元件超导谐振器中形成的远距离极化激元之间的相互作用，极化激元是混合自旋-光子激发。该芯片由若干谐振器对组成，频率略有失谐以使其可寻址，每对内部电容耦合，并电感耦合到一条公共读出线。它们与沉积在其电感器上的PTMr和Tripak−有机自由基样品发生局部相互作用，这些样品提供模型S = 1/2、g ≃ 2的自旋系综。在极低温度下进行的频率相关微波透射实验，测量了不同场景下极化激元频率随磁场的变化。当一对中只有一个谐振器承载分子样品时，结果表明自旋既远程耦合到空LER，也耦合到局部腔模。如果两个谐振器都与自旋系综相互作用，则由于每个LER处不同的自旋-光子相互作用，磁场会调节极化激元频率的相对位置。当极化激元达到相互共振时，微波透射谱分辨出一个避免能级交叉，这证明了由电路介导的极化激元-极化激元相互作用。然后，泵浦-探测实验揭示，连接对中一个极化激元的激发确实能被另一个感受到，从而可以被读出。与实验参数和结果兼容的模型计算表明，在极化激元-极化激元反交叉附近，系统激发本征态显示出光子-光子和自旋-自旋关联以及纠缠。"
     },
     {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aec6d6",
+      "title": "Parity mapping for quantum optimization on frustrated Ising rings",
+      "authors": [
+        "RUIYI WANG",
+        "Anita Weidinger",
+        "Glen Bigan Mbeng",
+        "Wolfgang Lechner",
+        "Giuseppe E Santoro"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aec6d6",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aec6d6",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "prb",
+      "doi": "10.1103/w18d-cpw2",
+      "title": "Optimizing Landau-Zener-Stückelberg-Majorana protocol for high-fidelity gates in open-system fluxonium",
+      "authors": [
+        "Santiago Ferreyra, Valentín Reparaz, María José Sánchez, Leandro Tosi, and Daniel Domínguez"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/w18d-cpw2",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/prb.xml",
+      "tags": [
+        "量子硬件"
+      ]
+    },
+    {
       "journal": "quantum",
       "doi": "10.22331/q-2026-11-25-2284",
       "title": "Optimal Calibration of Qubit Detuning and Crosstalk",
@@ -354,6 +890,26 @@
       ]
     },
     {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aec6d2",
+      "title": "Non-Gaussianity in cat codes: global incompatibility and local geometric alignment with the magic resource",
+      "authors": [
+        "Yuwei Zhu",
+        "Seungbeom Chin",
+        "William John Munro",
+        "Kae Nemoto"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aec6d2",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aec6d2",
+      "tags": [
+        "量子算法",
+        "量子测量"
+      ]
+    },
+    {
       "journal": "pra",
       "doi": "10.1103/smp7-gp8x",
       "title": "Noise propagation and effective channels in encrypted quantum cloning",
@@ -371,6 +927,24 @@
       "tags": [
         "量子物理",
         "量子硬件"
+      ]
+    },
+    {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aec6d5",
+      "title": "Multiparameter quantum bounds for entanglement-assisted aperture synthesis",
+      "authors": [
+        "Kalaga Madhav",
+        "Pieter Kok",
+        "Nic Scott"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aec6d5",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aec6d5",
+      "tags": [
+        "量子信息与基础"
       ]
     },
     {
@@ -514,7 +1088,8 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/7fn3-dqmq",
       "tags": [
-        "量子物理"
+        "量子物理",
+        "量子信息与基础"
       ]
     },
     {
@@ -549,6 +1124,25 @@
       "evidence": "https://api.crossref.org/works/10.1103/1m6r-p4dl",
       "tags": [
         "量子模拟与多体"
+      ]
+    },
+    {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aec6d3",
+      "title": "Efficient verification of entangled measurements with local states",
+      "authors": [
+        "Kun Wang",
+        "Masahito Hayashi"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aec6d3",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aec6d3",
+      "tags": [
+        "量子硬件",
+        "量子测量",
+        "量子信息与基础"
       ]
     },
     {
@@ -633,6 +1227,23 @@
       "evidence": "https://api.crossref.org/works/10.1140/epjqt/s40507-026-00577-w",
       "tags": [
         "量子物理"
+      ]
+    },
+    {
+      "journal": "pra",
+      "doi": "10.1103/5672-djvn",
+      "title": "Construction of three-qubit positive-partial-transpose entangled states of rank 4",
+      "authors": [
+        "Yonggang Cheng and Lin Chen"
+      ],
+      "url": "https://link.aps.org/doi/10.1103/5672-djvn",
+      "status": "published",
+      "date": "2026-11-25",
+      "date_kind": "publisher_feed",
+      "evidence": "https://feeds.aps.org/rss/recent/pra.xml",
+      "tags": [
+        "量子硬件",
+        "量子信息与基础"
       ]
     },
     {
@@ -832,6 +1443,22 @@
       ]
     },
     {
+      "journal": "prx",
+      "doi": "10.1103/dn68-hkgl",
+      "title": "Multiscale structure of eigenstate thermalization",
+      "authors": [
+        "Pavel Orlov, Rustem Sharipov, and Enej Ilievski"
+      ],
+      "url": "https://journals.aps.org/prx/accepted/95079K3eG0c17516302a4cd90c73ff5469cba0cc2",
+      "status": "accepted",
+      "date": "2026-11-25",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prx.xml",
+      "tags": [
+        "量子模拟与多体"
+      ]
+    },
+    {
       "journal": "pra",
       "doi": "10.1103/3f43-3lb3",
       "title": "Logical entangling by qubit permutations in hypergraph products",
@@ -847,6 +1474,54 @@
         "量子纠错",
         "量子算法",
         "量子硬件"
+      ]
+    },
+    {
+      "journal": "prapplied",
+      "doi": "10.1103/66pr-6j15",
+      "title": "Feasibility-driven QAOA with penalty scheduling",
+      "authors": [
+        "Francesco Ferrari, Matteo Vandelli, and Daniele Dragoni"
+      ],
+      "url": "https://journals.aps.org/prapplied/accepted/5d076A21G271f707e7ec4666ba540af203f92052d",
+      "status": "accepted",
+      "date": "2026-11-25",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prapplied.xml",
+      "tags": [
+        "量子算法"
+      ]
+    },
+    {
+      "journal": "prl",
+      "doi": "10.1103/hmvf-syqq",
+      "title": "Dissipation-induced threshold on integrability footprints",
+      "authors": [
+        "Rodrigo M. C. Pereira, Nadir Samos Sáenz de Buruaga, Kristian Wold, Heine Olsson Aabø, Lucas Sá, Sergey Denisov, and Pedro Ribeiro"
+      ],
+      "url": "https://journals.aps.org/prl/accepted/39072Yc1Sbe1f29276cc1c5443c24c93461b77ef2",
+      "status": "accepted",
+      "date": "2026-11-25",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prl.xml",
+      "tags": [
+        "量子信息与基础"
+      ]
+    },
+    {
+      "journal": "prx",
+      "doi": "10.1103/wy74-7xwc",
+      "title": "Atlas of classical pyrochlore spin liquids",
+      "authors": [
+        "Daniel Lozano-Gómez, Owen Benton, Michel J. P. Gingras, and Han Yan"
+      ],
+      "url": "https://journals.aps.org/prx/accepted/b6072K4dQc41680be78f72a68641ae091e76aba2c",
+      "status": "accepted",
+      "date": "2026-11-25",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prx.xml",
+      "tags": [
+        "量子模拟与多体"
       ]
     },
     {
@@ -3792,7 +4467,12 @@
       "evidence": "https://api.crossref.org/works/10.1140/epjqt/s40507-026-00597-6",
       "tags": [
         "量子测量"
-      ]
+      ],
+      "abstract": "Geophysical map-matching navigation becomes unreliable where the local field gradient vanishes, a limitation inherent to matching against a single scalar map. Gravity and magnetic anomalies depend on different rock properties (density and magnetization) and occupy different wavelength bands, so their gradients are largely uncorrelated (Pearson $r \\approx 0.03$ r ≈ 0.03 on the Korean maps used here). We exploit this complementarity by fusing an optically pumped magnetometer and a cold-atom gravimeter with an error-state INS, and compare centralized and federated EKF architectures on Korean national geophysical databases, with measurements simulated from the same maps the filters match against. In a 100-seed Monte Carlo with a tactical-grade IMU, the dual EKF reduces the RMS position error relative to MagNav-only by 86–90% on the gravity-strong and intermittent-magnetic paths and by 62% on the magnetic-strong path, and remains bounded on intermittent-magnetic terrain, where the single-map EKF diverges. A marginalized particle-filter control on that path attributes much of this gap to EKF linearization and shows that the second map mainly lowers the rate of large failures. With a navigation-grade IMU the dual advantage is significant under idealized noise but is lost under a realistic noise model combining correlated gravimeter noise and magnetic compensation residuals. A single-run gravimeter noise sweep on a representative path places the onset of the navigation-grade dual benefit near 0.5 mGal, with the full benefit under idealized noise at 0.1 mGal; the tactical-grade benefit persists across the sweep.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0",
+      "abstract_hash": "97ede4ae40fea47f55728575a86af3a9b14b0de2520732254551e5edc67e05a8",
+      "abstract_zh": "当地球物理场局部梯度消失时，地球物理图匹配导航变得不可靠，这是单一标量图匹配固有的局限。重力和磁异常取决于不同的岩石属性（密度和磁化强度），并占据不同的波长带，因此它们的梯度在很大程度上不相关（本文使用的朝鲜地图上Pearson $r \\approx 0.03$ r ≈ 0.03）。我们利用这种互补性，将光泵磁力仪和冷原子重力仪与误差状态INS融合，并在韩国国家地球物理数据库上比较集中式和联邦式EKF架构，测量值由滤波器所匹配的同一地图模拟。在使用战术级IMU的100次种子蒙特卡洛中，与仅MagNav相比，双EKF在重力强和间歇磁路径上将RMS位置误差降低86–90%，在磁强路径上降低62%，并且在单地图EKF发散的间歇磁地形上保持有界。该路径上的边缘化粒子滤波控制将这一差距的很大一部分归因于EKF线性化，并表明第二张地图主要降低了大型故障的发生率。在使用导航级IMU时，双优势在理想化噪声下显著，但在结合相关重力仪噪声和磁补偿残差的现实噪声模型下丧失。在代表性路径上的单次运行重力仪噪声扫描将导航级双优势的起始点置于约0.5 mGal附近，理想化噪声下的完全优势在0.1 mGal；战术级优势在整个扫描范围内持续存在。"
     },
     {
       "journal": "pra",
@@ -8161,7 +8841,7 @@
     {
       "journal": "prresearch",
       "doi": "10.1103/4cgp-n2kh",
-      "title": "Floquet engineering of tight-binding Hamiltonians in momentum space lattices",
+      "title": "Floquet engineering of tight-binding Hamiltonians in momentum-space lattices",
       "authors": [
         "D. Ronco, F. Arrouas, N. Ombredane, E. Flament, Q. Levoy, B. Peaudecerf, and D. Guéry-Odelin"
       ],
@@ -13557,38 +14237,6 @@
       ]
     },
     {
-      "journal": "pra",
-      "doi": "10.1103/zr6v-vpkv",
-      "title": "Sequential decoding of the XYZ${}^{2}$ hexagonal stabilizer code",
-      "authors": [
-        "Basudha Srivastava, Yinzi Xiao, Anton Frisk Kockum, Ben Criger, and Mats Granath"
-      ],
-      "url": "https://journals.aps.org/pra/accepted/f5078N03If41283840fd2c297dc24241e71ca4445",
-      "status": "accepted",
-      "date": "2026-11-09",
-      "date_kind": "accepted_feed",
-      "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
-      "tags": [
-        "量子纠错"
-      ]
-    },
-    {
-      "journal": "pra",
-      "doi": "10.1103/6f3j-jx35",
-      "title": "Semidefinite-programming hierarchies for classically simulable state sets",
-      "authors": [
-        "Mengyan Li, Yanning Jia, Fenzhuo Guo, Haifeng Dong, Sujuan Qin, and Fei Gao"
-      ],
-      "url": "https://journals.aps.org/pra/accepted/cd07dNedH6312c25585f7e03de5cb5a6060d21e03",
-      "status": "accepted",
-      "date": "2026-11-09",
-      "date_kind": "accepted_feed",
-      "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
-      "tags": [
-        "量子信息与基础"
-      ]
-    },
-    {
       "journal": "prl",
       "doi": "10.1103/13wt-lzjm",
       "title": "Observing Bell inequality violation beyond the qubit bound in a spinor Bose-Einstein condensate",
@@ -14772,23 +15420,6 @@
       "date_kind": "accepted_feed",
       "evidence": "https://feeds.aps.org/rss/accepted/prl.xml",
       "tags": [
-        "量子信息与基础"
-      ]
-    },
-    {
-      "journal": "pra",
-      "doi": "10.1103/5672-djvn",
-      "title": "Construction of three-qubit positive-partial-transpose entangled states of rank 4",
-      "authors": [
-        "Yonggang Cheng and Lin Chen"
-      ],
-      "url": "https://journals.aps.org/pra/accepted/26076N6aFc61702459288574846835e7b3f21dc4d",
-      "status": "accepted",
-      "date": "2026-11-06",
-      "date_kind": "accepted_feed",
-      "evidence": "https://feeds.aps.org/rss/accepted/pra.xml",
-      "tags": [
-        "量子硬件",
         "量子信息与基础"
       ]
     },
@@ -17114,7 +17745,9 @@
       ],
       "abstract": "Ground-state energy estimation for strongly correlated quantum systems remains a central challenge in computational physics and chemistry. While tensor network methods like Density Matrix Renormalization Group (DMRG) provide efficient solutions for one-dimensional systems, higher-dimensional problems remain difficult. Here we present a variational double bracket flow (vDBF) algorithm that leverages Pauli Propagation, a technique originally developed for classical simulation of quantum circuits, to efficiently approximate ground-state energies. By combining greedy operator selection with coefficient-based fluctuation truncation and energy-variance extrapolation, we obtain sub-1% relative errors for Heisenberg and Hubbard lattices of up to 128 qubits. For a 10 × 10 Heisenberg lattice (100 qubits), vDBF obtains accurate results in approximately 2 min on a single CPU thread, compared to over 50 h on 64 threads for DMRG. Accurate results are also obtained for systems that are difficult for quantum Monte Carlo: on the maximally frustrated 8 × 8 J 1 – J 2 lattice and the hole-doped 8 × 8 Hubbard model, the tightest thresholds extrapolate to within a few tenths of a percent of the best published variational estimates. We further test vDBF on the 84-qubit π -valence active space of hexabenzocoronene, where the most reliable extrapolated correlation energies agree with DMRG to within 1%. These results demonstrate that classical simulation techniques developed in the context of quantum advantage benchmarking can provide practical tools for many-body physics.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "6ad0d3c860a3956023a3e6d232f8cda7d662a270a7bb35adcc34fa24125cd571",
+      "abstract_zh": "强关联量子系统的基态能量估计仍然是计算物理和化学中的一个核心挑战。尽管像密度矩阵重整化群（DMRG）这样的张量网络方法为一维系统提供了高效解决方案，但高维问题仍然困难。在此，我们提出了一种变分双括号流（vDBF）算法，该算法利用泡利传播——一种最初为量子电路经典模拟而开发的技术——来高效近似基态能量。通过将贪婪算子选择与基于系数的涨落截断以及能量方差外推相结合，我们对多达128个量子比特的海森堡和哈伯德晶格获得了低于1%的相对误差。对于一个10×10的海森堡晶格（100个量子比特），vDBF在单个CPU线程上约2分钟内即可获得准确结果，而DMRG在64个线程上需要超过50小时。对于量子蒙特卡洛难以处理的系统，也获得了准确结果：在最大阻挫的8×8 J1–J2晶格和空穴掺杂的8×8哈伯德模型上，最严格的阈值外推到已发表的最佳变分估计的千分之几以内。我们进一步在六苯并晕苯的84量子比特π-价活性空间上测试了vDBF，其中最可靠的外推关联能量与DMRG的吻合度在1%以内。这些结果表明，在量子优势基准测试背景下开发的经典模拟技术可以为多体物理提供实用工具。"
     },
     {
       "journal": "prxquantum",
@@ -17157,7 +17790,9 @@
       ],
       "abstract": "Non-Hermitian quantum systems exhibit qualitatively distinct physical behavior compared to Hermitian systems, a prime example being spectral singularities known as exceptional points (EPs). Their relevance in, e.g. quantum sensing, unidirectional transport, and robust lasing makes it important to be able to identify EPs through observable features of a many-body system. Here, using as an example a one-dimensional complex ( 110 ) spin chain realizing both rotation-time ( ( 11 2 ¯ 0 ) )- and parity-time ( ( 0001 ) )-symmetric regimes, we develop a framework for detecting EPs based on the distinction between left and right eigenvectors of the Hamiltonian, which in a non-Hermitian system are no longer the adjoint of each other. We first show that a global measure constructed from the difference between the Hamiltonian and its adjoint locates EPs via distinct non-analytic behavior. At the level of observables, differences in local spin correlations evaluated on the right and left eigenstates provide a reliable static detection scheme. In contrast, static bipartite entanglement measures fail to capture this distinction, urging us to study the quantum dynamics of the model. Following a sudden quench, we demonstrate that the time-averaged right–left entanglement entropy difference directly encodes signatures of the EP. In the ( 11 2 ¯ 0 ) -symmetric regime, it exhibits a pronounced peak at the EP, whereas in the ( 0001 ) -symmetric regime it behaves as an order-parameter-like quantity, remaining finite in one phase and vanishing at the transition. Our results establish a direct link between the structure of non-Hermitian eigenstates and observable signatures of EPs, providing a practical route to identify them in existing quantum simulators.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "227acb09bd8c1900bb4b704255a918326ffaa60e38315337ce745b9deb5e0c97",
+      "abstract_zh": "非厄米量子系统展现出与厄米系统 qualitatively 不同的物理行为，一个典型例子是被称为例外点（EPs）的光谱奇点。它们在例如量子传感、单向输运和稳健激光等领域的重要性，使得能够通过多体系统的可观测特征来识别EPs变得至关重要。在此，以一维复数（110）自旋链为例，该链实现了旋转时间（（11 2¯ 0））和宇称时间（（0001））对称机制，我们基于哈密顿量左右本征矢量的区别，开发了一个检测EPs的框架，而在非厄米系统中，这些本征矢量不再是彼此的伴随。我们首先展示，由哈密顿量与其伴随之间的差异构建的全局度量通过明显的非解析行为定位EPs。在可观测量的层面上，在右和左本征态上评估的局部自旋相关性的差异提供了一种可靠的静态检测方案。相比之下，静态二分纠缠度量未能捕捉到这种区别，促使我们研究该模型的量子动力学。经过突然淬火后，我们证明时间平均的右-左纠缠熵差直接编码了EP的特征。在（11 2¯ 0）对称机制中，它在EP处表现出明显的峰值，而在（0001）对称机制中，它表现为类似序参量的量，在一个相中保持有限，在转变处消失。我们的结果建立了非厄米本征态结构与EPs可观测特征之间的直接联系，为在现有量子模拟器中识别它们提供了实用途径。"
     },
     {
       "journal": "ncomms",
@@ -17197,7 +17832,9 @@
       ],
       "abstract": "Remote magnetic sensing can be used to monitor the position of objects in real time, enabling ground transport monitoring, underground infrastructure mapping, and hazardous detection. However, magnetic signals are typically weak and complex, requiring sophisticated physical models to analyze them and a detailed knowledge of the system under study, factors that are frequently unavailable. In this work, we provide a solution to these limitations by demonstrating a machine-learning (ML) method that can be trained exclusively on experimental data, without the need of any physical model, to predict the position of a magnetic target in real time. The target can be any object with a magnetic signal above the floor noise, and in this case, we use a quantum diamond magnetometer to track variations of a few hundred nanoteslas produced by an elevator moving along a single axis. The one-dimensional movement is a simple yet challenging scenario, resembling realistic environments such as high buildings, tunnels, or train circuits, and is the first step toward building broader applications. Our ML algorithm can be trained in approximately 40 min, achieving over 80% accuracy in predicting the target’s position at a rate of 10 Hz, for a positional error tolerance of 30 cm, which is well within the the 4-m spacing between parking levels. Our results open up the possibility to apply this ML method more generally for real-time monitoring of magnetic objects, which will broaden the scope of magnetic detection applications.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "0a393b850c1055cb68ec237b01bce7559498eecc911f573652acf1f40d1cbaf4",
+      "abstract_zh": "远程磁传感可用于实时监测物体的位置，从而实现地面交通监测、地下基础设施测绘和危险检测。然而，磁信号通常微弱且复杂，需要复杂的物理模型来分析它们，并且需要对所研究的系统有详细的了解，而这些因素往往不可用。在这项工作中，我们通过展示一种机器学习（ML）方法来解决这些限制，该方法可以完全基于实验数据进行训练，无需任何物理模型，以实时预测磁性目标的位置。目标可以是任何磁信号高于本底噪声的物体，在本例中，我们使用量子金刚石磁力计来跟踪电梯沿单轴运动时产生的几百纳特斯拉的变化。一维运动是一个简单但具有挑战性的场景，类似于高楼、隧道或列车电路等现实环境，是构建更广泛应用的第一步。我们的ML算法可以在大约40分钟内完成训练，在30厘米的位置误差容限内，以10赫兹的速率预测目标位置，准确率超过80%，这完全在停车层之间4米间距的范围内。我们的结果开辟了将这种ML方法更普遍地应用于磁性物体实时监测的可能性，这将拓宽磁检测 applications 的范围。"
     },
     {
       "journal": "prx",
@@ -17220,7 +17857,9 @@
       ],
       "abstract": "Incoherent imaging, including fluorescence and absorption microscopy, is often hindered by weak signals and resolution limits—notoriously, Rayleigh’s curse. We introduce a framework for incoherent quantum imaging in the perturbative (weak-signal) regime that leverages spatially structured quantum probes and multiplexed quantum readout to overcome these limitations. We propose a novel protocol that maps absorption and fluorescence onto distinct idler and signal modes that carry thermal-like signatures characteristic of passive imaging. This yields an explicit architecture for simultaneous absorption and fluorescence imaging at the quantum limit and allows passive-imaging methods to be directly repurposed for active quantum imaging. As a corollary, we show that subdiffraction absorption imaging with quantum probes evades Rayleigh’s curse, whereas classical probes remain provably afflicted. Remarkably, the same protocol supports displacement-field reconstruction of multiple quadratures (e.g., oscillators’ positions) and pertains to both conventional and subdiffraction imaging. We further identify Fock states in a structured spatial mode basis as a non-Gaussian alternative with comparable performance. Though primarily developed for optical imaging, our framework suggests broad applications to phononic and acoustic imaging, and to reconstructing forces, fields, or charge distributions with an array of mechanical oscillators.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "5733f4285df376c50e83376e9da30f93b2d3275cb157cd1416be6eb97042f820",
+      "abstract_zh": "非相干成像，包括荧光和吸收显微术，常受到弱信号和分辨率限制的阻碍——尤其是瑞利诅咒。我们提出了一个在微扰（弱信号）区域进行非相干量子成像的框架，利用空间结构化的量子探针和多路复用的量子读出以克服这些限制。我们提出了一种新颖的方案，将吸收和荧光映射到不同的闲频和信号模式上，这些模式携带被动成像特有的热样特征。这产生了一个在量子极限下同时进行吸收和荧光成像的明确架构，并允许被动成像方法直接重新用于主动量子成像。作为一个推论，我们展示了使用量子探针的亚衍射吸收成像规避了瑞利诅咒，而经典探针则被证明仍然受到影响。值得注意的是，同一方案支持多个正交分量的位移场重建（例如，振荡器的位置），并且适用于传统和亚衍射成像。我们进一步在结构化的空间模式基中识别出福克态作为一种具有可比性能的非高斯替代方案。尽管主要针对光学成像开发，我们的框架暗示了在声子和声学成像中的广泛应用，以及使用机械振荡器阵列重建力、场或电荷分布。"
     },
     {
       "journal": "prresearch",
@@ -17242,7 +17881,9 @@
       ],
       "abstract": "Preparing ground states of strongly correlated quantum systems is a central goal in quantum simulation and optimization. The feedback-based quantum algorithm (FALQON) provides an attractive alternative to variational methods with a fully quantum feedback rule, but it fails in the presence of spectral degeneracies, where the feedback signal collapses and the evolution cannot reach the ground state. Using the Fermi-Hubbard model on lattices up to 3 × 3 , we show that this breakdown appears at half filling on the 2 × 2 lattice and extends to both half-filled and doped configurations on the 3 × 3 lattice. We then introduce an imaginary-time-enhanced FALQON ( i FALQON ) scheme, which inserts short imaginary-time evolution steps into the feedback loop. This proposed method suppresses excited-state components, escapes degenerate subspaces, restores monotonic energy descent, and improves ground-state convergence across the tested fillings. We further benchmark its performance against existing methods, showing improved results for i FALQON , demonstrating the potential of hybrid real-imaginary-time feedback dynamics for ground-state preparation in strongly correlated quantum systems.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "190a681f2ea62568e09d10f60b0a530a2c9cbb8afa798b9a869eab514738809e",
+      "abstract_zh": "制备强关联量子系统的基态是量子模拟与量子优化中的一个核心目标。基于反馈的量子算法（FALQON）为变分方法提供了一种颇具吸引力的替代方案，其具有完全量子反馈规则，但在存在谱简并的情况下会失效，此时反馈信号崩溃，演化无法到达基态。利用最多至3×3晶格的费米-哈伯德模型，我们表明这种失效在2×2晶格上出现在半填充情形，并扩展到3×3晶格上的半填充和掺杂两种构型。随后我们引入一种虚时间增强的FALQON（iFALQON）方案，该方案在反馈回路中插入短虚时间演化步骤。所提出的方法抑制激发态分量、逃逸简并子空间、恢复单调能量下降，并在所测试的填充情形下改善基态收敛性。我们进一步将其性能与现有方法进行基准比较，结果表明iFALQON取得了改进的结果，展示了混合实-虚时间反馈动力学在强关联量子系统基态制备中的潜力。"
     },
     {
       "journal": "prxquantum",
@@ -17376,7 +18017,9 @@
       ],
       "abstract": "Noise and errors are unavoidable in any realistic quantum process, including processes designed to reduce noise and errors in the first place. In particular, quantum thermodynamical protocols for cooling can be significantly affected, potentially altering both their performance and efficiency. Analytically characterizing the impact of such errors becomes increasingly challenging as the system size grows, particularly in deep quantum circuits where noise can accumulate in complex ways. To address this, we introduce a general framework for approximating the cumulative effect of gate-dependent noise using a global depolarizing channel. We specify the regime in which this approximation provides a reliable description of the noisy dynamics. Applying our framework to the thermodynamical two-sort algorithmic cooling (TSAC) protocol, we analytically derive its asymptotic cooling limit in the presence of noise. Using the cooling limit, the optimal cooling performance is achieved by a finite number of qubits—distinguished from the conventional noiseless TSAC protocol by an infinite number of qubits—and fundamental bounds on the achievable ground-state population are derived. This approach opens new avenues for exploring noisy quantum thermodynamical processes.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "f893c2f56c8179e839702f21c40d9c0fd538cf06349c8edf74ea35ce888cdb82",
+      "abstract_zh": "在任何真实的量子过程中，噪声和误差都是不可避免的，包括那些本身就旨在降低噪声和误差的过程。特别是，用于冷却的量子热力学协议可能受到显著影响，可能同时改变其性能和效率。随着系统规模增大，对这类误差影响进行解析刻画变得越来越具有挑战性，尤其是在噪声会以复杂方式累积的深度量子电路中。为解决这一问题，我们引入了一个通用框架，通过全局去极化信道来近似门依赖噪声的累积效应。我们明确了该近似能够可靠描述噪声动力学的适用区域。将我们的框架应用于热力学双排序算法冷却（TSAC）协议，我们解析推导了其在存在噪声时的渐近冷却极限。利用该冷却极限，最优冷却性能由有限数量的量子比特实现——这与传统无噪声TSAC协议由无限数量量子比特实现形成区别——并推导了可达到基态布居数的基本界限。这一方法为探索含噪量子热力学过程开辟了新途径。"
     },
     {
       "journal": "ncomms",
@@ -17555,7 +18198,9 @@
       ],
       "abstract": "Newton’s constant fixes the strength of the effective metric response, but its magnitude is not determined by Einstein’s equations. This paper investigates a conditional finite matching model for the dimensionless coupling αG(M)=GM2/(ℏc), motivated by joint selection of persistent matter identities, their supporting platform, and admissible laws. A specified single-anchor contrast boundary gives a 43-dimensional selector with an intrinsic 18+25 split. An explicit rooted-family bijection connects the eighteen baryon routes to oriented derangements; its physical continuation and reversal interpretations remain premises. The return quotient admits a vector-space comparison with a five-role interface, but a character obstruction excludes identification of their two natural axis-relabeling actions. A covariant physical interface comparison is therefore required separately. Faithful local transports, including one cross-sector bridge, give a scalar commutant and the normalized return weight 25/43. Independent completed-channel composition and one-channel normalization select the determinant C*18. Correction coefficients are formulated with one ambient trace and explicit support conditioning; an exhaustive set of rules for factorizing depth records gives the return completion. Under these premises and the gravitational matching, αG(e)≃1.75181×10−45, corresponding to Gstr≃6.67430×10−11m3kg−1s−2. The numerical agreement is retrospective. The leading term already lies within the CODATA 2022 uncertainty, which does not discriminate the correction coefficients. The frozen matching relation is testable by new absolute determinations of G. The finite implications are exact in the stated model; physical selection of the boundary, interface, and history rules remains open.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "70833b75c71fca59d2dc57da7be6083cc8d7b329617a30c9c55321ea5edf4889",
+      "abstract_zh": "牛顿常数决定了有效度规响应的强度，但其大小并不由爱因斯坦方程决定。本文研究一个条件性有限匹配模型，针对无量纲耦合 αG(M)=GM2/(ℏc)，其动机来自对持久物质身份、其支撑平台以及可容许定律的联合选择。一个指定的单锚对比边界给出一个43维选择器，具有内在的18+25分裂。一个显式的有根族双射将十八条重子路径与定向错排联系起来；其物理延续和反转解释仍作为前提。返回商允许与五角色接口进行向量空间比较，但特征障碍排除了对其两个自然轴重标记作用的认同。因此，需要单独进行协变物理接口比较。忠实的局部传输，包括一个跨扇区桥，给出一个标量交换子和归一化返回权重25/43。独立的完成通道组合和单通道归一化选择行列式C*18。修正系数以一个环境迹和显式支撑条件表述；一组穷尽的深度记录因式分解规则给出返回完成。在这些前提和引力匹配下，αG(e)≃1.75181×10−45，对应于Gstr≃6.67430×10−11m3kg−1s−2。数值一致性是回顾性的。主导项已经位于CODATA 2022不确定度之内，该不确定度不区分修正系数。冻结匹配关系可通过新的G绝对测定进行检验。有限推论在所述模型中是精确的；边界、接口和历史规则的物理选择仍待解决。"
     },
     {
       "journal": "qst",
@@ -17574,7 +18219,9 @@
       ],
       "abstract": "Calibration summaries are used both to select physical qubits and to parameterize noisy emulators, creating a risk that agreement within a calibration-derived model is mistaken for validation on hardware. We test whether calibration-aware compiler rankings transfer to hardware using weighted-MaxCut instances implemented with the quantum approximate optimization algorithm. The evidence comprises four stages: 3240 historical calibration-derived simulations; a complete 54-pair hardware grid on three IBM Heron r2 processors; exact-circuit repeats 9.3–12.1 d later; and a contemporaneous five-arm refresh experiment. Full-calibration selection improves the median hardware approximation ratio by 0.74 percentage points (pp), with 29 resolved gains and 11 resolved losses. This is a mean-objective effect: its translation to exact-solution probability is instance- and size-dependent, and we do not extrapolate it beyond the tested n ⩽ 10 regime. A Qiskit Aer model constructed from the calibration state available before execution reproduced the direction of the measured full-calibration-versus-topology advantage in 35/54 comparisons, but systematically overestimated its size: the simulated advantage exceeded the subsequently measured hardware advantage by a median 1.35 pp. Regressing the measured hardware advantage on the simulated advantage gave a slope of 0.28 (workload-depth case-cluster 95% interval 0.06–0.52), rather than the unit slope of a calibrated predictor. The emulator identified the exact best of six backend-compiler configurations in only 5/18 cases (95% Wilson interval [0.125, 0.509]). By contrast, identical circuits preserved the compiler-effect sign in 16/18 later repeats ( r = 0.92 ). Refreshing the full-calibration mapping yielded a median +0.72 pp gain, whereas the calibration-score difference agreed in sign with the measured refresh benefit in only 9/18 cases. Calibration data are therefore useful for candidate discovery and timely refresh, but their scalar scores are not calibrated predictors of hardware performance or configuration ranking.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "9c386b6a58eadea7043183a836251d4886b26fd96471ebed6cfcf8dc10dc9604",
+      "abstract_zh": "校准摘要既用于选择物理量子比特，也用于参数化噪声模拟器，这带来了一种风险：校准衍生模型内部的一致性可能被误认为是在硬件上得到了验证。我们使用量子近似优化算法实现的加权MaxCut实例，检验校准感知的编译器排序是否能迁移到硬件。证据包括四个阶段：3240次历史校准衍生模拟；在三个IBM Heron r2处理器上的完整54对硬件网格；9.3–12.1天后的精确电路重复；以及同期进行的五臂刷新实验。全校准选择将硬件近似比的中位数提高了0.74个百分点（pp），其中29项增益可分辨，11项损失可分辨。这是一个均值目标效应：其向精确解概率的转化依赖于实例和规模，我们不会将其外推到测试的n ⩽ 10范围之外。根据执行前可用的校准状态构建的Qiskit Aer模型在35/54次比较中再现了实测的全校准相对于拓扑优势的方向，但系统性地高估了其幅度：模拟优势比随后测得的硬件优势中位数高出1.35 pp。将测得的硬件优势对模拟优势进行回归，得到的斜率为0.28（工作负载深度案例聚类95%区间0.06–0.52），而非校准预测器应有的单位斜率。该模拟器仅在5/18个案例中识别出六个后端-编译器配置中的精确最佳者（95% Wilson区间[0.125, 0.509]）。相比之下，相同电路在16/18次后续重复中保持了编译器效应符号（r = 0.92）。刷新全校准映射产生了中位数+0.72 pp的增益，而校准分数差异仅在9/18个案例中与测得的刷新收益符号一致。因此，校准数据对于候选发现和及时刷新是有用的，但其标量分数并非硬件性能或配置排序的校准预测器。"
     },
     {
       "journal": "npjqi",
@@ -17611,7 +18258,9 @@
       ],
       "abstract": "Equivariant quantum neural networks are designed to preserve symmetries in quantum machine-learning data, but this property is usually verified only before hardware compilation. We show that a transpiler can preserve the expected unitary symmetry relation while compiling symmetry-related inputs into circuits with different two-qubit gate counts and physical-qubit layouts, so ideal-circuit equivariance does not guarantee symmetry at the level of compiled circuit structure. We formalise this gap with a three-level compliance hierarchy and a taxonomy separating topology-input ansätze, where the symmetry changes the gate topology the compiler sees, from parameter-input ansätze, where it changes only numerical gate parameters and provably leaves controlled- Z counts unchanged under topology-based transpilation. Auditing four published ansatz families, we observe the effect only in the topology-input case. For the Skolik permutation-equivariant weighted-graph ansatz compiled to the IBM Heron Fez simulator target at twelve qubits, sparse graph inputs produce a mean relative controlled- Z asymmetry of 7.3% across fifty random vertex permutations, with a worst case of 22.5%. The effect persists across all four Qiskit optimisation levels and is not removed by matched-layout compilation, implicating routing-stage sensitivity to the ordered sparse-edge gate sequence. A density sweep shows that the asymmetry is comparable across intermediate graph densities and vanishes for complete graphs, where the ansatz degenerates into the parameter-input class, and stochastic baselines attribute the realised differences to heuristic routing sensitivity rather than to differing optimal compiled costs. Finally, we propose compile-once-and-relabel, a deployment pattern that removes controlled- Z count asymmetry by construction and reduces compilation cost for orbit-based workflows.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "61c7eccfe914962b6cf8192c16df7a1df59aafa0efbe9a9c53799f85e088f8ed",
+      "abstract_zh": "等变量子神经网络旨在保持量子机器学习数据中的对称性，但这一性质通常仅在硬件编译之前得到验证。我们表明，转译器可以在将对称相关的输入编译为具有不同双量子比特门计数和物理量子比特布局的电路时，保持预期的酉对称关系，因此理想电路等变性并不能保证编译电路结构层面的对称性。我们用三级合规层次结构和一种分类法形式化了这一差距，该分类法将拓扑输入拟设与参数输入拟设区分开来：前者中对称性改变了编译器所看到的门拓扑，后者中对称性仅改变数值门参数，并可证明在基于拓扑的转译下保持受控Z计数不变。审计四个已发表的拟设家族，我们仅在拓扑输入情形中观察到该效应。对于编译到IBM Heron Fez模拟器目标（十二量子比特）的Skolik置换等变加权图拟设，稀疏图输入在五十次随机顶点置换中产生平均相对受控Z不对称性7.3%，最坏情况为22.5%。该效应在所有四个Qiskit优化级别上持续存在，且不能通过匹配布局编译消除，暗示路由阶段对有序稀疏边门序列的敏感性。密度扫描表明，该不对称性在中间图密度下相当，并在完全图上消失，此时拟设退化为参数输入类；随机基线将实现的差异归因于启发式路由敏感性，而非不同的最优编译成本。最后，我们提出“一次编译并重标记”，这是一种部署模式，通过构造消除受控Z计数不对称性，并降低基于轨道的工作流的编译成本。"
     },
     {
       "journal": "prapplied",
@@ -21649,320 +22298,6 @@
       "abstract": "Quantum signal processing (QSP) transforms a unitary parametrized by a classical variable θ into one governed by a polynomial function f ( θ ) . Though quantum mechanics is linear, such highly nonlinear transformations arise naturally from the curvature of the qubit Bloch sphere. This capability underpins many quantum algorithms and enables robust control by decreasing sensitivity to errors in a control parameter, or quantum sensing by increasing sensitivity to variations one seeks to measure. Here, we extend QSP from classical, commuting control parameters to noncommuting quantum operators. We call this new multivariate class . Rather than treating the noncommutativity of quantum control variables as a complication, non-Abelian QSP exploits their richer commutator algebra as a resource for efficient control. A natural setting is hybrid oscillator-qubit systems realized in superconducting and trapped-ion processors, where the control variables can be the noncommuting position and momentum of a quantum harmonic oscillator. We introduce the Gaussian-controlled rotation (GCR), a canonical instance of non-Abelian QSP that cancels the Gaussian quantum-fluctuation error of an oscillator-controlled qubit rotation, matching the robustness of classical composite pulses with a much shorter circuit and an order-of-magnitude lower error. GCR enables fully analytical circuits for preparing squeezed, cat, GKP, and Fock states with performance comparable to state-of-the-art numerically optimized protocols. Building on this primitive, we develop an analytical framework for universal control of GKP bosonic codes, in which logical readout doubles as piecewise gate teleportation, yielding the first high-fidelity, error-mitigated single- and two-qubit logical gates for finite-energy GKP that surpass prior schemes even in the noiseless regime. The same framework supplies midcircuit error detection and extends in closed form to arbitrary lattices, qudits, and multimode codes relevant to the superconducting-circuit experiments now demonstrating beyond-break-even GKP memory. We further apply these ideas to close a key gap in oscillator-assisted quantum phase estimation. Together, these results show that the non-Abelian structure of quantum control operators can provide a practical resource for robust and efficient quantum control, establishing non-Abelian QSP as both a new theoretical framework and an experimentally accessible control paradigm.",
       "abstract_source": "Crossref",
       "license": "https://creativecommons.org/licenses/by/4.0/"
-    },
-    {
-      "journal": "science",
-      "doi": "10.1126/science.aee7961",
-      "title": "Magic state cultivation on a superconducting quantum processor",
-      "authors": [
-        "E. Rosenfeld",
-        "C. Gidney",
-        "G. Roberts",
-        "A. Morvan",
-        "N. Lacroix",
-        "D. Kafri",
-        "J. Marshall",
-        "M. Li",
-        "V. Sivak",
-        "D. Abanin",
-        "A. Abbas",
-        "R. Acharya",
-        "L. Aghababaie Beni",
-        "G. Aigeldinger",
-        "R. Alcaraz",
-        "S. Alcaraz",
-        "T. I. Andersen",
-        "M. Ansmann",
-        "F. Arute",
-        "K. Arya",
-        "W. Askew",
-        "N. Astrakhantsev",
-        "J. Atalaya",
-        "R. Babbush",
-        "B. Ballard",
-        "J. C. Bardin",
-        "H. Bates",
-        "A. Bengtsson",
-        "M. Bigdeli Karimi",
-        "A. Bilmes",
-        "S. Bilodeau",
-        "F. Borjans",
-        "J. Bovaird",
-        "D. Bowers",
-        "L. Brill",
-        "P. Brooks",
-        "M. Broughton",
-        "D. A. Browne",
-        "B. Buchea",
-        "B. B. Buckley",
-        "T. Burger",
-        "B. Burkett",
-        "N. Bushnell",
-        "J. Busnaina",
-        "A. Cabrera",
-        "J. Campero",
-        "H.-S. Chang",
-        "S. Chen",
-        "Z. Chen",
-        "B. Chiaro",
-        "L.-Y. Chih",
-        "A. Y. Cleland",
-        "B. Cochrane",
-        "M. Cockrell",
-        "J. Cogan",
-        "P. Conner",
-        "H. Cook",
-        "R. G. Cortiñas",
-        "W. Courtney",
-        "A. L. Crook",
-        "B. Curtin",
-        "M. Damyanov",
-        "S. Das",
-        "D. M. Debroy",
-        "S. Demura",
-        "P. Donohoe",
-        "I. Drozdov",
-        "A. Dunsworth",
-        "V. Ehimhen",
-        "A. Eickbusch",
-        "A. Moshe Elbag",
-        "L. Ella",
-        "M. Elzouka",
-        "D. Enriquez",
-        "C. Erickson",
-        "L. Faoro",
-        "V. S. Ferreira",
-        "M. Flores",
-        "L. Flores Burgos",
-        "S. Fontes",
-        "E. Forati",
-        "J. Ford",
-        "B. Foxen",
-        "M. Fukami",
-        "A. Wing Lun Fung",
-        "L. Fuste",
-        "S. Ganjam",
-        "G. Garcia",
-        "C. Garrick",
-        "R. Gasca",
-        "H. Gehring",
-        "R. Geiger",
-        "É. Genois",
-        "W. Giang",
-        "D. Gilboa",
-        "J. E. Goeders",
-        "E. C. Gonzales",
-        "R. Gosula",
-        "S. J. de Graaf",
-        "A. Grajales Dau",
-        "D. Graumann",
-        "J. Grebel",
-        "A. Greene",
-        "J. A. Gross",
-        "J. Guerrero",
-        "L. Le Guevel",
-        "T. Ha",
-        "S. Habegger",
-        "T. Hadick",
-        "A. Hadjikhani",
-        "M. C. Hamilton",
-        "M. Hansen",
-        "M. P. Harrigan",
-        "S. D. Harrington",
-        "J. Hartshorn",
-        "S. Heslin",
-        "P. Heu",
-        "O. Higgott",
-        "R. Hiltermann",
-        "J. Hilton",
-        "H.-Y. Huang",
-        "M. Hucka",
-        "C. Hudspeth",
-        "A. Huff",
-        "W. J. Huggins",
-        "L. B. Ioffe",
-        "E. Jeffrey",
-        "S. Jevons",
-        "Z. Jiang",
-        "X. Jin",
-        "C. Joshi",
-        "P. Juhas",
-        "A. Kabel",
-        "H. Kang",
-        "K. Kang",
-        "A. H. Karamlou",
-        "R. Kaufman",
-        "K. Kechedzhi",
-        "T. Khattar",
-        "M. Khezri",
-        "S. Kim",
-        "P. V. Klimov",
-        "C. M. Knaut",
-        "B. Kobrin",
-        "A. N. Korotkov",
-        "F. Kostritsa",
-        "J. M. Kreikebaum",
-        "R. Kudo",
-        "B. Kueffler",
-        "A. Kumar",
-        "V. D. Kurilovich",
-        "V. Kutsko",
-        "T. Lange-Dei",
-        "B. W. Langley",
-        "P. Laptev",
-        "K.-M. Lau",
-        "E. Leavell",
-        "J. Ledford",
-        "J. Lee",
-        "K. Lee",
-        "B. J. Lester",
-        "W. Leung",
-        "L. Li",
-        "W. Yan Li",
-        "A. T. Lill",
-        "W. P. Livingston",
-        "M. T. Lloyd",
-        "A. Locharla",
-        "L. De Lorenzo",
-        "E. Lucero",
-        "D. Lundahl",
-        "A. Lunt",
-        "S. Madhuk",
-        "A. Maiti",
-        "A. Maloney",
-        "S. Mandrà",
-        "L. S. Martin",
-        "O. Martin",
-        "E. Mascot",
-        "P. Masih Das",
-        "D. Maslov",
-        "M. Mathews",
-        "C. Maxfield",
-        "J. R. McClean",
-        "M. McEwen",
-        "S. Meeks",
-        "A. Megrant",
-        "K. C. Miao",
-        "Z. K. Minev",
-        "R. Molavi",
-        "S. Molina",
-        "S. Montazeri",
-        "C. Neill",
-        "M. Newman",
-        "A. Nguyen",
-        "M. Nguyen",
-        "C.-H. Ni",
-        "M. Yuezhen Niu",
-        "N. Noll",
-        "L. Oas",
-        "W. D. Oliver",
-        "R. Orosco",
-        "K. Ottosson",
-        "A. Pagano",
-        "A. Di Paolo",
-        "S. Peek",
-        "D. Peterson",
-        "A. Pizzuto",
-        "E. Portoles",
-        "R. Potter",
-        "O. Pritchard",
-        "L. Pryadko",
-        "M. Qian",
-        "C. Quintana",
-        "G. Ramachandran",
-        "A. Ranadive",
-        "M. J. Reagor",
-        "R. Resnick",
-        "D. M. Rhodes",
-        "D. Riley",
-        "R. Rodriguez",
-        "E. Ropes",
-        "L. B. De Rose",
-        "E. Rosenberg",
-        "D. Rosenstock",
-        "E. Rossi",
-        "P. Roushan",
-        "D. A. Rower",
-        "R. Salazar",
-        "K. Sankaragomathi",
-        "M. Can Sarihan",
-        "M. Schaefer",
-        "S. Schroeder",
-        "H. F. Schurkus",
-        "A. Shahingohar",
-        "M. J. Shearn",
-        "A. Shorter",
-        "N. Shutty",
-        "V. Shvarts",
-        "S. Small",
-        "W. C. Smith",
-        "D. A. Sobel",
-        "B. Spells",
-        "S. Springer",
-        "G. Sterling",
-        "J. Suchard",
-        "A. Szasz",
-        "A. Sztein",
-        "M. Taylor",
-        "J. Priyanka Thiruraman",
-        "D. Thor",
-        "D. Timucin",
-        "E. Tomita",
-        "A. Torres",
-        "M. M. Torunbalci",
-        "H. Tran",
-        "A. Vaishnav",
-        "J. Vargas",
-        "S. Vdovichev",
-        "G. Vidal",
-        "B. Villalonga",
-        "C. Vollgraff Heidweiller",
-        "M. Voorhees",
-        "S. Waltman",
-        "J. Waltz",
-        "S. X. Wang",
-        "D. Wang",
-        "B. Ware",
-        "J. D. Watson",
-        "Y. Wei",
-        "T. Weidel",
-        "T. White",
-        "K. Wong",
-        "B. W. K. Woo",
-        "C. J. Wood",
-        "M. Woodson",
-        "C. Xing",
-        "Z. J. Yao",
-        "P. Yeh",
-        "B. Ying",
-        "J. Yoo",
-        "N. Yosri",
-        "E. Young",
-        "G. Young",
-        "A. Zalcman",
-        "R. Zhang",
-        "Y. Zhang",
-        "N. Zhu",
-        "N. Zobrist",
-        "Z. Zou",
-        "H. Neven",
-        "S. Boixo",
-        "C. Jones",
-        "J. Kelly",
-        "A. Bourassa",
-        "K. J. Satzinger"
-      ],
-      "url": "https://doi.org/10.1126/science.aee7961",
-      "status": "published",
-      "date": "2026-10-15",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1126/science.aee7961",
-      "tags": [
-        "量子纠错",
-        "量子算法",
-        "量子通信",
-        "量子硬件"
-      ]
     },
     {
       "journal": "prxquantum",
@@ -29782,22 +30117,6 @@
       "abstract": "Commercially relevant quantum computers will require large numbers of high-performing qubits that can be manufactured, integrated and controlled at scale. Silicon exchange-only qubits 1–10 are a strong candidate modality owing to their control-signal simplicity and compatibility with advanced semiconductor manufacturing 11–13 , but questions remain around the achievability of sufficiently low noise and a scalable control and wiring solution 13–19 . Here we introduce a quantum processing unit composed of a custom-designed cryogenic complementary metal–oxide–semiconductor (CMOS) controller, a high-density superconducting ribbon cable and a low-noise exchange-only qubit device. The quantum chip features a 3-rail array of 54 exchange-coupled quantum dots, configurable to host up to 18 exchange-only qubits. We integrate and use these components to demonstrate qubit performance for both single-qubit and entangling operations that advances the exchange-only state of the art 7,8,10 by an order of magnitude. We further validate this system by implementing a distance-5 repetition code 20 and a distance-2 quantum error-detecting code 21–26 and then make detailed comparisons with simulations. Our work facilitates the development of future utility-scale quantum computers with manageable operational and capital requirements.",
       "abstract_source": "Crossref",
       "license": "https://creativecommons.org/licenses/by/4.0"
-    },
-    {
-      "journal": "prxquantum",
-      "doi": "10.1103/phk5-slkl",
-      "title": "Faster Algorithmic Quantum and Classical Simulations by Corrected Product Formulas",
-      "authors": [
-        "Mohsen Bagherimehrab, Luis Mantilla Calderón, Dominic W. Berry, Philipp Schleich, Mohammad Ghazi Vakili, Abdulrahman Aldossary, Jorge A. Campos Gonzalez Angulo, Christoph Gorgulla, and Alán Aspuru-Guzik"
-      ],
-      "url": "https://link.aps.org/doi/10.1103/phk5-slkl",
-      "status": "published",
-      "date": "2026-07-28",
-      "date_kind": "publisher_feed",
-      "evidence": "https://feeds.aps.org/rss/recent/prxquantum.xml",
-      "tags": [
-        "量子物理"
-      ]
     }
   ],
   "sources": [
@@ -29967,13 +30286,13 @@
       "source": "prl",
       "kind": "rss",
       "ok": true,
-      "count": 28
+      "count": 26
     },
     {
       "source": "prl",
       "kind": "accepted",
       "ok": true,
-      "count": 29
+      "count": 30
     },
     {
       "source": "prx",
@@ -29985,7 +30304,7 @@
       "source": "prx",
       "kind": "accepted",
       "ok": true,
-      "count": 12
+      "count": 16
     },
     {
       "source": "prxquantum",
@@ -30003,7 +30322,7 @@
       "source": "pra",
       "kind": "rss",
       "ok": true,
-      "count": 68
+      "count": 67
     },
     {
       "source": "pra",
@@ -30051,7 +30370,7 @@
       "source": "science",
       "kind": "rss",
       "ok": true,
-      "count": 2
+      "count": 1
     },
     {
       "source": "sciadv",
@@ -30069,13 +30388,13 @@
       "source": "prresearch",
       "kind": "rss",
       "ok": true,
-      "count": 32
+      "count": 31
     },
     {
       "source": "prresearch",
       "kind": "accepted",
       "ok": true,
-      "count": 29
+      "count": 30
     },
     {
       "source": "prapplied",
@@ -30093,13 +30412,13 @@
       "source": "prb",
       "kind": "rss",
       "ok": true,
-      "count": 14
+      "count": 11
     },
     {
       "source": "prb",
       "kind": "accepted",
       "ok": true,
-      "count": 20
+      "count": 17
     },
     {
       "source": "rmp",
