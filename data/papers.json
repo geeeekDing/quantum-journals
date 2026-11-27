@@ -1,6 +1,351 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "papers": [
+    {
+      "journal": "quantum",
+      "doi": "10.22331/q-2026-11-27-2287",
+      "title": "ffsim: faster simulation of fermionic quantum circuits",
+      "authors": [
+        "Kevin J. Sung",
+        "Inho Choi",
+        "Mirko Amico",
+        "Bartholomew Andrews",
+        "Esra Ayantuna",
+        "Hrishikesh Belagali",
+        "Yukio Kawashima",
+        "Ryan LaRose",
+        "Wan-Hsuan Lin",
+        "David Omanovic",
+        "Samuele Piccinelli",
+        "Javier Robledo Moreno",
+        "Abdullah Ash Saki",
+        "James Shee",
+        "Soyoung Shin",
+        "Sabyrzhan Tasbolatov",
+        "Minh C. Tran",
+        "Kento Ueda",
+        "Haimeng Zhang",
+        "Mario Motta"
+      ],
+      "url": "https://doi.org/10.22331/q-2026-11-27-2287",
+      "status": "published",
+      "date": "2026-11-27",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.22331/q-2026-11-27-2287",
+      "tags": [
+        "量子算法"
+      ],
+      "abstract": "We present ffsim, an open-source software library for fast simulation of fermionic quantum circuits. ffsim exploits conservation of particle number and the z component of spin, symmetries present in a wide range of fermionic systems, to dramatically reduce memory usage and simulation time compared to general-purpose quantum circuit simulators. Compared to FQE , a library with similar functionality, ffsim differs in software design and is faster on a representative set of simulation benchmarks. Beyond state vector evolution by basic fermionic gates, ffsim offers a number of additional features including variational ansatzes, Hamiltonian time evolution via Trotter-Suzuki product formulas, efficient sampling of Slater determinants, seamless integration with Qiskit and PySCF , and comprehensive documentation. We demonstrate ffsim's capabilities on scientific applications, including a 64-qubit Hubbard model with 8 electrons.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "8b8e4f6fb276dd9586e5790ed776ae2d19b74526fdaca8d7c46d57ba8893eefb",
+      "abstract_zh": "我们介绍了ffsim，这是一个用于快速模拟费米子量子电路的开源软件库。ffsim利用粒子数和自旋z分量守恒——这些在广泛费米子系统中的对称性，与通用量子电路模拟器相比，极大地减少了内存使用和模拟时间。与功能相似的FQE库相比，ffsim在软件设计上有所不同，并在一组代表性模拟基准测试中速度更快。除了通过基本费米子门进行态矢量演化外，ffsim还提供了许多附加功能，包括变分拟设、通过Trotter-Suzuki乘积公式进行哈密顿量时间演化、斯莱特行列式的高效采样、与Qiskit和PySCF的无缝集成，以及全面的文档。我们在科学应用中展示了ffsim的能力，包括一个包含8个电子的64量子位Hubbard模型。"
+    },
+    {
+      "journal": "npjqi",
+      "doi": "10.1038/s41534-026-01420-x",
+      "title": "Universal sequential quantum hypothesis testing",
+      "authors": [
+        "Matteo Zecchin",
+        "Osvaldo Simeone",
+        "Aaditya Ramdas"
+      ],
+      "url": "https://doi.org/10.1038/s41534-026-01420-x",
+      "status": "published",
+      "date": "2026-11-27",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1038/s41534-026-01420-x",
+      "tags": [
+        "量子信息与基础",
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "quantum",
+      "doi": "10.22331/q-2026-11-27-2285",
+      "title": "Tutorial: Understanding quantum Zeno and anti-Zeno regimes",
+      "authors": [
+        "Sacha Greenfield",
+        "Archana Kamal",
+        "Justin Dressel",
+        "Eli Levenson-Falk"
+      ],
+      "url": "https://doi.org/10.22331/q-2026-11-27-2285",
+      "status": "published",
+      "date": "2026-11-27",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.22331/q-2026-11-27-2285",
+      "tags": [
+        "量子纠错",
+        "量子信息与基础"
+      ],
+      "abstract": "The quantum Zeno effect is a striking feature of quantum mechanics with foundational implications and practical applications in quantum control, error suppression, and error correction. In recent years, the effect has branched off into a variety of different interpretations, making it easy to miss its underlying unifying features. In particular, the quantum Zeno effect has been studied in the context of both selective and nonselective measurements; for both pulsed and continuous interactions; for suppression and enhancement of decay (Zeno / anti-Zeno effects); and even in the absence of measurement entirely. This tutorial presents a unified picture of these effects by examining how they all arise in the pedagogical example of a driven qubit subjected to measurements or dissipation. Zeno and anti-Zeno effects appear as regimes of a unified effect that appears when a measurement-like process competes with non-commuting evolution. The current landscape of Zeno and anti-Zeno effects is examined through this unifying lens, with a focus on experimental applications and implementations. Thus, this tutorial is ideal for new researchers interested in learning about cutting-edge tools in quantum control and measurement, while remaining highly relevant to quantum computing specialists aiming to understand the quantum Zeno effect's applications in adjacent subfields or apply it in a novel way in their own research. The quantum Zeno effect is found to be both ubiquitous and essential for the future of near-term quantum computing.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "03060ba8631460e496da100dc9478a7d760ef47d89598b4b6b8c6b42e0ec1426",
+      "abstract_zh": "量子芝诺效应是量子力学的一个显著特征，具有基础性意义，并在量子控制、错误抑制和错误纠正中具有实际应用。近年来，该效应已分支为多种不同的解释，使得人们容易忽视其潜在的统一特征。特别是，量子芝诺效应已在选择性和非选择性测量的背景下得到研究；对于脉冲和连续相互作用；对于衰变的抑制和增强（芝诺/反芝诺效应）；甚至在完全没有测量的情况下也是如此。本教程通过考察这些效应如何在一个受测量或耗散驱动的量子比特的教学示例中全部出现，呈现了这些效应的统一图景。芝诺和反芝诺效应表现为一种统一效应的不同 regime，当类测量过程与非对易演化竞争时，这种统一效应就会出现。通过这一统一视角，考察了芝诺和反芝诺效应的当前 landscape，重点关注实验应用和实现。因此，本教程非常适合有兴趣了解量子控制和测量前沿工具的新研究人员，同时对旨在理解量子芝诺效应在相邻子领域中的应用或在其自身研究中以新颖方式应用它的量子计算专家也高度相关。量子芝诺效应被发现既是无处不在的，也是近期量子计算未来所必需的。"
+    },
+    {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aeb8f1",
+      "title": "Trace-distance binary tree AdaBoost for trainable quantum multi-class classification",
+      "authors": [
+        "Xin Wang",
+        "Yabo Wang",
+        "Rebing Wu"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aeb8f1",
+      "status": "published",
+      "date": "2026-11-27",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aeb8f1",
+      "tags": [
+        "量子信息与基础",
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "qreports",
+      "doi": "10.3390/quantum8040128",
+      "title": "Towards a Theory of Quantum Hyperstructures",
+      "authors": [
+        "Nicolò Cangiotti",
+        "Alessandro Linzi"
+      ],
+      "url": "https://doi.org/10.3390/quantum8040128",
+      "status": "published",
+      "date": "2026-11-27",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.3390/quantum8040128",
+      "tags": [
+        "量子物理"
+      ],
+      "abstract": "Quantum logic combines two sharp propositions by one join, which exists whether or not the propositions can be tested together and which keeps no record of that difference. We define a quantum hyperstructure to be a multivalued composition on the orthogonal projectors of a complex Hilbert space. Given two projectors, the composition returns every projector that commutes with both and whose range lies in the sum of their ranges. Its value is the family of sharp propositions still jointly compatible with the pair and supported on the subspace the pair generates. Associativity fails in general, already for a commuting triple, and holds on every Boolean algebra of mutually commuting projectors. In finite dimension, the family is classified by the joint eigenspaces of the two projectors and by the principal angles between their ranges. The same composition determines the projector order and the compatibility relation. It is not a hyper effect sum, and the poset of its commuting joins is not a quantum suplattice. The construction makes the indeterminacy of incompatible measurement a law of composition, rather than only a failure of distributivity.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "4de376184a08d2a56e5fa73690d9ee5316bb0870b2e80a458465c1203922ee29",
+      "abstract_zh": "量子逻辑通过一个联结将两个清晰的命题组合起来，无论这些命题能否一起检验，该联结都存在，并且不记录这种差异。我们将量子超结构定义为复希尔伯特空间的正交投影子上的多值复合。给定两个投影子，该复合返回每一个与二者均可交换、且其值域位于二者值域之和中的投影子。其值是仍然与该对联合兼容、并由该对生成的子空间所支撑的清晰命题族。结合性一般不成立，即使对于一个可交换的三元组也已失效，而在相互可交换投影子的每个布尔代数上成立。在有限维中，该族由两个投影子的联合特征空间以及它们值域之间的主角度分类。同一复合决定了投影子序与兼容关系。它不是超效应和，其可交换联结的偏序集不是量子上格。该构造使不兼容测量的不确定性成为一条复合定律，而不仅仅是分配律的失效。"
+    },
+    {
+      "journal": "epjqt",
+      "doi": "10.1140/epjqt/s40507-026-00593-w",
+      "title": "Terrestrial campaign towards space-to-ground quantum communications with a space-qualified entangled photon-pair system",
+      "authors": [
+        "Gianluca De Santis",
+        "Jia Boon Chin",
+        "Srihari Sivasankaran",
+        "Konstantin Kravtsov",
+        "Chin Chean Lim",
+        "Aitor Villar",
+        "Robert Bedington",
+        "Sana Amairi-Pyka",
+        "Eleni Diamanti",
+        "Alexander Ling",
+        "James A. Grieve"
+      ],
+      "url": "https://doi.org/10.1140/epjqt/s40507-026-00593-w",
+      "status": "published",
+      "date": "2026-11-27",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1140/epjqt/s40507-026-00593-w",
+      "tags": [
+        "量子通信"
+      ]
+    },
+    {
+      "journal": "npjqi",
+      "doi": "10.1038/s41534-026-01413-w",
+      "title": "Super-resolution imaging via photon enumeration",
+      "authors": [
+        "Ivan A. Burenkov",
+        "Seungjin Yoon",
+        "Anthony J. Brady",
+        "Jacob Bringewatt",
+        "Alexey V. Gorshkov",
+        "Sergey V. Polyakov"
+      ],
+      "url": "https://doi.org/10.1038/s41534-026-01413-w",
+      "status": "published",
+      "date": "2026-11-27",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1038/s41534-026-01413-w",
+      "tags": [
+        "量子研究"
+      ]
+    },
+    {
+      "journal": "ncomms",
+      "doi": "10.1038/s41467-026-79654-8",
+      "title": "Room-temperature continuous-wave mid-infrared microdisk laser on InP enabled by InAs quantum dots",
+      "authors": [
+        "Haotian Zeng",
+        "Yangqian Wang",
+        "Hui Jia",
+        "Jae-Seong Park",
+        "Igor P. Marko",
+        "Dominic A. Duffy",
+        "Mengxun Bai",
+        "Yutong Zhang",
+        "Hexing Wang",
+        "Jun Li",
+        "Chong Chen",
+        "Huiwen Deng",
+        "Richard Beanland",
+        "Stephen J. Sweeney",
+        "Mingchu Tang",
+        "Alwyn Seeds",
+        "Moustapha El Kurdi",
+        "Huiyun Liu"
+      ],
+      "url": "https://doi.org/10.1038/s41467-026-79654-8",
+      "status": "published",
+      "date": "2026-11-27",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1038/s41467-026-79654-8",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "quantum",
+      "doi": "10.22331/q-2026-11-27-2289",
+      "title": "On the Role of Quantum Communication and Loss in Attacks on Quantum Position Verification",
+      "authors": [
+        "Rene Allerstorfer",
+        "Harry Buhrman",
+        "Florian Speelman",
+        "Philip Verduyn Lunel"
+      ],
+      "url": "https://doi.org/10.22331/q-2026-11-27-2289",
+      "status": "published",
+      "date": "2026-11-27",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.22331/q-2026-11-27-2289",
+      "tags": [
+        "量子通信"
+      ],
+      "abstract": "We study the role of quantum communication in attacks on quantum position verification. In this work, we construct the first known example of a QPV protocol that is provably secure against unentangled attackers restricted to classical communication, but can be perfectly attacked by local operations and a single round of simultaneous quantum communication, indicating that allowing for quantum communication during the execution of the protocol may break security in a different way than just by establishing shared entanglement. We also show that any QPV protocol with a positive security gap against classical communication can be transformed into a protocol with an explicit positive gap between the honest prover's success probability and that of initially unentangled attackers using a single round of simultaneous quantum communication. We further show, using arguments based on the monogamy of entanglement, that the task of Bell state discrimination cannot be done locally with a single round of quantum communication, not even probabilistically (when we allow attackers to say loss sometimes), making this the first fully loss-tolerant QPV task secure against quantum communication attacks. Finally, we observe that any multi-round QPV protocol can be attacked with a linear amount of entanglement if the loss is high enough.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "28c8d5d6505e8ad525f4bbd9832b5b81dcefedb3757e66b2161620c4de933092",
+      "abstract_zh": "我们研究量子通信在攻击量子位置验证中的作用。在这项工作中，我们构建了第一个已知的QPV协议实例，该协议可证明对仅限于经典通信的非纠缠攻击者安全，但可以被本地操作和一轮同时量子通信完美攻击，这表明在协议执行期间允许量子通信可能以不同于仅通过建立共享纠缠的方式破坏安全性。我们还表明，任何对经典通信具有正安全差距的QPV协议都可以转化为一种协议，该协议在诚实验证者的成功概率与最初非纠缠攻击者使用一轮同时量子通信的成功概率之间存在明确的正面差距。我们进一步表明，利用基于纠缠一夫一妻性的论点，贝尔态区分任务无法通过一轮量子通信在本地完成，甚至无法概率性地完成（当我们允许攻击者有时声称丢失时），使其成为第一个对量子通信攻击完全容忍丢失的QPV任务。最后，我们观察到，如果丢失足够高，任何多轮QPV协议都可以用线性数量的纠缠进行攻击。"
+    },
+    {
+      "journal": "mqt",
+      "doi": "10.1088/2633-4356/aec29d",
+      "title": "Low-loss frequency-tunable Josephson junction array cavities on Ge/SiGe heterostructures with a tapered etching approach",
+      "authors": [
+        "Franco De Palma",
+        "Elena Acinapura",
+        "Wonjin Jang",
+        "Younghun Ryu",
+        "Fabian Oppliger",
+        "Radha Krishnan",
+        "Arianna Nigro",
+        "Ilaria Zardo",
+        "Pasquale Scarlino"
+      ],
+      "url": "https://doi.org/10.1088/2633-4356/aec29d",
+      "status": "published",
+      "date": "2026-11-27",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2633-4356/aec29d",
+      "tags": [
+        "量子硬件"
+      ],
+      "abstract": "Ge/SiGe heterostructures represent a promising platform for hosting various quantum devices such as quantum dot spin qubits, Andreev spin qubits and gate-tunable transmons. However, the compatibility of such heterostructures with high-quality-factor microwave superconducting cavities remains a challenge due to defects in the material stack. In this work, we present an approach to enhance the coherence of cavity modes on a reverse-graded Ge/SiGe heterostructure, which consists of etching the full ∼ 1.6 μ m -thick Ge/SiGe stack down to its starting high-resistivity Si substrate, in order to pattern superconducting cavities directly on it. We engineer the mesa step to be tapered, so that it can be easily climbed by the superconducting cavities to reach the structures defined above the Ge quantum well. Using this approach, we observe internal quality factors of Q i ≈ 10 000 − 20 000 for high-impedance frequency-tunable Josephson junction array resonators, limited by the junction fabrication, and Q i ≈ 100 000 for 50 Ω coplanar waveguide Nb lift-off resonators. These Q i are preserved despite the overlap with the mesa structure in the climbing region, and are comparable to the ones obtained for identical resonators fabricated on a high-resistivity Si wafer reference. Thereby, this work paves a practical path toward superconductor-semiconductor hybrid devices, immediately applicable to emerging technologies on planar Ge.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "cf0130430e24a66f05f0d5765c036e49e172c6e834ba5202a85eca1d0c7133d0",
+      "abstract_zh": "Ge/SiGe异质结构是承载多种量子器件（如量子点自旋量子比特、Andreev自旋量子比特和栅极可调谐传输子）的有前景平台。然而，由于材料叠层中的缺陷，此类异质结构与高质量因子微波超导腔的兼容性仍是一项挑战。在本工作中，我们提出了一种在反向渐变Ge/SiGe异质结构上增强腔模相干性的方法，该方法包括将全厚约1.6 μm的Ge/SiGe叠层刻蚀至其起始的高阻Si衬底，以便直接在其上图案化超导腔。我们通过工程化设计使台面台阶呈锥形，从而便于超导腔攀爬以到达定义于Ge量子阱上方的结构。采用该方法，我们观察到高阻抗频率可调谐约瑟夫森结阵列谐振器的内部品质因子Q i ≈ 10 000 − 20 000，受限于结的制备，以及50 Ω共面波导Nb剥离谐振器的Q i ≈ 100 000。尽管在攀爬区域与台面结构存在重叠，这些Q i 得以保持，并且与在高阻Si晶圆参考上制备的相同谐振器所获得的Q i 相当。因此，本工作为超导体-半导体混合器件铺平了一条实用的道路，可立即应用于平面Ge上的新兴技术。"
+    },
+    {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aeb8f0",
+      "title": "Lie algebra-based quantum optimal controls interpolation",
+      "authors": [
+        "Piero Luchi",
+        "Francesco Pederiva"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aeb8f0",
+      "status": "published",
+      "date": "2026-11-27",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aeb8f0",
+      "tags": [
+        "量子硬件",
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "quantum",
+      "doi": "10.22331/q-2026-11-27-2286",
+      "title": "Decoding Multimode Gottesman-Kitaev-Preskill Codes with Noisy Auxiliary States",
+      "authors": [
+        "Marc-Antoine Roy",
+        "Thomas Pousset",
+        "Baptiste Royer"
+      ],
+      "url": "https://doi.org/10.22331/q-2026-11-27-2286",
+      "status": "published",
+      "date": "2026-11-27",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.22331/q-2026-11-27-2286",
+      "tags": [
+        "量子纠错",
+        "量子算法",
+        "量子硬件"
+      ],
+      "abstract": "In order to achieve fault-tolerant quantum computing, we make use of quantum error correction schemes designed to protect the logical information of the system from decoherence. A promising way to preserve such information is to use the multimode Gottesman-Kitaev-Preskill (GKP) encoding, which encodes logical qubits into several harmonic oscillators. In this work, we focus on decoding the measurements obtained from Steane-type quantum error correction protocols for multimode GKP codes. We propose a decoder that considers the noise present on the auxiliary states, more specifically by tracking the correlations between errors on different modes spreading throughout the error-correction circuit. We show that leveraging the correlations between measurement results and the actual error affecting the multimode GKP state can decrease the logical error probability by at least an order of magnitude, yielding more robust quantum computation.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "a498378682a35f29550aa12915073949cba19bc6b0778e53a1c517093edd6053",
+      "abstract_zh": "为了实现容错量子计算，我们利用量子纠错方案来保护系统的逻辑信息免受退相干的影响。一种有前景的保护此类信息的方法是使用多模Gottesman-Kitaev-Preskill（GKP）编码，该编码将逻辑量子比特编码到若干个谐振子中。在本工作中，我们专注于解码从多模GKP码的Steane型量子纠错协议中获得的测量结果。我们提出了一种解码器，该解码器考虑辅助态上存在的噪声，更具体地说是通过追踪在整个纠错电路中扩散的不同模式上错误之间的相关性。我们表明，利用测量结果与影响多模GKP态的实际错误之间的相关性，可以将逻辑错误概率降低至少一个数量级，从而实现更稳健的量子计算。"
+    },
+    {
+      "journal": "quantum",
+      "doi": "10.22331/q-2026-11-27-2288",
+      "title": "Certification of quantum correlations at arbitrary distances through routed Bell tests",
+      "authors": [
+        "Pavel Sekatski",
+        "Jef Pauwels",
+        "Edwin Peter Lobo",
+        "Stefano Pironio",
+        "Nicolas Brunner"
+      ],
+      "url": "https://doi.org/10.22331/q-2026-11-27-2288",
+      "status": "published",
+      "date": "2026-11-27",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.22331/q-2026-11-27-2288",
+      "tags": [
+        "量子通信",
+        "量子硬件",
+        "量子信息与基础"
+      ],
+      "abstract": "Transmission loss represents a major obstacle to the device-independent certification of quantum correlations over long distances, limiting applications such as device-independent quantum key distribution (DIQKD). In this work, we investigate the recently proposed concept of routed Bell experiments, in which a particle sent to one side can be measured either near or far from the source. We prove that routed Bell tests involving only entangled qubits can certify quantum correlations even in the presence of arbitrary loss on the channel to the distant device. This is achieved by adapting concepts from self-testing and quantum steering to the routed Bell test framework. Finally, as a natural extension of our approach, we outline a DIQKD protocol that, in principle, is secure over arbitrary distances.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "9cc82b8178e6a9e2be1649f56290ec777bc3df71f38c11c0abfc9733769c7e2d",
+      "abstract_zh": "传输损耗是长距离量子关联设备无关认证的主要障碍，限制了诸如设备无关量子密钥分发（DIQKD）等应用。在本工作中，我们研究了最近提出的路由贝尔实验概念，其中发送到一侧的粒子可以在靠近或远离源的地方进行测量。我们证明，仅涉及纠缠量子比特的路由贝尔测试即使在通往远距离设备的信道上存在任意损耗的情况下，也能认证量子关联。这是通过将自测试和量子 steering 的概念适配到路由贝尔测试框架中实现的。最后，作为我们方法的自然扩展，我们概述了一种DIQKD协议，该协议原则上在任意距离上都是安全的。"
+    },
+    {
+      "journal": "acm-tqc",
+      "doi": "10.1145/3859247",
+      "title": "Approximating the quantum value of an LCS game is RE-hard",
+      "authors": [
+        "Aviv Taller",
+        "Thomas Vidick"
+      ],
+      "url": "https://doi.org/10.1145/3859247",
+      "status": "published",
+      "date": "2026-11-27",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1145/3859247",
+      "tags": [
+        "量子物理"
+      ]
+    },
     {
       "journal": "ncomms",
       "doi": "10.1038/s41467-026-79443-3",
@@ -404,7 +749,8 @@
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1103/hm5z-844n",
       "tags": [
-        "量子物理"
+        "量子物理",
+        "量子模拟与多体"
       ]
     },
     {
@@ -419,6 +765,66 @@
       "date": "2026-11-26",
       "date_kind": "publication",
       "evidence": "https://api.crossref.org/works/10.1126/science.aen1265",
+      "tags": [
+        "量子算法",
+        "量子硬件"
+      ]
+    },
+    {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aec731",
+      "title": "Fast pulses for high-fidelity circularization of interacting Rydberg atoms",
+      "authors": [
+        "Matthias Hüls",
+        "Aurore Alice Young",
+        "Clément Sayrin",
+        "Michel Brune",
+        "Jean-Michel Raimond",
+        "Tommaso Calarco",
+        "Felix Motzoi",
+        "Robert Zeier",
+        "Eloisa Cuestas"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aec731",
+      "status": "published",
+      "date": "2026-11-26",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aec731",
+      "tags": [
+        "量子算法",
+        "量子硬件",
+        "量子测量",
+        "量子模拟与多体"
+      ]
+    },
+    {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aec730",
+      "title": "Energy-filtered readout preserves gap-enhanced sensing in interacting quantum dots",
+      "authors": [
+        "Shirwan Abdullah"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aec730",
+      "status": "published",
+      "date": "2026-11-26",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aec730",
+      "tags": [
+        "量子物理"
+      ]
+    },
+    {
+      "journal": "prresearch",
+      "doi": "10.1103/l4my-k76y",
+      "title": "Optimal recoil-free state preparation protocols in an optical atom tweezer",
+      "authors": [
+        "Lia Kley, Nicolas Heimann, Aslam Parvej, Lukas Broers, and Ludwig Mathey"
+      ],
+      "url": "https://journals.aps.org/prresearch/accepted/fc07eJa7L671cc0c81910f21f6181ca5c4091a224",
+      "status": "accepted",
+      "date": "2026-11-26",
+      "date_kind": "accepted_feed",
+      "evidence": "https://feeds.aps.org/rss/accepted/prresearch.xml",
       "tags": [
         "量子算法",
         "量子硬件"
@@ -9344,30 +9750,6 @@
       "evidence": "https://api.crossref.org/works/10.1103/63pk-q9gt",
       "tags": [
         "量子物理"
-      ]
-    },
-    {
-      "journal": "mqt",
-      "doi": "10.1088/2633-4356/aec29d",
-      "title": "Low-loss frequency-tunable Josephson junction array cavities on Ge/SiGe heterostructures with a tapered etching approach",
-      "authors": [
-        "Franco De Palma",
-        "Elena Acinapura",
-        "Wonjin Jang",
-        "Younghun Ryu",
-        "Fabian Oppliger",
-        "Radha Krishnan",
-        "Arianna Nigro",
-        "Ilaria Zardo",
-        "Pasquale Scarlino"
-      ],
-      "url": "https://doi.org/10.1088/2633-4356/aec29d",
-      "status": "published",
-      "date": "2026-11-16",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1088/2633-4356/aec29d",
-      "tags": [
-        "量子硬件"
       ]
     },
     {
@@ -18306,7 +18688,9 @@
       ],
       "abstract": "Quantum speckles exhibit significantly richer behavior than their classical counterparts due to their higher dimensionality. A simple example is the far-field speckle pattern in one-dimensional (1D) light scattering: Classical light forms 1D speckles defined by the numerical aperture, whereas biphoton scattering depends in addition on the photon correlation length, forming two-dimensional elliptical speckles. To date, the behavior of quantum speckles for shorter propagation distances has not been considered. We remedy this here by considering the paraxial evolution of two-photon entanglement at arbitrary propagation distances from a scatterer. We show, theoretically, numerically, and experimentally, that the two length scales of the biphoton introduce a new Fresnel regime between the conventional near and far fields. Further, we show that the quantum near field is characterized by speckles with a square shape that remain constant during propagation. In contrast, the intermediate regime can be engineered to have a constant speckle size along the sum coordinate but a linearly expanding speckle size along the difference coordinate, with a speckle shape that transitions from square to elliptical. The results merge quantum coherence with scattering statistics and suggest new regimes of operation for correlation-based quantum sensing and imaging.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "8032771b18519ba1ea43879976364353de12172b3812d8bf410af8f26b86be00",
+      "abstract_zh": "量子散斑由于其更高的维度而展现出比经典对应物显著更丰富的行为。一个简单的例子是一维（1D）光散射中的远场散斑图案：经典光形成由数值孔径定义的一维散斑，而双光子散射额外依赖于光子相关长度，形成二维椭圆散斑。迄今为止，尚未考虑量子散斑在较短传播距离下的行为。我们通过考虑双光子纠缠在距散射体任意传播距离下的傍轴演化来弥补这一空白。我们从理论上、数值上和实验上表明，双光子的两个长度尺度在常规的近场和远场之间引入了一个新的菲涅耳区域。此外，我们表明量子近场的特征在于具有方形形状的散斑，这些散斑在传播过程中保持不变。相比之下，中间区域可以被设计为沿和坐标具有恒定的散斑尺寸，但沿差坐标具有线性扩展的散斑尺寸，散斑形状从方形过渡到椭圆形。这些结果将量子相干性与散射统计相结合，并为基于相关性的量子传感和成像提出了新的操作区域。"
     },
     {
       "journal": "prl",
@@ -18331,7 +18715,9 @@
       ],
       "abstract": "We present a novel protocol to detect rare signals in a noisy environment using quantum error correction (QEC). The key feature of our protocol is the discrimination between signal and noise through distinct higher-order correlations, realized by the nonlinear processing that occurs during syndrome extraction in QEC. In this scheme, QEC has two effects. First, it sacrifices part of the signal ε by recording a reduced, stochastic, logical phase ϕ L = O ( ε 3 ) . Second, it corrects the physical noise and extends the (logical) coherence time for signal acquisition. For rare signals occurring at random times in the presence of local Markovian noise, we explicitly demonstrate an improved sensitivity of our approach over more conventional sensing strategies.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "735374cd618567badeacbc5b7e4ada4af2c5619b4b5f4be510d9015f27afe5f1",
+      "abstract_zh": "我们提出了一种利用量子纠错（QEC）在噪声环境中检测稀有信号的新协议。我们协议的关键特征是通过不同的高阶相关性来区分信号与噪声，这是通过QEC中综合征提取期间发生的非线性处理实现的。在此方案中，QEC具有两种效果。首先，它通过记录一个缩减的、随机的逻辑相位ϕ L = O ( ε 3 ) 来牺牲部分信号ε。其次，它纠正物理噪声并延长用于信号采集的（逻辑）相干时间。对于在局部马尔可夫噪声存在下随机时间发生的稀有信号，我们明确展示了我们的方法相较于更传统传感策略的改进灵敏度。"
     },
     {
       "journal": "prxquantum",
@@ -18393,7 +18779,9 @@
       ],
       "abstract": "Claims of quantum advantage in machine learning often rest on classical comparators that lack the same features, on simulation alone, and on unreported hardware cost. QBioBench is a benchmark of quantum machine learning on peripheral biosignals that holds quantum and classical models to the same features and reports calibration and hardware cost. It comprises three clinical tasks, 12-lead ECG diagnosis (PTB-XL), single-lead apnea detection (Apnea-ECG), and wearable stress detection, each reduced to six to eight shared dimensions. A factorial grid of projected and fidelity quantum kernels and variational classifiers is screened in noisy simulation, and the promoted configurations are evaluated in an exploratory study on an IBM Nighthawk r2 processor on the full test pools of 510 apnea minutes and 512 PTB-XL records. Every prediction is recovered from the device records, intervals resample recordings or patients, and classical baselines are trained on the same units and tested on the same executed inputs. No quantum model reaches its matched support vector machine in ROC-AUC on either primary task, and none is separably better in balanced accuracy. The angle-encoded fidelity and projected kernels reach ROC-AUC 0.697 and 0.693 on apnea, paired differences of − 0.127 and − 0.119 to the support vector machine, and both are classical by construction, since the entangling layer of the encoding cancels from the fidelity kernel and leaves closed-form local expectations in the projected kernel. A variational classifier comes closest, reaching 0.797 on apnea (difference − 0.012 , 95% interval [ − 0.052 , + 0.027 ] ), and falls to chance without its two-qubit gates. Test sets of the size that circuit budgets favor are unreliable, as random 80-minute subsets of the apnea pool give the fidelity kernel a central 95% range of ROC-AUC from 0.589 to 0.797. Readout mitigation changed ROC-AUC by at most 0.015.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "e616c8de20616ef911c4b08978e88efb988efc849d71d4786f6a213b37fd17f8",
+      "abstract_zh": "机器学习中量子优势的声明往往建立在缺乏相同特征的经典比较器、仅依赖模拟以及未报告硬件成本的基础上。QBioBench是一个针对外周生物信号的量子机器学习基准，它使量子模型和经典模型遵循相同的特征，并报告校准和硬件成本。它包含三项临床任务：12导联心电图诊断（PTB-XL）、单导联呼吸暂停检测（Apnea-ECG）和可穿戴压力检测，每项任务均降至六至八个共享维度。在噪声模拟中筛选了投影量子核与保真度量子核以及变分分类器的因子网格，并在IBM Nighthawk r2处理器上对晋升的配置进行了探索性研究，测试池为完整的510分钟呼吸暂停数据和512条PTB-XL记录。每个预测均从设备记录中恢复，区间对记录或患者进行重采样，经典基线在相同单元上训练并在相同的执行输入上测试。没有量子模型在任一主要任务上的ROC-AUC达到其匹配的支持向量机水平，也没有在平衡准确率上可分离地更优。角度编码的保真度核与投影核在呼吸暂停任务上达到ROC-AUC 0.697和0.693，与支持向量机的配对差异分别为−0.127和−0.119，且两者按构造即为经典方法，因为编码的纠缠层在保真度核中抵消，在投影核中留下闭式局部期望。变分分类器最为接近，在呼吸暂停任务上达到0.797（差异−0.012，95%区间[−0.052, +0.027]），而移除其双量子比特门后降至随机水平。电路预算所青睐的测试集规模不可靠，因为呼吸暂停池的随机80分钟子集使保真度核的ROC-AUC中心95%范围从0.589到0.797。读出缓解对ROC-AUC的改变最多为0.015。"
     },
     {
       "journal": "prl",
@@ -21094,7 +21482,10 @@
       "tags": [
         "量子测量",
         "量子信息与基础"
-      ]
+      ],
+      "abstract": "Spin defects in two-dimensional materials are promising platforms for quantum information technologies and nanoscale sensing. The negatively charged boron vacancy ( $${\\mathrm{V}}_{\\mathrm{B}}^{-}$$ V B − ) in hexagonal boron nitride (hBN) is particularly attractive due to its sensitivity to temperature, magnetic fields, and pressure, but its application is limited by intrinsically weak photoluminescence (PL). Here we demonstrate a van der Waals heterostructure that enhances the PL intensity of $${\\mathrm{V}}_{\\mathrm{B}}^{-}$$ V B − by up to 45× at 4 Kelvin while preserving compatibility with ultrathin optoelectronic platforms. A quasi type-I band alignment at the PbI 2 –defected hBN interface facilitates efficient interlayer coupling to the defect, and strong spectral overlap supports fluorescence resonance energy transfer. Ab initio calculations indicate that this coupling enables a photon-ratcheting mechanism, in which optical absorption in PbI 2 generates a nonlinear polarization that drives $${\\mathrm{V}}_{\\mathrm{B}}^{-}$$ V B − excitation. This process is compatible with interlayer energy transfer while maintaining minimal electronic and spin hybridization and preserving optically detected magnetic resonance (ODMR) contrast. The heterostructure further exhibits improved sensitivity to external magnetic fields. These results establish a route for the enhancement of defect emission via interlayer optical coupling and introduce a general materials strategy for amplifying weak quantum defect signals in nanomaterials.",
+      "abstract_source": "Crossref",
+      "license": "https://creativecommons.org/licenses/by/4.0"
     },
     {
       "journal": "quantum",
@@ -29785,338 +30176,6 @@
       "tags": [
         "量子硬件"
       ]
-    },
-    {
-      "journal": "ncomms",
-      "doi": "10.1038/s41467-026-76090-6",
-      "title": "Surface code scaling on heavy-hex superconducting quantum processors",
-      "authors": [],
-      "url": "https://www.nature.com/articles/s41467-026-76090-6",
-      "status": "published",
-      "date": "2026-07-29",
-      "date_kind": "publisher_feed",
-      "evidence": "https://www.nature.com/subjects/quantum-information/ncomms.rss",
-      "tags": [
-        "量子纠错",
-        "量子硬件"
-      ]
-    },
-    {
-      "journal": "mqt",
-      "doi": "10.1088/2633-4356/ae8735",
-      "title": "Photon–magnon coupling and transmission nonreciprocity with interfering spoof surface plasmon polaritons",
-      "authors": [
-        "Yuzan Xiong",
-        "Edward Kwao",
-        "Shihao Zhou",
-        "Junming Wu",
-        "Yi Li",
-        "Salil Desai",
-        "Wei Zhang",
-        "Binbin Yang"
-      ],
-      "url": "https://doi.org/10.1088/2633-4356/ae8735",
-      "status": "published",
-      "date": "2026-07-29",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1088/2633-4356/ae8735",
-      "tags": [
-        "量子研究"
-      ],
-      "abstract": "Photon–magnon coupled systems have established as a versatile platform for investigating hybrid coherent phenomena that bestow important applications in signal communication and transduction potentially extending to the quantum regime. Recently, near-field photon mode couplings leveraging microwave surface plasmon polaritons have emerged as a promising approach towards enhanced coupling strengths and tailored spectral features, primarily owing to their optimized mode profiles and high sensitivity to local dielectric environment. To date, most reports have focused only on a single, isolated surface plasmon mode (either traveling or localized) coupling to magnon modes; however, additional functionalities and novel control knobs can arise via further exploiting the interference between distinct modes. In this work, we investigate the transmission characteristics and the photon–magnon coupling when an interfering spoof surface plasmon polariton (SSPP) mode couples to a magnon mode. We use a Mach–Zehnder interferometer (MZI) structure that transforms the phase difference of the electromagnetic signals propagating on the two arms into amplitude interference, resulting in frequency-selective excitation of even and odd modes. By loading a ferrimagnetic Y 3 Fe 5 O 12 (YIG) disc at selective locations along the MZI structure, we observe strong and tunable photon–magnon couplings between the MZI’s SSPP modes and the YIG’s magnon mode, as well as a pronounced transmission nonreciprocity that is attributed to the coupling between the magnon modes and the rotating rf fields of the photon mode, whose origin can be attributed to the slow-wave propagation along the SSPP structure. Such a nonreciprocity is further tailored by the design of different MZI device symmetries.",
-      "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
-    },
-    {
-      "journal": "prxquantum",
-      "doi": "10.1103/j7mn-x9f2",
-      "title": "On-Chip Levitated Neon Particle Arrays for Robust and Scalable Electron Qubits",
-      "authors": [
-        "Sosuke Inui, Yinghe Qi, Yiming Xing, Charles Peretti, Dafei Jin, and Wei Guo"
-      ],
-      "url": "https://link.aps.org/doi/10.1103/j7mn-x9f2",
-      "status": "published",
-      "date": "2026-07-29",
-      "date_kind": "publisher_feed",
-      "evidence": "https://feeds.aps.org/rss/recent/prxquantum.xml",
-      "tags": [
-        "量子算法",
-        "量子硬件"
-      ]
-    },
-    {
-      "journal": "nature",
-      "doi": "10.1038/s41586-026-10754-7",
-      "title": "A digitally controlled silicon quantum processing unit",
-      "authors": [
-        "Michael Abraham",
-        "Edwin Acuna",
-        "Tower S. Adams",
-        "Moonmoon Akmal",
-        "Matthew R. Alfaro",
-        "I. Alvarado",
-        "Jacob Amontree",
-        "Carter Andrews",
-        "Reed W. Andrews",
-        "Michael Antcliffe",
-        "André R. Asencio",
-        "Ryan M. Avila Batres",
-        "Cynthia D. Baringer",
-        "David W. Barnes",
-        "Katherine M. Beech",
-        "Russell G. Blakey",
-        "Zachery T. Bloom",
-        "Aaron J. Bluestone",
-        "Jacob Z. Blumoff",
-        "Matthew G. Borselli",
-        "Koel A. Bose",
-        "Brydon Boyd",
-        "Jacob T. Boyer",
-        "Teresa L. Brecht",
-        "Christopher C. Brough",
-        "Rex A. Brown",
-        "Steven L. Brown",
-        "Tyler A. Cain",
-        "John B. Carpenter",
-        "Stephen Carr",
-        "Faustin W. Carter",
-        "Mitchell Casanova",
-        "Jacob L. Chambers",
-        "Matthew D. Chambers",
-        "Khamsorn L. Chanthavong",
-        "James M. Chappell",
-        "Rhian Chavez",
-        "Kevin C. Chen",
-        "Peter S. Chen",
-        "Maxwell D. Choi",
-        "Krishna Choudhary",
-        "Matthew N. H. Chow",
-        "Justin E. Christensen",
-        "Aaron M. Chronister",
-        "Andrew M. Clapper",
-        "Abigail A. Coker",
-        "Michael D. Cornelius",
-        "Albert E. Cosand",
-        "Ian T. Counts",
-        "Edward T. Croke",
-        "Gregory M. Crosswhite",
-        "Adam Dally",
-        "Erik S. Daniel",
-        "Tuan A. Dao",
-        "Dominic Daprano",
-        "Tiffany Davis",
-        "Neha Deshpande",
-        "Rachel S. Dey",
-        "D. Scott Diamond",
-        "Claire E. Dickerson",
-        "J. P. Dodson",
-        "James B. Dragan",
-        "Marc Dvorak",
-        "Lisa F. Edge",
-        "Charles R. Elliott",
-        "Kenneth R. Elliott",
-        "Kevin Eng",
-        "Jacob Fast",
-        "Colin P. Feeney",
-        "David J. Fialkow",
-        "Dylan H. Finestone",
-        "Micha N. Fireman",
-        "Bryan H. Fong",
-        "Trevor M. Fowler",
-        "Sean Frazier",
-        "Kiera L. Fuller",
-        "Christina A. C. Garcia",
-        "Kacy L. Garstka",
-        "Kara C. Garvey",
-        "Zachary A. Geiger",
-        "Galen R. Gledhill",
-        "Caleigh M. Goodwin-Schoen",
-        "Joseph L. Goralka",
-        "Bradley W. Greene",
-        "Hrayr K. Gurgenian",
-        "Sieu D. Ha",
-        "Wonill Ha",
-        "Nathanial R. Hapeman",
-        "Brooke M. Hardesty",
-        "Jim W. Harrington",
-        "Patrick M. Harrington",
-        "Thomas R. B. Harris",
-        "Ben M. Harrison",
-        "Anthony T. Hatke",
-        "Robert R. Hayes",
-        "Kevin He",
-        "Raul Hernandez Garcia",
-        "Ryan M. Hickey",
-        "Jocelyn Hicks-Garner",
-        "Alex Hirman",
-        "Donald A. Hitko",
-        "David Ho",
-        "Holland Y. Ho",
-        "Vinh S. Ho",
-        "nathan holman",
-        "Adam Holmes",
-        "Nerys Huffman",
-        "Daniel R. Hulbert",
-        "Eric B. Isaacs",
-        "Clayton A. C. Jackson",
-        "Logan Jaeger",
-        "Ian Jenkins",
-        "Cameron Jennings",
-        "Paul C. Jerger",
-        "B. Johnson",
-        "Aaron M. Jones",
-        "Michael P. Jura",
-        "Adour V. Kabakian",
-        "Raj M. Katti",
-        "Tyler Keating",
-        "Joseph Kerckhoff",
-        "Joseph D. Kern",
-        "Isaac Khalaf",
-        "Aditya Kher",
-        "Jake J. Kim",
-        "Erich W. Kinder",
-        "Andrey A. Kiselev",
-        "William F. Koehl",
-        "Patrick W. Krantz",
-        "Thaddeus D. Ladd",
-        "Pierce G. Laing",
-        "Sanaaya Lakdawala",
-        "Nathan J. Lang",
-        "Robert Lanza",
-        "Elias Lawson-Fox",
-        "Dustin Le",
-        "Kangmu Lee",
-        "Nathan R. A. Lee",
-        "Jaime Lerma",
-        "Mark P. Levendorf",
-        "Alwina R. Liu",
-        "Henry Lizarraga",
-        "Aurelio Lopez",
-        "Hoa C. Ly",
-        "Torrey T. Lyons",
-        "Theodore K. Macioce",
-        "Matthew M. Mackey",
-        "John K. Maeda",
-        "Ryan M. Martin",
-        "Daniel S. Matic",
-        "Justine W. Matten",
-        "Gavin C. Mazur",
-        "Max S. McCready",
-        "Olivia Means",
-        "Kevin E. Millner",
-        "Ivan Milosavljevic",
-        "Matthew Morris",
-        "Susan L. Morton",
-        "Samuel Mumford",
-        "Bryce D. Murley",
-        "Robert G. Nagele",
-        "Taro A. Naoi",
-        "Cameron R. Nelson",
-        "Georgia A. Newman",
-        "David B. Nguyen",
-        "Tina Niknejad",
-        "Rebecca N. Nishide",
-        "Liam C. O’Brien",
-        "Colin B. E. O’Keefe",
-        "Riley P. O’Neil",
-        "Andrew E. Oriani",
-        "Anthony F. Ortiz",
-        "John J. Ottusch",
-        "Andrew Pan",
-        "Pamela R. Patterson",
-        "Uttam Paudel",
-        "Julius C. Perez",
-        "Christi A. Peterson",
-        "Vu T. Phan",
-        "Nickolas H. Pilgram",
-        "Clifford E. Plesha",
-        "Winston Pouse",
-        "Eric M. Prophet",
-        "Daniel R. Queen",
-        "Nicholas Quirk",
-        "Kate Raach",
-        "Matthew T. Rakher",
-        "Matthew D. Reed",
-        "Brandon D. Reynolds",
-        "Luke D. Robertson",
-        "Zechariah Rogers",
-        "Yakov Royter",
-        "Matthew J. Ruiz",
-        "Golam Sabbir",
-        "Roshan Sajjad",
-        "Christopher D. Sanborn",
-        "Rachel H. Sarmiento",
-        "Christian J. Schnaible",
-        "Cole Scott",
-        "Nicholas M. Sebastiani",
-        "Eric M. Segall",
-        "Alen Senanian",
-        "Adalberto Sicairos",
-        "Shariq Siddiqui",
-        "Kartik Singh",
-        "Aaron Smith",
-        "Daniel E. Smith",
-        "Robert S. Smith",
-        "Sarah F. Sontag",
-        "Emilio A. Sovero",
-        "Kevin C. Staley",
-        "Andrea Su",
-        "June Suh",
-        "Bo Sun",
-        "Danny Sun",
-        "Christopher M. Swank",
-        "Noah Swimmer",
-        "Mariano J. Taboada",
-        "Bryan J. Thomas",
-        "Yessica Torres",
-        "Jeremy W. Touve",
-        "Alan Tran",
-        "Ivan Tran",
-        "Chantang Tsen",
-        "Skylar Turner",
-        "Miguel Valencia",
-        "Irma Valles",
-        "James R. van Meter",
-        "Nicholas D. VanRensselaer",
-        "Franklin Vartanian",
-        "Daniel Volya",
-        "Zachary J. Vrba",
-        "Phuong Hong Vu",
-        "Annette L. Wagner",
-        "John Wallner",
-        "Michael P. Walsh",
-        "Shuoqin Wang",
-        "Tong Wang",
-        "Daniel R. Ward",
-        "Aaron J. Weinstein",
-        "Terry B. Welch",
-        "Thomas V. Westrick",
-        "Evan T. White",
-        "Randall M. White",
-        "Samuel J. Whiteley",
-        "Gananath Wijeratne",
-        "Parker Williams",
-        "Jack T. Wilson",
-        "Courtney P. Wilt",
-        "Deborah E. Winklea",
-        "Onnik Yaglioglu",
-        "Daniel Yap",
-        "Clifford S. YoungSciortino",
-        "Daniel Zehnder",
-        "Andrew Ziegler"
-      ],
-      "url": "https://doi.org/10.1038/s41586-026-10754-7",
-      "status": "published",
-      "date": "2026-07-29",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1038/s41586-026-10754-7",
-      "tags": [
-        "量子算法",
-        "量子硬件"
-      ],
-      "abstract": "Commercially relevant quantum computers will require large numbers of high-performing qubits that can be manufactured, integrated and controlled at scale. Silicon exchange-only qubits 1–10 are a strong candidate modality owing to their control-signal simplicity and compatibility with advanced semiconductor manufacturing 11–13 , but questions remain around the achievability of sufficiently low noise and a scalable control and wiring solution 13–19 . Here we introduce a quantum processing unit composed of a custom-designed cryogenic complementary metal–oxide–semiconductor (CMOS) controller, a high-density superconducting ribbon cable and a low-noise exchange-only qubit device. The quantum chip features a 3-rail array of 54 exchange-coupled quantum dots, configurable to host up to 18 exchange-only qubits. We integrate and use these components to demonstrate qubit performance for both single-qubit and entangling operations that advances the exchange-only state of the art 7,8,10 by an order of magnitude. We further validate this system by implementing a distance-5 repetition code 20 and a distance-2 quantum error-detecting code 21–26 and then make detailed comparisons with simulations. Our work facilitates the development of future utility-scale quantum computers with manageable operational and capital requirements.",
-      "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0"
     }
   ],
   "sources": [
@@ -30292,7 +30351,7 @@
       "source": "prl",
       "kind": "accepted",
       "ok": true,
-      "count": 30
+      "count": 29
     },
     {
       "source": "prx",
@@ -30340,7 +30399,7 @@
       "source": "nphys",
       "kind": "rss",
       "ok": true,
-      "count": 5
+      "count": 4
     },
     {
       "source": "nphys",
@@ -30352,7 +30411,7 @@
       "source": "ncomms",
       "kind": "rss",
       "ok": true,
-      "count": 0
+      "count": 1
     },
     {
       "source": "ncomms",
@@ -30394,7 +30453,7 @@
       "source": "prresearch",
       "kind": "accepted",
       "ok": true,
-      "count": 30
+      "count": 31
     },
     {
       "source": "prapplied",
