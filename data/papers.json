@@ -1,6 +1,25 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "papers": [
+    {
+      "journal": "npjqi",
+      "doi": "10.1038/s41534-026-01422-9",
+      "title": "Efficient Hamiltonian dynamics tomography",
+      "authors": [
+        "Yusen Wu",
+        "Yukun Zhang",
+        "Chuan Wang",
+        "Xiao Yuan"
+      ],
+      "url": "https://doi.org/10.1038/s41534-026-01422-9",
+      "status": "published",
+      "date": "2026-11-28",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1038/s41534-026-01422-9",
+      "tags": [
+        "量子研究"
+      ]
+    },
     {
       "journal": "quantum",
       "doi": "10.22331/q-2026-11-27-2287",
@@ -174,6 +193,25 @@
       ]
     },
     {
+      "journal": "qst",
+      "doi": "10.1088/2058-9565/aec788",
+      "title": "Security of entanglement-based key distribution protocols with passive measurement",
+      "authors": [
+        "Shun Kawakami",
+        "Koichi Takasugi",
+        "Koji Azuma"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/aec788",
+      "status": "published",
+      "date": "2026-11-27",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1088/2058-9565/aec788",
+      "tags": [
+        "量子通信",
+        "量子信息与基础"
+      ]
+    },
+    {
       "journal": "ncomms",
       "doi": "10.1038/s41467-026-79654-8",
       "title": "Room-temperature continuous-wave mid-infrared microdisk laser on InP enabled by InAs quantum dots",
@@ -204,6 +242,24 @@
       "evidence": "https://api.crossref.org/works/10.1038/s41467-026-79654-8",
       "tags": [
         "量子物理"
+      ]
+    },
+    {
+      "journal": "aqt",
+      "doi": "10.1002/qute.70552",
+      "title": "Quantum Circuit‐Based Machine Learning Framework for High‐Accurate Band Gap Estimation of 2D Materials",
+      "authors": [
+        "Nepal Sahu",
+        "Uday Kumar"
+      ],
+      "url": "https://doi.org/10.1002/qute.70552",
+      "status": "published",
+      "date": "2026-11-27",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1002/qute.70552",
+      "tags": [
+        "量子算法",
+        "量子硬件"
       ]
     },
     {
@@ -275,6 +331,23 @@
       "tags": [
         "量子硬件",
         "量子物理"
+      ]
+    },
+    {
+      "journal": "aqt",
+      "doi": "10.1002/qute.70561",
+      "title": "Enhanced Two‐Photon Blockade Without Cascade Decay Channel by Stark Nonlinear Coupling",
+      "authors": [
+        "Zu‐Jian Ying",
+        "Hang‐Hang Han"
+      ],
+      "url": "https://doi.org/10.1002/qute.70561",
+      "status": "published",
+      "date": "2026-11-27",
+      "date_kind": "publication",
+      "evidence": "https://api.crossref.org/works/10.1002/qute.70561",
+      "tags": [
+        "量子研究"
       ]
     },
     {
@@ -18802,7 +18875,9 @@
       ],
       "abstract": "Quantum chromodynamics in two spacetime dimensions admits a finite noninvertible symmetry described mathematically by a fusion category. This symmetry is spontaneously broken at long distances, leading to distinct vacua. When the theory has a mass gap, the spectrum is therefore characterized by particle excitations above a single vacuum and soliton sectors interpolating between vacua. We use anyon condensation and the representation theory of fusion categories to obtain exact results about this spectrum, exhibiting the allowed multiplets. Often, particles and solitons are in the same representation and therefore must have equal masses. Furthermore, the fusion category symmetry frequently implies the existence of certain stable states in the spectrum. The resulting degeneracies are encoded in quiver diagrams where nodes are vacua and arrows are excited states.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "1d9b1895d66c6a74b2e4c8edf2a3cc32231cf1ec3dfb8d147d978d070f725288",
+      "abstract_zh": "二维时空中的量子色动力学允许一种由融合范畴在数学上描述的有限非可逆对称性。这种对称性在长距离下自发破缺，导致出现不同的真空态。当该理论具有质量间隙时，其谱因此由单个真空态之上的粒子激发以及在不同真空态之间插值的孤子扇区所表征。我们利用任意子凝聚和融合范畴的表示理论来获得关于该谱的精确结果，展示允许的多重态。通常，粒子和孤子处于同一表示中，因此必须具有相同的质量。此外，融合范畴对称性常常意味着谱中存在某些稳定态。由此产生的简并度被编码在箭图图中，其中节点代表真空态，箭头代表激发态。"
     },
     {
       "journal": "prresearch",
@@ -18824,7 +18899,9 @@
       ],
       "abstract": "Path-integral computer simulations are used to investigate nuclear quantum effects on the glass transition of a Lennard-Jones binary mixture and a waterlike monatomic model liquid, the Fermi-Jagla liquid. As in previous studies, we find that introducing realistic atoms delocalization (nuclear quantum effects) suppresses atomic diffusivity in the Lennard-Jones binary mixture. Instead, nuclear quantum effects enhance the dynamics of the Fermi-Jagla liquid. Hence, nuclear quantum effects can either inhibit or promote the vitrification of atomic liquids depending on the atomic interactions. Notably, both systems exhibit qualitatively similar atoms delocalization and become less structured upon the inclusion of nuclear quantum effects, despite the divergent effects on their dynamics. A qualitative explanation of the different nuclear quantum effects on the dynamics of the Lennard-Jones binary mixture and Fermi-Jagla liquid is provided in terms of the features in the corresponding pair potential interactions. Our observations can be naturally interpreted through the potential energy landscape (PEL) formalism for quantum liquids. At a given temperature, introducing nuclear quantum effects forces the Lennard-Jones binary mixture to explore deeper regions of the PEL, where topographical features significantly affect the dynamics, while the Fermi-Jagla liquid is driven to explore higher regions of the PEL, where the PEL topography plays a secondary role. This is ultimately due to the opposite nuclear quantum effects on the PEL basins’ (curvature) of the Lennard-Jones binary mixture and Fermi-Jagla liquid.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "5d91156763c947be93160672abf77e193ac97ab5aca791492d177616ea9520d7",
+      "abstract_zh": "路径积分计算机模拟被用于研究核量子效应对Lennard-Jones二元混合物和类水单原子模型液体——费米-贾格拉液体玻璃转变的影响。与以往研究一致，我们发现引入现实的原子离域（核量子效应）会抑制Lennard-Jones二元混合物中的原子扩散性。相反，核量子效应增强了费米-贾格拉液体的动力学。因此，核量子效应根据原子相互作用的不同，可以抑制或促进原子液体的玻璃化。值得注意的是，尽管对动力学的影响截然不同，两种系统在纳入核量子效应后均表现出定性相似的原子离域，并变得结构更不有序。本文基于相应对势相互作用的特征，对Lennard-Jones二元混合物和费米-贾格拉液体动力学中不同的核量子效应提供了定性解释。我们的观察结果可以通过量子液体的势能景观（PEL）形式自然地解释。在给定温度下，引入核量子效应迫使Lennard-Jones二元混合物探索PEL的更深区域，其中地形特征显著影响动力学，而费米-贾格拉液体则被驱动探索PEL的较高区域，在那里PEL地形起次要作用。这最终归因于核量子效应对Lennard-Jones二元混合物和费米-贾格拉液体PEL盆地（曲率）的相反影响。"
     },
     {
       "journal": "ncomms",
@@ -18876,7 +18953,9 @@
       ],
       "abstract": "Benchmarking quantum processors is a central task in every roadmap aimed at quantum advantage. Here, we discuss a benchmarking protocol based on the violation of the Svetlichny inequality, which is designed to simulate genuine multipartite nonlocality. We compare it with Mermin’s inequality, and present the results of applying this framework to two different quantum processing units—the superconducting system Garnet (from IQM) and the ion-trap system Marmot (from AQT), testing different families of quantum circuits for three to five qubits under identical experimental conditions. We also run simultaneous triplet tests across the full register, including a comparison between GHZ and linear cluster states, to probe how Svetlichny-inequality violations depend on qubit location and calibration. Our results demonstrate that tests based on genuine multipartite nonlocality provide a powerful tool to characterize the collective performance of quantum devices and to guide their calibration and optimization.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0"
+      "license": "https://creativecommons.org/licenses/by/4.0",
+      "abstract_hash": "a1309accf931a0ef8cc0070779698c206ffcb04653997d5085adf6429e40d6e5",
+      "abstract_zh": "对量子处理器进行基准测试是每个旨在实现量子优势的路线图中的核心任务。在此，我们讨论一种基于违反Svetlichny不等式的基准测试协议，该协议旨在模拟真正的多体非定域性。我们将其与Mermin不等式进行比较，并展示了将该框架应用于两种不同的量子处理单元——超导系统Garnet（来自IQM）和离子阱系统Marmot（来自AQT）——的结果，在相同的实验条件下测试了针对3至5个量子位的不同量子电路族。我们还在整个寄存器上运行了同步三重态测试，包括GHZ态和线性簇态之间的比较，以探究Svetlichny不等式的违反如何依赖于量子位的位置和校准。我们的结果表明，基于真正的多体非定域性的测试为表征量子设备的集体性能以及指导其校准和优化提供了强大的工具。"
     },
     {
       "journal": "prresearch",
@@ -18982,7 +19061,9 @@
       ],
       "abstract": "The notion of a macroscopic quantum state must be pinned down in order to assess how well experiments probe the large-scale limits of quantum mechanics. However, the issue of quantifying so-called quantum macroscopicity is fraught with multiple approaches having varying interpretations and levels of computability and measurability. Here, we introduce two measures that capture independent macroscopic properties: i) extensive size, measuring the degree of coherence in position or momentum observables relative to atomic-scale units, and ii) entangled size, quantifying the number of entangled subsystems. These measures unify many desirable features of past proposals while having rigorously justified interpretations from quantum information theory in terms of coherence and multipartite entanglement. We demonstrate how to estimate them and obtain lower-bounds using experimental data from micro-mechanical oscillators and diffracting molecules. Notably, we find evidence for genuine multipartite entanglement of 10 5 to 10 7 atoms in recent mechanical superposition states.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "dcd0904e4a07ea96b37be767215c0a7fccf601cd8d70b961bba243352a87dd95",
+      "abstract_zh": "为了评估实验对量子力学大尺度极限的探测程度，必须明确宏观量子态的概念。然而，量化所谓的量子宏观性问题充满了多种方法，这些方法在解释、可计算性和可测量性上各不相同。在此，我们引入两种捕捉独立宏观特性的度量：i) 广泛尺寸，衡量相对于原子尺度单位的位置或动量观测量的相干程度；ii) 纠缠尺寸，量化纠缠子系统的数量。这些度量统一了过去提案中的许多理想特征，同时从量子信息理论的角度，以相干性和多体纠缠的形式严格证明了其解释的合理性。我们展示了如何估计这些度量，并利用微机械振荡器和衍射分子的实验数据获得下界。值得注意的是，我们在最近的机械叠加态中发现了10^5至10^7个原子的真正多体纠缠的证据。"
     },
     {
       "journal": "epjqt",
@@ -19005,7 +19086,9 @@
       ],
       "abstract": "The ability to perform high-fidelity quantum nondemolition qubit readout is pivotal for the realization of large and powerful quantum computers. Such readout of superconducting qubits is generally enabled by amplifying the weak dispersive measurement signals using phase-preserving quantum-limited Josephson amplifiers with sufficient gain to dilute the contribution of the added noise by the output chain. Here, we further enhance the qubit readout fidelity by (1) simultaneously measuring the two-mode squeezed states of the amplified readout signals at the signal and idler frequencies of the nondegenerate amplifier and (2) coherently combining them at the classical processing stage following a relative rotation that maximizes the signal to noise ratio of the qubit-encoded readout quadrature. Such readout scheme exhibits enhancement in the readout fidelity for all practical values of amplifier gain and noise added by the output chain and is fully compatible with frequency multiplexed setups used in large quantum processors.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0"
+      "license": "https://creativecommons.org/licenses/by/4.0",
+      "abstract_hash": "ce845c1b3bc19e2e07de58e6de5b89ba177048c2791111900f92fa91237b5145",
+      "abstract_zh": "实现高保真度的量子非破坏性量子比特读出，对于构建大规模且功能强大的量子计算机至关重要。这种对超导量子比特的读出通常通过使用相位保持的量子极限约瑟夫森放大器来放大微弱的色散测量信号得以实现，该放大器具有足够的增益以稀释输出链路所添加噪声的贡献。在此，我们通过以下方式进一步提高量子比特读出保真度：(1) 同时测量非简并放大器在信号频率和闲频频率处放大读出信号的双模压缩态；(2) 在经过相对旋转以最大化量子比特编码读出正交分量的信噪比之后，在经典处理阶段将它们相干合并。这种读出方案在放大器增益和输出链路添加噪声的所有实用值下均显示出读出保真度的提升，并且与大型量子处理器中使用的频率复用设置完全兼容。"
     },
     {
       "journal": "prxquantum",
@@ -19029,7 +19112,9 @@
       ],
       "abstract": "Coherent control of motional degrees of freedom of ultracold atoms in optical lattices offers a promising route toward programmable quantum dynamics with massive particles. We propose and analyze a scheme for implementing coherent rearrangement of ultracold atoms, corresponding to arbitrary unitary transformations on single-particle motional states. Exploiting an analogy between dynamics in optical superlattices and discrete linear optics, we employ the Clements scheme to systematically construct any global N -dimensional single-particle unitary from tunneling and phase shifts in arrays of double wells. Tunneling is controlled globally, while local operations are achieved through site-resolved potential shifts. We numerically investigate the susceptibility of the scheme to intensity noise and addressing crosstalk. We identify key subroutines enabled by this unitary construction, including the discrete Fourier transform and the implementation of non-native Hamiltonians. Extending the scheme to two dimensions enables all-to-all atomic rearrangement with a circuit depth that scales sublinearly with the atom number, providing a high-density and highly scalable approach to atom rearrangement.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "3e6dc73290694d54489c8ed80b97b5c3a8be68077984523e0c16f77e47d1ce13",
+      "abstract_zh": "光晶格中 Ultracold 原子运动自由度的相干控制为实现大质量粒子的可编程量子动力学提供了一条有前景的途径。我们提出并分析了一种实现 Ultracold 原子相干重排的方案，该方案对应于单粒子运动态上的任意酉变换。利用光学超晶格中的动力学与离散线性光学之间的类比，我们采用 Clements 方案，从双阱阵列中的隧穿和相位移动系统地构造任意全局 N 维单粒子酉变换。隧穿是全局控制的，而局域操作则通过位点分辨的势移动来实现。我们数值研究了该方案对强度噪声和寻址串扰的敏感性。我们确定了由这种酉构造所启用的关键子程序，包括离散傅里叶变换和非原生哈密顿量的实现。将该方案扩展到二维，可以实现全对全原子重排，其电路深度随原子数亚线性缩放，为原子重排提供了一种高密度且高度可扩展的方法。"
     },
     {
       "journal": "prapplied",
@@ -19126,7 +19211,9 @@
       ],
       "abstract": "We derive an analytic expression for the phase of a quantum vortex in a dipolar Bose-Einstein condensate, capturing anisotropic effects from long-range dipole-dipole interactions. This solution provides a foundation for a dipolar point vortex model (DPVM), incorporating both phase-driven flow and dipolar forces. The DPVM reproduces key features of vortex pair dynamics seen in full simulations, including anisotropic velocities, deformed orbits, and directional motion, offering a minimal and accurate model for dipolar vortex dynamics. Our results open the door to analytic studies of vortices in dipolar quantum matter and establish a platform for exploring vortex dynamics and turbulence in these systems.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "d849b56d9c1c58adc0bb18237e5100fc7d046148376597fe2d224b19a5a93c9a",
+      "abstract_zh": "我们推导了偶极玻色-爱因斯坦凝聚中量子涡旋相位的解析表达式，捕捉了长程偶极-偶极相互作用带来的各向异性效应。该解为偶极点涡模型（DPVM）提供了基础，该模型同时纳入了相位驱动流和偶极力。DPVM再现了完整模拟中所见的涡旋对动力学关键特征，包括各向异性速度、变形轨道和方向性运动，为偶极涡旋动力学提供了一个简约而准确的模型。我们的结果开启了对偶极量子物质中涡旋的解析研究，并为探索这些系统中的涡旋动力学和湍流建立了一个平台。"
     },
     {
       "journal": "prresearch",
@@ -19148,7 +19235,9 @@
       ],
       "abstract": "We study an adiabatic variant of the variational quantum eigensolver (VQE) in which VQE is performed iteratively for a sequence of Hamiltonians along an adiabatic path. We derive the conditions under which gradient-based optimization successfully prepares the adiabatic ground states. These conditions define a trainable tracking region. Additionally, when combined with a gap lower bound, energy-standard-deviation measurements certify eigenstate accuracy at run-time and verify convergence to the global optimum.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "c809456fdac5b6c5ad1d0416c3b6ff6b14c2a652039d0d6af2aa3e9313beb13a",
+      "abstract_zh": "我们研究了一种变分量子本征求解器（VQE）的绝热变体，其中VQE沿绝热路径对一系列哈密顿量迭代执行。我们推导了基于梯度的优化成功制备绝热基态的条件。这些条件定义了一个可训练的跟踪区域。此外，当结合能隙下界时，能量标准差测量在运行时验证本征态的准确性，并验证收敛到全局最优。"
     },
     {
       "journal": "aqt",
@@ -19167,7 +19256,9 @@
       ],
       "abstract": "The hypothesis that disentanglement spontaneously occurs in quantum systems is motivated by some outstanding issues in the foundations of quantum mechanics. However, for some cases, spontaneous disentanglement enables the violation of the causality principle. To mitigate the conflict with causality, a formulation for the hypothesis, which is based on the maximum entropy principle, is proposed. The method of Lagrange multipliers is implemented to ensure consistency with causality. The proposed formulation is applicable for any quantum system having a Hilbert space of finite dimensionality.",
       "abstract_source": "Crossref",
-      "license": "http://creativecommons.org/licenses/by/4.0/"
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "909b7fc88f5b86bc4156a15e34d220eae28eed3c1ef8dd2236c8fc23b40491c9",
+      "abstract_zh": "量子系统中自发发生退纠缠的假说，其动机源自量子力学基础中的一些突出问题。然而，在某些情况下，自发退纠缠使得违反因果律成为可能。为缓解与因果律的冲突，提出了一种基于最大熵原理的该假说表述。采用拉格朗日乘子法以确保与因果律的一致性。所提出的表述适用于任何具有有限维希尔伯特空间的量子系统。"
     },
     {
       "journal": "prresearch",
@@ -19245,7 +19336,9 @@
       ],
       "abstract": "Transport phenomena play a key role in a variety of application domains, and efficient simulation of these dynamics remains an outstanding challenge. While quantum computers offer potential for significant speedups, existing algorithms either lack rigorous theoretical guarantees or demand substantial quantum resources, preventing scalable and efficient validation on realistic quantum hardware. To address this gap, we develop a comprehensive framework for simulating classes of transport equations, offering both rigorous theoretical guarantees—including exponential speedups in specific cases—and a systematic, hardware-efficient implementation. Central to our approach is the Hamiltonian embedding technique, a white-box approach for end-to-end simulation of sparse Hamiltonians that avoids abstract query models and retains near-optimal asymptotic complexity. Empirical resource estimates indicate that our approach can yield an order-of-magnitude (e.g. 42 × ) reduction in circuit depth given favorable problem structures. We then apply our framework to solve linear and nonlinear transport partial differential equations, including the first experimental demonstration of a 2D advection equation on a trapped-ion quantum computer.",
       "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract_hash": "3111b7ddd0bdada261ca92fa9b001e8bbd0b8fe151848996b1f7d390a338f526",
+      "abstract_zh": "输运现象在多种应用领域中发挥着关键作用，而对这些动力学的高效模拟仍然是一项突出的挑战。尽管量子计算机具有显著加速的潜力，但现有算法要么缺乏严格的理论保证，要么需要大量量子资源，从而阻碍了在真实量子硬件上进行可扩展且高效的验证。为弥补这一空白，我们开发了一个用于模拟各类输运方程的综合框架，既提供严格的理论保证——包括在特定情况下的指数级加速——又提供系统化、硬件高效的实现。我们方法的核心是哈密顿量嵌入技术，这是一种用于稀疏哈密顿量端到端模拟的白盒方法，避免了抽象查询模型并保持了接近最优的渐近复杂度。经验性资源估计表明，在有利的问题结构下，我们的方法可以将电路深度减少一个数量级（例如42倍）。随后，我们应用该框架求解线性和非线性输运偏微分方程，包括在囚禁离子量子计算机上首次实验演示二维平流方程。"
     },
     {
       "journal": "quantum",
@@ -30092,90 +30185,6 @@
         "量子硬件",
         "量子信息与基础"
       ]
-    },
-    {
-      "journal": "science",
-      "doi": "10.1126/science.adq7402",
-      "title": "Toward an exact quantum many-body treatment of Kondo correlation in magnetic impurities",
-      "authors": [
-        "Tianyu Zhu",
-        "Linqing Peng",
-        "Huanchen Zhai",
-        "Zhi-Hao Cui",
-        "Runze Chi",
-        "Garnet Kin-Lic Chan"
-      ],
-      "url": "https://doi.org/10.1126/science.adq7402",
-      "status": "published",
-      "date": "2026-07-30",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1126/science.adq7402",
-      "tags": [
-        "量子模拟与多体"
-      ]
-    },
-    {
-      "journal": "avsqs",
-      "doi": "10.1116/5.0341006",
-      "title": "Mach–Zehnder interferometer for characterization of atom traps",
-      "authors": [
-        "A. Wolf",
-        "M. A. Efremov"
-      ],
-      "url": "https://doi.org/10.1116/5.0341006",
-      "status": "published",
-      "date": "2026-07-30",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1116/5.0341006",
-      "tags": [
-        "量子研究"
-      ],
-      "abstract": "Standard characterization of atomic traps relies on tracking classical trajectories, which is limited by the imaging resolution, the amplitude of the oscillation inside the trap, and the lifetime of the gas. We introduce a Mach–Zehnder interferometer technique that overcomes these bottlenecks by mapping the trap frequency ω directly onto internal state populations, which exhibit sharp interference revivals. Yielding an estimated relative uncertainty of Δω/ω=4.3×10−6 in 100 ms, this approach extracts precise frequencies and anharmonicity bounds well within typical experimental lifetimes. This efficient calibration enables optimizing atom lenses in delta-kick collimation, advancing inertial sensing, and controlling many-body systems via confinement-induced resonances.",
-      "abstract_source": "Crossref",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
-    },
-    {
-      "journal": "prxquantum",
-      "doi": "10.1103/j68x-skmn",
-      "title": "Certifying Non-Classicality and Non-Gaussianity Through Optical Parametric Amplification",
-      "authors": [
-        "Mahmoud Kalash, M. H. M. Passos, Éva Rácz, László Ruppert, Radim Filip, and Maria V. Chekhova"
-      ],
-      "url": "https://link.aps.org/doi/10.1103/j68x-skmn",
-      "status": "published",
-      "date": "2026-07-30",
-      "date_kind": "publisher_feed",
-      "evidence": "https://feeds.aps.org/rss/recent/prxquantum.xml",
-      "tags": [
-        "量子研究"
-      ]
-    },
-    {
-      "journal": "avsqs",
-      "doi": "10.1116/5.0332825",
-      "title": "A thickness-dependence study on structure, oxidation, and critical temperature scaling of α -Ta(111) thin films for qubit application",
-      "authors": [
-        "Nate Price",
-        "Jose Gutiérrez",
-        "Sushant Padhye",
-        "Sara McGinnis",
-        "Carter Wade",
-        "Huma Yusuf",
-        "Lakshan Don Manuwelge Don",
-        "Kurt Eyink",
-        "Tyson C. Back",
-        "Jonathan Guerrero-Sánchez",
-        "Evgeny Mikheev",
-        "Joseph P. Corbett"
-      ],
-      "url": "https://doi.org/10.1116/5.0332825",
-      "status": "published",
-      "date": "2026-07-30",
-      "date_kind": "publication",
-      "evidence": "https://api.crossref.org/works/10.1116/5.0332825",
-      "tags": [
-        "量子硬件"
-      ]
     }
   ],
   "sources": [
@@ -30351,7 +30360,7 @@
       "source": "prl",
       "kind": "accepted",
       "ok": true,
-      "count": 29
+      "count": 30
     },
     {
       "source": "prx",
@@ -30411,7 +30420,7 @@
       "source": "ncomms",
       "kind": "rss",
       "ok": true,
-      "count": 1
+      "count": 0
     },
     {
       "source": "ncomms",
